@@ -14,3 +14,8 @@ UnderWorldRun/nbproject/private/launcher.properties
 UnderWorldRun/nbproject/private/Makefile-variables.mk
 UnderWorldRun/nbproject/private/private.xml
 UnderWorldRun/nbproject/project.xml
+UnderWorldRun/dist/Debug/MinGW-Windows/underworldrun.exe
+UnderWorldRun/.dep.inc
+UnderWorldRun/build/Debug/MinGW-Windows/engine/EventManager.o
+*.d
+*.o

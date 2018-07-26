@@ -14,6 +14,8 @@
 #include <cstdlib>
 #include <iostream>
 
+#include "engine/Game.h"
+
 using namespace std;
 
 /*
@@ -21,7 +23,12 @@ using namespace std;
  */
 int main(int argc, char** argv) {
     
-    std::cout << "Just checking desktop commiting.\n";
+    Game game;
+    while(!game.getGameWindow()->isClosed()) {
+        game.update();
+        game.render();
+        game.lateUpdate();
+    }
     
     return 0;
 }
