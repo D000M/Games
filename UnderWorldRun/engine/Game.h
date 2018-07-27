@@ -17,6 +17,7 @@
 #include <SFML/System/Clock.hpp>
 
 #include "Window.h"
+#include "../states/StateManager.h"
 #include "EventManager.h"
 
 class Game {
@@ -55,9 +56,11 @@ private:
      */
     void restartClock();
     
+    SharedContext m_context;
+    Window m_gameWindow;
     sf::Clock m_gameClock;
     sf::Time m_elapsedTime;
-    Window m_gameWindow;
+    StateManager m_stateManager;
 };
 
 #endif /* GAME_H */

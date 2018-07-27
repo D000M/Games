@@ -14,10 +14,16 @@
 #include "Game.h"
 
 Game::Game() 
-    : m_gameWindow{"Under World Run", sf::Vector2u{1280, 720}} {
+    : m_gameWindow{"Under World Run", sf::Vector2u{1280, 720}},
+      m_stateManager{&m_context}{
     
     m_gameClock.restart();
     srand(time(nullptr));
+        
+    m_context.m_gameWindow = &m_gameWindow;
+    m_context.m_eventManager = m_gameWindow.getEventManager();
+    
+    m_stateManager.switchTo(StateType::INTRO);
 }
 
 Game::~Game() {
@@ -41,6 +47,7 @@ Window* Game::getGameWindow() {
 
 void Game::update() {
     m_gameWindow.update();
+    m_stateManager.update(m_elapsedTime);
 }
 
 void Game::render() {
@@ -48,11 +55,13 @@ void Game::render() {
     m_gameWindow.clearWindow();
     
     //Draw Stuff
+    m_stateManager.draw();
     
     //Draw stuff on the screen
     m_gameWindow.drawWindow();
 }
 
 void Game::lateUpdate() {
+    m_stateManager.processRequests();
     restartClock();
 }

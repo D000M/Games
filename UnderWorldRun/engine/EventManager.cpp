@@ -42,6 +42,7 @@ bool EventManager::removeBinding(std::string name) {
 }
 
 void EventManager::setCurrentState(const StateType& type) {
+    std::cout << "RRRRRR\n";
     m_currentState = type;
 }
 
