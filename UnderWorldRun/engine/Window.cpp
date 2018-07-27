@@ -34,10 +34,10 @@ void Window::setupWindow(const std::string& title, const sf::Vector2u& size) {
     m_isFullScreen = false;
     m_isClosed = false;
     m_isFocused = true;
-    
+
     m_eventManager.addCallback(StateType(0), "Fullscreen_toggle", &Window::toggleFullScreen, this);
     m_eventManager.addCallback(StateType(0), "Window_close", &Window::closeWindow, this);
-
+    
     createWindow();
 }
 

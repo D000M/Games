@@ -16,6 +16,7 @@
 
 #include <SFML/Graphics/RenderWindow.hpp>
 #include "EventManager.h"
+#include "../world/Test.h"
 
 class Window {
 public:
