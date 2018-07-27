@@ -22,7 +22,7 @@ using namespace std;
  * 
  */
 int main(int argc, char** argv) {
-    std::cout << "add 1 line\n";
+
     Game game;
     while(!game.getGameWindow()->isClosed()) {
         game.update();
