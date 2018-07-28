@@ -12,6 +12,7 @@
  */
 
 #include <cstdlib>
+#include "engine/Game.h"
 
 using namespace std;
 
@@ -19,7 +20,13 @@ using namespace std;
  * 
  */
 int main(int argc, char** argv) {
-
+    // Program entry point.
+    Game game;
+    while(!game.GetWindow()->IsDone()){
+            game.Update();
+            game.Render();
+            game.LateUpdate();
+    }
     return 0;
 }
 

@@ -4,6 +4,16 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>states/BaseState.h</itemPath>
+      <itemPath>engine/EventManager.h</itemPath>
+      <itemPath>engine/Game.h</itemPath>
+      <itemPath>SharedContext.h</itemPath>
+      <itemPath>states/gameStates/StateGame.h</itemPath>
+      <itemPath>states/gameStates/StateIntro.h</itemPath>
+      <itemPath>states/gameStates/StateMainMenu.h</itemPath>
+      <itemPath>states/StateManager.h</itemPath>
+      <itemPath>states/gameStates/StatePaused.h</itemPath>
+      <itemPath>engine/Window.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -12,6 +22,14 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>engine/EventManager.cpp</itemPath>
+      <itemPath>engine/Game.cpp</itemPath>
+      <itemPath>states/gameStates/StateGame.cpp</itemPath>
+      <itemPath>states/gameStates/StateIntro.cpp</itemPath>
+      <itemPath>states/gameStates/StateMainMenu.cpp</itemPath>
+      <itemPath>states/StateManager.cpp</itemPath>
+      <itemPath>states/gameStates/StatePaused.cpp</itemPath>
+      <itemPath>engine/Window.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -25,6 +43,7 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
+    <itemPath>resources/configs/keys.cfg</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -38,8 +57,58 @@
         <ccTool>
           <standard>11</standard>
         </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>sfml-window</linkerLibLibItem>
+            <linkerLibLibItem>sfml-system</linkerLibLibItem>
+            <linkerLibLibItem>sfml-graphics</linkerLibLibItem>
+            <linkerLibLibItem>sfml-audio</linkerLibLibItem>
+            <linkerLibLibItem>sfml-network</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
       </compileType>
+      <item path="SharedContext.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="engine/EventManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="engine/EventManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="engine/Game.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="engine/Game.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="engine/Window.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="engine/Window.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="resources/configs/keys.cfg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="states/BaseState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="states/StateManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="states/StateManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="states/gameStates/StateGame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="states/gameStates/StateGame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="states/gameStates/StateIntro.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="states/gameStates/StateIntro.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="states/gameStates/StateMainMenu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="states/gameStates/StateMainMenu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="states/gameStates/StatePaused.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="states/gameStates/StatePaused.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -63,7 +132,48 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="SharedContext.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="engine/EventManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="engine/EventManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="engine/Game.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="engine/Game.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="engine/Window.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="engine/Window.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="resources/configs/keys.cfg" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="states/BaseState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="states/StateManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="states/StateManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="states/gameStates/StateGame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="states/gameStates/StateGame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="states/gameStates/StateIntro.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="states/gameStates/StateIntro.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="states/gameStates/StateMainMenu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="states/gameStates/StateMainMenu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="states/gameStates/StatePaused.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="states/gameStates/StatePaused.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>
