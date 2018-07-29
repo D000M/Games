@@ -22,16 +22,16 @@ public:
     StatePaused(StateManager* l_stateManager);
     ~StatePaused();
 
-    void OnCreate();
-    void OnDestroy();
+    void onCreate();
+    void onDestroy();
 
-    void Activate();
-    void Deactivate();
+    void activate();
+    void deactivate();
 
-    void Update(const sf::Time& l_time);
-    void Draw();
+    void update(const sf::Time& l_time);
+    void draw();
 
-    void Unpause(EventDetails* l_details);
+    void unpause(EventDetails* l_details);
 private:
     sf::Font m_font;
     sf::Text m_text;

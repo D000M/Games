@@ -22,16 +22,16 @@ public:
     StateIntro(StateManager* l_stateManager);
     ~StateIntro();
 
-    void OnCreate();
-    void OnDestroy();
+    void onCreate();
+    void onDestroy();
 
-    void Activate();
-    void Deactivate();
+    void activate();
+    void deactivate();
 
-    void Update(const sf::Time& l_time);
-    void Draw();
+    void update(const sf::Time& l_time);
+    void draw();
 
-    void Continue(EventDetails* l_details);
+    void continueToGame(EventDetails* l_details);
 private:
     sf::Texture m_introTexture;
     sf::Sprite m_introSprite;

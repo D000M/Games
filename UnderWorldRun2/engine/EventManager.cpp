@@ -15,7 +15,7 @@
 
 EventManager::EventManager()
 : m_currentState(StateType(0)), m_hasFocus(true) {
-    LoadBindings();
+    loadBindings();
 }
 
 EventManager::~EventManager() {
@@ -24,14 +24,14 @@ EventManager::~EventManager() {
     }
 }
 
-bool EventManager::AddBinding(Binding *l_binding) {
+bool EventManager::addBinding(Binding *l_binding) {
     if (m_bindings.find(l_binding->m_name) != m_bindings.end())
         return false;
 
     return m_bindings.emplace(l_binding->m_name, l_binding).second;
 }
 
-bool EventManager::RemoveBinding(std::string l_name) {
+bool EventManager::removeBinding(std::string l_name) {
     auto itr = m_bindings.find(l_name);
     if (itr == m_bindings.end()) {
         return false;
@@ -41,15 +41,15 @@ bool EventManager::RemoveBinding(std::string l_name) {
     return true;
 }
 
-void EventManager::SetCurrentState(StateType l_state) {
+void EventManager::setCurrentState(StateType l_state) {
     m_currentState = l_state;
 }
 
-void EventManager::SetFocus(const bool& l_focus) {
+void EventManager::setFocus(const bool& l_focus) {
     m_hasFocus = l_focus;
 }
 
-void EventManager::HandleEvent(sf::Event& l_event) {
+void EventManager::handleEvent(sf::Event& l_event) {
     // Handling SFML events.
     for (auto &b_itr : m_bindings) {
         Binding* bind = b_itr.second;
@@ -58,7 +58,7 @@ void EventManager::HandleEvent(sf::Event& l_event) {
             if (e_itr.first != sfmlEvent) {
                 continue;
             }
-            if (sfmlEvent == EventType::KeyDown || sfmlEvent == EventType::KeyUp) {
+            if (sfmlEvent == EventType::KEYDOWN || sfmlEvent == EventType::KEYUP) {
                 if (e_itr.second.m_code == l_event.key.code) {
                     // Matching event/keystroke.
                     // Increase count.
@@ -68,7 +68,7 @@ void EventManager::HandleEvent(sf::Event& l_event) {
                     ++(bind->c);
                     break;
                 }
-            } else if (sfmlEvent == EventType::MButtonDown || sfmlEvent == EventType::MButtonUp) {
+            } else if (sfmlEvent == EventType::M_BUTTON_DOWN || sfmlEvent == EventType::M_BUTTON_UP) {
                 if (e_itr.second.m_code == l_event.mouseButton.button) {
                     // Matching event/keystroke.
                     // Increase count.
@@ -82,12 +82,12 @@ void EventManager::HandleEvent(sf::Event& l_event) {
                 }
             } else {
                 // No need for additional checking.
-                if (sfmlEvent == EventType::MouseWheel) {
+                if (sfmlEvent == EventType::MOUSE_WHEEL) {
                     bind->m_details.m_mouseWheelDelta = l_event.mouseWheel.delta;
-                } else if (sfmlEvent == EventType::WindowResized) {
+                } else if (sfmlEvent == EventType::WINDOW_RESIZED) {
                     bind->m_details.m_size.x = l_event.size.width;
                     bind->m_details.m_size.y = l_event.size.height;
-                } else if (sfmlEvent == EventType::TextEntered) {
+                } else if (sfmlEvent == EventType::TEXT_ENTERED) {
                     bind->m_details.m_textEntered = l_event.text.unicode;
                 }
                 ++(bind->c);
@@ -96,7 +96,7 @@ void EventManager::HandleEvent(sf::Event& l_event) {
     }
 }
 
-void EventManager::Update() {
+void EventManager::update() {
     if (!m_hasFocus) {
         return;
     }
@@ -104,7 +104,7 @@ void EventManager::Update() {
         Binding* bind = b_itr.second;
         for (auto &e_itr : bind->m_events) {
             switch (e_itr.first) {
-                case(EventType::Keyboard):
+                case(EventType::KEYBOARD):
                     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key(e_itr.second.m_code))) {
                         if (bind->m_details.m_keyCode != -1) {
                             bind->m_details.m_keyCode = e_itr.second.m_code;
@@ -112,7 +112,7 @@ void EventManager::Update() {
                         ++(bind->c);
                     }
                     break;
-                case(EventType::Mouse):
+                case(EventType::MOUSE):
                     if (sf::Mouse::isButtonPressed(sf::Mouse::Button(e_itr.second.m_code))) {
                         if (bind->m_details.m_keyCode != -1) {
                             bind->m_details.m_keyCode = e_itr.second.m_code;
@@ -120,7 +120,7 @@ void EventManager::Update() {
                         ++(bind->c);
                     }
                     break;
-                case(EventType::Joystick):
+                case(EventType::JOYSTICK):
                     // Up for expansion.
                     break;
             }
@@ -147,11 +147,11 @@ void EventManager::Update() {
             }
         }
         bind->c = 0;
-        bind->m_details.Clear();
+        bind->m_details.clear();
     }
 }
 
-void EventManager::LoadBindings() {
+void EventManager::loadBindings() {
     std::string delimiter = ":";
 
     std::ifstream bindings;
@@ -185,7 +185,7 @@ void EventManager::LoadBindings() {
             bind->BindEvent(type, eventInfo);
         }
 
-        if (!AddBinding(bind)) {
+        if (!addBinding(bind)) {
             delete bind;
         }
         bind = nullptr;

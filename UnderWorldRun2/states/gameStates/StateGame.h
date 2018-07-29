@@ -22,17 +22,17 @@ public:
     StateGame(StateManager* l_stateManager);
     ~StateGame();
 
-    void OnCreate();
-    void OnDestroy();
+    void onCreate();
+    void onDestroy();
 
-    void Activate();
-    void Deactivate();
+    void activate();
+    void deactivate();
 
-    void Update(const sf::Time& l_time);
-    void Draw();
+    void update(const sf::Time& l_time);
+    void draw();
 
-    void MainMenu(EventDetails* l_details);
-    void Pause(EventDetails* l_details);
+    void mainMenu(EventDetails* l_details);
+    void pause(EventDetails* l_details);
 private:
     sf::Texture m_texture;
     sf::Sprite m_sprite;

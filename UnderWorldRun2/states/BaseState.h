@@ -28,32 +28,32 @@ public:
     virtual ~BaseState() {
     }
 
-    virtual void OnCreate() = 0;
-    virtual void OnDestroy() = 0;
+    virtual void onCreate() = 0;
+    virtual void onDestroy() = 0;
 
-    virtual void Activate() = 0;
-    virtual void Deactivate() = 0;
+    virtual void activate() = 0;
+    virtual void deactivate() = 0;
 
-    virtual void Update(const sf::Time& l_time) = 0;
-    virtual void Draw() = 0;
+    virtual void update(const sf::Time& l_time) = 0;
+    virtual void draw() = 0;
 
-    void SetTransparent(const bool& l_transparent) {
+    void setTransparent(const bool& l_transparent) {
         m_transparent = l_transparent;
     }
 
-    bool IsTransparent()const {
+    bool isTransparent()const {
         return m_transparent;
     }
 
-    void SetTranscendent(const bool& l_transcendence) {
+    void setTranscendent(const bool& l_transcendence) {
         m_transcendent = l_transcendence;
     }
 
-    bool IsTranscendent()const {
+    bool isTranscendent()const {
         return m_transcendent;
     }
 
-    StateManager* GetStateManager() {
+    StateManager* getStateManager() {
         return m_stateMgr;
     }
 protected:

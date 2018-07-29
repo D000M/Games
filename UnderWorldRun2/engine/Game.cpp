@@ -18,39 +18,39 @@ Game::Game() : m_window("Chapter 5", sf::Vector2u(800, 600)), m_stateManager(&m_
     srand(time(nullptr));
 
     m_context.m_wind = &m_window;
-    m_context.m_eventManager = m_window.GetEventManager();
+    m_context.m_eventManager = m_window.getEventManager();
 
-    m_stateManager.SwitchTo(StateType::Intro);
+    m_stateManager.switchTo(StateType::INTRO);
 }
 
 Game::~Game() {
 }
 
-sf::Time Game::GetElapsed() {
+sf::Time Game::getElapsed() {
     return m_clock.getElapsedTime();
 }
 
-void Game::RestartClock() {
+void Game::restartClock() {
     m_elapsed = m_clock.restart();
 }
 
-Window* Game::GetWindow() {
+Window* Game::getWindow() {
     return &m_window;
 }
 
-void Game::Update() {
-    m_window.Update();
-    m_stateManager.Update(m_elapsed);
+void Game::update() {
+    m_window.update();
+    m_stateManager.update(m_elapsed);
 }
 
-void Game::Render() {
-    m_window.BeginDraw();
+void Game::render() {
+    m_window.beginDraw();
     // Render here.
-    m_stateManager.Draw();
-    m_window.EndDraw();
+    m_stateManager.draw();
+    m_window.endDraw();
 }
 
-void Game::LateUpdate() {
-    m_stateManager.ProcessRequests();
-    RestartClock();
+void Game::lateUpdate() {
+    m_stateManager.processRequests();
+    restartClock();
 }

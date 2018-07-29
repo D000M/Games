@@ -21,10 +21,10 @@ StateIntro::StateIntro(StateManager* l_stateManager)
 StateIntro::~StateIntro() {
 }
 
-void StateIntro::OnCreate() {
+void StateIntro::onCreate() {
     m_timePassed = 0.0f;
 
-    sf::Vector2u windowSize = m_stateMgr->GetContext()->m_wind->GetRenderWindow()->getSize();
+    sf::Vector2u windowSize = m_stateMgr->getContext()->m_wind->getRenderWindow()->getSize();
 
     m_introTexture.loadFromFile("resources/textures/intro.png");
     m_introSprite.setTexture(m_introTexture);
@@ -42,16 +42,16 @@ void StateIntro::OnCreate() {
             textRect.top + textRect.height / 2.0f);
     m_text.setPosition(windowSize.x / 2.0f, windowSize.y / 2.0f);
 
-    EventManager* evMgr = m_stateMgr->GetContext()->m_eventManager;
-    evMgr->AddCallback(StateType::Intro, "Intro_Continue", &StateIntro::Continue, this);
+    EventManager* evMgr = m_stateMgr->getContext()->m_eventManager;
+    evMgr->addCallback(StateType::INTRO, "Intro_Continue", &StateIntro::continueToGame, this);
 }
 
-void StateIntro::OnDestroy() {
-    EventManager* evMgr = m_stateMgr->GetContext()->m_eventManager;
-    evMgr->RemoveCallback(StateType::Intro, "Intro_Continue");
+void StateIntro::onDestroy() {
+    EventManager* evMgr = m_stateMgr->getContext()->m_eventManager;
+    evMgr->removeCallback(StateType::INTRO, "Intro_Continue");
 }
 
-void StateIntro::Update(const sf::Time& l_time) {
+void StateIntro::update(const sf::Time& l_time) {
     if (m_timePassed < 5.0f) { // Less than five seconds.
         m_timePassed += l_time.asSeconds();
         m_introSprite.setPosition(
@@ -60,8 +60,8 @@ void StateIntro::Update(const sf::Time& l_time) {
     }
 }
 
-void StateIntro::Draw() {
-    sf::RenderWindow* window = m_stateMgr->GetContext()->m_wind->GetRenderWindow();
+void StateIntro::draw() {
+    sf::RenderWindow* window = m_stateMgr->getContext()->m_wind->getRenderWindow();
 
     window->draw(m_introSprite);
     if (m_timePassed >= 5.0f) {
@@ -69,16 +69,16 @@ void StateIntro::Draw() {
     }
 }
 
-void StateIntro::Continue(EventDetails* l_details) {
+void StateIntro::continueToGame(EventDetails* l_details) {
     if (m_timePassed >= 5.0f) {
-        m_stateMgr->SwitchTo(StateType::MainMenu);
-        m_stateMgr->Remove(StateType::Intro);
+        m_stateMgr->switchTo(StateType::MAINMENU);
+        m_stateMgr->remove(StateType::INTRO);
     }
 }
 
-void StateIntro::Activate() {
+void StateIntro::activate() {
 }
 
-void StateIntro::Deactivate() {
+void StateIntro::deactivate() {
 }
 

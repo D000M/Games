@@ -24,19 +24,21 @@
 #include <iostream>
 
 enum class EventType {
-    KeyDown = sf::Event::KeyPressed,
-    KeyUp = sf::Event::KeyReleased,
-    MButtonDown = sf::Event::MouseButtonPressed,
-    MButtonUp = sf::Event::MouseButtonReleased,
-    MouseWheel = sf::Event::MouseWheelMoved,
-    WindowResized = sf::Event::Resized,
-    GainedFocus = sf::Event::GainedFocus,
-    LostFocus = sf::Event::LostFocus,
-    MouseEntered = sf::Event::MouseEntered,
-    MouseLeft = sf::Event::MouseLeft,
-    Closed = sf::Event::Closed,
-    TextEntered = sf::Event::TextEntered,
-    Keyboard = sf::Event::Count + 1, Mouse, Joystick
+    KEYDOWN = sf::Event::KeyPressed,
+    KEYUP = sf::Event::KeyReleased,
+    M_BUTTON_DOWN = sf::Event::MouseButtonPressed,
+    M_BUTTON_UP = sf::Event::MouseButtonReleased,
+    MOUSE_WHEEL = sf::Event::MouseWheelMoved,
+    WINDOW_RESIZED = sf::Event::Resized,
+    GAINED_FOCUS = sf::Event::GainedFocus,
+    LOST_FOCUS = sf::Event::LostFocus,
+    MOUSE_ENTERED = sf::Event::MouseEntered,
+    MOUSE_LEFT = sf::Event::MouseLeft,
+    CLOSED = sf::Event::Closed,
+    TEXT_ENTERED = sf::Event::TextEntered,
+    KEYBOARD = sf::Event::Count + 1,
+    MOUSE,
+    JOYSTICK
 };
 
 struct EventInfo {
@@ -58,7 +60,7 @@ struct EventDetails {
 
     EventDetails(const std::string& l_bindName)
     : m_name(l_bindName) {
-        Clear();
+        clear();
     }
     std::string m_name;
 
@@ -68,7 +70,7 @@ struct EventDetails {
     int m_mouseWheelDelta;
     int m_keyCode; // Single key code.
 
-    void Clear() {
+    void clear() {
         m_size = sf::Vector2i(0, 0);
         m_textEntered = 0;
         m_mouse = sf::Vector2i(0, 0);
@@ -110,23 +112,23 @@ public:
     EventManager();
     ~EventManager();
 
-    bool AddBinding(Binding *l_binding);
-    bool RemoveBinding(std::string l_name);
+    bool addBinding(Binding *l_binding);
+    bool removeBinding(std::string l_name);
 
-    void SetCurrentState(StateType l_state);
-    void SetFocus(const bool& l_focus);
+    void setCurrentState(StateType l_state);
+    void setFocus(const bool& l_focus);
 
     // Needs to be defined in the header!
 
     template<class T>
-    bool AddCallback(StateType l_state, const std::string& l_name,
+    bool addCallback(StateType l_state, const std::string& l_name,
             void(T::*l_func)(EventDetails*), T* l_instance) {
         auto itr = m_callbacks.emplace(l_state, CallbackContainer()).first;
         auto temp = std::bind(l_func, l_instance, std::placeholders::_1);
         return itr->second.emplace(l_name, temp).second;
     }
 
-    bool RemoveCallback(StateType l_state, const std::string& l_name) {
+    bool removeCallback(StateType l_state, const std::string& l_name) {
         auto itr = m_callbacks.find(l_state);
         if (itr == m_callbacks.end()) {
             return false;
@@ -139,16 +141,16 @@ public:
         return true;
     }
 
-    void HandleEvent(sf::Event& l_event);
-    void Update();
+    void handleEvent(sf::Event& l_event);
+    void update();
 
     // Getters.
 
-    sf::Vector2i GetMousePos(sf::RenderWindow* l_wind = nullptr) {
+    sf::Vector2i getMousePos(sf::RenderWindow* l_wind = nullptr) {
         return (l_wind ? sf::Mouse::getPosition(*l_wind) : sf::Mouse::getPosition());
     }
 private:
-    void LoadBindings();
+    void loadBindings();
 
     StateType m_currentState;
     Bindings m_bindings;

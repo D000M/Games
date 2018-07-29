@@ -21,7 +21,7 @@ StateMainMenu::StateMainMenu(StateManager* l_stateManager)
 StateMainMenu::~StateMainMenu() {
 }
 
-void StateMainMenu::OnCreate() {
+void StateMainMenu::onCreate() {
     m_font.loadFromFile("resources/fonts/arial.ttf");
     m_text.setFont(m_font);
     m_text.setString(sf::String("MAIN MENU:"));
@@ -62,17 +62,17 @@ void StateMainMenu::OnCreate() {
         m_labels[i].setPosition(buttonPosition);
     }
 
-    EventManager* evMgr = m_stateMgr->GetContext()->m_eventManager;
-    evMgr->AddCallback(StateType::MainMenu, "Mouse_Left", &StateMainMenu::MouseClick, this);
+    EventManager* evMgr = m_stateMgr->getContext()->m_eventManager;
+    evMgr->addCallback(StateType::MAINMENU, "Mouse_Left", &StateMainMenu::mouseClick, this);
 }
 
-void StateMainMenu::OnDestroy() {
-    EventManager* evMgr = m_stateMgr->GetContext()->m_eventManager;
-    evMgr->RemoveCallback(StateType::MainMenu, "Mouse_Left");
+void StateMainMenu::onDestroy() {
+    EventManager* evMgr = m_stateMgr->getContext()->m_eventManager;
+    evMgr->removeCallback(StateType::MAINMENU, "Mouse_Left");
 }
 
-void StateMainMenu::Activate() {
-    if (m_stateMgr->HasState(StateType::Game)
+void StateMainMenu::activate() {
+    if (m_stateMgr->hasState(StateType::GAME)
             && m_labels[0].getString() == "PLAY") {
         m_labels[0].setString(sf::String("RESUME"));
         sf::FloatRect rect = m_labels[0].getLocalBounds();
@@ -81,7 +81,7 @@ void StateMainMenu::Activate() {
     }
 }
 
-void StateMainMenu::MouseClick(EventDetails* l_details) {
+void StateMainMenu::mouseClick(EventDetails* l_details) {
     sf::Vector2i mousePos = l_details->m_mouse;
 
     float halfX = m_buttonSize.x / 2.0f;
@@ -92,18 +92,18 @@ void StateMainMenu::MouseClick(EventDetails* l_details) {
                 mousePos.y >= m_rects[i].getPosition().y - halfY &&
                 mousePos.y <= m_rects[i].getPosition().y + halfY) {
             if (i == 0) {
-                m_stateMgr->SwitchTo(StateType::Game);
+                m_stateMgr->switchTo(StateType::GAME);
             } else if (i == 1) {
                 // Credits state.
             } else if (i == 2) {
-                m_stateMgr->GetContext()->m_wind->Close();
+                m_stateMgr->getContext()->m_wind->close();
             }
         }
     }
 }
 
-void StateMainMenu::Draw() {
-    sf::RenderWindow* window = m_stateMgr->GetContext()->m_wind->GetRenderWindow();
+void StateMainMenu::draw() {
+    sf::RenderWindow* window = m_stateMgr->getContext()->m_wind->getRenderWindow();
     window->draw(m_text);
     for (int i = 0; i < 3; ++i) {
         window->draw(m_rects[i]);
@@ -111,9 +111,9 @@ void StateMainMenu::Draw() {
     }
 }
 
-void StateMainMenu::Update(const sf::Time& l_time) {
+void StateMainMenu::update(const sf::Time& l_time) {
 }
 
-void StateMainMenu::Deactivate() {
+void StateMainMenu::deactivate() {
 }
 

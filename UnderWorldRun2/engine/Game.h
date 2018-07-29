@@ -25,20 +25,20 @@ public:
     Game();
     ~Game();
 
-    void Update();
-    void Render();
-    void LateUpdate();
+    void update();
+    void render();
+    void lateUpdate();
 
-    sf::Time GetElapsed();
+    sf::Time getElapsed();
 
-    Window* GetWindow();
+    Window* getWindow();
 private:
     SharedContext m_context;
     Window m_window;
     StateManager m_stateManager;
     sf::Clock m_clock;
     sf::Time m_elapsed;
-    void RestartClock();
+    void restartClock();
 };
 
 #endif /* GAME_H */

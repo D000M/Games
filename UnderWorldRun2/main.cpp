@@ -15,17 +15,16 @@
 #include "engine/Game.h"
 
 using namespace std;
-
 /*
  * 
  */
 int main(int argc, char** argv) {
     // Program entry point.
     Game game;
-    while(!game.GetWindow()->IsDone()){
-            game.Update();
-            game.Render();
-            game.LateUpdate();
+    while (!game.getWindow()->isDone()) {
+        game.update();
+        game.render();
+        game.lateUpdate();
     }
     return 0;
 }

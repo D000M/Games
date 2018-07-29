@@ -27,24 +27,24 @@ public:
     Window(const std::string& title, const sf::Vector2u& size);
     ~Window();
 
-    void BeginDraw();
-    void EndDraw();
+    void beginDraw();
+    void endDraw();
 
-    void Update();
+    void update();
 
-    bool IsDone();
-    bool IsFullscreen();
-    bool IsFocused();
+    bool isDone();
+    bool isFullscreen();
+    bool isFocused();
 
-    void ToggleFullscreen(EventDetails* l_details);
-    void Close(EventDetails* l_details = nullptr);
+    void toggleFullscreen(EventDetails* l_details);
+    void close(EventDetails* l_details = nullptr);
 
-    sf::RenderWindow* GetRenderWindow();
-    EventManager* GetEventManager();
-    sf::Vector2u GetWindowSize();
+    sf::RenderWindow* getRenderWindow();
+    EventManager* getEventManager();
+    sf::Vector2u getWindowSize();
 private:
-    void Setup(const std::string& title, const sf::Vector2u& size);
-    void Create();
+    void setup(const std::string& title, const sf::Vector2u& size);
+    void create();
 
     sf::RenderWindow m_window;
     EventManager m_eventManager;

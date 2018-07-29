@@ -22,16 +22,16 @@ public:
     StateMainMenu(StateManager* l_stateManager);
     ~StateMainMenu();
 
-    void OnCreate();
-    void OnDestroy();
+    void onCreate();
+    void onDestroy();
 
-    void Activate();
-    void Deactivate();
+    void activate();
+    void deactivate();
 
-    void Update(const sf::Time& l_time);
-    void Draw();
+    void update(const sf::Time& l_time);
+    void draw();
 
-    void MouseClick(EventDetails* l_details);
+    void mouseClick(EventDetails* l_details);
 private:
     sf::Font m_font;
     sf::Text m_text;

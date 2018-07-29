@@ -21,15 +21,15 @@ StatePaused::StatePaused(StateManager* l_stateManager)
 StatePaused::~StatePaused() {
 }
 
-void StatePaused::OnCreate() {
-    SetTransparent(true); // Set our transparency flag.
-    m_font.loadFromFile("arial.ttf");
+void StatePaused::onCreate() {
+    setTransparent(true); // Set our transparency flag.
+    m_font.loadFromFile("resources/fonts/arial.ttf");
     m_text.setFont(m_font);
     m_text.setString(sf::String("PAUSED"));
     m_text.setCharacterSize(14);
     m_text.setStyle(sf::Text::Bold);
 
-    sf::Vector2u windowSize = m_stateMgr->GetContext()->m_wind->GetRenderWindow()->getSize();
+    sf::Vector2u windowSize = m_stateMgr->getContext()->m_wind->getRenderWindow()->getSize();
 
     sf::FloatRect textRect = m_text.getLocalBounds();
     m_text.setOrigin(textRect.left + textRect.width / 2.0f,
@@ -40,30 +40,30 @@ void StatePaused::OnCreate() {
     m_rect.setPosition(0, 0);
     m_rect.setFillColor(sf::Color(0, 0, 0, 150));
 
-    EventManager* evMgr = m_stateMgr->GetContext()->m_eventManager;
-    evMgr->AddCallback(StateType::Paused, "Key_P", &StatePaused::Unpause, this);
+    EventManager* evMgr = m_stateMgr->getContext()->m_eventManager;
+    evMgr->addCallback(StateType::PAUSED, "Key_P", &StatePaused::unpause, this);
 }
 
-void StatePaused::OnDestroy() {
-    EventManager* evMgr = m_stateMgr->GetContext()->m_eventManager;
-    evMgr->RemoveCallback(StateType::Paused, "Key_P");
+void StatePaused::onDestroy() {
+    EventManager* evMgr = m_stateMgr->getContext()->m_eventManager;
+    evMgr->removeCallback(StateType::PAUSED, "Key_P");
 }
 
-void StatePaused::Draw() {
-    sf::RenderWindow* wind = m_stateMgr->GetContext()->m_wind->GetRenderWindow();
+void StatePaused::draw() {
+    sf::RenderWindow* wind = m_stateMgr->getContext()->m_wind->getRenderWindow();
     wind->draw(m_rect);
     wind->draw(m_text);
 }
 
-void StatePaused::Unpause(EventDetails* l_details) {
-    m_stateMgr->SwitchTo(StateType::Game);
+void StatePaused::unpause(EventDetails* l_details) {
+    m_stateMgr->switchTo(StateType::GAME);
 }
 
-void StatePaused::Activate() {
+void StatePaused::activate() {
 }
 
-void StatePaused::Deactivate() {
+void StatePaused::deactivate() {
 }
 
-void StatePaused::Update(const sf::Time& l_time) {
+void StatePaused::update(const sf::Time& l_time) {
 }

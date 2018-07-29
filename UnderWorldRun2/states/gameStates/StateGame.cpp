@@ -21,25 +21,25 @@ StateGame::StateGame(StateManager* l_stateManager)
 StateGame::~StateGame() {
 }
 
-void StateGame::OnCreate() {
+void StateGame::onCreate() {
     m_texture.loadFromFile("resources/textures/Mushroom.png");
     m_sprite.setTexture(m_texture);
     m_sprite.setPosition(0, 0);
     m_increment = sf::Vector2f(400.0f, 400.0f);
 
-    EventManager* evMgr = m_stateMgr->GetContext()->m_eventManager;
-    evMgr->AddCallback(StateType::Game, "Key_Escape", &StateGame::MainMenu, this);
-    evMgr->AddCallback(StateType::Game, "Key_P", &StateGame::Pause, this);
+    EventManager* evMgr = m_stateMgr->getContext()->m_eventManager;
+    evMgr->addCallback(StateType::GAME, "Key_Escape", &StateGame::mainMenu, this);
+    evMgr->addCallback(StateType::GAME, "Key_P", &StateGame::pause, this);
 }
 
-void StateGame::OnDestroy() {
-    EventManager* evMgr = m_stateMgr->GetContext()->m_eventManager;
-    evMgr->RemoveCallback(StateType::Game, "Key_Escape");
-    evMgr->RemoveCallback(StateType::Game, "Key_P");
+void StateGame::onDestroy() {
+    EventManager* evMgr = m_stateMgr->getContext()->m_eventManager;
+    evMgr->removeCallback(StateType::GAME, "Key_Escape");
+    evMgr->removeCallback(StateType::GAME, "Key_P");
 }
 
-void StateGame::Update(const sf::Time& l_time) {
-    sf::Vector2u l_windSize = m_stateMgr->GetContext()->m_wind->GetWindowSize();
+void StateGame::update(const sf::Time& l_time) {
+    sf::Vector2u l_windSize = m_stateMgr->getContext()->m_wind->getWindowSize();
     sf::Vector2u l_textSize = m_texture.getSize();
 
     if ((m_sprite.getPosition().x > l_windSize.x - l_textSize.x && m_increment.x > 0) ||
@@ -56,20 +56,20 @@ void StateGame::Update(const sf::Time& l_time) {
             m_sprite.getPosition().y + (m_increment.y * l_time.asSeconds()));
 }
 
-void StateGame::Draw() {
-    m_stateMgr->GetContext()->m_wind->GetRenderWindow()->draw(m_sprite);
+void StateGame::draw() {
+    m_stateMgr->getContext()->m_wind->getRenderWindow()->draw(m_sprite);
 }
 
-void StateGame::MainMenu(EventDetails* l_details) {
-    m_stateMgr->SwitchTo(StateType::MainMenu);
+void StateGame::mainMenu(EventDetails* l_details) {
+    m_stateMgr->switchTo(StateType::MAINMENU);
 }
 
-void StateGame::Pause(EventDetails* l_details) {
-    m_stateMgr->SwitchTo(StateType::Paused);
+void StateGame::pause(EventDetails* l_details) {
+    m_stateMgr->switchTo(StateType::PAUSED);
 }
 
-void StateGame::Activate() {
+void StateGame::activate() {
 }
 
-void StateGame::Deactivate() {
+void StateGame::deactivate() {
 }
