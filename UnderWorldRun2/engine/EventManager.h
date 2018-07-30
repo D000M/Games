@@ -58,8 +58,8 @@ struct EventInfo {
 
 struct EventDetails {
 
-    EventDetails(const std::string& l_bindName)
-    : m_name(l_bindName) {
+    EventDetails(const std::string& bindName)
+        : m_name(bindName) {
         clear();
     }
     std::string m_name;
@@ -83,7 +83,10 @@ using Events = std::vector<std::pair<EventType, EventInfo>>;
 
 struct Binding {
 
-    Binding(const std::string& l_name) : m_name(l_name), m_details(l_name), c(0) {
+    Binding(const std::string& name) 
+        : m_name(name), 
+          m_details(name), 
+          c(0) {
     }
 
     ~Binding() {
@@ -112,42 +115,42 @@ public:
     EventManager();
     ~EventManager();
 
-    bool addBinding(Binding *l_binding);
-    bool removeBinding(std::string l_name);
+    bool addBinding(Binding *binding);
+    bool removeBinding(std::string name);
 
-    void setCurrentState(StateType l_state);
-    void setFocus(const bool& l_focus);
+    void setCurrentState(StateType state);
+    void setFocus(const bool& focus);
 
     // Needs to be defined in the header!
 
     template<class T>
-    bool addCallback(StateType l_state, const std::string& l_name,
-            void(T::*l_func)(EventDetails*), T* l_instance) {
-        auto itr = m_callbacks.emplace(l_state, CallbackContainer()).first;
-        auto temp = std::bind(l_func, l_instance, std::placeholders::_1);
-        return itr->second.emplace(l_name, temp).second;
+    bool addCallback(StateType state, const std::string& name,
+            void(T::*func)(EventDetails*), T* instance) {
+        auto itr = m_callbacks.emplace(state, CallbackContainer()).first;
+        auto temp = std::bind(func, instance, std::placeholders::_1);
+        return itr->second.emplace(name, temp).second;
     }
 
-    bool removeCallback(StateType l_state, const std::string& l_name) {
-        auto itr = m_callbacks.find(l_state);
+    bool removeCallback(StateType state, const std::string& name) {
+        auto itr = m_callbacks.find(state);
         if (itr == m_callbacks.end()) {
             return false;
         }
-        auto itr2 = itr->second.find(l_name);
+        auto itr2 = itr->second.find(name);
         if (itr2 == itr->second.end()) {
             return false;
         }
-        itr->second.erase(l_name);
+        itr->second.erase(name);
         return true;
     }
 
-    void handleEvent(sf::Event& l_event);
+    void handleEvent(sf::Event& event);
     void update();
 
     // Getters.
 
-    sf::Vector2i getMousePos(sf::RenderWindow* l_wind = nullptr) {
-        return (l_wind ? sf::Mouse::getPosition(*l_wind) : sf::Mouse::getPosition());
+    sf::Vector2i getMousePos(sf::RenderWindow* wind = nullptr) {
+        return (wind ? sf::Mouse::getPosition(*wind) : sf::Mouse::getPosition());
     }
 private:
     void loadBindings();
