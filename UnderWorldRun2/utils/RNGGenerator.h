@@ -23,19 +23,12 @@
  * Seed mt19937 random engine.
  * @return seeded mt19937 static object.
  */
-std::mt19937& globalURNG() {
-    auto seed = std::chrono::high_resolution_clock::now().time_since_epoch().count();
-    static std::mt19937 u{seed};
-    return u;
-}
+std::mt19937& globalURNG();
 
 /**
  * Randomize the random device.
  */
-void randomize() {
-    static std::random_device rd{};
-    globalURNG().seed(rd());
-}
+void randomize();
 
 /**
  * Provide random integer from mt19937 random engine
@@ -43,11 +36,7 @@ void randomize() {
  * @param to upper border of the random sequence
  * @return the pseudo random integer.
  */
-int getRandomInteger(int from, int to) {
-    static std::uniform_int_distribution<> d{};
-    using parm_t = decltype(d)::param_type;
-    return d(globalURNG(), parm_t(from, to));
-}
+int getRandomInteger(int from, int to);
 
 /**
  * Provide random integer from mt19937 random engine
@@ -55,11 +44,7 @@ int getRandomInteger(int from, int to) {
  * @param to upper border of the random sequence
  * @return the pseudo random double.
  */
-double getRandomDouble(double from, double to) {
-    static std::uniform_real_distribution<> d{};
-    using parm_t = decltype(d)::param_type;
-    return d(globalURNG(), parm_t(from, to));
-}
+double getRandomDouble(double from, double to);
 
 #endif /* RNGGENERATOR_H */
 
