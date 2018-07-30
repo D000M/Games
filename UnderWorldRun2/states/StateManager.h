@@ -40,27 +40,27 @@ using StateFactory = std::map<StateType, std::function<BaseState*(void) >>;
 
 class StateManager {
 public:
-    StateManager(SharedContext* l_shared);
+    StateManager(SharedContext* shared);
     ~StateManager();
 
-    void update(const sf::Time& l_time);
+    void update(const sf::Time& time);
     void draw();
 
     void processRequests();
 
     SharedContext* getContext();
-    bool hasState(const StateType& l_type);
+    bool hasState(const StateType& type);
 
-    void switchTo(const StateType& l_type);
-    void remove(const StateType& l_type);
+    void switchTo(const StateType& type);
+    void remove(const StateType& type);
 private:
     // Methods.
-    void createState(const StateType& l_type);
-    void removeState(const StateType& l_type);
+    void createState(const StateType& type);
+    void removeState(const StateType& type);
 
     template<class T>
-    void registerState(const StateType& l_type) {
-        m_stateFactory[l_type] = [this]() -> BaseState* {
+    void registerState(const StateType& type) {
+        m_stateFactory[type] = [this]() -> BaseState* {
             return new T(this);
         };
     }

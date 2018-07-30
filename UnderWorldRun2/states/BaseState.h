@@ -21,8 +21,10 @@ class BaseState {
     friend class StateManager;
 public:
 
-    BaseState(StateManager* l_stateManager) : m_stateMgr(l_stateManager),
-    m_transparent(false), m_transcendent(false) {
+    BaseState(StateManager* stateManager) 
+        : m_stateMgr(stateManager),
+          m_transparent(false), 
+          m_transcendent(false) {
     }
 
     virtual ~BaseState() {
@@ -34,19 +36,19 @@ public:
     virtual void activate() = 0;
     virtual void deactivate() = 0;
 
-    virtual void update(const sf::Time& l_time) = 0;
+    virtual void update(const sf::Time& time) = 0;
     virtual void draw() = 0;
 
-    void setTransparent(const bool& l_transparent) {
-        m_transparent = l_transparent;
+    void setTransparent(const bool& transparent) {
+        m_transparent = transparent;
     }
 
     bool isTransparent()const {
         return m_transparent;
     }
 
-    void setTranscendent(const bool& l_transcendence) {
-        m_transcendent = l_transcendence;
+    void setTranscendent(const bool& transcendence) {
+        m_transcendent = transcendence;
     }
 
     bool isTranscendent()const {

@@ -13,8 +13,8 @@
 
 #include "StateManager.h"
 
-StateManager::StateManager(SharedContext* l_shared)
-: m_shared(l_shared) {
+StateManager::StateManager(SharedContext* shared)
+: m_shared(shared) {
     registerState<StateIntro>(StateType::INTRO);
     registerState<StateMainMenu>(StateType::MAINMENU);
     registerState<StateGame>(StateType::GAME);
@@ -28,7 +28,7 @@ StateManager::~StateManager() {
     }
 }
 
-void StateManager::update(const sf::Time& l_time) {
+void StateManager::update(const sf::Time& time) {
     if (m_states.empty()) {
         return;
     }
@@ -43,10 +43,10 @@ void StateManager::update(const sf::Time& l_time) {
             --itr;
         }
         for (; itr != m_states.end(); ++itr) {
-            itr->second->update(l_time);
+            itr->second->update(time);
         }
     } else {
-        m_states.back().second->update(l_time);
+        m_states.back().second->update(time);
     }
 }
 
@@ -76,11 +76,11 @@ SharedContext* StateManager::getContext() {
     return m_shared;
 }
 
-bool StateManager::hasState(const StateType& l_type) {
+bool StateManager::hasState(const StateType& type) {
     for (auto itr = m_states.begin();
             itr != m_states.end(); ++itr) {
-        if (itr->first == l_type) {
-            auto removed = std::find(m_toRemove.begin(), m_toRemove.end(), l_type);
+        if (itr->first == type) {
+            auto removed = std::find(m_toRemove.begin(), m_toRemove.end(), type);
             if (removed == m_toRemove.end()) {
                 return true;
             }
@@ -97,11 +97,11 @@ void StateManager::processRequests() {
     }
 }
 
-void StateManager::switchTo(const StateType& l_type) {
-    m_shared->m_eventManager->setCurrentState(l_type);
+void StateManager::switchTo(const StateType& type) {
+    m_shared->m_eventManager->setCurrentState(type);
     for (auto itr = m_states.begin();
             itr != m_states.end(); ++itr) {
-        if (itr->first == l_type) {
+        if (itr->first == type) {
             m_states.back().second->deactivate();
             StateType tmp_type = itr->first;
             BaseState* tmp_state = itr->second;
@@ -116,23 +116,23 @@ void StateManager::switchTo(const StateType& l_type) {
     if (!m_states.empty()) {
         m_states.back().second->deactivate();
     }
-    createState(l_type);
+    createState(type);
     m_states.back().second->activate();
 }
 
-void StateManager::remove(const StateType& l_type) {
-    m_toRemove.push_back(l_type);
+void StateManager::remove(const StateType& type) {
+    m_toRemove.push_back(type);
 }
 
 // Private methods.
 
-void StateManager::createState(const StateType& l_type) {
-    auto newState = m_stateFactory.find(l_type);
+void StateManager::createState(const StateType& type) {
+    auto newState = m_stateFactory.find(type);
     if (newState == m_stateFactory.end()) {
         return;
     }
     BaseState* state = newState->second();
-    m_states.emplace_back(l_type, state);
+    m_states.emplace_back(type, state);
     state->onCreate();
 }
 
