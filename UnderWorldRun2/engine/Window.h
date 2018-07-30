@@ -87,8 +87,8 @@ public:
     void close(EventDetails* details = nullptr);
 
     /**
-     * Get Method for m_gameWindow.
-     * @return the adress of the m_gameWindow;
+     * Get Method for the sf::RenderWindow.
+     * @return the adress of the m_renderWindow;
      */
     sf::RenderWindow* getRenderWindow();
     
@@ -115,12 +115,37 @@ private:
     void setupWindow(const std::string& title, const sf::Vector2u& size);
     void createWindow();
 
-    sf::RenderWindow m_gameWindow;
+    /**
+     * sf::RenderWindow to draw
+     */
+    sf::RenderWindow m_renderWindow;
+    
+    /**
+     * EventManager object.
+     */
     EventManager m_eventManager;
+    
+    /**
+     * The sf::RenderWindow size.
+     */
     sf::Vector2u m_windowSize;
+    
+    /**
+     * The sf::RenderWindow title
+     */
     std::string m_windowTitle;
+    
+    /**
+     * Flag to check if window is open/closed
+     */
     bool m_isClose;
+    /**
+     * Flag to check if window is full/not-full screen
+     */
     bool m_isFullscreen;
+    /**
+     * Flag to check if window is on-focus/not-on-focus 
+     */
     bool m_isFocused;
 };
 

@@ -13,12 +13,12 @@
 
 #include "Game.h"
 
-Game::Game() : m_window("Chapter 5", sf::Vector2u(1280, 720)), m_stateManager(&m_context) {
+Game::Game() : m_gameWindow("Chapter 5", sf::Vector2u(1280, 720)), m_stateManager(&m_context) {
     m_clock.restart();
     srand(time(nullptr));
 
-    m_context.m_wind = &m_window;
-    m_context.m_eventManager = m_window.getEventManager();
+    m_context.m_wind = &m_gameWindow;
+    m_context.m_eventManager = m_gameWindow.getEventManager();
 
     m_stateManager.switchTo(StateType::INTRO);
 }
@@ -34,20 +34,20 @@ void Game::restartClock() {
     m_elapsed = m_clock.restart();
 }
 
-Window* Game::getWindow() {
-    return &m_window;
+Window* Game::getGameWindow() {
+    return &m_gameWindow;
 }
 
 void Game::update() {
-    m_window.update();
+    m_gameWindow.update();
     m_stateManager.update(m_elapsed);
 }
 
 void Game::render() {
-    m_window.clearWindow();
+    m_gameWindow.clearWindow();
     // Render here.
     m_stateManager.draw();
-    m_window.drawWindow();
+    m_gameWindow.drawWindow();
 }
 
 void Game::lateUpdate() {

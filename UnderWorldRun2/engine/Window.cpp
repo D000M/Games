@@ -22,7 +22,7 @@ Window::Window(const std::string& title, const sf::Vector2u& size) {
 }
 
 Window::~Window() {
-    m_gameWindow.close();
+    m_renderWindow.close();
 }
 
 void Window::setupWindow(const std::string& title, const sf::Vector2u& size) {
@@ -44,15 +44,15 @@ void Window::createWindow() {
         style = sf::Style::Fullscreen;
     }
 
-    m_gameWindow.create(sf::VideoMode(m_windowSize.x, m_windowSize.y, 32), m_windowTitle, style);
+    m_renderWindow.create(sf::VideoMode(m_windowSize.x, m_windowSize.y, 32), m_windowTitle, style);
 }
 
 void Window::clearWindow() {
-    m_gameWindow.clear(sf::Color::Black);
+    m_renderWindow.clear(sf::Color::Black);
 }
 
 void Window::drawWindow() {
-    m_gameWindow.display();
+    m_renderWindow.display();
 }
 
 bool Window::isClosed() {
@@ -68,7 +68,7 @@ bool Window::isFocused() {
 }
 
 sf::RenderWindow* Window::getRenderWindow() {
-    return &m_gameWindow;
+    return &m_renderWindow;
 }
 
 EventManager* Window::getEventManager() {
@@ -81,7 +81,7 @@ sf::Vector2u Window::getWindowSize() {
 
 void Window::toggleFullscreen(EventDetails* details) {
     m_isFullscreen = !m_isFullscreen;
-    m_gameWindow.close();
+    m_renderWindow.close();
     createWindow();
 }
 
@@ -92,7 +92,7 @@ void Window::close(EventDetails* details) {
 void Window::update() {
     sf::Event event;
 
-    while (m_gameWindow.pollEvent(event)) {
+    while (m_renderWindow.pollEvent(event)) {
         if (event.type == sf::Event::LostFocus) {
             m_isFocused = false;
             m_eventManager.setFocus(false);

@@ -21,12 +21,12 @@ using namespace std;
 int main(int argc, char** argv) {
     // Program entry point.
     Game game;
-    while (!game.getWindow()->isClosed()) {
+    while (!game.getGameWindow()->isClosed()) {
         game.update();
         game.render();
         game.lateUpdate();
     }
-
+    
     return 0;
 }
 
