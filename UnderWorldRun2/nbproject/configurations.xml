@@ -28,6 +28,7 @@
       <itemPath>test/Dice.cpp</itemPath>
       <itemPath>engine/EventManager.cpp</itemPath>
       <itemPath>engine/Game.cpp</itemPath>
+      <itemPath>utils/RNGGenerator.cpp</itemPath>
       <itemPath>states/gameStates/StateGame.cpp</itemPath>
       <itemPath>states/gameStates/StateIntro.cpp</itemPath>
       <itemPath>states/gameStates/StateMainMenu.cpp</itemPath>
@@ -123,6 +124,8 @@
       </item>
       <item path="test/Test.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="utils/RNGGenerator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="utils/RNGGenerator.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
@@ -197,6 +200,8 @@
       <item path="test/Test.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="test/Test.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="utils/RNGGenerator.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="utils/RNGGenerator.h" ex="false" tool="3" flavor2="0">
       </item>
