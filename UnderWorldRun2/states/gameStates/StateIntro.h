@@ -16,6 +16,7 @@
 
 #include "../BaseState.h"
 #include "../../engine/EventManager.h"
+#include "../../test/Test.h"
 
 class StateIntro : public BaseState {
 public:
@@ -31,14 +32,14 @@ public:
     void update(const sf::Time& l_time);
     void draw();
 
-    void continueToGame(EventDetails* l_details);
+    void rollDice(EventDetails* l_details);
+    
 private:
-    sf::Texture m_introTexture;
-    sf::Sprite m_introSprite;
+
     sf::Font m_font;
     sf::Text m_text;
-
-    float m_timePassed;
+    
+    Test t;
 };
 
 #endif /* STATEINTRO_H */

@@ -13,7 +13,7 @@
 
 #include "Game.h"
 
-Game::Game() : m_window("Chapter 5", sf::Vector2u(800, 600)), m_stateManager(&m_context) {
+Game::Game() : m_window("Chapter 5", sf::Vector2u(1280, 720)), m_stateManager(&m_context) {
     m_clock.restart();
     srand(time(nullptr));
 
@@ -44,10 +44,10 @@ void Game::update() {
 }
 
 void Game::render() {
-    m_window.beginDraw();
+    m_window.clearWindow();
     // Render here.
     m_stateManager.draw();
-    m_window.endDraw();
+    m_window.drawWindow();
 }
 
 void Game::lateUpdate() {

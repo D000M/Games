@@ -14,49 +14,49 @@
 #include "Window.h"
 
 Window::Window() {
-    setup("Window", sf::Vector2u(640, 480));
+    setupWindow("Window", sf::Vector2u(1280, 720));
 }
 
 Window::Window(const std::string& title, const sf::Vector2u& size) {
-    setup(title, size);
+    setupWindow(title, size);
 }
 
 Window::~Window() {
-    m_window.close();
+    m_gameWindow.close();
 }
 
-void Window::setup(const std::string& title, const sf::Vector2u& size) {
+void Window::setupWindow(const std::string& title, const sf::Vector2u& size) {
     m_windowTitle = title;
     m_windowSize = size;
     m_isFullscreen = false;
-    m_isDone = false;
+    m_isClose = false;
     m_isFocused = true;
 
     m_eventManager.addCallback(StateType(0), "Fullscreen_toggle", &Window::toggleFullscreen, this);
     m_eventManager.addCallback(StateType(0), "Window_close", &Window::close, this);
 
-    create();
+    createWindow();
 }
 
-void Window::create() {
+void Window::createWindow() {
     sf::Uint32 style = sf::Style::Default;
     if (m_isFullscreen) {
         style = sf::Style::Fullscreen;
     }
 
-    m_window.create(sf::VideoMode(m_windowSize.x, m_windowSize.y, 32), m_windowTitle, style);
+    m_gameWindow.create(sf::VideoMode(m_windowSize.x, m_windowSize.y, 32), m_windowTitle, style);
 }
 
-void Window::beginDraw() {
-    m_window.clear(sf::Color::Black);
+void Window::clearWindow() {
+    m_gameWindow.clear(sf::Color::Black);
 }
 
-void Window::endDraw() {
-    m_window.display();
+void Window::drawWindow() {
+    m_gameWindow.display();
 }
 
-bool Window::isDone() {
-    return m_isDone;
+bool Window::isClosed() {
+    return m_isClose;
 }
 
 bool Window::isFullscreen() {
@@ -68,7 +68,7 @@ bool Window::isFocused() {
 }
 
 sf::RenderWindow* Window::getRenderWindow() {
-    return &m_window;
+    return &m_gameWindow;
 }
 
 EventManager* Window::getEventManager() {
@@ -79,20 +79,20 @@ sf::Vector2u Window::getWindowSize() {
     return m_windowSize;
 }
 
-void Window::toggleFullscreen(EventDetails* l_details) {
+void Window::toggleFullscreen(EventDetails* details) {
     m_isFullscreen = !m_isFullscreen;
-    m_window.close();
-    create();
+    m_gameWindow.close();
+    createWindow();
 }
 
-void Window::close(EventDetails* l_details) {
-    m_isDone = true;
+void Window::close(EventDetails* details) {
+    m_isClose = true;
 }
 
 void Window::update() {
     sf::Event event;
 
-    while (m_window.pollEvent(event)) {
+    while (m_gameWindow.pollEvent(event)) {
         if (event.type == sf::Event::LostFocus) {
             m_isFocused = false;
             m_eventManager.setFocus(false);
