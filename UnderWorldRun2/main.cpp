@@ -10,6 +10,7 @@
  *
  * Created on July 28, 2018, 11:35 AM
  */
+#define __USE_MINGW_ANSI_STDIO 0
 
 #include <cstdlib>
 #include "engine/Game.h"

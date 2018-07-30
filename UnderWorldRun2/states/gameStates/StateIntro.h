@@ -17,6 +17,7 @@
 #include "../BaseState.h"
 #include "../../engine/EventManager.h"
 #include "../../test/Test.h"
+#include "../../world/Map.h"
 
 class StateIntro : public BaseState {
 public:
@@ -33,13 +34,14 @@ public:
     void draw();
 
     void rollDice(EventDetails* l_details);
-    
+    void continueToGame(EventDetails* details);
 private:
 
     sf::Font m_font;
     sf::Text m_text;
     
     Test t;
+    Map m;
 };
 
 #endif /* STATEINTRO_H */

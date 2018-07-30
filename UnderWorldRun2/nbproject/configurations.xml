@@ -5,9 +5,11 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>states/BaseState.h</itemPath>
+      <itemPath>utils/Convertors.h</itemPath>
       <itemPath>test/Dice.h</itemPath>
       <itemPath>engine/EventManager.h</itemPath>
       <itemPath>engine/Game.h</itemPath>
+      <itemPath>world/Map.h</itemPath>
       <itemPath>utils/RNGGenerator.h</itemPath>
       <itemPath>SharedContext.h</itemPath>
       <itemPath>states/gameStates/StateGame.h</itemPath>
@@ -28,6 +30,7 @@
       <itemPath>test/Dice.cpp</itemPath>
       <itemPath>engine/EventManager.cpp</itemPath>
       <itemPath>engine/Game.cpp</itemPath>
+      <itemPath>world/Map.cpp</itemPath>
       <itemPath>utils/RNGGenerator.cpp</itemPath>
       <itemPath>states/gameStates/StateGame.cpp</itemPath>
       <itemPath>states/gameStates/StateIntro.cpp</itemPath>
@@ -50,6 +53,7 @@
       <itemPath>Makefile</itemPath>
     </logicalFolder>
     <itemPath>resources/configs/keys.cfg</itemPath>
+    <itemPath>resources/maps/level1</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -91,6 +95,8 @@
       </item>
       <item path="resources/configs/keys.cfg" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="resources/maps/level1" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="states/BaseState.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="states/StateManager.cpp" ex="false" tool="1" flavor2="0">
@@ -124,9 +130,15 @@
       </item>
       <item path="test/Test.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="utils/Convertors.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="utils/RNGGenerator.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="utils/RNGGenerator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="world/Map.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="world/Map.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -168,6 +180,8 @@
       </item>
       <item path="resources/configs/keys.cfg" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="resources/maps/level1" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="states/BaseState.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="states/StateManager.cpp" ex="false" tool="1" flavor2="0">
@@ -201,9 +215,15 @@
       </item>
       <item path="test/Test.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="utils/Convertors.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="utils/RNGGenerator.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="utils/RNGGenerator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="world/Map.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="world/Map.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>

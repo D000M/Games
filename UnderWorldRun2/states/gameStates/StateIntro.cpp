@@ -10,7 +10,7 @@
  * 
  * Created on July 28, 2018, 8:46 PM
  */
-
+#define __USE_MINGW_ANSI_STDIO 0
 #include "StateIntro.h"
 #include "../StateManager.h"
 
@@ -45,6 +45,7 @@ void StateIntro::onCreate() {
 
     EventManager* evMgr = m_stateMgr->getContext()->m_eventManager;
     evMgr->addCallback(StateType::INTRO, "Key_R", &StateIntro::rollDice, this);
+    evMgr->addCallback(StateType::INTRO, "Key_C", &StateIntro::continueToGame, this);
 }
 
 void StateIntro::onDestroy() {
@@ -80,6 +81,11 @@ void StateIntro::rollDice(EventDetails* l_details) {
 }
 
 void StateIntro::activate() {
+}
+
+void StateIntro::continueToGame(EventDetails* details) {
+    m_stateMgr->switchTo(StateType::GAME);
+    m_stateMgr->remove(StateType::INTRO);
 }
 
 void StateIntro::deactivate() {
