@@ -5,14 +5,17 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>states/BaseState.h</itemPath>
+      <itemPath>test/Dice.h</itemPath>
       <itemPath>engine/EventManager.h</itemPath>
       <itemPath>engine/Game.h</itemPath>
+      <itemPath>utils/RNGGenerator.h</itemPath>
       <itemPath>SharedContext.h</itemPath>
       <itemPath>states/gameStates/StateGame.h</itemPath>
       <itemPath>states/gameStates/StateIntro.h</itemPath>
       <itemPath>states/gameStates/StateMainMenu.h</itemPath>
       <itemPath>states/StateManager.h</itemPath>
       <itemPath>states/gameStates/StatePaused.h</itemPath>
+      <itemPath>test/Test.h</itemPath>
       <itemPath>engine/Window.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -22,6 +25,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>test/Dice.cpp</itemPath>
       <itemPath>engine/EventManager.cpp</itemPath>
       <itemPath>engine/Game.cpp</itemPath>
       <itemPath>states/gameStates/StateGame.cpp</itemPath>
@@ -29,6 +33,7 @@
       <itemPath>states/gameStates/StateMainMenu.cpp</itemPath>
       <itemPath>states/StateManager.cpp</itemPath>
       <itemPath>states/gameStates/StatePaused.cpp</itemPath>
+      <itemPath>test/Test.cpp</itemPath>
       <itemPath>engine/Window.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
@@ -110,6 +115,16 @@
       </item>
       <item path="states/gameStates/StatePaused.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="test/Dice.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="test/Dice.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="test/Test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="test/Test.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="utils/RNGGenerator.h" ex="false" tool="3" flavor2="0">
+      </item>
     </conf>
     <conf name="Release" type="1">
       <toolsSet>
@@ -174,6 +189,16 @@
       <item path="states/gameStates/StatePaused.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="states/gameStates/StatePaused.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="test/Dice.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="test/Dice.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="test/Test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="test/Test.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="utils/RNGGenerator.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>
