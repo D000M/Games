@@ -5,6 +5,7 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>states/BaseState.h</itemPath>
+      <itemPath>utils/Constants.h</itemPath>
       <itemPath>utils/Convertors.h</itemPath>
       <itemPath>test/Dice.h</itemPath>
       <itemPath>engine/EventManager.h</itemPath>
@@ -130,6 +131,8 @@
       </item>
       <item path="test/Test.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="utils/Constants.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="utils/Convertors.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="utils/RNGGenerator.cpp" ex="false" tool="1" flavor2="0">
@@ -214,6 +217,8 @@
       <item path="test/Test.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="test/Test.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="utils/Constants.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="utils/Convertors.h" ex="false" tool="3" flavor2="0">
       </item>
