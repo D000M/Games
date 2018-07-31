@@ -60,7 +60,6 @@ void StateIntro::update(const sf::Time& l_time) {
 //                m_introSprite.getPosition().x,
 //                m_introSprite.getPosition().y + (48 * l_time.asSeconds()));
 //    }
-    m_text.setString("Result: " + std::to_string(t.getDiceResult()));
 }
 
 void StateIntro::draw() {
@@ -77,7 +76,6 @@ void StateIntro::rollDice(EventDetails* l_details) {
 //        m_stateMgr->switchTo(StateType::MAINMENU);
 //        m_stateMgr->remove(StateType::INTRO);
 //    }
-    t.rollDice();
 }
 
 void StateIntro::activate() {

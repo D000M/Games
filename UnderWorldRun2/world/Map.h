@@ -17,6 +17,7 @@
 #include <array>
 #include <SFML/Graphics/RectangleShape.hpp>
 #include "../SharedContext.h"
+#include "Player.h"
 
 enum Tile {
     WALL = 0,
@@ -31,12 +32,6 @@ enum Tile {
     GOLD_CAVE,
     JAIL,    
     EXIT
-};
-
-enum class MapSize {
-    MAP_WIDTH = 540,
-    MAP_HEIGHT = 220,
-    TILE_SIZE = 20
 };
 
 class Map {
@@ -55,13 +50,14 @@ private:
     
     void loadMap(const std::string& path);
     
-    
+    SharedContext* m_context;
     std::array<std::array<Tile, 27>, 11> level;
     std::array<std::array<sf::RectangleShape, 27>, 11> rects;
     
     sf::RectangleShape m_background;
     
-    SharedContext* m_context;
+    Player m_player;
+    
 };
 
 #endif /* MAP_H */

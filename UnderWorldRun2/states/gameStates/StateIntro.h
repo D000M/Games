@@ -16,7 +16,6 @@
 
 #include "../BaseState.h"
 #include "../../engine/EventManager.h"
-#include "../../test/Test.h"
 
 class StateIntro : public BaseState {
 public:
@@ -38,8 +37,7 @@ private:
 
     sf::Font m_font;
     sf::Text m_text;
-    
-    Test t;
+
 };
 
 #endif /* STATEINTRO_H */

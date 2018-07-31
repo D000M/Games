@@ -65,6 +65,7 @@ void StateGame::update(const sf::Time& l_time) {
 //
 //    m_sprite.setPosition(m_sprite.getPosition().x + (m_increment.x * l_time.asSeconds()),
 //            m_sprite.getPosition().y + (m_increment.y * l_time.asSeconds()));
+    m_gameMap->update();
 }
 
 void StateGame::draw() {

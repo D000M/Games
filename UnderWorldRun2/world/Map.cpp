@@ -17,7 +17,8 @@
 #include "Map.h"
 
 Map::Map(SharedContext* context) 
-    : m_context{context} {
+    : m_context{context},
+      m_player{context}{
     
     m_context->m_gameMap = this;
     loadMap("resources/maps/level1");
@@ -45,7 +46,6 @@ void Map::loadMap(const std::string& path) {
     while(std::getline(file, line)) {
         Tile temp; 
         for(int i = 0; i < line.length(); i++) {
-//            rects[row][i].setFillColor(sf::Color::White);
             switch(line.at(i)) {
                 case '0':
                     temp = Tile::WALL;
@@ -99,12 +99,6 @@ void Map::loadMap(const std::string& path) {
             level[row][i] = temp;
         }
         row++;
-    }
-    for(int i = 0; i < 11; i++) {
-        for(int j = 0; j < 27; j++) {
-            std::cout << level[i][j] << " ";
-        }
-        std::cout << std::endl;
     }
 }
 
@@ -160,8 +154,9 @@ void Map::draw() {
             m_context->m_wind->getRenderWindow()->draw(rects[i][j]);
         }
     }
+    m_player.draw();
 }
 
 void Map::update() {
-    
+    m_player.update();
 }
