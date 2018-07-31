@@ -15,7 +15,7 @@
 #include "../StateManager.h"
 
 StateGame::StateGame(StateManager* l_stateManager)
-: BaseState(l_stateManager) {
+    : BaseState(l_stateManager) {
 }
 
 StateGame::~StateGame() {
@@ -31,11 +31,13 @@ void StateGame::onCreate() {
 //    evMgr->addCallback(StateType::GAME, "Key_Escape", &StateGame::mainMenu, this);
 //    evMgr->addCallback(StateType::GAME, "Key_P", &StateGame::pause, this);
     
+    
+    m_gameMap = new Map(m_stateMgr->getContext());
     m_font.loadFromFile("resources/fonts/arial.ttf");
     m_text.setFont(m_font);
     m_text.setCharacterSize(24);
     
-    m_text.setString(myMap.asString());
+    m_text.setString(m_gameMap->asString());
     m_text.setPosition(50, 50);
 }
 
@@ -43,6 +45,8 @@ void StateGame::onDestroy() {
     EventManager* evMgr = m_stateMgr->getContext()->m_eventManager;
 //    evMgr->removeCallback(StateType::GAME, "Key_Escape");
 //    evMgr->removeCallback(StateType::GAME, "Key_P");
+    delete m_gameMap;
+    m_gameMap = nullptr;
 }
 
 void StateGame::update(const sf::Time& l_time) {
@@ -65,6 +69,7 @@ void StateGame::update(const sf::Time& l_time) {
 
 void StateGame::draw() {
     m_stateMgr->getContext()->m_wind->getRenderWindow()->draw(m_text);
+    m_gameMap->draw();
 }
 
 void StateGame::mainMenu(EventDetails* l_details) {

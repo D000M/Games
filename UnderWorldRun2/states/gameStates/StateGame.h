@@ -38,7 +38,7 @@ private:
 //    sf::Texture m_texture;
 //    sf::Sprite m_sprite;
 //    sf::Vector2f m_increment;
-    Map myMap;
+    Map* m_gameMap;
     sf::Text m_text;
     sf::Font m_font;
 };

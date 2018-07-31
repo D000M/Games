@@ -17,14 +17,18 @@
 #include "engine/Window.h"
 #include "engine/EventManager.h"
 
+class Map;
+
 struct SharedContext {
 
     SharedContext()
-    : m_wind(nullptr),
-    m_eventManager(nullptr) {
+        : m_wind(nullptr),
+          m_eventManager(nullptr),
+          m_gameMap{nullptr}{
     }
     Window* m_wind;
     EventManager* m_eventManager;
+    Map* m_gameMap;
 };
 
 #endif /* SHAREDCONTEXT_H */

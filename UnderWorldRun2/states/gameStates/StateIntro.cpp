@@ -15,7 +15,7 @@
 #include "../StateManager.h"
 
 StateIntro::StateIntro(StateManager* l_stateManager)
-: BaseState(l_stateManager) {
+    : BaseState(l_stateManager) {
 }
 
 StateIntro::~StateIntro() {

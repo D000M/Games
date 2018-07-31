@@ -13,14 +13,24 @@
 
 #include <fstream>
 #include <iostream>
-
+#include "../utils/Constants.h"
 #include "Map.h"
 
-Map::Map() {
+Map::Map(SharedContext* context) 
+    : m_context{context} {
+    
+    m_context->m_gameMap = this;
     loadMap("resources/maps/level1");
+    m_background.setSize(sf::Vector2f{1080, 440});
+    m_background.setFillColor(sf::Color{192,192,192});
+    m_background.setPosition(50, 50);
+    
 }
 
 Map::~Map() {
+    
+    m_context->m_gameMap = nullptr;
+    
 }
 
 void Map::loadMap(const std::string& path) {
@@ -35,42 +45,55 @@ void Map::loadMap(const std::string& path) {
     while(std::getline(file, line)) {
         Tile temp; 
         for(int i = 0; i < line.length(); i++) {
+//            rects[row][i].setFillColor(sf::Color::White);
             switch(line.at(i)) {
                 case '0':
                     temp = Tile::WALL;
+                    rects[row][i].setFillColor(Constants::WALL);
                     break;
                 case 'S':
                     temp = Tile::START;
+                    rects[row][i].setFillColor(Constants::START);
                     break;
                 case 'P':
                     temp = Tile::PATH;
+                    rects[row][i].setFillColor(Constants::PATH);
                     break;
-                case 'C':
+                case '?':
                     temp = Tile::CHANCE;
+                    rects[row][i].setFillColor(Constants::CHANCE);
                     break;
                 case 'J':
                     temp = Tile::JAIL;
+                    rects[row][i].setFillColor(Constants::JAIL);
                     break;
                 case 'G':
                     temp = Tile::GOLD_CAVE;
+                    rects[row][i].setFillColor(Constants::GOLD);
                     break;
                 case 'F': 
                     temp = Tile::FIRE_CAVE;
+                    rects[row][i].setFillColor(Constants::FIRE);
                     break;
                 case 'E':
                     temp = Tile::EXIT;
+                    rects[row][i].setFillColor(Constants::EXIT);
                     break;
                 case 'Z':
                     temp = Tile::EARTH_CAVE;
+                    rects[row][i].setFillColor(Constants::EARTH);
                     break;
                 case 'D':
                     temp = Tile::DEVIL_CAVE;
+                    rects[row][i].setFillColor(Constants::DEVIL);
                     break;
                 case 'B':
                     temp = Tile::BAT_CAVE;
+                    rects[row][i].setFillColor(Constants::BAT);
                     break;
                 case 'H':
                     temp = Tile::HOLE;
+                    rects[row][i].setFillColor(Constants::HOLE);
                     break;
             }
             level[row][i] = temp;
@@ -123,4 +146,22 @@ char Map::tileToChar(int i, int j) {
         case 11:
             return 'E';
     }
+}
+
+
+void Map::draw() {
+    m_context->m_wind->getRenderWindow()->draw(m_background);
+
+    for(int i = 0; i < 11; i++) {
+        for(int j = 0; j < 27; j++) {
+            rects[i][j].setSize(sf::Vector2f{36, 36});
+            rects[i][j].setPosition(40 * j + 52, 40 * i + 52);
+            rects[i][j].setScale(1.0f, 1.0f);
+            m_context->m_wind->getRenderWindow()->draw(rects[i][j]);
+        }
+    }
+}
+
+void Map::update() {
+    
 }
