@@ -25,6 +25,7 @@ struct SharedContext {
         : m_wind(nullptr),
           m_eventManager(nullptr),
           m_gameMap{nullptr}{
+        std::cout << "SharedContext Created\n";
     }
     Window* m_wind;
     EventManager* m_eventManager;

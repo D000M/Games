@@ -20,8 +20,9 @@ Map::Map(SharedContext* context)
     : m_context{context},
       m_player{context}{
     
-    m_context->m_gameMap = this;
+
     loadMap("resources/maps/level1");
+    m_context->m_gameMap = this;
     m_background.setSize(sf::Vector2f{1080, 440});
     m_background.setFillColor(sf::Color{192,192,192});
     m_background.setPosition(50, 50);
@@ -46,57 +47,62 @@ void Map::loadMap(const std::string& path) {
     while(std::getline(file, line)) {
         Tile temp; 
         for(int i = 0; i < line.length(); i++) {
+            sf::RectangleShape tempRect;
             switch(line.at(i)) {
                 case '0':
                     temp = Tile::WALL;
-                    rects[row][i].setFillColor(Constants::WALL);
+                    tempRect.setFillColor(Constants::WALL);
                     break;
                 case 'S':
                     temp = Tile::START;
-                    rects[row][i].setFillColor(Constants::START);
+                    tempRect.setFillColor(Constants::START);
                     break;
                 case 'P':
                     temp = Tile::PATH;
-                    rects[row][i].setFillColor(Constants::PATH);
+                    tempRect.setFillColor(Constants::PATH);
                     break;
                 case '?':
                     temp = Tile::CHANCE;
-                    rects[row][i].setFillColor(Constants::CHANCE);
+                    tempRect.setFillColor(Constants::CHANCE);
                     break;
                 case 'J':
                     temp = Tile::JAIL;
-                    rects[row][i].setFillColor(Constants::JAIL);
+                    tempRect.setFillColor(Constants::JAIL);
                     break;
                 case 'G':
                     temp = Tile::GOLD_CAVE;
-                    rects[row][i].setFillColor(Constants::GOLD);
+                    tempRect.setFillColor(Constants::GOLD);
                     break;
                 case 'F': 
                     temp = Tile::FIRE_CAVE;
-                    rects[row][i].setFillColor(Constants::FIRE);
+                    tempRect.setFillColor(Constants::FIRE);
                     break;
                 case 'E':
                     temp = Tile::EXIT;
-                    rects[row][i].setFillColor(Constants::EXIT);
+                    tempRect.setFillColor(Constants::EXIT);
                     break;
                 case 'Z':
                     temp = Tile::EARTH_CAVE;
-                    rects[row][i].setFillColor(Constants::EARTH);
+                    tempRect.setFillColor(Constants::EARTH);
                     break;
                 case 'D':
                     temp = Tile::DEVIL_CAVE;
-                    rects[row][i].setFillColor(Constants::DEVIL);
+                    tempRect.setFillColor(Constants::DEVIL);
                     break;
                 case 'B':
                     temp = Tile::BAT_CAVE;
-                    rects[row][i].setFillColor(Constants::BAT);
+                    tempRect.setFillColor(Constants::BAT);
                     break;
                 case 'H':
                     temp = Tile::HOLE;
-                    rects[row][i].setFillColor(Constants::HOLE);
+                    tempRect.setFillColor(Constants::HOLE);
                     break;
             }
             level[row][i] = temp;
+            tempRect.setSize(sf::Vector2f{36, 36});
+            tempRect.setPosition(40 * i + 52, 40 * row + 52);
+            tempRect.setScale(1.0f, 1.0f);
+            rects.push_back(tempRect);
         }
         row++;
     }
@@ -146,14 +152,10 @@ char Map::tileToChar(int i, int j) {
 void Map::draw() {
     m_context->m_wind->getRenderWindow()->draw(m_background);
 
-    for(int i = 0; i < 11; i++) {
-        for(int j = 0; j < 27; j++) {
-            rects[i][j].setSize(sf::Vector2f{36, 36});
-            rects[i][j].setPosition(40 * j + 52, 40 * i + 52);
-            rects[i][j].setScale(1.0f, 1.0f);
-            m_context->m_wind->getRenderWindow()->draw(rects[i][j]);
-        }
+    for(int i = 0; i < rects.size(); i++) {
+        m_context->m_wind->getRenderWindow()->draw(rects[i]);
     }
+    
     m_player.draw();
 }
 

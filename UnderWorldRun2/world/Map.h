@@ -16,6 +16,7 @@
 
 #include <array>
 #include <SFML/Graphics/RectangleShape.hpp>
+#include <vector>
 #include "../SharedContext.h"
 #include "Player.h"
 
@@ -52,7 +53,7 @@ private:
     
     SharedContext* m_context;
     std::array<std::array<Tile, 27>, 11> level;
-    std::array<std::array<sf::RectangleShape, 27>, 11> rects;
+    std::vector<sf::RectangleShape> rects;
     
     sf::RectangleShape m_background;
     
