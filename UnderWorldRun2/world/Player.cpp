@@ -16,7 +16,8 @@
 #include "../utils/RNGGenerator.h"
 
 Player::Player(SharedContext* shared) 
-    : m_shared{shared} {
+    : m_shared{shared},
+      m_playDeck{}{
     
     m_playerFig.setFillColor(sf::Color::Red);
     m_playerFig.setPosition(sf::Vector2f{140, 603});
@@ -34,7 +35,7 @@ Player::Player(SharedContext* shared)
     m_diceText.setString("Roll: ");
     m_diceText.setFillColor(sf::Color::White);
     m_diceText.setPosition(sf::Vector2f{180, 600});
-    
+
     m_shared->m_eventManager->addCallback(StateType::GAME, "Key_R", &Player::rollDice, this);
 }
 
@@ -46,6 +47,7 @@ void Player::draw() {
     m_shared->m_wind->getRenderWindow()->draw(m_text);
     m_shared->m_wind->getRenderWindow()->draw(m_playerFig);
     m_shared->m_wind->getRenderWindow()->draw(m_diceText);
+    m_playDeck.draw(m_shared);
 }
 
 void Player::update() {
@@ -55,4 +57,12 @@ void Player::update() {
 void Player::rollDice(EventDetails* details) {
     int result = getRandomInteger(1, 6);
     m_dice.setDice(result);
+}
+
+void Player::setDeck(Item& obj) {
+    m_playDeck.addItem(obj);
+}
+
+void Player::printDeck() {
+    m_playDeck.printDeck();
 }

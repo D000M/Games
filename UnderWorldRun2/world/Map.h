@@ -19,6 +19,7 @@
 #include <vector>
 #include "../SharedContext.h"
 #include "Player.h"
+#include "ItemsDeck.h"
 
 enum Tile {
     WALL = 0,
@@ -46,7 +47,7 @@ public:
     char tileToChar(int i, int j);
     std::string asString();
     
-    
+    ItemsDeck* getItemsDeck();
 private:
     
     void loadMap(const std::string& path);
@@ -56,7 +57,7 @@ private:
     std::vector<sf::RectangleShape> rects;
     
     sf::RectangleShape m_background;
-    
+    ItemsDeck m_deck;
     Player m_player;
     
 };

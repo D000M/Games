@@ -18,6 +18,7 @@
 #include "../SharedContext.h"
 #include "../engine/EventManager.h"
 #include "../test/Dice.h"
+#include "PlayerDeck.h"
 
 class Player {
 public:
@@ -30,6 +31,9 @@ public:
     void move(EventDetails* details);
 
     void rollDice(EventDetails* details);
+    
+    void setDeck(Item& obj);
+    void printDeck();
 private:
 
     SharedContext* m_shared;
@@ -39,6 +43,8 @@ private:
     sf::Vector2u m_playerPos;
     Dice m_dice;
     sf::Text m_diceText;
+    
+    PlayerDeck m_playDeck;
 };
 
 #endif /* PLAYER_H */

@@ -18,7 +18,8 @@
 
 Map::Map(SharedContext* context) 
     : m_context{context},
-      m_player{context}{
+      m_deck{},
+      m_player{context} {
     
 
     loadMap("resources/maps/level1");
@@ -27,12 +28,25 @@ Map::Map(SharedContext* context)
     m_background.setFillColor(sf::Color{192,192,192});
     m_background.setPosition(50, 50);
     
+    m_player.setDeck(m_deck.getItem());
+    m_player.setDeck(m_deck.getItem());
+    m_player.setDeck(m_deck.getItem());
+    m_player.setDeck(m_deck.getItem());
+    m_player.setDeck(m_deck.getItem());
+    
+    m_player.printDeck();
+    
+    m_deck.printRemainingDeck();
 }
 
 Map::~Map() {
     
     m_context->m_gameMap = nullptr;
     
+}
+
+ItemsDeck* Map::getItemsDeck() {
+    return &m_deck;
 }
 
 void Map::loadMap(const std::string& path) {
