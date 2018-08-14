@@ -14,6 +14,8 @@
 #ifndef PLAYER_H
 #define PLAYER_H
 
+#define __USE_MINGW_ANSI_STDIO 0
+
 #include <SFML/Graphics/CircleShape.hpp>
 #include "../SharedContext.h"
 #include "../engine/EventManager.h"

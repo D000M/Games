@@ -43,7 +43,14 @@ OBJECTFILES= \
 	${OBJECTDIR}/states/gameStates/StateGame.o \
 	${OBJECTDIR}/states/gameStates/StateIntro.o \
 	${OBJECTDIR}/states/gameStates/StateMainMenu.o \
-	${OBJECTDIR}/states/gameStates/StatePaused.o
+	${OBJECTDIR}/states/gameStates/StatePaused.o \
+	${OBJECTDIR}/test/Dice.o \
+	${OBJECTDIR}/utils/RNGGenerator.o \
+	${OBJECTDIR}/world/Item.o \
+	${OBJECTDIR}/world/ItemsDeck.o \
+	${OBJECTDIR}/world/Map.o \
+	${OBJECTDIR}/world/Player.o \
+	${OBJECTDIR}/world/PlayerDeck.o
 
 
 # C Compiler Flags
@@ -114,6 +121,41 @@ ${OBJECTDIR}/states/gameStates/StatePaused.o: states/gameStates/StatePaused.cpp
 	${MKDIR} -p ${OBJECTDIR}/states/gameStates
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/states/gameStates/StatePaused.o states/gameStates/StatePaused.cpp
+
+${OBJECTDIR}/test/Dice.o: test/Dice.cpp
+	${MKDIR} -p ${OBJECTDIR}/test
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/test/Dice.o test/Dice.cpp
+
+${OBJECTDIR}/utils/RNGGenerator.o: utils/RNGGenerator.cpp
+	${MKDIR} -p ${OBJECTDIR}/utils
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/utils/RNGGenerator.o utils/RNGGenerator.cpp
+
+${OBJECTDIR}/world/Item.o: world/Item.cpp
+	${MKDIR} -p ${OBJECTDIR}/world
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/world/Item.o world/Item.cpp
+
+${OBJECTDIR}/world/ItemsDeck.o: world/ItemsDeck.cpp
+	${MKDIR} -p ${OBJECTDIR}/world
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/world/ItemsDeck.o world/ItemsDeck.cpp
+
+${OBJECTDIR}/world/Map.o: world/Map.cpp
+	${MKDIR} -p ${OBJECTDIR}/world
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/world/Map.o world/Map.cpp
+
+${OBJECTDIR}/world/Player.o: world/Player.cpp
+	${MKDIR} -p ${OBJECTDIR}/world
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/world/Player.o world/Player.cpp
+
+${OBJECTDIR}/world/PlayerDeck.o: world/PlayerDeck.cpp
+	${MKDIR} -p ${OBJECTDIR}/world
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/world/PlayerDeck.o world/PlayerDeck.cpp
 
 # Subprojects
 .build-subprojects:
