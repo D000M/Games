@@ -21,7 +21,7 @@
 
 class PlayerDeck {
 public:
-    PlayerDeck();
+    PlayerDeck(int playerId);
     virtual ~PlayerDeck();
     
     void addItem(Item& temp);

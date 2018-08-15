@@ -24,7 +24,7 @@
 
 class Player {
 public:
-    Player(SharedContext* shared);
+    Player(SharedContext* shared, int id);
     virtual ~Player();
 
     void draw();
@@ -32,7 +32,7 @@ public:
 
     void move(EventDetails* details);
 
-    void rollDice(EventDetails* details);
+    void rollDice();
     
     void setDeck(Item& obj);
     void printDeck();
@@ -47,6 +47,7 @@ private:
     sf::Text m_diceText;
     
     PlayerDeck m_playDeck;
+    int m_playerID;
 };
 
 #endif /* PLAYER_H */

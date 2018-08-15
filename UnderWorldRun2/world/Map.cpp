@@ -17,9 +17,7 @@
 #include "Map.h"
 
 Map::Map(SharedContext* context) 
-    : m_context{context},
-      m_deck{},
-      m_player{context} {
+    : m_context{context} {
     
 
     loadMap("resources/maps/level1");
@@ -28,25 +26,12 @@ Map::Map(SharedContext* context)
     m_background.setFillColor(sf::Color{192,192,192});
     m_background.setPosition(50, 50);
     
-    m_player.setDeck(m_deck.getItem());
-    m_player.setDeck(m_deck.getItem());
-    m_player.setDeck(m_deck.getItem());
-    m_player.setDeck(m_deck.getItem());
-    m_player.setDeck(m_deck.getItem());
-    
-    m_player.printDeck();
-    
-    m_deck.printRemainingDeck();
 }
 
 Map::~Map() {
     
     m_context->m_gameMap = nullptr;
     
-}
-
-ItemsDeck* Map::getItemsDeck() {
-    return &m_deck;
 }
 
 void Map::loadMap(const std::string& path) {
@@ -169,10 +154,9 @@ void Map::draw() {
     for(int i = 0; i < rects.size(); i++) {
         m_context->m_wind->getRenderWindow()->draw(rects[i]);
     }
-    
-    m_player.draw();
+
 }
 
 void Map::update() {
-    m_player.update();
+
 }

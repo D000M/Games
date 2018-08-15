@@ -10,6 +10,7 @@
       <itemPath>test/Dice.h</itemPath>
       <itemPath>engine/EventManager.h</itemPath>
       <itemPath>engine/Game.h</itemPath>
+      <itemPath>world/GameMgr.h</itemPath>
       <itemPath>world/Item.h</itemPath>
       <itemPath>world/ItemsDeck.h</itemPath>
       <itemPath>world/Map.h</itemPath>
@@ -34,6 +35,7 @@
       <itemPath>test/Dice.cpp</itemPath>
       <itemPath>engine/EventManager.cpp</itemPath>
       <itemPath>engine/Game.cpp</itemPath>
+      <itemPath>world/GameMgr.cpp</itemPath>
       <itemPath>world/Item.cpp</itemPath>
       <itemPath>world/ItemsDeck.cpp</itemPath>
       <itemPath>world/Map.cpp</itemPath>
@@ -144,6 +146,10 @@
       </item>
       <item path="utils/RNGGenerator.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="world/GameMgr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="world/GameMgr.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="world/Item.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="world/Item.h" ex="false" tool="3" flavor2="0">
@@ -244,6 +250,10 @@
       <item path="utils/RNGGenerator.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="utils/RNGGenerator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="world/GameMgr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="world/GameMgr.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="world/Item.cpp" ex="false" tool="1" flavor2="0">
       </item>
