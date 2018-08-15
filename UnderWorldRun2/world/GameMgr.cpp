@@ -14,7 +14,8 @@
 #include "GameMgr.h"
 #include "../states/StateManager.h"
 
-GameMgr::GameMgr(StateManager* stateMgr) {
+GameMgr::GameMgr(StateManager* stateMgr) 
+    : m_shared{stateMgr->getContext()} {
         
     
     m_gameMap = new Map(stateMgr->getContext());
@@ -45,6 +46,8 @@ GameMgr::GameMgr(StateManager* stateMgr) {
     m_gameDeck->printRemainingDeck();
     m_turnState = DEFAULT;
     m_gameTurn = 1;
+    m_shared->m_eventManager->addCallback(StateType::GAME, "Key_R", &GameMgr::roll, this);
+
 }
 
 
@@ -57,6 +60,7 @@ GameMgr::~GameMgr() {
     m_gameDeck = nullptr;
     delete m_gameMap;
     m_gameMap = nullptr;
+    m_shared->m_eventManager->removeCallback(StateType::GAME, "Key_R");
 }
 
 ItemsDeck* GameMgr::getItemsDeck() {
@@ -76,4 +80,8 @@ void GameMgr::draw(SharedContext* shared) {
     for(int i = 0; i < m_players.size(); i++) {
         m_players.at(i)->draw();
     }
+}
+
+void GameMgr::roll(EventDetails* details) {
+    m_players.at(2)->rollDice();
 }

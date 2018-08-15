@@ -52,11 +52,11 @@ Player::Player(SharedContext* shared, int id)
     m_diceText.setFillColor(sf::Color::White);
     m_diceText.setPosition(sf::Vector2f{180, playerXPos[m_playerID] - 3});
 
-    m_shared->m_eventManager->addCallback(StateType::GAME, "Key_R", &Player::rollDice, this);
+//    m_shared->m_eventManager->addCallback(StateType::GAME, "Key_R", &Player::rollDice, this);
 }
 
 Player::~Player() {
-    m_shared->m_eventManager->removeCallback(StateType::GAME, "Key_R");
+//    m_shared->m_eventManager->removeCallback(StateType::GAME, "Key_R");
 }
 
 void Player::draw() {
@@ -70,8 +70,10 @@ void Player::update() {
     m_diceText.setString("Roll: " + std::to_string(m_dice.getDice()));
 }
 
-void Player::rollDice(EventDetails* details) {
+void Player::rollDice() {
     int result = getRandomInteger(1, 6);
+    std::cout << "---------- result: " << result << std::endl;
+    std::cout << "---------- m_playerID: " << m_playerID << std::endl;
     m_dice.setDice(result);
 }
 

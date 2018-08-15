@@ -30,7 +30,7 @@ public:
 
     void move(EventDetails* details);
 
-    void rollDice(EventDetails* details);
+    void rollDice();
     
     void setDeck(Item& obj);
     void printDeck();

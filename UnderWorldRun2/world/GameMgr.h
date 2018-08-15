@@ -17,6 +17,8 @@
 #include "Map.h"
 #include "ItemsDeck.h"
 #include "Player.h"
+#include "../engine/EventManager.h"
+#include "../SharedContext.h"
 
 class StateManager;
 
@@ -38,6 +40,7 @@ public:
     void draw(SharedContext* shared);
     
     void playGame();
+    void roll(EventDetails* details);
 private:
 
     Map* m_gameMap;
@@ -48,7 +51,8 @@ private:
     std::vector<Player*> m_players;
     
     int m_gameTurn;
-    TurnStates m_turnState; 
+    TurnStates m_turnState;
+    SharedContext* m_shared;
 };
 
 #endif /* GAMEMGR_H */
