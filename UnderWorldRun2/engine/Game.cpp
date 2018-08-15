@@ -13,7 +13,7 @@
 
 #include "Game.h"
 
-Game::Game() : m_gameWindow("Chapter 5", sf::Vector2u(1280, 720)), m_stateManager(&m_context) {
+Game::Game() : m_gameWindow("Under World Run", sf::Vector2u(1280, 720)), m_stateManager(&m_context) {
     m_clock.restart();
     srand(time(nullptr));
 

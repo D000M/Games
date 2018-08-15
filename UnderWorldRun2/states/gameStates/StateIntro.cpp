@@ -37,20 +37,19 @@ void StateIntro::onCreate() {
     m_text.setFont(m_font);
 //    m_text.setString({"Press SPACE to continue"});
     m_text.setCharacterSize(24);
-    m_text.setString("Roll");
+    m_text.setString("Press C To Continue to Game");
     sf::FloatRect textRect = m_text.getLocalBounds();
     m_text.setOrigin(textRect.left + textRect.width / 2.0f,
             textRect.top + textRect.height / 2.0f);
     m_text.setPosition(windowSize.x / 2.0f, windowSize.y / 2.0f);
 
     EventManager* evMgr = m_stateMgr->getContext()->m_eventManager;
-    evMgr->addCallback(StateType::INTRO, "Key_R", &StateIntro::rollDice, this);
     evMgr->addCallback(StateType::INTRO, "Key_C", &StateIntro::continueToGame, this);
 }
 
 void StateIntro::onDestroy() {
     EventManager* evMgr = m_stateMgr->getContext()->m_eventManager;
-    evMgr->removeCallback(StateType::INTRO, "Key_R");
+    evMgr->removeCallback(StateType::INTRO, "Key_C");
 }
 
 void StateIntro::update(const sf::Time& l_time) {

@@ -39,10 +39,26 @@ void StateGame::onCreate() {
     
     m_text.setString(m_gameMap->asString());
     m_text.setPosition(50, 50);
+    m_gameDeck = new ItemsDeck{};
+    m_player = new Player{m_stateMgr->getContext()};
+    
+    m_player->setDeck(m_gameDeck->getItem());
+    m_player->setDeck(m_gameDeck->getItem());
+    m_player->setDeck(m_gameDeck->getItem());
+    m_player->setDeck(m_gameDeck->getItem());
+    m_player->setDeck(m_gameDeck->getItem());
+    
+    m_player->printDeck();
+    
+    m_gameDeck->printRemainingDeck();
 }
 
 void StateGame::onDestroy() {
     EventManager* evMgr = m_stateMgr->getContext()->m_eventManager;
+    delete m_player;
+    m_player = nullptr;
+    delete m_gameDeck;
+    m_gameDeck = nullptr;
 //    evMgr->removeCallback(StateType::GAME, "Key_Escape");
 //    evMgr->removeCallback(StateType::GAME, "Key_P");
     delete m_gameMap;
@@ -66,11 +82,13 @@ void StateGame::update(const sf::Time& l_time) {
 //    m_sprite.setPosition(m_sprite.getPosition().x + (m_increment.x * l_time.asSeconds()),
 //            m_sprite.getPosition().y + (m_increment.y * l_time.asSeconds()));
     m_gameMap->update();
+    m_player->update();
 }
 
 void StateGame::draw() {
     m_stateMgr->getContext()->m_wind->getRenderWindow()->draw(m_text);
     m_gameMap->draw();
+    m_player->draw();
 }
 
 void StateGame::mainMenu(EventDetails* l_details) {
@@ -85,4 +103,8 @@ void StateGame::activate() {
 }
 
 void StateGame::deactivate() {
+}
+
+ItemsDeck* StateGame::getItemsDeck() {
+    return m_gameDeck;
 }
