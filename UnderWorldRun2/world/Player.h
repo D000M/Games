@@ -22,7 +22,7 @@
 
 class Player {
 public:
-    Player(SharedContext* shared);
+    Player(SharedContext* shared, int id);
     virtual ~Player();
 
     void draw();
@@ -45,6 +45,7 @@ private:
     sf::Text m_diceText;
     
     PlayerDeck m_playDeck;
+    int m_playerID;
 };
 
 #endif /* PLAYER_H */

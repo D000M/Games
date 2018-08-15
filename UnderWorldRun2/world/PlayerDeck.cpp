@@ -16,13 +16,19 @@
 
 #include "PlayerDeck.h"
 
-PlayerDeck::PlayerDeck() {
+const float playerDeckYPos[] = {
+    500,
+    550,
+    600
+};
+
+PlayerDeck::PlayerDeck(int playerId) {
     m_font.loadFromFile("resources/fonts/fallout.ttf");
     m_text.setFont(m_font);
     m_text.setCharacterSize(22);
     m_text.setString("Items: ");
     m_text.setFillColor(sf::Color::Green);
-    m_text.setPosition(50, 650);
+    m_text.setPosition(300, playerDeckYPos[playerId]);
     m_strItems = "Items: ";
 }
 

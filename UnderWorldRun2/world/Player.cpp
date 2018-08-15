@@ -15,26 +15,42 @@
 #include "../states/StateManager.h"
 #include "../utils/RNGGenerator.h"
 
-Player::Player(SharedContext* shared) 
+const std::string playerName[] = {
+    "Player1",
+    "Player2",
+    "Player3"
+};
+const sf::Color playerColor[] = {
+    sf::Color::Red,
+    sf::Color::Blue,
+    sf::Color::Yellow
+};
+const float playerXPos[] = {
+    503,
+    553,
+    603
+};
+Player::Player(SharedContext* shared, int id) 
     : m_shared{shared},
-      m_playDeck{}{
+      m_playDeck{id},
+      m_playerID{id}{
     
-    m_playerFig.setFillColor(sf::Color::Red);
-    m_playerFig.setPosition(sf::Vector2f{140, 603});
+    m_playerFig.setFillColor(playerColor[m_playerID]);
+    m_playerFig.setPosition(sf::Vector2f{140, playerXPos[m_playerID]});
     m_playerFig.setRadius(12);
     
     m_font.loadFromFile("resources/fonts/arial.ttf");
     m_text.setFont(m_font);
     m_text.setCharacterSize(22);
-    m_text.setString("Player1: ");
-    m_text.setFillColor(sf::Color::Red);
-    m_text.setPosition(sf::Vector2f{50, 600});
+    m_text.setString(playerName[m_playerID]);
+    m_text.setFillColor(playerColor[m_playerID]);
+    m_text.setPosition(sf::Vector2f{50, playerXPos[m_playerID] - 3});
     
     m_diceText.setFont(m_font);
     m_diceText.setCharacterSize(22);
     m_diceText.setString("Roll: ");
     m_diceText.setFillColor(sf::Color::White);
-    m_diceText.setPosition(sf::Vector2f{180, 600});
+    m_diceText.setPosition(sf::Vector2f{180, playerXPos[m_playerID] - 3});
 
     m_shared->m_eventManager->addCallback(StateType::GAME, "Key_R", &Player::rollDice, this);
 }

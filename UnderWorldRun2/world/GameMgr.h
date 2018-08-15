@@ -20,6 +20,13 @@
 
 class StateManager;
 
+enum TurnStates {
+    BEGIN,
+    MOVE,
+    END,
+    DEFAULT
+};
+
 class GameMgr {
 public:
     GameMgr(StateManager* stateMgr);
@@ -29,6 +36,8 @@ public:
     
     void update(const sf::Time& l_time);
     void draw(SharedContext* shared);
+    
+    void playGame();
 private:
 
     Map* m_gameMap;
@@ -36,8 +45,10 @@ private:
     sf::Font m_font;
     
     ItemsDeck* m_gameDeck;
-    Player* m_player;
+    std::vector<Player*> m_players;
     
+    int m_gameTurn;
+    TurnStates m_turnState; 
 };
 
 #endif /* GAMEMGR_H */
