@@ -16,9 +16,7 @@
 
 #include "../BaseState.h"
 #include "../../engine/EventManager.h"
-#include "../../world/Map.h"
-#include "../../world/ItemsDeck.h"
-#include "../../world/Player.h"
+#include "../../world/GameMgr.h"
 
 class StateGame : public BaseState {
 public:
@@ -36,18 +34,11 @@ public:
 
     void mainMenu(EventDetails* l_details);
     void pause(EventDetails* l_details);
-    
-    ItemsDeck* getItemsDeck();
+
 private:
-//    sf::Texture m_texture;
-//    sf::Sprite m_sprite;
-//    sf::Vector2f m_increment;
-    Map* m_gameMap;
-    sf::Text m_text;
-    sf::Font m_font;
+
+    GameMgr* m_gameMgr;
     
-    ItemsDeck* m_gameDeck;
-    Player* m_player;
 };
 
 #endif /* STATEGAME_H */
