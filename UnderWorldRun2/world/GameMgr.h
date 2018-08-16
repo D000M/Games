@@ -41,6 +41,8 @@ public:
     
     void playGame();
     void roll(EventDetails* details);
+    
+    void gameLogic();
 private:
 
     Map* m_gameMap;

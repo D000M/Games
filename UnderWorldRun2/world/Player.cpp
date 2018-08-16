@@ -53,6 +53,8 @@ Player::Player(SharedContext* shared, int id)
     m_diceText.setPosition(sf::Vector2f{180, playerXPos[m_playerID] - 3});
 
 //    m_shared->m_eventManager->addCallback(StateType::GAME, "Key_R", &Player::rollDice, this);
+    m_isPlayerTurn = false;
+    m_isPlayerDead = true;
 }
 
 Player::~Player() {
@@ -81,4 +83,28 @@ void Player::setDeck(Item& obj) {
 
 void Player::printDeck() {
     m_playDeck.printDeck();
+}
+
+void Player::setPlayerTurn(bool isPlayerTurn) {
+    m_isPlayerTurn = isPlayerTurn;
+}
+
+bool Player::getPlayerTurn() const {
+    return m_isPlayerTurn;
+}
+
+void Player::setPlayerIsDead(bool isPlayerDead) {
+    m_isPlayerDead = isPlayerDead;
+}
+
+bool Player::getPlayerIsDead() const {
+    return m_isPlayerDead;
+}
+
+int Player::getDiceResult() const {
+    return m_dice.getDice();
+}
+
+void Player::setPlayerPosition(const sf::Vector2f& pos) {
+    m_playerFig.setPosition(pos);
 }

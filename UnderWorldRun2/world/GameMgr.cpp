@@ -48,6 +48,7 @@ GameMgr::GameMgr(StateManager* stateMgr)
     m_gameTurn = 1;
     m_shared->m_eventManager->addCallback(StateType::GAME, "Key_R", &GameMgr::roll, this);
     m_currPlayerTurn = 0;
+    m_players.at(0)->setPlayerTurn(true);
 }
 
 
@@ -68,10 +69,13 @@ ItemsDeck* GameMgr::getItemsDeck() {
 }
 
 void GameMgr::update(const sf::Time& l_time) {
+    
+    gameLogic();
     m_gameMap->update();
     for(int i = 0; i < m_players.size(); i++) {
         m_players.at(i)->update();
     }
+    
 }
 
 void GameMgr::draw(SharedContext* shared) {
@@ -83,9 +87,29 @@ void GameMgr::draw(SharedContext* shared) {
 }
 
 void GameMgr::roll(EventDetails* details) {
-    m_players.at(m_currPlayerTurn)->rollDice();
-    m_currPlayerTurn++;
-    if(m_currPlayerTurn == m_players.size()) {
-        m_currPlayerTurn = 0;
+    if(m_players.at(m_currPlayerTurn)->getPlayerTurn()) {
+        m_players.at(m_currPlayerTurn)->rollDice();
+        m_currPlayerTurn++;
+        if(m_currPlayerTurn == m_players.size()) {
+            m_currPlayerTurn = 0;
+        }
     }
+}
+
+void GameMgr::gameLogic() {
+//    if(m_players.at(m_currPlayerTurn)->getPlayerTurn()) {
+//        std::cout << "11111111111\n";
+//        if(m_players.at(m_currPlayerTurn)->getPlayerIsDead()) {
+//            if(m_players.at(m_currPlayerTurn)->getDiceResult() == 1) {
+//                m_players.at(m_currPlayerTurn)->setPlayerPosition(sf::Vector2f{500, 700});
+//                m_players.at(m_currPlayerTurn)->setPlayerTurn(false);
+//            }
+//            else if( m_players.at(m_currPlayerTurn)->getDiceResult() == 6) {
+//                m_players.at(m_currPlayerTurn)->setPlayerPosition(sf::Vector2f{500, 700});
+//            }
+//            else {
+//                m_players.at(m_currPlayerTurn)->setPlayerTurn(false);
+//            }
+//        }
+//    }
 }

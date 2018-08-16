@@ -34,6 +34,16 @@ public:
     
     void setDeck(Item& obj);
     void printDeck();
+    
+    void setPlayerTurn(bool isPlayerTurn = false);
+    bool getPlayerTurn() const;
+    
+    void setPlayerIsDead(bool isPlayerDead = true);
+    bool getPlayerIsDead() const;
+    
+    int getDiceResult() const;
+    
+    void setPlayerPosition(const sf::Vector2f& pos);
 private:
 
     SharedContext* m_shared;
@@ -46,6 +56,8 @@ private:
     
     PlayerDeck m_playDeck;
     int m_playerID;
+    bool m_isPlayerTurn;
+    bool m_isPlayerDead;
 };
 
 #endif /* PLAYER_H */
