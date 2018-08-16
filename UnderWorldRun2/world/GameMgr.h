@@ -53,6 +53,7 @@ private:
     int m_gameTurn;
     TurnStates m_turnState;
     SharedContext* m_shared;
+    int m_currPlayerTurn;
 };
 
 #endif /* GAMEMGR_H */

@@ -17,21 +17,21 @@
 
 Dice::Dice() 
     : m_diceResult{0} {
-    std::cout << "Dice DEFAULT Constructor\n";
+//    std::cout << "Dice DEFAULT Constructor\n";
 }
 
 Dice::Dice(int n) 
     : m_diceResult{n} {
-    std::cout << "Dice(int n) Constructor\n";
+//    std::cout << "Dice(int n) Constructor\n";
 }
     
 Dice::Dice(const Dice& orig) 
     : m_diceResult{orig.m_diceResult} {
-    std::cout << "Dice COPY Constructor\n";
+//    std::cout << "Dice COPY Constructor\n";
 }
 
 Dice& Dice::operator=(const Dice& obj) {
-    std::cout << "Dice OPERATOR = ";
+//    std::cout << "Dice OPERATOR = ";
     if(this == &obj) {
         return *this;
     }
@@ -40,7 +40,7 @@ Dice& Dice::operator=(const Dice& obj) {
 }
 
 Dice::~Dice() {
-    std::cout << "Dice DESTRUCTOR\n";
+//    std::cout << "Dice DESTRUCTOR\n";
 }
 
 void Dice::setDice(int n) {

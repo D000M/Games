@@ -17,7 +17,7 @@
 Item::Item(ItemType type, const std::string& name) 
     : m_type{type},
       m_itemName{name} {
-        std::cout << "Item: "<< name << ", type: " << typeToString(type) << ", Created\n";
+//        std::cout << "Item: "<< name << ", type: " << typeToString(type) << ", Created\n";
 }
 
 Item::~Item() {

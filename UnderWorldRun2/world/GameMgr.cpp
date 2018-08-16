@@ -47,7 +47,7 @@ GameMgr::GameMgr(StateManager* stateMgr)
     m_turnState = DEFAULT;
     m_gameTurn = 1;
     m_shared->m_eventManager->addCallback(StateType::GAME, "Key_R", &GameMgr::roll, this);
-
+    m_currPlayerTurn = 0;
 }
 
 
@@ -83,5 +83,9 @@ void GameMgr::draw(SharedContext* shared) {
 }
 
 void GameMgr::roll(EventDetails* details) {
-    m_players.at(2)->rollDice();
+    m_players.at(m_currPlayerTurn)->rollDice();
+    m_currPlayerTurn++;
+    if(m_currPlayerTurn == m_players.size()) {
+        m_currPlayerTurn = 0;
+    }
 }

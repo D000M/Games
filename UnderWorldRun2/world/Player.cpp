@@ -72,8 +72,6 @@ void Player::update() {
 
 void Player::rollDice() {
     int result = getRandomInteger(1, 6);
-    std::cout << "---------- result: " << result << std::endl;
-    std::cout << "---------- m_playerID: " << m_playerID << std::endl;
     m_dice.setDice(result);
 }
 
