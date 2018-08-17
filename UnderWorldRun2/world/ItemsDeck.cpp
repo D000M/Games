@@ -20,9 +20,9 @@
 ItemsDeck::ItemsDeck() {
     loadItems("resources/items/itemList");
     std::random_shuffle(items.begin(), items.end());
-    for(int i = 0; i < items.size(); ++i) {
-        items.at(i).printItem();
-    }
+//    for(int i = 0; i < items.size(); ++i) {
+//        items.at(i).printItem();
+//    }
 }
 
 ItemsDeck::~ItemsDeck() {
@@ -56,10 +56,10 @@ Item& ItemsDeck::getItem() {
 }
 
 void ItemsDeck::printRemainingDeck() {
-    std::cout << "------------------------------\n";
-    for(int i = 0; i < items.size(); ++i) {
-        items.at(i).printItem();
-    }
+//    std::cout << "------------------------------\n";
+//    for(int i = 0; i < items.size(); ++i) {
+//        items.at(i).printItem();
+//    }
 }
 
 ItemType ItemsDeck::stringToItemType(const std::string& type) {
