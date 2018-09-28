@@ -43,6 +43,7 @@ public:
     void roll(EventDetails* details);
     
     void gameLogic();
+    void chooseOptions();
 private:
 
     Map* m_gameMap;
@@ -56,6 +57,7 @@ private:
     TurnStates m_turnState;
     SharedContext* m_shared;
     int m_currPlayerTurn;
+    bool m_canRoll;
 };
 
 #endif /* GAMEMGR_H */

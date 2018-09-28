@@ -113,3 +113,16 @@ void GameMgr::gameLogic() {
 //        }
 //    }
 }
+
+void GameMgr::chooseOptions() {
+    int n;
+    std::cout << "Choose what to do at the begining of the turn: ";
+    std::cout << "Press 1 for Rolling\n";
+    std::cin >> n;
+    switch(n) {
+        case 1: 
+            m_canRoll = true;
+            std::cout << "You can press R to roll the dice!\n";
+            break;
+    }
+}

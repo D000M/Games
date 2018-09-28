@@ -1,0 +1,45 @@
+
+#version <version_number>
+in <type> <in_variable_name>;
+in <type> <in_variable_name>;
+
+out <type> <out_variable_name>;
+  
+uniform <type> <uniform_name>;
+  
+void main()
+{
+  // process input(s) and do some weird graphics stuff
+  ...
+  // output processed stuff to output variable
+  <out_variable_name> = <weird_stuff_we_processed>;
+}
+///End of Shader
+
+#############
+Types
+
+GLSL has like any other programming language data types for specifying what kind of variable we want to work with. 
+GLSL has most of the default basic types we know from languages like C: int, float, double, uint and bool. 
+GLSL also features two container types that we'll be using a lot throughout the tutorials, namely vectors and matrices. 
+
+Vectors
+
+A vector in GLSL is a 1,2,3 or 4 component container for any of the basic types just mentioned. 
+They can take the following form (n represents the number of components):
+
+    vecn: the default vector of n floats.
+    bvecn: a vector of n booleans.
+    ivecn: a vector of n integers.
+    uvecn: a vector of n unsigned integers.
+    dvecn: a vector of n double components.
+
+//example using with swizzling
+vec2 someVec;
+vec4 differentVec = someVec.xyxx;
+vec3 anotherVec = differentVec.zyw;
+vec4 otherVec = someVec.xxxx + anotherVec.yxzy;
+
+vec2 vect = vec2(0.5, 0.7);
+vec4 result = vec4(vect, 0.0, 0.0);
+vec4 otherResult = vec4(result.xyz, 1.0);

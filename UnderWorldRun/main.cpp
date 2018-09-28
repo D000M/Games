@@ -14,21 +14,17 @@
 #include <cstdlib>
 #include <iostream>
 
-#include "engine/Game.h"
+#include "opengl/ch1.h"
+#include "opengl/GLSLhelp.h"
+#include "opengl/classes/ch2.h"
+
+//#include "engine/Game.h"
 
 using namespace std;
 
-/*
- * 
- */
 int main(int argc, char** argv) {
 
-    Game game;
-    while(!game.getGameWindow()->isClosed()) {
-        game.update();
-        game.render();
-        game.lateUpdate();
-    }
+    excersiceOne();
     
     return 0;
 }
