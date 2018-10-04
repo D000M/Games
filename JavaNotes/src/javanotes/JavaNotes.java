@@ -5,6 +5,8 @@
  */
 package javanotes;
 
+import timers.ElapsedTime;
+
 /**
  *
  * @author default
@@ -16,8 +18,11 @@ public class JavaNotes {
      */
     public static void main(String[] args) {
         
-        eckels.gui.GUIDemo.runGUIDemo();
+        ElapsedTime.startTime();
+
         
+        ElapsedTime.stopTime();
+        ElapsedTime.measuredTimeSeconds();
     }
     
 }
