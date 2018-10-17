@@ -21,6 +21,7 @@
 #include <fstream>
 #include <sstream>
 #include <iostream>
+#include <vector>
 
 /**
  Shade Class use like this
@@ -40,7 +41,8 @@ public:
     
     //constructor reads and build shader
     Shader(const GLchar* vertexPath, const GLchar* fragmentPath);
-
+    Shader(const GLchar* vertexPath, const GLchar* fragmentPath, std::vector<std::string>& attribs);
+    
     //use/activate the shader
     void use();
     
