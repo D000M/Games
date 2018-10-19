@@ -10,12 +10,29 @@ import chapter3.ExcersicesCh3;
 import chapter4.ExcersicesCh4;
 import chapter5.DiceRollStats2;
 import chapter5.TestProgram;
+import eckels.gui.ClickableRandomStrings2;
 import eckels.gui.GrowingCircleAnimation;
+import eckels.gui.HighLowGUI;
+import eckels.gui.KeyBoardAndFocusDemo;
+import eckels.gui.NullLayoutDemo;
+import eckels.gui.RandomArt;
 import eckels.gui.RandomMosaicWalk2;
+import eckels.gui.RandomStrings;
 import eckels.gui.RunGUI;
+import eckels.gui.SimpleCalc;
+import eckels.gui.SimpleColorChooser;
+import eckels.gui.SimplePaint;
+import eckels.gui.SimpleStamper;
+import eckels.gui.SimpleTrackMouse;
+import eckels.gui.SliderAndDemoButton;
+import eckels.gui.SliderDemo;
+import eckels.gui.SubKiller;
+import eckels.gui.TextAreaDemo;
 import eckels.gui.text.BlackJackGame;
 import eckels.gui.text.TestBlackJackEx;
 import eckels.gui.text.shapes.ShapeDraw;
+import java.awt.TextArea;
+import myGUI.Calculator;
 import timers.ElapsedTime;
 
 /**
@@ -31,8 +48,8 @@ public class JavaNotes {
 
         ElapsedTime.startTime();
 
-        BlackJackGame bjGame = new BlackJackGame(100);
-
+        HighLowGUI.runHighLowGUI();
+        
         ElapsedTime.stopTime();
         ElapsedTime.measuredTimeSeconds();
     }
