@@ -10,10 +10,15 @@ import chapter3.ExcersicesCh3;
 import chapter4.ExcersicesCh4;
 import chapter5.DiceRollStats2;
 import chapter5.TestProgram;
+import chapter6.GraphicDices;
+import chapter6.SelectableSquares;
+import chapter6.SquaresMoving;
+import chapter6.SubKillerV2;
 import eckels.gui.ClickableRandomStrings2;
 import eckels.gui.GrowingCircleAnimation;
 import eckels.gui.HighLowGUI;
 import eckels.gui.KeyBoardAndFocusDemo;
+import eckels.gui.MosaicDraw;
 import eckels.gui.NullLayoutDemo;
 import eckels.gui.RandomArt;
 import eckels.gui.RandomMosaicWalk2;
@@ -21,6 +26,7 @@ import eckels.gui.RandomStrings;
 import eckels.gui.RunGUI;
 import eckels.gui.SimpleCalc;
 import eckels.gui.SimpleColorChooser;
+import eckels.gui.SimpleDialogDemo;
 import eckels.gui.SimplePaint;
 import eckels.gui.SimpleStamper;
 import eckels.gui.SimpleTrackMouse;
@@ -48,7 +54,7 @@ public class JavaNotes {
 
         ElapsedTime.startTime();
 
-        HighLowGUI.runHighLowGUI();
+        SubKillerV2.runSubKiller();
         
         ElapsedTime.stopTime();
         ElapsedTime.measuredTimeSeconds();

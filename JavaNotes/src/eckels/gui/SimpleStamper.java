@@ -9,6 +9,7 @@ import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import java.awt.event.MouseMotionListener;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
@@ -26,7 +27,7 @@ import javax.swing.JPanel;
  * if the panel is resized.
  * This class has a main() routine to allow it to be run as an application.
  */
-public class SimpleStamper extends JPanel implements MouseListener{
+public class SimpleStamper extends JPanel implements MouseListener, MouseMotionListener{
 
     public static void runSimpleStamper() {
         JFrame window = new JFrame("Simple Stamper");
@@ -38,6 +39,8 @@ public class SimpleStamper extends JPanel implements MouseListener{
         window.setVisible(true);
     }
 
+    int prevX, prevY;
+    
     /**
     * This constructor simply sets the background color of the panel to be black
     * and sets the panel to listen for mouse events on itself.
@@ -45,8 +48,9 @@ public class SimpleStamper extends JPanel implements MouseListener{
     public SimpleStamper() {
         setBackground(Color.BLACK);
         addMouseListener(this);
+        addMouseMotionListener(this);
     }
-    
+
     
     @Override
     public void mouseClicked(MouseEvent e) {
@@ -74,7 +78,8 @@ public class SimpleStamper extends JPanel implements MouseListener{
         
         Graphics g = getGraphics();         // Graphics context for drawing directly.
                                             // NOTE: This is considered to be bad style!
-                                            
+        prevX = x;
+        prevY = y;
         if(e.isMetaDown()) {
              // User right-clicked at the point (x,y). Draw a blue oval centered 
              // at the point (x,y). (A black outline around the oval will make it 
@@ -108,6 +113,42 @@ public class SimpleStamper extends JPanel implements MouseListener{
 
     @Override
     public void mouseExited(MouseEvent e) {
+    }
+
+    @Override
+    public void mouseDragged(MouseEvent e) {
+        
+        int x = e.getX();
+        int y = e.getY();
+                
+        Graphics g = getGraphics();
+        if(prevX < x - 5 || prevX > x + 5 || prevY > y + 5 || prevY < y - 5) {
+            if(e.isMetaDown()) {
+                 // User right-clicked at the point (x,y). Draw a blue oval centered 
+                 // at the point (x,y). (A black outline around the oval will make it 
+                 // more distinct when shapes overlap.)
+                 g.setColor(Color.BLUE);
+                 g.fillOval(x - 30, y - 15, 60, 30);    //Blue interior
+                 g.setColor(Color.BLACK);
+                 g.drawOval(x - 30, y - 15, 60, 30);    //Black outline
+            }
+            else {
+                // User left-clicked (or middle-clicked) at (x,y). 
+                // Draw a red rectangle centered at (x,y).
+                g.setColor(Color.RED);
+                g.fillRect(x - 30, y - 15, 60, 30); //red interior
+                g.setColor(Color.BLACK);
+                g.drawRect(x - 30, y - 15, 60, 30); //black outline
+            }
+            prevX = x;
+            prevY = y;
+        }
+        g.dispose();
+    }
+
+    @Override
+    public void mouseMoved(MouseEvent e) {
+        
     }
     
 }
