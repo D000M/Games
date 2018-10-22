@@ -11,6 +11,7 @@ import chapter4.ExcersicesCh4;
 import chapter5.DiceRollStats2;
 import chapter5.TestProgram;
 import chapter6.GraphicDices;
+import chapter6.GraphicStatCalc;
 import chapter6.SelectableSquares;
 import chapter6.SquaresMoving;
 import chapter6.SubKillerV2;
@@ -54,7 +55,7 @@ public class JavaNotes {
 
         ElapsedTime.startTime();
 
-        SubKillerV2.runSubKiller();
+        GraphicStatCalc.runGraphicStatCalc();
         
         ElapsedTime.stopTime();
         ElapsedTime.measuredTimeSeconds();

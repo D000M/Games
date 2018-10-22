@@ -6,6 +6,7 @@
 package chapter6;
 
 import java.awt.Color;
+import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
@@ -64,7 +65,7 @@ public class SubKillerV2 extends JPanel{
                                 //    Note that the objects are created in the
                                 //    paintComponent() method, after the width
                                 //    and height of the panel are known.
-
+    private String gameStats;
     /**
      * The constructor sets the background color of the panel, creates the
      * timer, and adds a KeyListener, FocusListener, and MouseListener to the
@@ -178,6 +179,11 @@ public class SubKillerV2 extends JPanel{
         boat.draw(g);
         sub.draw(g);
         bomb.draw(g);
+        if(hasFocus()) {
+            g.setFont(new Font("Serif", Font.PLAIN, 18));
+            g.setColor(Color.BLUE);
+            g.drawString("Total Hits: " + bomb.hits + ", Total Misses: " + bomb.misses, 150, 25);
+        }
     }   //end paintComponent()
     
     /**
@@ -211,7 +217,8 @@ public class SubKillerV2 extends JPanel{
         
         boolean isFalling;      // If true, the bomb is falling; if false, it
                                 // is attached to the boat.
-
+        int hits = 0;
+        int misses = 0;
         public Bomb() { // Constructor creates a bomb that is initially attached to boat.
             isFalling = false;
         }
@@ -221,6 +228,7 @@ public class SubKillerV2 extends JPanel{
                     // Bomb has missed the submarine.  It is returned to its
                     // initial state, with isFalling equal to false.
                     isFalling = false;
+                    misses++;
                 }
                 else if(Math.abs(centerX - sub.centerX) <= 36 && Math.abs(centerY - sub.centerY) <= 21) {
                     // Bomb has hit the submarine.  The submarine
@@ -228,6 +236,7 @@ public class SubKillerV2 extends JPanel{
                     sub.isExploding = true;
                     sub.explosionFrameNumber = 1;
                     isFalling = false;
+                    hits++;
                 }
                 else {
                     // If the bomb has not fallen off the panel or hit the

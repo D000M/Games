@@ -67,7 +67,7 @@ public class StatCalc {
      */
     public double getStandardDeviation() {
         double mean = getMean();
-        return Math.sqrt(squareSum / mean - mean * mean);
+        return Math.sqrt(squareSum / count - mean * mean);
     }
     
     /**
