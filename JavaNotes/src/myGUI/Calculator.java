@@ -118,25 +118,27 @@ public class Calculator extends JPanel implements ActionListener, KeyListener{
             case "9": result += "9";
                 isOperationOn = false;
                 break;
-            case "+": operation = '+';
+            case "+": 
                 setNumbers();
                 isFirstNum = !isFirstNum;
                 result = "";
                 if(firstNum != 0 && secondNum != 0) {
                     processResult();
                 }
+                operation = '+';
                 isOperationOn = true;
                 break;
-            case "-": operation = '-';
+            case "-": 
                 setNumbers();
                 isFirstNum = !isFirstNum;
                 result = "";
                 if(firstNum != 0 && secondNum != 0) {
                     processResult();
                 }
+                operation = '-';
                 isOperationOn = true;
                 break;
-            case "*": operation = '*';
+            case "*": 
                 setNumbers();
                 isFirstNum = !isFirstNum;
                 result = "";
@@ -144,8 +146,9 @@ public class Calculator extends JPanel implements ActionListener, KeyListener{
                     processResult();
                 }
                 isOperationOn = true;
+                operation = '*';
                 break;
-            case "/": operation = '/';
+            case "/": 
                 setNumbers();
                 isFirstNum = !isFirstNum;
                 result = "";
@@ -153,6 +156,7 @@ public class Calculator extends JPanel implements ActionListener, KeyListener{
                     processResult();
                 }
                 isOperationOn = true;
+                operation = '/';
                 break;
             case "=": 
                 setNumbers();
@@ -160,6 +164,7 @@ public class Calculator extends JPanel implements ActionListener, KeyListener{
                 if(firstNum != 0 && secondNum != 0) {
                     processResult();
                 }
+                operation = ' ';
                 isOperationOn = true;
                 break;
             default: break;
@@ -203,11 +208,13 @@ public class Calculator extends JPanel implements ActionListener, KeyListener{
     }
     
     private void setNumbers() {
-        if(isFirstNum) {
-            firstNum = Double.parseDouble(result);
-        }
-        else {
-            secondNum = Double.parseDouble(result);
+        if(!result.equals("")) {
+            if(isFirstNum) {
+                firstNum = Double.parseDouble(result);
+            }
+            else {
+                secondNum = Double.parseDouble(result);
+            }
         }
     }
 
