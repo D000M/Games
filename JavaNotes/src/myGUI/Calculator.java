@@ -153,7 +153,7 @@ public class Calculator extends JPanel implements ActionListener{
                 isOperationOn = true;
                 break;
             case "=": 
-                processResult();
+                setNumbers();
                 result = "";
                 if(firstNum != 0 && secondNum != 0) {
                     processResult();
@@ -170,10 +170,7 @@ public class Calculator extends JPanel implements ActionListener{
     private void processResult() {
         switch(operation) {
             case '+':
-                System.out.println(firstNum + " " + secondNum + " = " + (firstNum + secondNum));
-                String sum = " " + doSum();
-                inputField.setText(sum);
-                System.out.println("InputField: " + inputField.getText());
+                inputField.setText("" + doSum());
                 break;
             case '-':
                 inputField.setText("" + doSubstraction());
@@ -185,7 +182,6 @@ public class Calculator extends JPanel implements ActionListener{
                 inputField.setText("" + doMultiply());
                 break;
         }
-        System.out.println("Operation: " + operation);
     } //end processResult()
     
     private double doSum() {
