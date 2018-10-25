@@ -119,9 +119,12 @@ public class Calculator extends JPanel implements ActionListener, KeyListener{
                 isOperationOn = false;
                 break;
             case "+": 
-                setNumbers();
+                if(!inputField.getText().equals("")) {
+                    setNumbers();
+                }
                 isFirstNum = !isFirstNum;
                 result = "";
+                inputField.setText(result);
                 if(firstNum != 0 && secondNum != 0) {
                     processResult();
                 }
@@ -129,9 +132,12 @@ public class Calculator extends JPanel implements ActionListener, KeyListener{
                 isOperationOn = true;
                 break;
             case "-": 
-                setNumbers();
+                if(!inputField.getText().equals("")) {
+                    setNumbers();
+                }
                 isFirstNum = !isFirstNum;
                 result = "";
+                inputField.setText(result);
                 if(firstNum != 0 && secondNum != 0) {
                     processResult();
                 }
@@ -139,9 +145,12 @@ public class Calculator extends JPanel implements ActionListener, KeyListener{
                 isOperationOn = true;
                 break;
             case "*": 
-                setNumbers();
+                if(!inputField.getText().equals("")) {
+                    setNumbers();
+                }
                 isFirstNum = !isFirstNum;
                 result = "";
+                inputField.setText(result);
                 if(firstNum != 0 && secondNum != 0) {
                     processResult();
                 }
@@ -149,29 +158,38 @@ public class Calculator extends JPanel implements ActionListener, KeyListener{
                 operation = '*';
                 break;
             case "/": 
-                setNumbers();
+                if(!inputField.getText().equals("")) {
+                    setNumbers();
+                }
                 isFirstNum = !isFirstNum;
                 result = "";
+                inputField.setText(result);
                 if(firstNum != 0 && secondNum != 0) {
                     processResult();
                 }
                 isOperationOn = true;
                 operation = '/';
                 break;
-            case "=": 
-                setNumbers();
+            case "=":
+                if(!inputField.getText().equals("")) {
+                    setNumbers();
+                }
                 result = "";
+                inputField.setText(result);
                 if(firstNum != 0 && secondNum != 0) {
                     processResult();
                 }
+                
                 operation = ' ';
                 isOperationOn = true;
+                
                 break;
             default: break;
         }
         if(isOperationOn == false) {
             inputField.setText(result);
         }
+        inputField.requestFocusInWindow();
     } //end ActionPerformed
     
     private void processResult() {
@@ -208,14 +226,14 @@ public class Calculator extends JPanel implements ActionListener, KeyListener{
     }
     
     private void setNumbers() {
-        if(!result.equals("")) {
+//        if(!result.equals("")) {
             if(isFirstNum) {
-                firstNum = Double.parseDouble(result);
+                firstNum = Double.parseDouble(inputField.getText());
             }
             else {
-                secondNum = Double.parseDouble(result);
+                secondNum = Double.parseDouble(inputField.getText());
             }
-        }
+//        }
     }
 
     @Override
