@@ -42,6 +42,8 @@ public class GraphicBlackJack extends JPanel implements ActionListener{
     JLabel dealerLabel, playerLabel, message, moneyLbl;
     JButton hitButton, standButton, newGameBtn;
     
+    JLabel betLbl;
+            
     GamePanel gamePanel;
     
     private Deck gameDeck;
@@ -51,7 +53,7 @@ public class GraphicBlackJack extends JPanel implements ActionListener{
     boolean isEndGame;
     boolean isPlayerWin;
     
-    int playerMoney = 100;
+    int playerMoney = 1000;
     JTextField inputBet;
     
     public GraphicBlackJack() {
@@ -82,7 +84,7 @@ public class GraphicBlackJack extends JPanel implements ActionListener{
         newGameBtn.addActionListener(this);
         buttonBar.add(newGameBtn);
         
-        inputBet = new JTextField("Bet: ", 10);
+        inputBet = new JTextField(10);
         inputBet.addActionListener(this);
         inputBet.setEnabled(false);
         buttonBar.add(inputBet);
@@ -100,7 +102,7 @@ public class GraphicBlackJack extends JPanel implements ActionListener{
         playerHand = new BlackJackHand();
         dealerHand = new BlackJackHand();
         gameDeck.shuffle();
-        
+                
         playerHand.addCard(gameDeck.dealCard());
         playerHand.addCard(gameDeck.dealCard());
         dealerHand.addCard(gameDeck.dealCard());
@@ -111,6 +113,7 @@ public class GraphicBlackJack extends JPanel implements ActionListener{
         
         dealerLabel.setText("Dealer Cards: ");
         playerLabel.setText("Player Cards: ");
+        moneyLbl.setText("You Have: " + playerMoney + "$");
         message.setText("You Have " + playerHand.getBlackJackValue() + ". Hit or Stand?");
         message.setBounds(10, 260, 480, 22);
         
@@ -162,6 +165,7 @@ public class GraphicBlackJack extends JPanel implements ActionListener{
             isPlayerWin = true;
             isEndGame = true;
             message.setText("You Win! Black Jack.");
+            addMoneyToPlayer();
             setUpStartGameButtons();
         }
     }
@@ -185,23 +189,29 @@ public class GraphicBlackJack extends JPanel implements ActionListener{
         }
         if(isPlayerWin) {
             message.setText("You Win " + playerHand.getBlackJackValue() + ". New Game or Exit?");
+            addMoneyToPlayer();
         }
         else {
             message.setText("You Lose " + playerHand.getBlackJackValue() + ". New Game or Exit?");
         }
         setUpStartGameButtons();
     }
-    
+    void addMoneyToPlayer() {
+        playerMoney += Integer.parseInt(inputBet.getText()) * 2;
+    }
     void setUpStartGameButtons() {
         hitButton.setEnabled(false);
         standButton.setEnabled(false);
         inputBet.setEnabled(true);
         newGameBtn.setEnabled(true);
+        betLbl.setEnabled(true);
     }
     void setUpPlayButtons() {
         newGameBtn.setEnabled(false);
         hitButton.setEnabled(true);
         standButton.setEnabled(true);
+        inputBet.setEnabled(false);
+        betLbl.setEnabled(false);
     }
     @Override
     public void actionPerformed(ActionEvent e) {
@@ -216,6 +226,20 @@ public class GraphicBlackJack extends JPanel implements ActionListener{
                 stand();
                 break;
             case "New Game":
+                try {
+                    String getInputTxt = inputBet.getText();
+                    if(playerMoney < Integer.parseInt(getInputTxt)) {
+                        message.setText("Not Enough Money To Bet.");
+                        inputBet.requestFocusInWindow();
+                        return;
+                    }
+                    playerMoney -= Integer.parseInt(getInputTxt);
+                }
+                catch(NumberFormatException ex) {
+                    message.setText("Illegal symbol in bet field.");
+                    inputBet.requestFocusInWindow();
+                    return;
+                }
                 doNewGame();
                 break;
         }
@@ -239,10 +263,18 @@ public class GraphicBlackJack extends JPanel implements ActionListener{
             playerLabel = new JLabel();
             add(playerLabel);
             
-            
+            moneyLbl = new JLabel();
+            add(moneyLbl);
             
             message = new JLabel("Press start New Game");
             add(message);
+            
+            betLbl = new JLabel("Place Bet: ");
+            add(betLbl);
+            betLbl.setBounds(365, 260, 150, 22);
+            betLbl.setFont(new Font("Serif", Font.PLAIN, 18));
+            betLbl.setForeground(new Color(0, 150, 0));
+            
             
             dealerLabel.setBounds(10, 5, 200, 22);
             dealerLabel.setFont(new Font("Serif", Font.PLAIN, 18));
@@ -250,6 +282,9 @@ public class GraphicBlackJack extends JPanel implements ActionListener{
             playerLabel.setBounds(10, 140, 200, 22);
             playerLabel.setFont(new Font("Serif", Font.PLAIN, 18));
             playerLabel.setForeground(new Color(120, 150, 180));
+            moneyLbl.setBounds(150, 140, 480, 22);
+            moneyLbl.setFont(new Font("Serif", Font.PLAIN, 18));
+            moneyLbl.setForeground(new Color(0, 150, 0));
             message.setBounds(476 / 2 - 100, 286 / 2 - 22, 480, 22);
             message.setFont(new Font("Serif", Font.PLAIN, 18));
             message.setForeground(new Color(120, 150, 180));

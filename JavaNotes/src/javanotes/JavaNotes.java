@@ -17,6 +17,9 @@ import chapter6.PolygonDrawing;
 import chapter6.SelectableSquares;
 import chapter6.SquaresMoving;
 import chapter6.SubKillerV2;
+import chapter6.TextInfo;
+import chapter7.Life;
+import eckels.gui.Checkers;
 import eckels.gui.ClickableRandomStrings2;
 import eckels.gui.GrowingCircleAnimation;
 import eckels.gui.HighLowGUI;
@@ -31,6 +34,7 @@ import eckels.gui.SimpleCalc;
 import eckels.gui.SimpleColorChooser;
 import eckels.gui.SimpleDialogDemo;
 import eckels.gui.SimplePaint;
+import eckels.gui.SimplePaint2;
 import eckels.gui.SimpleStamper;
 import eckels.gui.SimpleTrackMouse;
 import eckels.gui.SliderAndDemoButton;
@@ -57,7 +61,7 @@ public class JavaNotes {
 
         ElapsedTime.startTime();
 
-        GraphicBlackJack.runGraphicBlackJack();
+        Calculator.runCalculator();
         
         ElapsedTime.stopTime();
         ElapsedTime.measuredTimeSeconds();
