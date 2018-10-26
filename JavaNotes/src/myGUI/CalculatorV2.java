@@ -304,7 +304,6 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
         }
         else {
             prevResult = currResult;
-            
             currResult = "";
         }
         if(!prevOperation.equals("=")) {
@@ -317,6 +316,9 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
     }
     
     private void setLabel() {
+        if(label.length() != 0) {
+            label.delete(0, label.length() - 1);
+        }
         label.append(prevResult);
         label.append(prevOperation);
         label.append(currResult);
