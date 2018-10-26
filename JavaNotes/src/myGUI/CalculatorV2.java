@@ -58,24 +58,25 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
         
         label = new StringBuilder();
         
-        setPreferredSize(new Dimension(320, 320));
+        setPreferredSize(new Dimension(320, 340));
         
         totalOperations = new JLabel();
-        totalOperations.setFont(new Font(Font.MONOSPACED, Font.ITALIC, 12));
+        totalOperations.setFont(new Font(Font.MONOSPACED, Font.ITALIC, 18));
         totalOperations.setBorder(BorderFactory.createEtchedBorder(Color.BLACK, Color.DARK_GRAY));
         add(totalOperations);
-        totalOperations.setBounds(5, 5, 310, 15);
+        totalOperations.setBounds(5, 5, 310, 25);
         
         m_inputField = new JTextField(10);
         m_inputField.setBorder(BorderFactory.createEtchedBorder(Color.BLACK, Color.DARK_GRAY));
         add(m_inputField);
-        m_inputField.setBounds(20, 23, 280, 35);
+        m_inputField.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 22));
+        m_inputField.setBounds(20, 38, 280, 35);
         
         m_buttons = new ArrayList<JButton>();
         
         setButtons();
         //Set Buttons Position
-        int yPos = 110;
+        int yPos = 130;
         int xPos = 48;
         int count = 0;
         for(int i = 0; i < m_buttons.size(); i++) {
@@ -99,19 +100,19 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
                 yPos = 48;
             }
             if(i > 10 && i < 15) {
-                 m_buttons.get(i).setBounds(20 + count * xPos, 62, 45, 45);
+                 m_buttons.get(i).setBounds(20 + count * xPos, 82, 45, 45);
             }
             if(m_buttons.get(i).getText().equals("+")) {
-                m_buttons.get(i).setBounds(20 + count * xPos, 110, 45, 93);
+                m_buttons.get(i).setBounds(20 + count * xPos, 130, 45, 93);
             }
             if(m_buttons.get(i).getText().equals("=")) {
-                m_buttons.get(i).setBounds(20 + count * xPos, 206, 45, 93);
+                m_buttons.get(i).setBounds(20 + count * xPos, 226, 45, 93);
             }
             if(i < 14) {
                 count++;
             }
             if(i > 16) {
-                m_buttons.get(i).setBounds(20 + count * xPos + 55, yPos + 14, 45, 45);
+                m_buttons.get(i).setBounds(20 + count * xPos + 55, yPos + 34, 45, 45);
                 yPos += 48;
             }
             
