@@ -46,8 +46,6 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
     String finalResult;
     String prevOperation;
     StringBuilder label;
-    double currNumber;
-    double prevNumber;
     
     public CalculatorV2() {
         
@@ -59,9 +57,6 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
         prevOperation = "";
         
         label = new StringBuilder();
-        
-        currNumber = 0;
-        prevNumber = 0;
         
         setPreferredSize(new Dimension(320, 320));
         
@@ -320,10 +315,13 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
             label.delete(0, label.length() - 1);
         }
         label.append(prevResult);
+        label.append(" ");
         label.append(prevOperation);
+        label.append(" ");
         label.append(currResult);
-        label.append("=");
-        label.append(finalResult + " ");
+        label.append(" = ");
+        label.append(finalResult);
+        label.append(" ");
     }
     
     double doSum() {
@@ -402,11 +400,25 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
         m_inputField.setText(currResult);
     }
 
+    void reset() {
+        currResult = "";
+        prevResult = "";
+        finalResult = "";
+        prevOperation = "";
+        if(label.length() != 0) {
+            label.delete(0, label.length() - 1);
+        }
+        m_inputField.setText("");
+    }
+    
     @Override
     public void actionPerformed(ActionEvent e) {
         
         String command = e.getActionCommand();
         setNumber(command);
+        if(command.equals("C") || command.equals("AC")) {
+            reset();
+        }
         if(!m_inputField.getText().equals("")) {
             setOperation(command);
         }
