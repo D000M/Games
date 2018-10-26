@@ -16,6 +16,7 @@ import java.util.ArrayList;
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
@@ -37,12 +38,14 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
     }
     
     JTextField m_inputField;
+    JLabel totalOperations;
     ArrayList<JButton> m_buttons;
     
     String currResult;
     String prevResult;
     String finalResult;
     String prevOperation;
+    StringBuilder label;
     double currNumber;
     double prevNumber;
     
@@ -54,14 +57,24 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
         prevResult = "";
         finalResult = "";
         prevOperation = "";
+        
+        label = new StringBuilder();
+        
         currNumber = 0;
         prevNumber = 0;
         
         setPreferredSize(new Dimension(320, 320));
+        
+        totalOperations = new JLabel();
+        totalOperations.setFont(new Font(Font.MONOSPACED, Font.ITALIC, 12));
+        totalOperations.setBorder(BorderFactory.createEtchedBorder(Color.BLACK, Color.DARK_GRAY));
+        add(totalOperations);
+        totalOperations.setBounds(5, 5, 310, 15);
+        
         m_inputField = new JTextField(10);
         m_inputField.setBorder(BorderFactory.createEtchedBorder(Color.BLACK, Color.DARK_GRAY));
         add(m_inputField);
-        m_inputField.setBounds(20, 20, 280, 35);
+        m_inputField.setBounds(20, 23, 280, 35);
         
         m_buttons = new ArrayList<JButton>();
         
@@ -262,6 +275,9 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
         else if(prevOperation.equals("/")) {
             finalResult = "" + doDivision();
         }
+        setLabel();
+        
+        totalOperations.setText(label.toString());
         m_inputField.setText(finalResult);
     }
     
@@ -269,28 +285,43 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
         if(!prevResult.equals("")) {
             if(prevOperation.equals("+")) {
                 finalResult = "" + doSum();
+                setLabel();
             }
             else if(prevOperation.equals("-")) {
                 finalResult = "" + doSubstraction();
+                setLabel();
             }
             else if(prevOperation.equals("*")) {
                 finalResult = "" + doMultiply();
+                setLabel();
             }
             else if(prevOperation.equals("/")) {
                 finalResult = "" + doDivision();
+                setLabel();
             }
             prevResult = finalResult;
-            currResult = "";
+            
         }
         else {
             prevResult = currResult;
+            
             currResult = "";
         }
         if(!prevOperation.equals("=")) {
             prevOperation = s;
         }
+        currResult = "";
+        totalOperations.setText(label.toString());
         m_inputField.setText(finalResult);
         
+    }
+    
+    private void setLabel() {
+        label.append(prevResult);
+        label.append(prevOperation);
+        label.append(currResult);
+        label.append("=");
+        label.append(finalResult + " ");
     }
     
     double doSum() {
