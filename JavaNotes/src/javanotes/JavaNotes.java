@@ -46,6 +46,7 @@ import eckels.gui.text.TestBlackJackEx;
 import eckels.gui.text.shapes.ShapeDraw;
 import java.awt.TextArea;
 import myGUI.Calculator;
+import myGUI.CalculatorV2;
 import timers.ElapsedTime;
 
 /**
@@ -61,7 +62,7 @@ public class JavaNotes {
 
         ElapsedTime.startTime();
 
-        Calculator.runCalculator();
+        CalculatorV2.runCalc();
         
         ElapsedTime.stopTime();
         ElapsedTime.measuredTimeSeconds();
