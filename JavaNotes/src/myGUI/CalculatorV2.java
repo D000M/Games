@@ -51,7 +51,7 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
     String prevOperation;
     StringBuilder label;
     boolean isNegativeNumber;
-    boolean isPointTyped;
+    
     public CalculatorV2() {
         
         setLayout(null);
@@ -61,7 +61,6 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
         finalResult = "";
         prevOperation = "";
         isNegativeNumber = false;
-        isPointTyped = false;
         label = new StringBuilder();
         
         setPreferredSize(new Dimension(320, 340));
@@ -483,11 +482,9 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
                 if(currResult.equals("")) {
                     m_inputField.setText("0");
                     currResult += "0.";
-                    isPointTyped = true;
                 }
                 else {
                     if(!isPointSet()) {
-                        isPointTyped = true;
                         currResult += ".";
                     }
                 }
