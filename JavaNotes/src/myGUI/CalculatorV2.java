@@ -33,7 +33,7 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
         window.pack();
         window.setLocation(450, 350);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        window.setResizable(false);
+        window.setResizable(true);
         window.setVisible(true);
     }
     
@@ -46,6 +46,7 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
     String finalResult;
     String prevOperation;
     StringBuilder label;
+    boolean isNegativeNumber;
     
     public CalculatorV2() {
         
@@ -55,7 +56,7 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
         prevResult = "";
         finalResult = "";
         prevOperation = "";
-        
+        isNegativeNumber = false;
         label = new StringBuilder();
         
         setPreferredSize(new Dimension(320, 340));
@@ -158,6 +159,12 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
     private void setNumber(String s) {
 
         switch(s) {
+            case "-":
+                if(currResult.equals("")) {
+                    currResult += "-";
+                    isNegativeNumber = true;
+                }
+            break;
             case "0":
                 if(currResult.equals("")) {
                     currResult += "0.";
@@ -167,33 +174,43 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
                 }
                 break;
             case "1":
+                isNegativeNumber = false;
                 currResult += "1";
                 break;
             case "2":
+                isNegativeNumber = false;
                 currResult += "2";
                 break;
             case "3":
+                isNegativeNumber = false;
                 currResult += "3";
                 break;
             case "4":
+                isNegativeNumber = false;
                 currResult += "4";
                 break;
             case "5":
+                isNegativeNumber = false;
                 currResult += "5";
                 break;
             case "6":
+                isNegativeNumber = false;
                 currResult += "6";
                 break;
             case "7":
+                isNegativeNumber = false;
                 currResult += "7";
                 break;
             case "8":
+                isNegativeNumber = false;
                 currResult += "8";
                 break;
             case "9":
+                isNegativeNumber = false;
                 currResult += "9";
                 break;
             case ".":
+                isNegativeNumber = false;
                 if(currResult.equals("")) {
                     currResult += "0.";
                 }
@@ -349,7 +366,16 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
     }
     
     private void setTypedNumber(char c) {
+        if(currResult.equals("")) {
+            m_inputField.setText("");
+        }
         switch(c) {
+            case '-':
+                if(currResult.equals("")) {
+                    currResult += "-";
+                    isNegativeNumber = true;
+                }
+                break;
             case '0':
                 if(currResult.equals("")) {
                     currResult += "0.";
@@ -357,35 +383,46 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
                 else {
                     currResult += "0";
                 }
+                isNegativeNumber = false;
                 break;
             case '1':
+                isNegativeNumber = false;
                 currResult += "1";
                 break;
             case '2':
+                isNegativeNumber = false;
                 currResult += "2";
                 break;
             case '3':
+                isNegativeNumber = false;
                 currResult += "3";
                 break;
             case '4':
+                isNegativeNumber = false;
                 currResult += "4";
                 break;
             case '5':
+                isNegativeNumber = false;
                 currResult += "5";
                 break;
             case '6':
+                isNegativeNumber = false;
                 currResult += "6";
                 break;
             case '7':
+                isNegativeNumber = false;
                 currResult += "7";
                 break;
             case '8':
+                isNegativeNumber = false;
                 currResult += "8";
                 break;
             case '9':
+                isNegativeNumber = false;
                 currResult += "9";
                 break;
             case '.':
+                isNegativeNumber = false;
                 if(currResult.equals("")) {
                     currResult += "0.";
                 }
@@ -397,8 +434,9 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
                 break;
             default:
                 break;
+                
         }
-        m_inputField.setText(currResult);
+
     }
 
     void reset() {
@@ -420,7 +458,7 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
         if(command.equals("C") || command.equals("AC")) {
             reset();
         }
-        if(!m_inputField.getText().equals("")) {
+        if(!m_inputField.getText().equals("") && !isNegativeNumber) {
             setOperation(command);
         }
         m_inputField.requestFocusInWindow();
@@ -432,17 +470,30 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
         if(!(Character.isDigit(c) || c == KeyEvent.VK_BACK_SPACE || 
                 c == KeyEvent.VK_DELETE || c == KeyEvent.VK_PLUS || c == KeyEvent.VK_EQUALS || c == KeyEvent.VK_MINUS
                 || c == KeyEvent.VK_MULTIPLY || c == KeyEvent.VK_DIVIDE || c == KeyEvent.VK_SUBTRACT 
-                || c == KeyEvent.VK_SLASH || c == KeyEvent.VK_PERIOD)) {
+                || c == KeyEvent.VK_SLASH || c == KeyEvent.VK_PERIOD) || c == KeyEvent.VK_ENTER) {
             e.consume();
         }
         if(m_inputField.getText().equals("") && !(Character.isDigit(c))) {
+            if(c == KeyEvent.VK_MINUS) {
+            }
+            else {
+                e.consume();
+                return;
+            }
+        }
+        if(isNegativeNumber && c == KeyEvent.VK_MINUS) {
             e.consume();
         }
+
         setTypedNumber(c);
-        if(!m_inputField.getText().equals("")) {
+        if(!m_inputField.getText().equals("") && !isNegativeNumber  && !(Character.isDigit(c))) {
+            if(c == KeyEvent.VK_ENTER) {
+                c = '=';
+            }
             setOperation(String.valueOf(c));
+            e.consume();
         }
-        e.consume();
+
     }
 
     @Override
