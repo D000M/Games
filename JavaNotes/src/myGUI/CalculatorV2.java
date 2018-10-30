@@ -347,6 +347,8 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
         
         totalOperations.setText(label.toString());
         m_inputField.setText(finalResult);
+        currResult = "";
+        prevResult = "";
     }
     
     void proceedOperation(String s) {
@@ -368,7 +370,7 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
                 setLabel();
             }
             prevResult = finalResult;
-            
+            m_inputField.setText(finalResult);
         }
         else {
             prevResult = currResult;
@@ -379,8 +381,7 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
         }
         currResult = "";
         totalOperations.setText(label.toString());
-        m_inputField.setText(finalResult);
-        
+                
     }
     
     private void setLabel() {
@@ -421,6 +422,7 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
     }
     
     private void setTypedNumber(char c) {
+
         if(currResult.equals("")) {
             m_inputField.setText("");
         }
