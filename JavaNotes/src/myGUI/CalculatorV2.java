@@ -13,12 +13,16 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.util.ArrayList;
+import javax.swing.AbstractAction;
+import javax.swing.ActionMap;
 import javax.swing.BorderFactory;
+import javax.swing.InputMap;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
+import javax.swing.KeyStroke;
 
 /**
  *
@@ -47,7 +51,7 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
     String prevOperation;
     StringBuilder label;
     boolean isNegativeNumber;
-    
+    boolean isPointTyped;
     public CalculatorV2() {
         
         setLayout(null);
@@ -57,6 +61,7 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
         finalResult = "";
         prevOperation = "";
         isNegativeNumber = false;
+        isPointTyped = false;
         label = new StringBuilder();
         
         setPreferredSize(new Dimension(320, 340));
@@ -140,7 +145,57 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
         m_buttons.add(new JButton("("));
         m_buttons.add(new JButton(")"));
         m_buttons.add(new JButton("+/-"));
+        setKeyBindings();
     } //end Method setButtons()
+    
+    private void setKeyBindings() {
+        addKeyBinding(m_buttons.get(0), "1", KeyEvent.VK_1);
+        addKeyBinding(m_buttons.get(0), "1", KeyEvent.VK_NUMPAD1);
+        
+        addKeyBinding(m_buttons.get(1), "2", KeyEvent.VK_2);
+        addKeyBinding(m_buttons.get(1), "2", KeyEvent.VK_NUMPAD2);
+        
+        addKeyBinding(m_buttons.get(2), "3", KeyEvent.VK_3);
+        addKeyBinding(m_buttons.get(2), "3", KeyEvent.VK_NUMPAD3);
+        
+        addKeyBinding(m_buttons.get(3), "4", KeyEvent.VK_4);
+        addKeyBinding(m_buttons.get(3), "4", KeyEvent.VK_NUMPAD4);
+        
+        addKeyBinding(m_buttons.get(4), "5", KeyEvent.VK_5);
+        addKeyBinding(m_buttons.get(4), "5", KeyEvent.VK_NUMPAD5);
+        
+        addKeyBinding(m_buttons.get(5), "6", KeyEvent.VK_6);
+        addKeyBinding(m_buttons.get(5), "6", KeyEvent.VK_NUMPAD6);
+        
+        addKeyBinding(m_buttons.get(6), "7", KeyEvent.VK_7);
+        addKeyBinding(m_buttons.get(6), "7", KeyEvent.VK_NUMPAD7);
+        
+        addKeyBinding(m_buttons.get(7), "8", KeyEvent.VK_8);
+        addKeyBinding(m_buttons.get(7), "8", KeyEvent.VK_NUMPAD8);
+        
+        addKeyBinding(m_buttons.get(8), "9", KeyEvent.VK_9);
+        addKeyBinding(m_buttons.get(8), "9", KeyEvent.VK_NUMPAD9);
+        
+        addKeyBinding(m_buttons.get(9), "0", KeyEvent.VK_0);
+        addKeyBinding(m_buttons.get(9), "0", KeyEvent.VK_NUMPAD0);
+        
+        addKeyBinding(m_buttons.get(10), ".", KeyEvent.VK_PERIOD);
+//        addKeyBinding(m_buttons.get(11), "%", KeyEvent.VK_);
+        addKeyBinding(m_buttons.get(12), "/", KeyEvent.VK_SLASH);
+        addKeyBinding(m_buttons.get(12), "/", KeyEvent.VK_DIVIDE);
+        addKeyBinding(m_buttons.get(13), "*", KeyEvent.VK_MULTIPLY);
+        addKeyBinding(m_buttons.get(14), "-", KeyEvent.VK_MINUS);
+        addKeyBinding(m_buttons.get(14), "-", KeyEvent.VK_SUBTRACT);
+        addKeyBinding(m_buttons.get(15), "+", KeyEvent.VK_PLUS);
+        addKeyBinding(m_buttons.get(15), "+", KeyEvent.VK_ADD);
+        addKeyBinding(m_buttons.get(16), "=", KeyEvent.VK_EQUALS);
+        addKeyBinding(m_buttons.get(16), "=", KeyEvent.VK_ENTER);
+//        addKeyBinding(m_buttons.get(17), "0", KeyEvent.VK_0);
+//        addKeyBinding(m_buttons.get(18), "0", KeyEvent.VK_0);
+//        addKeyBinding(m_buttons.get(19), "0", KeyEvent.VK_0);
+//        addKeyBinding(m_buttons.get(20), "0", KeyEvent.VK_0);
+//        addKeyBinding(m_buttons.get(21), "0", KeyEvent.VK_0);
+    }
     
     private void setButtonStyle(JButton button) {
         button.setFont(new Font("Serif", Font.BOLD, 14));
@@ -297,19 +352,19 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
     void proceedOperation(String s) {
         if(!prevResult.equals("")) {
             if(prevOperation.equals("+")) {
-                finalResult = "" + doSum();
+                finalResult = Double.toString(doSum());
                 setLabel();
             }
             else if(prevOperation.equals("-")) {
-                finalResult = "" + doSubstraction();
+                finalResult = Double.toString(doSubstraction());
                 setLabel();
             }
             else if(prevOperation.equals("*")) {
-                finalResult = "" + doMultiply();
+                finalResult = Double.toString(doMultiply());
                 setLabel();
             }
             else if(prevOperation.equals("/")) {
-                finalResult = "" + doDivision();
+                finalResult = Double.toString(doDivision());
                 setLabel();
             }
             prevResult = finalResult;
@@ -424,10 +479,13 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
             case '.':
                 isNegativeNumber = false;
                 if(currResult.equals("")) {
+                    m_inputField.setText("0");
                     currResult += "0.";
+                    isPointTyped = true;
                 }
                 else {
                     if(!isPointSet()) {
+                        isPointTyped = true;
                         currResult += ".";
                     }
                 }
@@ -474,7 +532,7 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
             e.consume();
         }
         if(m_inputField.getText().equals("") && !(Character.isDigit(c))) {
-            if(c == KeyEvent.VK_MINUS) {
+            if(c == KeyEvent.VK_MINUS || c == KeyEvent.VK_PERIOD) {
             }
             else {
                 e.consume();
@@ -484,16 +542,22 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
         if(isNegativeNumber && c == KeyEvent.VK_MINUS) {
             e.consume();
         }
-
+        if(isPointSet() && c == KeyEvent.VK_PERIOD) {
+            e.consume();
+        }
         setTypedNumber(c);
         if(!m_inputField.getText().equals("") && !isNegativeNumber  && !(Character.isDigit(c))) {
             if(c == KeyEvent.VK_ENTER) {
                 c = '=';
             }
             setOperation(String.valueOf(c));
-            e.consume();
+            if(isPointSet() && c == KeyEvent.VK_PERIOD) {
+            }
+            else {
+                e.consume();
+            }
         }
-
+        
     }
 
     @Override
@@ -505,4 +569,37 @@ public class CalculatorV2 extends JPanel implements ActionListener, KeyListener{
     public void keyReleased(KeyEvent e) {
 
     }
+    
+    protected void addKeyBinding(JButton btn, String name, int virtualKey) {
+        ActionMap am = getActionMap();
+        InputMap im = getInputMap(WHEN_IN_FOCUSED_WINDOW);
+        
+        im.put(KeyStroke.getKeyStroke(virtualKey, 0, false), name + ".pressed");
+        im.put(KeyStroke.getKeyStroke(virtualKey, 0, true), name + ".released");
+        
+        am.put(name + ".pressed", new KeyAction(btn, true));
+        am.put(name + ".released", new KeyAction(btn, false));
+    }
+    
+    private class KeyAction extends AbstractAction {
+
+        private JButton button;
+        private boolean highlight;
+        
+        public KeyAction(JButton btn, boolean highlight) {
+            this.button = btn;
+            this.highlight = highlight;
+        }
+               
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            if(highlight) {
+                button.getModel().setPressed(true);
+            }
+            else {
+                button.getModel().setPressed(false);
+            }
+        }
+    }
+    
 }
