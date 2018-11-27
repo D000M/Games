@@ -19,6 +19,7 @@ import chapter6.SquaresMoving;
 import chapter6.SubKillerV2;
 import chapter6.TextInfo;
 import chapter7.Life;
+import courseraAlgs.TestAlgs;
 import eckels.gui.Checkers;
 import eckels.gui.ClickableRandomStrings2;
 import eckels.gui.GrowingCircleAnimation;
@@ -47,6 +48,9 @@ import eckels.gui.text.shapes.ShapeDraw;
 import java.awt.TextArea;
 import myGUI.Calculator;
 import myGUI.CalculatorV2;
+import nakovAlgorithms.Mathmatics.Digits;
+import nakovAlgorithms.Mathmatics.Primes;
+import nakovAlgorithms.NakovRun;
 import timers.ElapsedTime;
 
 /**
@@ -62,7 +66,9 @@ public class JavaNotes {
 
         ElapsedTime.startTime();
 
-        CalculatorV2.runCalc();
+//        CalculatorV2.runCalc();
+
+        System.out.println(Primes.lucasLemer(4, 0));
         
         ElapsedTime.stopTime();
         ElapsedTime.measuredTimeSeconds();
