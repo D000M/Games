@@ -36,7 +36,11 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/examples/ChapterOne.o \
+	${OBJECTDIR}/examples/Coding.o \
+	${OBJECTDIR}/examples/Combinatorics.o \
 	${OBJECTDIR}/examples/FromDecimal.o \
+	${OBJECTDIR}/examples/Recursive.o \
+	${OBJECTDIR}/examples/RomangDigits.o \
 	${OBJECTDIR}/examples/ToDecimal.o \
 	${OBJECTDIR}/main.o
 
@@ -70,10 +74,30 @@ ${OBJECTDIR}/examples/ChapterOne.o: examples/ChapterOne.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/examples/ChapterOne.o examples/ChapterOne.cpp
 
+${OBJECTDIR}/examples/Coding.o: examples/Coding.cpp
+	${MKDIR} -p ${OBJECTDIR}/examples
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/examples/Coding.o examples/Coding.cpp
+
+${OBJECTDIR}/examples/Combinatorics.o: examples/Combinatorics.cpp
+	${MKDIR} -p ${OBJECTDIR}/examples
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/examples/Combinatorics.o examples/Combinatorics.cpp
+
 ${OBJECTDIR}/examples/FromDecimal.o: examples/FromDecimal.cpp
 	${MKDIR} -p ${OBJECTDIR}/examples
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/examples/FromDecimal.o examples/FromDecimal.cpp
+
+${OBJECTDIR}/examples/Recursive.o: examples/Recursive.cpp
+	${MKDIR} -p ${OBJECTDIR}/examples
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/examples/Recursive.o examples/Recursive.cpp
+
+${OBJECTDIR}/examples/RomangDigits.o: examples/RomangDigits.cpp
+	${MKDIR} -p ${OBJECTDIR}/examples
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/examples/RomangDigits.o examples/RomangDigits.cpp
 
 ${OBJECTDIR}/examples/ToDecimal.o: examples/ToDecimal.cpp
 	${MKDIR} -p ${OBJECTDIR}/examples

@@ -30,5 +30,18 @@ extern void decToHex(int number);
 
 extern void decToPTypeSystem(int number, int base);
 
+//Roman digits
+extern void testDecimalToRoman(int n);
+
+//Excercises
+//Ex 1.157
+extern void testEx1();
+//Ex 1.158
+extern void sievePrimes(int size);
+//Ex 1.161
+extern void testEx1161(int n);
+
+//Ex 1.162
+extern void testEx1162(const std::string& s);
 #endif /* EXTERNS_H */
 

@@ -4,8 +4,11 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>examples/Coding.h</itemPath>
+      <itemPath>examples/Combinatorics.h</itemPath>
       <itemPath>examples/Externs.h</itemPath>
       <itemPath>examples/FromDecimal.h</itemPath>
+      <itemPath>examples/Recursive.h</itemPath>
       <itemPath>examples/ToDecimal.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -16,7 +19,11 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>examples/ChapterOne.cpp</itemPath>
+      <itemPath>examples/Coding.cpp</itemPath>
+      <itemPath>examples/Combinatorics.cpp</itemPath>
       <itemPath>examples/FromDecimal.cpp</itemPath>
+      <itemPath>examples/Recursive.cpp</itemPath>
+      <itemPath>examples/RomangDigits.cpp</itemPath>
       <itemPath>examples/ToDecimal.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
@@ -47,11 +54,25 @@
       </compileType>
       <item path="examples/ChapterOne.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="examples/Coding.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Coding.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="examples/Combinatorics.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Combinatorics.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="examples/Externs.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="examples/FromDecimal.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="examples/FromDecimal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="examples/Recursive.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Recursive.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="examples/RomangDigits.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="examples/ToDecimal.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -83,11 +104,25 @@
       </compileType>
       <item path="examples/ChapterOne.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="examples/Coding.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Coding.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="examples/Combinatorics.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Combinatorics.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="examples/Externs.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="examples/FromDecimal.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="examples/FromDecimal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="examples/Recursive.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="examples/Recursive.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="examples/RomangDigits.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="examples/ToDecimal.cpp" ex="false" tool="1" flavor2="0">
       </item>
