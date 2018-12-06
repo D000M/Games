@@ -1,0 +1,193 @@
+<compmgr name = "age_of_troy">
+
+<TopperResources fontIni = "{ AOTPFonts.ini }" />
+
+<GameInfoScreen>
+<CB_AOT_INFO3_DOUBLEUPCENTER>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/at_h3_text_bg.png" srcRect = "{0 315 1377 315}" pos = "{30 293}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/at_h3_text_deutsch.png" srcRect = "{0 315 1377 315}" pos = "{30 290}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/at_h3_text_en.png" srcRect = "{0 315 1377 315}" pos = "{30 293}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/at_h3_text_esp.png" srcRect = "{0 315 1377 315}" pos = "{30 290}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/at_h3_text_hu.png" srcRect = "{0 315 1377 315}" pos = "{30 290}" />
+</CB_AOT_INFO3_DOUBLEUPCENTER>
+
+<CB_AOT_INFO3_JPCENTER>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/at_h3_text_bg.png" srcRect = "{0 0 1377 315}" pos = "{30 293}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/at_h3_text_deutsch.png" srcRect = "{0 0 1377 315}" pos = "{30 293}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/at_h3_text_en.png" srcRect = "{0 0 1377 315}" pos = "{30 293}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/at_h3_text_esp.png" srcRect = "{0 0 1377 315}" pos = "{30 293}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/at_h3_text_hu.png" srcRect = "{0 0 1377 315}" pos = "{30 293}" />
+</CB_AOT_INFO3_JPCENTER>
+
+<CB_CIP_FREE_SPINS>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/at_h1_text_bg.png" srcRect = "{0 0 500 179}" pos = "{470 683}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/at_h1_text_deutsch.png" srcRect = "{0 0 500 179}" pos = "{470 683}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/at_h1_text_en.png" srcRect = "{0 0 500 179}" pos = "{470 683}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/at_h1_text_esp.png" srcRect = "{0 0 500 179}" pos = "{470 683}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/at_h1_text_hu.png" srcRect = "{0 0 500 179}" pos = "{470 683}" />
+</CB_CIP_FREE_SPINS>
+
+<CB_CIP_INFO1_BGR>
+	<Picture path = "p/info/at_h1.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</CB_CIP_INFO1_BGR>
+
+<CB_CIP_INFO2_BGR>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/at_h2_bg.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/at_h2_deutsch.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/at_h2_en.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/at_h2_esp.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/at_h2_hu.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</CB_CIP_INFO2_BGR>
+
+<CB_CIP_INFO3_BGR>
+	<Picture path = "p/info/at_h3.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</CB_CIP_INFO3_BGR>
+
+<CB_CIP_INFO3_DOUBLEUP>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/at_h3_text_bg.png" srcRect = "{0 315 1377 315}" pos = "{27 444}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/at_h3_text_deutsch.png" srcRect = "{0 315 1377 315}" pos = "{27 441}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/at_h3_text_en.png" srcRect = "{0 315 1377 315}" pos = "{27 444}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/at_h3_text_esp.png" srcRect = "{0 315 1377 315}" pos = "{27 441}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/at_h3_text_hu.png" srcRect = "{0 315 1377 315}" pos = "{27 441}" />
+</CB_CIP_INFO3_DOUBLEUP>
+
+<CB_CIP_INFO3_JP>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/at_h3_text_bg.png" srcRect = "{0 0 1377 315}" pos = "{27 141}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/at_h3_text_deutsch.png" srcRect = "{0 0 1377 315}" pos = "{27 141}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/at_h3_text_en.png" srcRect = "{0 0 1377 315}" pos = "{27 141}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/at_h3_text_esp.png" srcRect = "{0 0 1377 315}" pos = "{27 141}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/at_h3_text_hu.png" srcRect = "{0 0 1377 315}" pos = "{27 141}" />
+</CB_CIP_INFO3_JP>
+
+<CB_CIP_INFO4_BGR>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/at_h4_bg.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/at_h4_deutsch.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/at_h4_en.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/at_h4_esp.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/at_h4_hu.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</CB_CIP_INFO4_BGR>
+
+<CB_CIP_MULTIPLIER_FREE_SPINS>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/at_h1_text_bg.png" srcRect = "{0 290 207 186}" pos = "{504 472}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/at_h1_text_deutsch.png" srcRect = "{0 290 207 186}" pos = "{504 472}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/at_h1_text_en.png" srcRect = "{0 290 207 186}" pos = "{504 472}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/at_h1_text_esp.png" srcRect = "{0 290 207 186}" pos = "{504 472}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/at_h1_text_hu.png" srcRect = "{0 290 207 186}" pos = "{504 472}" />
+</CB_CIP_MULTIPLIER_FREE_SPINS>
+
+<CB_CIP_SUBSTITUTES>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/at_h1_text_bg.png" srcRect = "{0 179 435 111}" pos = "{503 313}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/at_h1_text_deutsch.png" srcRect = "{0 179 435 111}" pos = "{503 313}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/at_h1_text_en.png" srcRect = "{0 179 435 111}" pos = "{503 313}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/at_h1_text_esp.png" srcRect = "{0 179 435 111}" pos = "{503 313}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/at_h1_text_hu.png" srcRect = "{0 179 435 111}" pos = "{503 313}" />
+</CB_CIP_SUBSTITUTES>
+
+<LEFT_INFO_TEXT>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/at_h_info_bg.png" srcRect = "{0 0 326 23}" pos = "{4 879}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/at_h_info_deutsch.png" srcRect = "{0 0 363 23}" pos = "{0 878}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/at_h_info_en.png" srcRect = "{0 0 233 23}" pos = "{4 879}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/at_h_info_esp.png" srcRect = "{0 0 357 23}" pos = "{4 878}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/at_h_info_hu.png" srcRect = "{0 0 385 23}" pos = "{4 879}" />
+</LEFT_INFO_TEXT>
+
+<RIGHT_INFO_TEXT>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/at_h_info_bg.png" srcRect = "{0 23 459 23}" pos = "{981 879}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/at_h_info_deutsch.png" srcRect = "{0 23 566 23}" pos = "{874 878}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/at_h_info_en.png" srcRect = "{0 23 309 23}" pos = "{1112 879}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/at_h_info_esp.png" srcRect = "{0 23 433 23}" pos = "{988 878}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/at_h_info_hu.png" srcRect = "{0 23 510 23}" pos = "{912 879}" />
+</RIGHT_INFO_TEXT>
+
+<DOUBLE_UP_VALUE_POS>
+	<Text language = "BG" pos = "{962 593}" algn = "left" /> 
+	<Text language = "DE" pos = "{791 581}" algn = "left" /> 
+	<Text language = "EN" pos = "{816 581}" algn = "left" /> 
+	<Text language = "ESP" pos = "{873 581}" algn = "left" /> 
+	<Text language = "FR" pos = "{796 585}" algn = "left" /> 
+	<Text language = "HU" pos = "{972 581}" algn = "left" /> 
+</DOUBLE_UP_VALUE_POS>
+
+<DOUBLE_UP_VALUE_POS_CENTER>
+	<Text language = "BG" pos = "{966 442}" algn = "left" /> 
+	<Text language = "DE" pos = "{796 430}" algn = "left" /> 
+	<Text language = "EN" pos = "{817 430}" algn = "left" /> 
+	<Text language = "ESP" pos = "{878 430}" algn = "left" /> 
+	<Text language = "FR" pos = "{796 434}" algn = "left" /> 
+	<Text language = "HU" pos = "{977 430}" algn = "left" /> 
+</DOUBLE_UP_VALUE_POS_CENTER>
+
+<fig_1> <InfoScreenFigure id = "{0 ef1_queen}" box = "{160 60}" multiplier = "1" combination = "5" pos = "{1076 721}" /> </fig_1> 
+<fig_2> <InfoScreenFigure id = "{0 ef1_queen}" box = "{160 60}" multiplier = "1" combination = "4" pos = "{1076 768}" /> </fig_2> 
+<fig_3> <InfoScreenFigure id = "{0 ef1_queen}" box = "{160 60}" multiplier = "1" combination = "3" pos = "{1076 815}" /> </fig_3> 
+<fig_4> <InfoScreenFigure id = "{3 ef4_vase}" box = "{160 60}" multiplier = "1" combination = "5" pos = "{364 721}" /> </fig_4> 
+<fig_5> <InfoScreenFigure id = "{3 ef4_vase}" box = "{160 60}" multiplier = "1" combination = "4" pos = "{364 768}" /> </fig_5> 
+<fig_6> <InfoScreenFigure id = "{3 ef4_vase}" box = "{160 60}" multiplier = "1" combination = "3" pos = "{364 815}" /> </fig_6> 
+<fig_7> <InfoScreenFigure id = "{5 ef6_helmet}" box = "{160 60}" multiplier = "1" combination = "5" pos = "{1264 458}" /> </fig_7> 
+<fig_8> <InfoScreenFigure id = "{5 ef6_helmet}" box = "{160 60}" multiplier = "1" combination = "4" pos = "{1264 506}" /> </fig_8> 
+<fig_9> <InfoScreenFigure id = "{5 ef6_helmet}" box = "{160 60}" multiplier = "1" combination = "3" pos = "{1264 551}" /> </fig_9> 
+<fig_10> <InfoScreenFigure id = "{6 ef7_warship}" box = "{160 60}" multiplier = "1" combination = "5" pos = "{179 458}" /> </fig_10> 
+<fig_11> <InfoScreenFigure id = "{6 ef7_warship}" box = "{160 60}" multiplier = "1" combination = "4" pos = "{179 506}" /> </fig_11> 
+<fig_12> <InfoScreenFigure id = "{6 ef7_warship}" box = "{160 60}" multiplier = "1" combination = "3" pos = "{179 552}" /> </fig_12> 
+<fig_13> <InfoScreenFigure id = "{7 ef8_helen}" box = "{160 60}" multiplier = "1" combination = "5" pos = "{1049 192}" /> </fig_13> 
+<fig_14> <InfoScreenFigure id = "{7 ef8_helen}" box = "{160 60}" multiplier = "1" combination = "4" pos = "{1049 240}" /> </fig_14> 
+<fig_15> <InfoScreenFigure id = "{7 ef8_helen}" box = "{160 60}" multiplier = "1" combination = "3" pos = "{1049 286}" /> </fig_15> 
+<fig_16> <InfoScreenFigure id = "{8 ef9_paris}" box = "{160 60}" multiplier = "1" combination = "5" pos = "{391 170}" /> </fig_16> 
+<fig_17> <InfoScreenFigure id = "{8 ef9_paris}" box = "{160 60}" multiplier = "1" combination = "4" pos = "{391 218}" /> </fig_17> 
+<fig_18> <InfoScreenFigure id = "{8 ef9_paris}" box = "{160 60}" multiplier = "1" combination = "3" pos = "{391 265}" /> </fig_18> 
+<fig_19> <InfoScreenFigure id = "{8 ef9_paris}" box = "{160 60}" multiplier = "1" combination = "2" pos = "{391 312}" /> </fig_19> 
+
+
+
+<doubleup>
+	<Scene order = "2" type = "standard" 
+		pictures = "{CB_CIP_INFO3_BGR CB_AOT_INFO3_DOUBLEUPCENTER LEFT_INFO_TEXT RIGHT_INFO_TEXT }" 
+		values = "{ DOUBLE_UP_VALUE_POS_CENTER }" 
+		font = "CIP_H_ARIAL13" />
+	<Scene order = "2" type = "doubleup_and_jackpot" 
+		pictures = "{ CB_CIP_INFO3_BGR CB_CIP_INFO3_DOUBLEUP CB_CIP_INFO3_JP }" 
+		values = "{ DOUBLE_UP_VALUE_POS }" 
+		font = "CIP_H_ARIAL13" />
+	<Scene order = "2" type = "jackpot" 
+		pictures = "{CB_CIP_INFO3_BGR CB_AOT_INFO3_JPCENTER}" 
+		font = "CIP_H_ARIAL13" />
+</doubleup>
+
+
+<wintable>
+    <Scene order = "0" font = "CIP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_CIP_INFO1_BGR" />
+           <SceneElement name = "CB_CIP_FREE_SPINS" />
+           <SceneElement name = "CB_CIP_MULTIPLIER_FREE_SPINS" />
+           <SceneElement name = "CB_CIP_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_CIP_INFO2_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</freespins>
+
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_CIP_INFO4_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+
+</GameInfoScreen>
+</compmgr>

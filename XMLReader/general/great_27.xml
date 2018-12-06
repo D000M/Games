@@ -1,0 +1,224 @@
+<compmgr name = "great_27">
+
+<TopperResources fontIni = "{G27PFonts.ini}" />
+
+<GameInfoScreen>
+<CB_G27P_INFO1_BGR>
+    <Picture  path = "p/info/g27_h1.png"  srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</CB_G27P_INFO1_BGR>
+
+<CB_G27P_INFO2>
+    <Picture path = "p/info/g27_h2_3_4.png"  srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</CB_G27P_INFO2>
+
+<CB_G27P_INFO1_TEXT_1>
+    <Picture language = "BG"  path = "p/multilanguage/bg/info/g27_h1_text_1.png"  srcRect = "{0 0 480 102}" pos = "{480 314}" />
+	<Picture language = "DE"  path = "p/multilanguage/de/info/g27_h1_text_1.png"  srcRect = "{0 0 480 102}" pos = "{480 314}" />
+	<Picture language = "EN"  path = "p/multilanguage/en/info/g27_h1_text_1.png"  srcRect = "{0 0 480 102}" pos = "{480 314}" />
+	<Picture language = "ESP"  path = "p/multilanguage/esp/info/g27_h1_text_1.png"  srcRect = "{0 0 480 102}"  pos = "{480 314}" />
+	<Picture language = "HU"  path = "p/multilanguage/hu/info/g27_h1_text_1.png"  srcRect = "{0 0 480 102}" pos = "{480 314}" />
+	<Picture language = "NL"  path = "p/multilanguage/hol/info/g27_h1_text1.png"  srcRect = "{0 0 480 102}" pos = "{480 314}" />
+</CB_G27P_INFO1_TEXT_1>
+
+<CB_G27P_INFO1_TEXT_2>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/g27_h1_text_2.png"  srcRect = "{0 0 335 295}" pos = "{43 559}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/g27_h1_text_2.png"  srcRect = "{0 0 414 303}" pos = "{48 559}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/g27_h1_text_2.png"  srcRect = "{0 0 414 303}" pos = "{48 559}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/g27_h1_text_2.png"  srcRect = "{0 0 414 303}"  pos = "{48 559}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/g27_h1_text_2.png"  srcRect = "{0 0 414 303}" pos = "{47 559}" />
+	<Picture language = "NL" path = "p/multilanguage/hol/info/g27_h1_text2.png"  srcRect = "{0 0 414 303}" pos = "{47 559}" />
+</CB_G27P_INFO1_TEXT_2>
+
+<CB_G27P_INFO1_TEXT_3>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/g27_h1_text_3.png"  srcRect = "{0 0 358 296}" pos = "{1032 560}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/g27_h1_text_3.png"  srcRect = "{0 0 358 296}" pos = "{1032 560}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/g27_h1_text_3.png"  srcRect = "{0 0 412 296}" pos = "{978 560}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/g27_h1_text_3.png"  srcRect = "{0 0 412 296}" pos = "{983 562}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/g27_h1_text_3.png"  srcRect = "{0 0 412 296}" pos = "{979 559}" />
+	<Picture language = "NL" path = "p/multilanguage/hol/info/g27_h1_text3.png"  srcRect = "{0 0 412 296}" pos = "{979 547}" />
+</CB_G27P_INFO1_TEXT_3>
+
+<CB_G27P_FREESPIN>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/g27_h2_text.png"  srcRect = "{0 0 1440 697}" pos = "{0 104}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/g27_h2_text.png"  srcRect = "{0 0 1440 697}" pos = "{0 104}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/g27_h2_text.png"  srcRect = "{0 0 1440 697}" pos = "{0 104}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/g27_h2_text.png"  srcRect = "{0 0 1440 697}" pos = "{0 104}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/g27_h2_text.png"  srcRect = "{0 0 1440 709}" pos = "{0 92}" />
+</CB_G27P_FREESPIN>
+
+<CB_G27P_INFO3_FEATURE>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/g27_h3_feature.png"  srcRect = "{0 0 1345 461}" pos = "{46 30}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/g27_h3_feature.png"  srcRect = "{0 0 1345 461}" pos = "{46 30}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/g27_h3_feature.png"  srcRect = "{0 0 1345 461}" pos = "{46 30}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/g27_h3_feature.png"  srcRect = "{0 0 1345 475}" pos = "{46 16}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/g27_h3_feature.png"  srcRect = "{0 0 1345 473}" pos = "{46 18}" />
+</CB_G27P_INFO3_FEATURE>
+
+<CB_G27P_INFO3_DOUBLEUP>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/g27_h3_gamble.png"  srcRect = "{0 0 1361 399}" pos = "{39 480}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/g27_h3_gamble.png"  srcRect = "{0 0 1361 399}" pos = "{39 480}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/g27_h3_gamble.png"  srcRect = "{0 0 1361 399}" pos = "{39 480}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/g27_h3_gamble.png"  srcRect = "{0 0 1361 399}" pos = "{39 480}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/g27_h3_gamble.png"  srcRect = "{0 0 1361 399}" pos = "{40 481}" />
+</CB_G27P_INFO3_DOUBLEUP>
+
+<LEFT_INFO_TEXT>
+    <!-- Jackpot -->
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "EN" path = "p/multilanguage/en/info/g27_h_left_except_jackpots.png" srcRect = "{0 0 379 19}" pos = "{0 881}" />
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "BG" path = "p/multilanguage/bg/info/g27_h_left_except_jackpots.png" srcRect = "{0 0 488 19}" pos = "{0 881}" />
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "ESP" path = "p/multilanguage/esp/info/g27_h_left_except_jackpots.png" srcRect = "{0 0 746 20}" pos = "{0 880}" />
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "DE" path = "p/multilanguage/de/info/g27_h_left_except_jackpots.png" srcRect = "{0 0 417 19}" pos = "{0 881}" />
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "HU" path = "p/multilanguage/hu/info/g27_h_left_except_jackpots.png" srcRect = "{0 0 646 20}" pos = "{0 880}" />
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "NL" path = "p/multilanguage/hu/info/g27_h_left_except_jackpots.png" srcRect = "{0 0 649 20}" pos = "{0 880}" />
+    <!-- Standard -->
+    <Picture  language = "BG" path = "p/multilanguage/bg/info/g27_h_left.png" srcRect = "{0 0 341 22}" pos = "{0 878}" />
+	<Picture  language = "DE" path = "p/multilanguage/de/info/g27_h_left.png" srcRect = "{0 0 425 26}" pos = "{0 874}" />
+	<Picture  language = "EN" path = "p/multilanguage/en/info/g27_h_left.png" srcRect = "{0 0 279 22}" pos = "{0 878}" />
+	<Picture  language = "ESP" path = "p/multilanguage/esp/info/g27_h_left.png" srcRect = "{0 0 434 26}" pos = "{0 874}" />
+	<Picture  language = "HU" path = "p/multilanguage/hu/info/g27_h_left.png" srcRect = "{0 0 465 26}" pos = "{0 874}" />
+	<Picture  language = "NL" path = "p/multilanguage/hol/info/g27_h1_nadpisi.png" srcRect = "{0 0 266 14}" pos = "{8 868}" />
+</LEFT_INFO_TEXT>
+
+<!-- Dev branch
+<LEFT_INFO_TEXT_DOWN>
+	<Picture language = "NL" path = "p/multilanguage/hol/info/g27_h1_nadpisi.png" srcRect = "{0 28 432 14}" pos = "{8 883}" />
+</LEFT_INFO_TEXT_DOWN>
+-->
+<RIGHT_INFO_TEXT>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/g27_h_right.png" srcRect = "{0 0 479 22}" pos = "{961 878}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/g27_h_right.png" srcRect = "{0 0 705 26}" pos = "{735 874}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/g27_h_right.png" srcRect = "{0 0 380 22}" pos = "{1061 878}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/g27_h_right.png" srcRect = "{0 0 536 26}" pos = "{904 874}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/g27_h_right.png" srcRect = "{0 0 635 26}" pos = "{805 874}" />
+	<Picture language = "NL" path = "p/multilanguage/hol/info/g27_h1_nadpisi.png" srcRect = "{0 14 439 14}" pos = "{994 868}" />
+</RIGHT_INFO_TEXT>
+
+<!-- Dev branch
+<RIGHT_INFO_TEXT_DOWN>
+	<Picture language = "NL" path = "p/multilanguage/hol/info/g27_h1_nadpisi.png" srcRect = "{0 56 422 14}" pos = "{1011 883}" />
+</RIGHT_INFO_TEXT_DOWN>
+
+<CENTER_INFO_TEXT>
+	<Picture language = "NL" path = "p/multilanguage/hol/info/g27_h1_nadpisi.png" srcRect = "{0 42 407 14}" pos = "{517 883}" />
+</CENTER_INFO_TEXT>
+-->
+
+<CB_G27P_INFO4_TEXT>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/g27_h4_text.png"  srcRect = "{0 0 1440 697}" pos = "{0 104}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/g27_h4_text.png"  srcRect = "{0 0 1440 697}" pos = "{0 104}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/g27_h4_text.png"  srcRect = "{0 0 1440 697}" pos = "{0 104}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/g27_h4_text.png"  srcRect = "{0 0 1440 697}" pos = "{0 104}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/g27_h4_text.png"  srcRect = "{0 0 1440 712}" pos = "{0 89}" />
+</CB_G27P_INFO4_TEXT>
+
+<DOUBLE_UP_VALUE_POS>
+    <Text language = "BG" pos ="{900 637}" algn = "left" />
+	<Text language = "DE" pos ="{735 637}" algn = "left" />
+	<Text language = "EN" pos ="{787 637}" algn = "left" />
+	<Text language = "ESP" pos ="{855 637}" algn = "left" />
+	<Text language = "HU" pos ="{919 637}" algn = "left" />
+</DOUBLE_UP_VALUE_POS>
+
+<DOUBLE_UP_VALUE_POS_CENTER>
+    <Text language = "BG" pos ="{900 641}" algn = "left" />
+	<Text language = "DE" pos ="{735 641}" algn = "left" />
+	<Text language = "EN" pos ="{770 641}" algn = "left" />
+	<Text language = "ESP" pos ="{855 641}" algn = "left" />
+	<Text language = "HU" pos ="{919 641}" algn = "left" />
+</DOUBLE_UP_VALUE_POS_CENTER>
+
+<fig_1> <InfoScreenFigure id = "{0 ef1_cherry}" box = "{172 30}" multiplier = "1" combination = "3" pos = "{1080 476}" /> </fig_1>
+<fig_2> <InfoScreenFigure id = "{3 ef4_plum}" box = "{172 30}" multiplier = "1" combination = "3" pos = "{355 478}" /> </fig_2>
+<fig_3> <InfoScreenFigure id = "{4 ef5_grapes}" box = "{172 30}" multiplier = "1" combination = "3" pos = "{355 303}" /> </fig_3>
+<fig_4> <InfoScreenFigure id = "{5 ef6_watermelon}" box = "{172 30}" multiplier = "1" combination = "3" pos = "{1080 303}" /> </fig_4>
+<fig_5> <InfoScreenFigure id = "{6 ef7_star}" box = "{172 30}" multiplier = "1" combination = "3" pos = "{1080 132}" /> </fig_5>
+<fig_6> <InfoScreenFigure id = "{7 ef8_seven}" box = "{172 30}" multiplier = "1" combination = "3" pos = "{355 132}" /> </fig_6>
+<fig_7> <InfoScreenFigure id = "{8 ef9_wild_great_27}" box = "{172 30}" multiplier = "1" combination = "3" pos = "{752 310}" /> </fig_7>
+
+<cross_fade_animation_1>
+    <Picture id = "CB_G27P_INFO1_CHERRY" path = "p/info/g27_x2_cherry.png" srcRect = "{0 0 393 215}" pos = "{517 426}" />
+    <Picture id = "CB_G27P_INFO1_ORANGE" path = "p/info/g27_x2_orange.png" srcRect = "{0 0 393 215}" pos = "{517 426}" />
+    <Picture id = "CB_G27P_INFO1_LEMON" path = "p/info/g27_x2_lemon.png" srcRect = "{0 0 393 215}" pos = "{517 426}" />
+    <Picture id = "CB_G27P_INFO1_PLUM" path = "p/info/g27_x2_plum.png" srcRect = "{0 0 393 215}" pos = "{517 426}" />
+</cross_fade_animation_1>
+
+<wintable>
+    <Scene order = "0" type = "standard"
+        useLogicModifiers = "{cross_fade}"
+        useView = "cross_fade"
+		pictures = "{
+                    CB_G27P_INFO1_BGR 
+                    CB_G27P_INFO1_TEXT_1 
+                    CB_G27P_INFO1_TEXT_2 
+                    CB_G27P_INFO1_TEXT_3 
+                    cross_fade_animation_1
+                    LEFT_INFO_TEXT RIGHT_INFO_TEXT }"
+		values = "{ fig_1 fig_2 fig_3 fig_4 fig_5 fig_6 fig_7 }"
+		font = "CIP_G27P_H1_FONT" />
+</wintable>
+
+<freespins>
+    <Scene order = "1" type = "standard"
+	    pictures = "{CB_G27P_INFO2 CB_G27P_FREESPIN LEFT_INFO_TEXT RIGHT_INFO_TEXT }" />
+</freespins>
+
+<!-- max attempts label -->
+<GREAT_27_DOUBLEUP_MAX_ATTEMPTS>
+	<Picture language = "EN" path = "../hat/p/multilanguage/info/en/gamble_max_attempts_en.png" srcRect = "{0 0 545 33}" pos = "{446 867}" />
+	<Picture language = "BG" path = "../hat/p/multilanguage/info/bg/gamble_max_attempts_bg.png" srcRect = "{0 0 545 33}" pos = "{446 867}" />
+	<Picture language = "DE" path = "../hat/p/multilanguage/info/de/gamble_max_attempts_de.png" srcRect = "{0 0 545 33}" pos = "{446 867}" />
+	<Picture language = "ESP" path = "../hat/p/multilanguage/info/esp/gamble_max_attempts_esp.png" srcRect = "{0 0 545 33}" pos = "{446 867}" />
+	<Picture language = "HU" path = "../hat/p/multilanguage/info/hu/gamble_max_attempts_hu.png" srcRect = "{0 0 545 33}" pos = "{446 867}" />
+</GREAT_27_DOUBLEUP_MAX_ATTEMPTS>
+<GREAT_27_DOUBLEUP_MAX_ATTEMPTS_CENTER>
+	<Picture language = "EN" path = "../hat/p/multilanguage/info/en/gamble_max_attempts_en.png" srcRect = "{0 0 545 33}" pos = "{446 848}" />
+	<Picture language = "BG" path = "../hat/p/multilanguage/info/bg/gamble_max_attempts_bg.png" srcRect = "{0 0 545 33}" pos = "{446 848}" />
+	<Picture language = "DE" path = "../hat/p/multilanguage/info/de/gamble_max_attempts_de.png" srcRect = "{0 0 545 33}" pos = "{446 848}" />
+	<Picture language = "ESP" path = "../hat/p/multilanguage/info/esp/gamble_max_attempts_esp.png" srcRect = "{0 0 545 33}" pos = "{446 848}" />
+	<Picture language = "HU" path = "../hat/p/multilanguage/info/hu/gamble_max_attempts_hu.png" srcRect = "{0 0 545 33}" pos = "{446 848}" />
+</GREAT_27_DOUBLEUP_MAX_ATTEMPTS_CENTER>
+
+<!-- max attempts value coordinate -->
+<MAX_GAMBLE_ATTEMPTS>
+	<Text language = "EN" pos = "{875 875}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" />
+	<Text language = "BG" pos = "{952 875}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" />
+	<Text language = "DE" pos = "{890 875}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+	<Text language = "ESP" pos = "{886 875}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+	<Text language = "HU" pos = "{907 875}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+</MAX_GAMBLE_ATTEMPTS>
+<MAX_GAMBLE_ATTEMPTS_CENTER>
+	<Text language = "EN" pos = "{875 878}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" />
+	<Text language = "BG" pos = "{952 878}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" />
+	<Text language = "DE" pos = "{890 878}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+	<Text language = "ESP" pos = "{886 878}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+	<Text language = "HU" pos = "{907 878}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+</MAX_GAMBLE_ATTEMPTS_CENTER>
+
+<doubleup>
+    <Scene order = "2" type = "standard"
+        pictures = "{CB_G27P_INFO2 CB_G27P_INFO3_DOUBLEUP
+        CB_G27P_INFO3_FEATURE
+        GREAT_27_DOUBLEUP_MAX_ATTEMPTS_CENTER
+        LEFT_INFO_TEXT
+        RIGHT_INFO_TEXT }"
+        values = "{ DOUBLE_UP_VALUE_POS_CENTER
+        MAX_GAMBLE_ATTEMPTS_CENTER }"
+		font = "CIP_G27P_H1_FONT" />
+	<Scene order = "2" type = "doubleup_and_jackpot"
+        pictures = "{CB_G27P_INFO2 
+        GREAT_27_DOUBLEUP_MAX_ATTEMPTS
+        CB_G27P_INFO3_DOUBLEUP }"
+		values = "{ DOUBLE_UP_VALUE_POS MAX_GAMBLE_ATTEMPTS }"
+		font = "CIP_G27P_H1_FONT" />
+	<Scene order = "2" type = "jackpot"
+	    pictures = "{CB_G27P_INFO2 CB_G27P_INFO3_DOUBLEUP }"
+		font = "CIP_G27P_H1_FONT" />
+</doubleup>
+
+<rules>
+    <Scene order = "3" type = "standard"
+	    pictures = "{CB_G27P_INFO2 CB_G27P_INFO4_TEXT LEFT_INFO_TEXT RIGHT_INFO_TEXT }" />
+</rules>
+
+</GameInfoScreen>
+</compmgr>

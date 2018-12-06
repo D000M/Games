@@ -1,0 +1,1217 @@
+###########       general/blue_heart.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_BH_INFO2_BGR" />
+           <SceneElement name = "CB_BH_INFO2_FREE_SPINS" />
+           <SceneElement name = "CB_BH_INFO2_WILD" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/knight_heart.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "PLAIN_BACKGROUND" />
+           <SceneElement name = "INFO2_FREE_SPINS" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_sweety_dogs.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_SDFHD_INFO2_BGR" />
+           <SceneElement name = "COPYRIGHTS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/hot_blast_50.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "HOT_BLAST_50_SCREEN_2_WILD_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/empress_charm.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "PLAIN_BACKGROUND" />
+           <SceneElement name = "INFO2_FREE_SPINS" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_glorious_hidalgo.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "INFO_2_SCREEN" />
+           <SceneElement name = "COPYRIGHT_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/hot_and_cash.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "HAC_SCREEN_WILD_APPEAR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_irish_treasure.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_ITFHDP_INFO_BGR" />
+           <SceneElement name = "CB_ITFHDP_INFO2_TEXT" />
+           <SceneElement name = "COPYRIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/extra_stars.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_ESP_INFO2_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/spicy_fruits_30.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_SF30P_INFO2_BGR" />
+           <SceneElement name = "CB_SF30P_FREE_SPINS_TITLE" />
+           <SceneElement name = "CB_SF30P_WILD_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/kingdom_of_fruits.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_KF_INFO_BGR" />
+           <SceneElement name = "CB_KF_WILD_INFO2" />
+           <SceneElement name = "CB_KF_FREE_SPINS_INFO2" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/secrets_of_alchemy.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_SAP_INFO2_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/ultra_respin_40.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_40URP_INFO_2_3_BGR" />
+           <SceneElement name = "CB_40URP_BONUS_RESPIN" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/caramel_hot.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/lucky_hot.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_LHP_INFO2_BGR" />
+           <SceneElement name = "CB2_LHP_INFO2_MULTIPLIER_FEATURE" />
+           <SceneElement name = "CB_LHP_INFO2_NINE_OF_KIND" />
+           <SceneElement name = "CB_LHP_INFO2_ON_ALL_REELS" />
+           <SceneElement name = "CB_LHP_INFO2_OR1" />
+           <SceneElement name = "CB_LHP_INFO2_OR2" />
+           <SceneElement name = "CB_LHP_INFO2_OR3" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/extra_stars_20.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "ES_20_SCREEN_2_TEXT" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/charming_joker_20.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/rise_of_ra.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "INFO2_BACKGROUND" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/frog_story.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_FSP_INFO_GENERAL_BGR" />
+           <SceneElement name = "CB_FSP_EURO_GAMES_TECHNOLOGY" />
+           <SceneElement name = "CB_FSP_WILD_PANEL" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/great_empire.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_GEP_INFO2_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/more_lucky_and_wild.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "MLAW_SCREEN_WILD_APPEAR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/volcano_wealth.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "PLAIN_BACKGROUND" />
+           <SceneElement name = "INFO2_FREE_SPINS" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_el_amigo.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_EAFHDP_INFO2_TEXT" />
+           <SceneElement name = "CB_EAFHDP_COPYRIGHTS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_flower_land.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_GGFHDP_INFO2_BGR" />
+           <SceneElement name = "" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "COPYRIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/flaming_hot_extreme.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "PLAIN_BACKGROUND" />
+           <SceneElement name = "INFO2_FREE_SPINS" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/captain_nemo.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_CN_INFO3_BGR" />
+           <SceneElement name = "CB_CN_FREE_SPINS_INFO2" />
+           <SceneElement name = "CB_CN_LEFT_FIRST_INFO_TEXT" />
+           <SceneElement name = "CB_CN_RIGHT_FIRST_INFO_TEXT" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/hot_and_cash_40.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "HAC_40_SCREEN_WILD_APPEAR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/magic_guardians.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "PLAIN_BACKGROUND" />
+           <SceneElement name = "INFO2_FREE_SPINS" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/ice_valley.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "PLAIN_BACKGROUND" />
+           <SceneElement name = "INFO2_FREE_SPINS" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/summer_bliss_30.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "PLAIN_BACKGROUND" />
+           <SceneElement name = "INFO2_FREE_SPINS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/spanish_passion.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB2_SP_FREE_SPINS_INFO2" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/rainbow_luck.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "PLAIN_BACKGROUND" />
+           <SceneElement name = "INFO2_FREE_SPINS" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/emperors_palace.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "INFO2_FREE_SPINS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_amazons_battle_80.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_AB80FHDP_INFO2_BGR" />
+           <SceneElement name = "CB_AB80FHDP_INFO2_TEXT" />
+           <SceneElement name = "CB_AB80FHD_COPYRIGHTS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_irish_charm.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_IC_INFO2_BGR" />
+           <SceneElement name = "CB_IC_INFO2_PANE_BGR" />
+           <SceneElement name = "CB_IC_INFO2_TEXT" />
+           <SceneElement name = "CB_IC_COPYRIGHTS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/dice_high.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "DICE_HIGH_FEATURE_BGR" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/eternal_lotus.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "PLAIN_BACKGROUND" />
+           <SceneElement name = "INFO2_FREE_SPINS" />
+           <SceneElement name = "INFO2_WILD" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_genies_gold.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_GGFHD_INFO2_BGR" />
+           <SceneElement name = "CB_GGFHD_INFO2_PANE_BGR" />
+           <SceneElement name = "CB_GGFHD_INFO2_TEXT" />
+           <SceneElement name = "CB_GGFHD_COPYRIGHTS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/the_story_of_alexander_2.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "INFO3_BGR" />
+           <SceneElement name = "INFO2_FREE_SPINS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_gangsters_cash.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_GCFHD_INFO2_BGR" />
+           <SceneElement name = "CB_GCFHD_INFO2_TEXT" />
+           <SceneElement name = "CB_GCFHD_COPYRIGHTS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/tirol_fest.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "INFO2_FREE_SPINS" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/pin_up_queen.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "P3_RCHDP_INFO2_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/thumbelina_dream.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_TDP_INFO3_BGR" />
+           <SceneElement name = "CB_TDP_FREE_SPINS_INFO2" />
+           <SceneElement name = "CB_TDP_RIGHT_FIRST_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/mythical_treasure.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "INFO2_FREE_SPINS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/supreme_hot.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_SUHP_INFO2_BGR" />
+           <SceneElement name = "CB_SUHP_9_OF_A_KIND_FROM" />
+           <SceneElement name = "CB_SUHP_MULTIPLIER_INFO2" />
+           <SceneElement name = "CB_SUHP_ON_ALL_REELS" />
+           <SceneElement name = "CB_SUHP_OR" />
+           <SceneElement name = "CB_SUHP_OR_2" />
+           <SceneElement name = "CB_SUHP_OR_3" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/legendary_rome.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_INFO2_BGR" />
+           <SceneElement name = "CB_ALL_PRICES" />
+           <SceneElement name = "CB_MULTIFUNCTION_VOIDS" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/rainbow_queen.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "PLAIN_BACKGROUND" />
+           <SceneElement name = "INFO2_FREE_SPINS" />
+           <SceneElement name = "INFO2_WILD" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_retro_cabaret.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "P3_RCHDP_INFO_BGR" />
+           <SceneElement name = "COPYRIGHT_TEXT" />
+           <SceneElement name = "P3_RCHDP_INFO2_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/egypt_sky.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_ESP_INFO2_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_hold_your_horses.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "INFO2_BACKGROUND" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/extra_stars_40.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "ES_40_SCREEN_2_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/spicy_fruits_50.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_SF50P_INFO2_BGR" />
+           <SceneElement name = "CB_SF50P_FREE_SPINS_TITLE" />
+           <SceneElement name = "CB_SF50P_WILD_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/wins_81.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_W81P_INFO_BGR" />
+           <SceneElement name = "CB_W81P_INFO2_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/almighty_ramses.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_ARII_INFO2_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/ancient_dynasty.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_ADP_INFO2_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/dorothys_fairyland.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_DFP_INFO2" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/amazons_battle_50.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_ABP_INFO2_BGR" />
+           <SceneElement name = "CB_ABP_FREE_SPINS_NUMBERS" />
+           <SceneElement name = "CB_ABP_FREE_SPINS_TEXT" />
+           <SceneElement name = "CB_ABP_FREE_SPINS_TITLE" />
+           <SceneElement name = "CB_ABP_SCATTER_NUMBERS" />
+           <SceneElement name = "CB_ABP_SCATTER_SYMBOLS" />
+           <SceneElement name = "CB_ABP_WILD_SUBSTITUTES" />
+           <SceneElement name = "CB_ABP_WILD_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_amazing_china.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_GVFHDP_INFO_BGR" />
+           <SceneElement name = "CB_GVFHDP_INFO2_TEXT" />
+           <SceneElement name = "COPYRIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/amazons_battle.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_ABP_INFO2_BGR" />
+           <SceneElement name = "CB_ABP_FREE_SPINS_NUMBERS" />
+           <SceneElement name = "CB_ABP_FREE_SPINS_TEXT" />
+           <SceneElement name = "CB_ABP_FREE_SPINS_TITLE" />
+           <SceneElement name = "CB_ABP_SCATTER_NUMBERS" />
+           <SceneElement name = "CB_ABP_SCATTER_SYMBOLS" />
+           <SceneElement name = "CB_ABP_WILD_SUBSTITUTES" />
+           <SceneElement name = "CB_ABP_WILD_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/ocean_rush.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_ORP_INFO2_BGR" />
+           <SceneElement name = "CB_ORP_ALL_PRICES" />
+           <SceneElement name = "CB_ORP_MULTIFUNCTION_VOIDS" />
+           <SceneElement name = "CB_ORP_OR" />
+           <SceneElement name = "CB_ORP_PLUS_LUCKY_DIVE" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/age_of_troy.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_CIP_INFO2_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/brave_cat.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_BC_INFO2_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/hot_blast_20.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "PLAIN_BACKGROUND" />
+           <SceneElement name = "CB_FSP_WILD_PANEL" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/star_fruits_5.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/retro_cabaret.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "P3_RC_INFO_BGR" />
+           <SceneElement name = "P3_RC_INFO2_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/almighty_ramses_40.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_ARII_INFO2_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_eastern_legends.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_ELFHDP_COMMON_BGR" />
+           <SceneElement name = "CB_ELFHDP_INFO2_TEXT" />
+           <SceneElement name = "CB_ELFHDP_COPYRIGHT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/book_of_magic.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_BMP_INFO2_BGR" />
+           <SceneElement name = "CB2_BMP_FREE_SPINS_INFO2" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/super_20.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/lucky_and_wild.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "LAW_SCREEN_WILD_APPEAR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/story_of_alexander.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_TSOA_INFO3_BGR" />
+           <SceneElement name = "CB_TSOA_INFO2" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_golden_eternity.xml     ############
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_GEFHDP_INFO_BGR" />
+           <SceneElement name = "CB_GEFHDP_INFO2_BGR" />
+           <SceneElement name = "" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "COPYRIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+==============================================
+==============================================
+==============================================
+

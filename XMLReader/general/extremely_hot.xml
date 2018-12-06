@@ -1,0 +1,345 @@
+<compmgr name = "extremely_hot">
+
+<TopperResources fontIni = "{EHPFonts.ini}" />
+
+<GameInfoScreen>
+
+<!-- WINTABLE -->
+<CB_EHP_INFO1_BGR>
+    <Picture path = "p/info/eh_h1.png"  srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</CB_EHP_INFO1_BGR>
+
+<CB_EHP_SCATTER>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/eh_h1_scatter.png"  srcRect = "{0 0 246 49}" pos = "{725 161}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/eh_h1_scatter.png"  srcRect = "{0 0 246 49}" pos = "{725 161}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/eh_h1_scatter.png"  srcRect = "{0 0 246 49}" pos = "{725 161}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/eh_h1_scatter.png"  srcRect = "{0 0 246 49}" pos = "{725 161}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/eh_h1_scatter.png"  srcRect = "{0 0 246 49}" pos = "{725 161}" />
+    <Picture language = "NL" path = "p/multilanguage/hol/info/eh_h1_scatter.png"  srcRect = "{0 0 246 49}" pos = "{725 161}" />
+</CB_EHP_SCATTER>
+
+<!-- DOUBLEUP -->
+<CB_EHP_INFO3_BGR>
+    <Picture path = "p/info/eh_h3.png"  srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</CB_EHP_INFO3_BGR>
+
+<CB_EHP_INFO3_DOUBLEUP_CENTER>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/eh_h3_gamble.png"  srcRect = "{0 0 1399 374}"  pos = "{19 236}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/eh_h3_gamble.png"  srcRect = "{0 0 1399 374}"  pos = "{19 236}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/eh_h3_gamble.png"  srcRect = "{0 0 1399 374}"  pos = "{19 236}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/eh_h3_gamble.png"  srcRect = "{0 0 1399 374}"  pos = "{19 236}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/eh_h3_gamble.png"  srcRect = "{0 0 1399 386}"  pos = "{19 224}" />
+</CB_EHP_INFO3_DOUBLEUP_CENTER>
+
+<CB_EHP_INFO3_DOUBLEUP>
+    <Picture language = "HU" path = "p/multilanguage/hu/info/eh_h3_gamble.png"  srcRect = "{0 0 1399 386}"  pos = "{19 475}" />
+	<Picture language = "ESP"  path = "p/multilanguage/esp/info/eh_h3_gamble.png"  srcRect = "{0 0 1399 374}"  pos = "{19 487}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/eh_h3_gamble.png"  srcRect = "{0 0 1399 374}"  pos = "{19 487}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/eh_h3_gamble.png"  srcRect = "{0 0 1399 374}"  pos = "{19 487}" />
+	<Picture language = "BG" path = "p/multilanguage/bg/info/eh_h3_gamble.png"  srcRect = "{0 0 1399 374}"  pos = "{19 487}" />
+</CB_EHP_INFO3_DOUBLEUP>
+
+<CB_EHP_INFO3_JP>
+    <Picture language = "HU" path = "p/multilanguage/hu/info/eh_h3_jackpot.png"  srcRect = "{0 0 1391 400}"  pos = "{24 38}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/eh_h3_jackpot.png"  srcRect = "{0 0 1391 400}"  pos = "{24 38}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/eh_h3_jackpot.png"  srcRect = "{0 0 1391 400}"  pos = "{24 38}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/eh_h3_jackpot.png"  srcRect = "{0 0 1391 400}"  pos = "{24 38}" />
+	<Picture language = "BG" path = "p/multilanguage/bg/info/eh_h3_jackpot.png"  srcRect = "{0 0 1391 400}"  pos = "{24 38}" />
+</CB_EHP_INFO3_JP>
+
+<CB_EHP_INFO3_JP_CENTER>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/eh_h3_jackpot.png"  srcRect = "{0 0 1391 400}"  pos = "{24 227}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/eh_h3_jackpot.png"  srcRect = "{0 0 1391 400}"  pos = "{24 227}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/eh_h3_jackpot.png"  srcRect = "{0 0 1391 400}"  pos = "{24 227}" />
+	<Picture language = "ESP"  path = "p/multilanguage/esp/info/eh_h3_jackpot.png"  srcRect = "{0 0 1391 400}"  pos = "{24 227}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/eh_h3_jackpot.png"  srcRect = "{0 0 1391 400}"  pos = "{24 227}" />
+</CB_EHP_INFO3_JP_CENTER>
+
+<!-- RULES -->
+<CB_EHP_INFO4_BGR>
+  <Picture path = "p/info/eh_h4.png"  srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</CB_EHP_INFO4_BGR>
+
+<CB_EHP_INFO4_TEXT>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/eh_h4_text_2.png"  srcRect = "{0 0 1282 307}"  pos = "{79 483}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/eh_h4_text_2.png"  srcRect = "{0 0 1282 307}"  pos = "{79 483}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/eh_h4_text_2.png"  srcRect = "{0 0 1282 307}"  pos = "{79 483}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/eh_h4_text_2.png"  srcRect = "{0 0 1282 307}"  pos = "{79 483}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/eh_h4_text_2.png"  srcRect = "{0 0 1282 307}"  pos = "{79 483}" />
+</CB_EHP_INFO4_TEXT>
+
+<CB_EHP_INFO4_TITLE>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/eh_h4_text_1.png"  srcRect = "{0 0 1020 86}"  pos = "{212 52}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/eh_h4_text_1.png"  srcRect = "{0 0 1302 104}"  pos = "{70 34}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/eh_h4_text_1.png"  srcRect = "{0 0 1020 86}"  pos = "{212 52}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/eh_h4_text_1.png"  srcRect = "{0 0 1302 104}"  pos = "{70 34}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/eh_h4_text_1.png"  srcRect = "{0 0 1302 104}"  pos = "{70 34}" />
+</CB_EHP_INFO4_TITLE>
+
+<RIGHT_INFO_TEXT>
+    <Picture language = "BG"  path = "p/multilanguage/bg/info/eh_h_text_right.png"  srcRect = "{0 0 554 19}" pos = "{886 881}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/eh_h_text_right.png"  srcRect = "{0 0 688 19}" pos = "{752 881}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/eh_h_text_right.png"  srcRect = "{0 0 379 19}" pos = "{1061 881}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/eh_h_text_right.png"  srcRect = "{0 0 524 21}" pos = "{916 879}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/eh_h_text_right.png"  srcRect = "{0 0 606 21}" pos = "{827 879}" />
+    <Picture language = "NL" path = "p/multilanguage/hol/info/eh_h1_nadpisi.png"  srcRect = "{0 64 373 16}" pos = "{1067 884}" />
+</RIGHT_INFO_TEXT>
+
+<LEFT_INFO_TEXT>
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "EN" path = "p/multilanguage/en/info/left_except_jackpots.png" srcRect = "{0 0 395 21}" pos = "{0 881}" />
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "BG" path = "p/multilanguage/bg/info/left_except_jackpots.png" srcRect = "{0 0 425 21}" pos = "{0 881}" />
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "ESP" path = "p/multilanguage/esp/info/left_except_jackpots.png" srcRect = "{0 0 762 26}" pos = "{0 880}" />
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "DE" path = "p/multilanguage/de/info/left_except_jackpots.png" srcRect = "{0 0 423 26}" pos = "{0 880}" />
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "HU" path = "p/multilanguage/hu/info/left_except_jackpots.png" srcRect = "{0 0 648 19}" pos = "{0 880}" />
+	
+    <Picture  language = "BG" path = "p/multilanguage/bg/info/eh_h_text_left.png"  srcRect = "{0 0 395 19}" pos = "{0 881}" />
+	<Picture  language = "DE" path = "p/multilanguage/de/info/eh_h_text_left.png"  srcRect = "{0 0 417 19}" pos = "{0 881}" />
+	<Picture  language = "EN" path = "p/multilanguage/en/info/eh_h_text_left.png"  srcRect = "{0 0 282 19}" pos = "{0 881}" />
+	<Picture  language = "ESP" path = "p/multilanguage/esp/info/eh_h_text_left.png"  srcRect = "{0 0 426 21}" pos = "{0 879}" />
+	<Picture  language = "HU" path = "p/multilanguage/hu/info/eh_h_text_left.png"  srcRect = "{0 0 446 21}" pos = "{10 879}" />
+    <Picture  language = "NL" path = "p/multilanguage/hol/info/eh_h1_nadpisi.png"  srcRect = "{0 0 663 26}" pos = "{0 884}" />
+	
+</LEFT_INFO_TEXT>
+
+<!-- TODO Dev Branch -->
+<!-- <RIGHTUP_INFO_TEXT>
+    <Picture language = "NL" path = "p/multilanguage/hol/info/eh_h1_nadpisi.png"  srcRect = "{0 16 389 16}" pos = "{1051 870}" />
+</RIGHTUP_INFO_TEXT> -->
+
+<!-- <LEFTUP_INFO_TEXT>
+    <Picture language = "NL" path = "p/multilanguage/hol/info/eh_h1_nadpisi.png"  srcRect = "{0 0 239 16}" pos = "{0 870}" />
+</LEFTUP_INFO_TEXT> -->
+
+<!-- <MIDDLE_INFO_TEXT>
+    <Picture language = "NL" path = "p/multilanguage/hol/info/eh_h1_nadpisi.png"  srcRect = "{0 48 359 16}" pos = "{541 884}" />
+</MIDDLE_INFO_TEXT> -->
+
+<fig_1> <InfoScreenFigure id = "{0 ef1_bell}" box = "{190 30}" multiplier = "1" combination = "5" pos = "{1299 276}" /> </fig_1>
+<fig_2> <InfoScreenFigure id = "{0 ef1_bell}" box = "{190 30}" multiplier = "1" combination = "4" pos = "{1299 314}" /> </fig_2>
+<fig_3> <InfoScreenFigure id = "{0 ef1_bell}" box = "{190 30}"  multiplier = "1" combination = "3" pos = "{1299 351}" /> </fig_3>
+<fig_4> <InfoScreenFigure id = "{1 ef2_cherry}" box = "{190 30}"  multiplier = "1" combination = "5" pos = "{1219 440}" /> </fig_4>
+<fig_5> <InfoScreenFigure id = "{1 ef2_cherry}" box = "{190 30}"  multiplier = "1" combination = "4" pos = "{1219 477}" /> </fig_5>
+<fig_6> <InfoScreenFigure id = "{1 ef2_cherry}" box = "{190 30}"  multiplier = "1" combination = "3" pos = "{1219 515}" /> </fig_6>
+<fig_7> <InfoScreenFigure id = "{1 ef2_cherry}" box = "{190 30}"  multiplier = "1" combination = "2" pos = "{1219 552}" /> </fig_7>
+<fig_8> <InfoScreenFigure id = "{2 ef3_orange}" box = "{190 30}"  multiplier = "1" combination = "5" pos = "{904 441}" /> </fig_8>
+<fig_9> <InfoScreenFigure id = "{2 ef3_orange}" box = "{190 30}"  multiplier = "1" combination = "4" pos = "{904 479}" /> </fig_9>
+<fig_10> <InfoScreenFigure id = "{2 ef3_orange}" box = "{190 30}"  multiplier = "1" combination = "3" pos = "{904 516}" /> </fig_10>
+<fig_11> <InfoScreenFigure id = "{3 ef4_lemon}" box = "{190 30}"  multiplier = "1" combination = "5" pos = "{590 441}" /> </fig_11>
+<fig_12> <InfoScreenFigure id = "{3 ef4_lemon}" box = "{190 30}"  multiplier = "1" combination = "4" pos = "{590 479}" /> </fig_12>
+<fig_13> <InfoScreenFigure id = "{3 ef4_lemon}" box = "{190 30}"  multiplier = "1" combination = "3" pos = "{590 516}" /> </fig_13>
+<fig_14> <InfoScreenFigure id = "{4 ef5_plum}" box = "{190 30}"  multiplier = "1" combination = "5" pos = "{276 441}" /> </fig_14>
+<fig_15> <InfoScreenFigure id = "{4 ef5_plum}" box = "{190 30}"  multiplier = "1" combination = "4" pos = "{276 479}" /> </fig_15>
+<fig_16> <InfoScreenFigure id = "{4 ef5_plum}" box = "{190 30}"  multiplier = "1" combination = "3" pos = "{276 516}" /> </fig_16>
+<fig_17> <InfoScreenFigure id = "{5 ef6_bar}" box = "{190 30}"  multiplier = "1" combination = "5" pos = "{208 276}" /> </fig_17>
+<fig_18> <InfoScreenFigure id = "{5 ef6_bar}" box = "{190 30}"  multiplier = "1" combination = "4" pos = "{208 314}" /> </fig_18>
+<fig_19> <InfoScreenFigure id = "{5 ef6_bar}" box = "{190 30}"  multiplier = "1" combination = "3" pos = "{208 351}" /> </fig_19>
+<fig_20> <InfoScreenFigure id = "{6 ef7_seven}" box = "{190 30}"  multiplier = "1" combination = "5" pos = "{591 245}" /> </fig_20>
+<fig_21> <InfoScreenFigure id = "{6 ef7_seven}" box = "{190 30}"  multiplier = "1" combination = "4" pos = "{591 283}" /> </fig_21>
+<fig_22> <InfoScreenFigure id = "{6 ef7_seven}" box = "{190 30}"  multiplier = "1" combination = "3" pos = "{591 320}" /> </fig_22>
+<fig_23> <InfoScreenFigure id = "{7 ef8_scatter}" box = "{190 30}" winCoeff = "250" pos = "{907 245}" /> </fig_23>
+<fig_24> <InfoScreenFigure id = "{7 ef8_scatter}" box = "{190 30}" winCoeff = "50"  pos = "{907 283}" /> </fig_24>
+<fig_25> <InfoScreenFigure id = "{7 ef8_scatter}" box = "{190 30}" winCoeff = "10"  pos = "{907 320}" /> </fig_25>
+
+<DOUBLE_UP_VALUE_POS>
+    <Text language = "BG" pos ="{1077 634}" algn = "left" />
+	<Text language = "DE" pos ="{908 634}" algn = "left" />
+	<Text language = "EN" pos ="{959 634}" algn = "left" />
+	<Text language = "ESP" pos ="{959 634}" algn = "left" />
+	<Text language = "HU" pos ="{1049 634}" algn = "left" />
+</DOUBLE_UP_VALUE_POS>
+<!-- max attempts resource -->
+<EH_DOUBLEUP_MAX_ATTEMPTS>
+	<Picture language = "EN" path = "../hat/p/multilanguage/info/en/gamble_max_attempts_en.png" srcRect = "{0 0 545 33}" pos = "{446 865}" />
+	<Picture language = "BG" path = "../hat/p/multilanguage/info/bg/gamble_max_attempts_bg.png" srcRect = "{0 0 545 33}" pos = "{446 865}" />
+	<Picture language = "DE" path = "../hat/p/multilanguage/info/de/gamble_max_attempts_de.png" srcRect = "{0 0 545 33}" pos = "{446 865}" />
+	<Picture language = "ESP" path = "../hat/p/multilanguage/info/esp/gamble_max_attempts_esp.png" srcRect = "{0 0 545 33}" pos = "{446 865}" />
+	<Picture language = "HU" path = "../hat/p/multilanguage/info/hu/gamble_max_attempts_hu.png" srcRect = "{0 0 545 33}" pos = "{446 865}" />
+</EH_DOUBLEUP_MAX_ATTEMPTS>
+<MAX_GAMBLE_ATTEMPTS>
+	<Text language = "EN" pos = "{875 895}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" />
+	<Text language = "BG" pos = "{952 895}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" />
+	<Text language = "DE" pos = "{890 875}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+	<Text language = "ESP" pos = "{886 875}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+	<Text language = "HU" pos = "{907 875}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+</MAX_GAMBLE_ATTEMPTS>
+<DOUBLE_UP_VALUE_POS_CENTER>
+    <Text language = "BG" pos ="{1077 383}" algn = "left" />
+	<Text language = "DE" pos ="{908 383}" algn = "left" />
+	<Text language = "EN" pos ="{959 383}" algn = "left" />
+	<Text language = "ESP" pos ="{959 383}" algn = "left" />
+	<Text language = "HU" pos ="{1049 383}" algn = "left" />
+</DOUBLE_UP_VALUE_POS_CENTER>
+<EH_DOUBLEUP_MAX_ATTEMPTS_CENTER>
+	<Picture language = "EN" path = "../hat/p/multilanguage/info/en/gamble_max_attempts_en.png" srcRect = "{0 0 545 33}" pos = "{446 602}" />
+	<Picture language = "BG" path = "../hat/p/multilanguage/info/bg/gamble_max_attempts_bg.png" srcRect = "{0 0 545 33}" pos = "{446 602}" />
+	<Picture language = "DE" path = "../hat/p/multilanguage/info/de/gamble_max_attempts_de.png" srcRect = "{0 0 545 33}" pos = "{446 602}" />
+	<Picture language = "ESP" path = "../hat/p/multilanguage/info/esp/gamble_max_attempts_esp.png" srcRect = "{0 0 545 33}" pos = "{446 602}" />
+	<Picture language = "HU" path = "../hat/p/multilanguage/info/hu/gamble_max_attempts_hu.png" srcRect = "{0 0 545 33}" pos = "{446 602}" />
+</EH_DOUBLEUP_MAX_ATTEMPTS_CENTER>
+
+<MAX_GAMBLE_ATTEMPTS_CENTER>
+	<Text language = "EN" pos = "{875 632}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" />
+	<Text language = "BG" pos = "{952 632}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" />
+	<Text language = "DE" pos = "{890 632}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+	<Text language = "ESP" pos = "{886 632}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+	<Text language = "HU" pos = "{907 632}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+</MAX_GAMBLE_ATTEMPTS_CENTER>
+<!-- Cross fade pictures (BEGIN)-->
+<cross_fade_animation_1>                         
+    <Picture id = "cross_fade_1_orange" path = "p/info/eh_h_cherry_x5.png"  srcRect = "{0 0 329 199}"  pos = "{147 672}" />
+    <Picture id = "cross_fade_1_plum" path = "p/info/eh_h_orange_x5.png"  srcRect = "{0 0 329 199}" pos = "{147 672}" />
+    <Picture id = "cross_fade_1_cherry" path = "p/info/eh_h_plum_x5.png"  srcRect = "{0 0 329 199}" pos = "{147 672}" />
+    <Picture id = "cross_fade_1_lemon" path = "p/info/eh_h_lemon_x5.png"  srcRect = "{0 0 329 199}"  pos = "{147 672}" />
+</cross_fade_animation_1>                        
+<cross_fade_animation_2>                         
+    <Picture id = "cross_fade_2_orange" path = "p/info/eh_h_cherry_x5.png"  srcRect = "{0 0 260 199}"  pos = "{555 672}" />
+    <Picture id = "cross_fade_2_plum" path = "p/info/eh_h_orange_x5.png"  srcRect = "{0 0 260 199}" pos = "{555 672}" />
+    <Picture id = "cross_fade_2_cherry" path = "p/info/eh_h_plum_x5.png"  srcRect = "{0 0 260 199}" pos = "{555 672}" />
+    <Picture id = "cross_fade_2_lemon" path = "p/info/eh_h_lemon_x5.png"  srcRect = "{0 0 260 199}"  pos = "{555 672}" />
+</cross_fade_animation_2>                        
+<cross_fade_animation_3>                        
+    <Picture id = "cross_fade_3_orange" path = "p/info/eh_h_cherry_x5.png"  srcRect = "{0 0 195 199}"  pos = "{964 672}" />
+    <Picture id = "cross_fade_3_plum" path = "p/info/eh_h_orange_x5.png"  srcRect = "{0 0 195 199}" pos = "{964 672}" />
+    <Picture id = "cross_fade_3_cherry" path = "p/info/eh_h_plum_x5.png"  srcRect = "{0 0 195 199}" pos = "{964 672}" />
+    <Picture id = "cross_fade_3_lemon" path = "p/info/eh_h_lemon_x5.png"  srcRect = "{0 0 195 199}"  pos = "{964 672}" />
+</cross_fade_animation_3>                       
+
+<CB_EHP_INFO1_MULT_X3>
+    <Picture language = "BG" path = "p/info/eh_h1_x3.png"  srcRect = "{0 0 141 95}"  pos = "{999 731}" />
+	<Picture language = "DE" path = "p/info/eh_h1_x3.png"  srcRect = "{0 0 141 95}"  pos = "{999 731}" />
+	<Picture language = "EN" path = "p/info/eh_h1_x3.png"  srcRect = "{0 0 141 95}"  pos = "{999 731}" />
+	<Picture language = "ESP" path = "p/info/eh_h1_x3.png"  srcRect = "{0 0 141 95}"  pos = "{999 731}" />
+	<Picture language = "HU" path = "p/info/eh_h1_x3.png"  srcRect = "{0 0 141 95}"  pos = "{999 731}" />
+    <Picture language = "NL" path = "p/info/eh_h1_x3.png"  srcRect = "{0 0 141 95}"  pos = "{999 731}" />
+</CB_EHP_INFO1_MULT_X3>
+
+<CB_EHP_INFO1_MULT_X4>
+    <Picture language = "BG" path = "p/info/eh_h1_x4.png"  srcRect = "{0 0 141 95}"  pos = "{618 731}" />
+	<Picture language = "DE" path = "p/info/eh_h1_x4.png"  srcRect = "{0 0 141 95}"  pos = "{618 731}" />
+	<Picture language = "EN" path = "p/info/eh_h1_x4.png"  srcRect = "{0 0 141 95}"  pos = "{618 731}" />
+	<Picture language = "HU" path = "p/info/eh_h1_x4.png"  srcRect = "{0 0 141 95}"  pos = "{618 731}" />
+	<Picture language = "ESP" path = "p/info/eh_h1_x4.png"  srcRect = "{0 0 141 95}"  pos = "{618 731}" />
+    <Picture language = "NL" path = "p/info/eh_h1_x4.png"  srcRect = "{0 0 141 95}"  pos = "{618 731}" />
+</CB_EHP_INFO1_MULT_X4>
+
+<CB_EHP_INFO1_MULT_X5>
+    <Picture language = "BG" path = "p/info/eh_h1_x5.png"  srcRect = "{0 0 141 95}" pos = "{243 731}" />
+	<Picture language = "DE" path = "p/info/eh_h1_x5.png"  srcRect = "{0 0 141 95}" pos = "{243 731}" />
+	<Picture language = "EN" path = "p/info/eh_h1_x5.png"  srcRect = "{0 0 141 95}" pos = "{243 731}" />
+	<Picture language = "ESP" path = "p/info/eh_h1_x5.png"  srcRect = "{0 0 141 95}" pos = "{2430 731}" />
+	<Picture language = "HU" path = "p/info/eh_h1_x5.png"  srcRect = "{0 0 141 95}" pos = "{243 731}" />
+    <Picture language = "NL" path = "p/info/eh_h1_x5.png"  srcRect = "{0 0 141 95}" pos = "{243 731}" />
+</CB_EHP_INFO1_MULT_X5>
+
+<CB_EHP_INFO1_ANY_FIRST>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/eh_h1_any.png"  srcRect = "{0 0 61 191}"  pos = "{819 676}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/eh_h1_any.png"  srcRect = "{0 0 61 191}"  pos = "{819 676}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/eh_h1_any.png"  srcRect = "{0 0 61 191}"  pos = "{819 676}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/eh_h1_any.png"  srcRect = "{0 0 61 191}"  pos = "{819 676}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/eh_h1_any.png"  srcRect = "{0 0 61 191}"  pos = "{819 676}" />
+    <Picture language = "NL" path = "p/multilanguage/hol/info/eh_h1_any.png"  srcRect = "{0 0 61 191}"  pos = "{819 676}" />
+</CB_EHP_INFO1_ANY_FIRST>
+
+<CB_EHP_INFO1_ANY_SECOND>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/eh_h1_any.png"  srcRect = "{0 0 61 191}"  pos = "{1163 676}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/eh_h1_any.png"  srcRect = "{0 0 61 191}"  pos = "{1163 676}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/eh_h1_any.png"  srcRect = "{0 0 61 191}"  pos = "{1163 676}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/eh_h1_any.png"  srcRect = "{0 0 61 191}"  pos = "{1163 676}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/eh_h1_any.png"  srcRect = "{0 0 61 191}"  pos = "{1163 676}" />
+    <Picture language = "NL" path = "p/multilanguage/hol/info/eh_h1_any.png"  srcRect = "{0 0 61 191}"  pos = "{1163 676}" />
+</CB_EHP_INFO1_ANY_SECOND>
+
+<CB_EHP_INFO1_ANY_THIRD>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/eh_h1_any.png"  srcRect = "{0 0 61 191}"  pos = "{1228 676}" />
+    <Picture language = "DE" path = "p/multilanguage/de/info/eh_h1_any.png"  srcRect = "{0 0 61 191}"  pos = "{1228 676}" />
+    <Picture language = "EN" path = "p/multilanguage/en/info/eh_h1_any.png"  srcRect = "{0 0 61 191}"  pos = "{1228 676}" />
+    <Picture language = "ESP" path = "p/multilanguage/esp/info/eh_h1_any.png"  srcRect = "{0 0 61 191}"  pos = "{1228 676}" />
+    <Picture language = "HU" path = "p/multilanguage/hu/info/eh_h1_any.png"  srcRect = "{0 0 61 191}"  pos = "{1228 676}" />
+    <Picture language = "NL" path = "p/multilanguage/hol/info/eh_h1_any.png"  srcRect = "{0 0 61 191}"  pos = "{1228 676}" />
+</CB_EHP_INFO1_ANY_THIRD>
+
+<!-- Cross fade pictures (END)-->
+
+<wintable>
+    <Scene order = "0" type = "standard"
+    useLogicModifiers = "{cross_fade}"
+    useView = "cross_fade"
+	pictures = "{   CB_EHP_INFO1_BGR CB_EHP_SCATTER 
+                    CB_EHP_INFO1_ANY_FIRST
+                    CB_EHP_INFO1_ANY_SECOND
+                    CB_EHP_INFO1_ANY_THIRD
+                    cross_fade_animation_1
+                    cross_fade_animation_2
+                    cross_fade_animation_3
+                    CB_EHP_INFO1_MULT_X5
+                    CB_EHP_INFO1_MULT_X4
+                    CB_EHP_INFO1_MULT_X3
+                    LEFT_INFO_TEXT RIGHT_INFO_TEXT  }"
+	values = "{ fig_1 fig_2 fig_3 fig_4 fig_5 fig_6 fig_7 fig_8 fig_9 fig_10 fig_11 fig_12 fig_13 fig_14 fig_15 fig_16 fig_17 fig_18 fig_19 fig_20 fig_21 fig_22 fig_23 fig_24 fig_25}"
+	font = "EHP_H_ARIAL13" />
+</wintable>
+
+<CB_EHP_INFO2_BGR>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/eh_h2.png"  srcRect = "{0 0 1440 900}"  pos = "{0 0}" />
+    <Picture language = "DE" path = "p/multilanguage/de/info/eh_h2.png"  srcRect = "{0 0 1440 900}"  pos = "{0 0}" />
+    <Picture language = "EN" path = "p/multilanguage/en/info/eh_h2.png"  srcRect = "{0 0 1440 900}"  pos = "{0 0}" />
+    <Picture language = "ESP" path = "p/multilanguage/esp/info/eh_h2.png"  srcRect = "{0 0 1440 900}"  pos = "{0 0}" />
+    <Picture language = "HU" path = "p/multilanguage/hu/info/eh_h2.png"  srcRect = "{0 0 1440 900}"  pos = "{0 0}" />
+    <Picture language = "NL" path = "p/multilanguage/hol/info/eh_h2.png"  srcRect = "{0 0 1440 900}"  pos = "{0 0}" />
+</CB_EHP_INFO2_BGR>
+
+<!-- TODO   Need to create second cross fade logic and View 
+     Cross fade pictures (Second Screen)-->
+<!--
+
+<cross_fade_animation_second_screen_1>                         
+    <Picture id = "cross_fade_1_orange1" path = "p/info/eh_h_cherry_x5.png"  srcRect = "{0 0 329 199}"  pos = "{72 113}" />
+    <Picture id = "cross_fade_1_plum1" path = "p/info/eh_h_orange_x5.png"  srcRect = "{0 0 329 199}" pos = "{72 113}" />
+    <Picture id = "cross_fade_1_cherry1" path = "p/info/eh_h_plum_x5.png"  srcRect = "{0 0 329 199}" pos = "{72 113}" />
+    <Picture id = "cross_fade_1_lemon1" path = "p/info/eh_h_lemon_x5.png"  srcRect = "{0 0 329 199}"  pos = "{72 113}" />
+</cross_fade_animation_second_screen_1>                        
+<cross_fade_animation_second_screen_2>                         
+    <Picture id = "cross_fade_2_orange1" path = "p/info/eh_h_cherry_x5.png"  srcRect = "{0 0 260 199}"  pos = "{72 347}" />
+    <Picture id = "cross_fade_2_plum1" path = "p/info/eh_h_orange_x5.png"  srcRect = "{0 0 260 199}" pos = "{72 347}" />
+    <Picture id = "cross_fade_2_cherry1" path = "p/info/eh_h_plum_x5.png"  srcRect = "{0 0 260 199}" pos = "{72 347}" />
+    <Picture id = "cross_fade_2_lemon1" path = "p/info/eh_h_lemon_x5.png"  srcRect = "{0 0 260 199}"  pos = "{72 347}" />
+</cross_fade_animation_second_screen_2>                        
+<cross_fade_animation_second_screen_3>                        
+    <Picture id = "cross_fade_3_orange1" path = "p/info/eh_h_cherry_x5.png"  srcRect = "{0 0 195 199}"  pos = "{72 580}" />
+    <Picture id = "cross_fade_3_plum1" path = "p/info/eh_h_orange_x5.png"  srcRect = "{0 0 195 199}" pos = "{72 580}" />
+    <Picture id = "cross_fade_3_cherry1" path = "p/info/eh_h_plum_x5.png"  srcRect = "{0 0 195 199}" pos = "{72 580}" />
+    <Picture id = "cross_fade_3_lemon1" path = "p/info/eh_h_lemon_x5.png"  srcRect = "{0 0 195 199}"  pos = "{72 580}" />
+</cross_fade_animation_second_screen_3>  
+-->
+<freespins>
+    <Scene order = "1" type = "standard" 
+        pictures = "{
+        CB_EHP_INFO2_BGR 
+        LEFT_INFO_TEXT
+        RIGHT_INFO_TEXT
+        }" 
+        />
+</freespins>
+
+<doubleup>
+    <Scene order = "2" type = "standard"
+	    pictures = "{CB_EHP_INFO3_BGR CB_EHP_INFO3_DOUBLEUP_CENTER EH_DOUBLEUP_MAX_ATTEMPTS_CENTER LEFT_INFO_TEXT RIGHT_INFO_TEXT }"
+		values = "{ DOUBLE_UP_VALUE_POS_CENTER MAX_GAMBLE_ATTEMPTS_CENTER}"
+		font = "EHP_H_ARIAL13" />
+	
+	<Scene order = "2" type = "doubleup_and_jackpot"
+	    pictures = "{CB_EHP_INFO3_BGR CB_EHP_INFO3_DOUBLEUP CB_EHP_INFO3_JP EH_DOUBLEUP_MAX_ATTEMPTS LEFT_INFO_TEXT RIGHT_INFO_TEXT}"
+		values = "{ DOUBLE_UP_VALUE_POS MAX_GAMBLE_ATTEMPTS }"
+		font = "EHP_H_ARIAL13" />
+	<Scene order = "2" type = "jackpot"
+	    pictures = "{CB_EHP_INFO3_BGR CB_EHP_INFO3_JP_CENTER LEFT_INFO_TEXT RIGHT_INFO_TEXT }"
+		font = "EHP_H_ARIAL13" />
+</doubleup>
+
+<rules>
+    <Scene order = "3" type = "standard"
+	    pictures = "{CB_EHP_INFO4_BGR CB_EHP_INFO4_TEXT CB_EHP_INFO4_TITLE LEFT_INFO_TEXT RIGHT_INFO_TEXT   }" />
+</rules>
+
+</GameInfoScreen>
+</compmgr>

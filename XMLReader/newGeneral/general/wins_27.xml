@@ -1,0 +1,171 @@
+<compmgr name = "wins_27">
+
+<TopperResources fontIni = "{W27PFonts.ini}" />
+
+<GameInfoScreen>
+<CB_W27P_INFO1_BGR>
+    <Picture path = "p/info/27wins_h1.png"  srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</CB_W27P_INFO1_BGR>    
+
+<CB_W27P_INFO3_BGR>
+    <Picture path = "p/info/27wins_h2_h3.png"  srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</CB_W27P_INFO3_BGR>
+
+<CB_W27P_INFO4_BGR>
+    <Picture path = "p/info/27wins_h2_h3.png"  srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</CB_W27P_INFO4_BGR>
+
+<RIGHT_INFO_TEXT>
+    <Picture language = "BG"  path = "p/multilanguage/bg/info/27wins_h_right.png"  srcRect = "{0 0 554 19}" pos = "{886 881}" />
+    <Picture language = "DE" path = "p/multilanguage/de/info/27wins_h_right.png"  srcRect = "{0 0 688 19}" pos = "{752 881}" />
+    <Picture language = "EN" path = "p/multilanguage/en/info/27wins_h_right.png"  srcRect = "{0 0 379 19}" pos = "{1061 881}" />
+    <Picture language = "ESP" path = "p/multilanguage/esp/info/27wins_h_right.png"  srcRect = "{0 0 524 21}" pos = "{916 879}" />
+    <Picture language = "HU" path = "p/multilanguage/hu/info/27wins_h_right_hu.png"  srcRect = "{0 0 606 21}" pos = "{827 879}" />
+    <Picture language = "NL" path = "p/multilanguage/hol/info/27w_info_text.png"  srcRect = "{0 52 350 13}" pos = "{1090 885}" />
+</RIGHT_INFO_TEXT>    
+
+<LEFT_INFO_TEXT>
+    <!-- Jackpot -->
+    <Picture conditions = "{is_any_jackpot_enabled}" language = "BG" path = "p/multilanguage/bg/info/27wins_h_left_except_jackpots.png"  srcRect = "{0 0 488 19}" pos = "{0 881}" />
+    <Picture conditions = "{is_any_jackpot_enabled}" language = "DE" path = "p/multilanguage/de/info/27wins_h_left_deut_except_jackpots.png"  srcRect = "{0 0 417 19}" pos = "{0 881}" />
+    <Picture conditions = "{is_any_jackpot_enabled}" language = "EN" path = "p/multilanguage/en/info/27wins_h_left_except_jackpots.png"  srcRect = "{0 0 378 19}" pos = "{0 881}" />
+    <Picture conditions = "{is_any_jackpot_enabled}" language = "ESP" path = "p/multilanguage/esp/info/27wins_h_left_except_jackpots.png"  srcRect = "{0 0 836 21}" pos = "{0 878}" />
+    <Picture conditions = "{is_any_jackpot_enabled}" language = "HU" path = "p/multilanguage/hu/info/27wins_h_left_except_jackpots.png"  srcRect = "{0 0 636 21}" pos = "{10 879}" />
+    <!-- Standard -->
+    <Picture  language = "BG" path = "p/multilanguage/bg/info/27wins_h_left.png"  srcRect = "{0 0 399 19}" pos = "{0 881}" />
+    <Picture  language = "DE" path = "p/multilanguage/de/info/27wins_h_left.png"  srcRect = "{0 0 417 19}" pos = "{0 881}" />
+    <Picture  language = "EN" path = "p/multilanguage/en/info/27wins_h_left.png"  srcRect = "{0 0 282 19}" pos = "{0 881}" />
+    <Picture  language = "ESP" path = "p/multilanguage/esp/info/27wins_h_left.png"  srcRect = "{0 0 426 21}" pos = "{0 879}" />
+    <Picture  language = "HU" path = "p/multilanguage/hu/info/27wins_h_left_hu.png"  srcRect = "{0 0 446 21}" pos = "{10 879}" />
+    <Picture  language = "NL" path = "p/multilanguage/hol/info/27w_info_text.png"  srcRect = "{0 13 348 13}" pos = "{0 884}" />
+</LEFT_INFO_TEXT>    
+    
+<CB_W27P_INFO1_WILD>
+        <Picture language = "BG" path = "p/multilanguage/bg/info/27wins_h1_wild.png"  srcRect = "{0 0 406 82}" pos = "{515 394}" />
+        <Picture language = "DE" path = "p/multilanguage/de/info/27wins_h1_wild.png"  srcRect = "{0 0 406 82}" pos = "{515 394}" />
+        <Picture language = "EN" path = "p/multilanguage/en/info/27wins_h1_wild.png"  srcRect = "{0 0 406 82}" pos = "{515 394}" />
+        <Picture language = "ESP" path = "p/multilanguage/esp/info/27wins_h1_wild.png"  srcRect = "{0 0 412 84}" pos = "{511 392}" />
+        <Picture language = "HU" path = "p/multilanguage/hu/info/27wins_h1_wild_hu.png"  srcRect = "{0 0 487 112}" pos = "{470 362}" />
+        <Picture language = "NL" path = "p/multilanguage/hol/info/27wins_h1_wild.png"  srcRect = "{0 0 406 82}" pos = "{515 394}" />
+</CB_W27P_INFO1_WILD>
+
+<CB_W27P_INFO1_MYSTERY_WIN>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/27wins_h1_mystery_wins.png"  srcRect = "{0 0 447 78}" pos = "{499 498}" />
+    <Picture language = "DE" path = "p/multilanguage/de/info/27wins_h1_mystery_wins.png"  srcRect = "{0 0 447 78}" pos = "{497 498}" />
+    <Picture language = "EN" path = "p/multilanguage/en/info/27wins_h1_mystery_wins.png"  srcRect = "{0 0 447 78}" pos = "{499 498}" />
+    <Picture language = "ESP" path = "p/multilanguage/esp/info/27wins_h1_mystery_wins.png"  srcRect = "{0 0 447 78}" pos = "{499 498}" />
+    <Picture language = "HU" path = "p/multilanguage/hu/info/27wins_h1_mystery_wins_hu.png"  srcRect = "{0 0 447 78}" pos = "{499 498}" />
+     <Picture language = "NL" path = "p/multilanguage/hol/info/27wins_h1_mystery_wins.png"  srcRect = "{0 0 447 78}" pos = "{499 498}" />
+</CB_W27P_INFO1_MYSTERY_WIN>
+
+<CB_W27P_INFO4_PAYS_RULES>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/27wins_h3.png"  srcRect = "{0 0 1440 680}" pos = "{0 112}" />
+    <Picture language = "DE" path = "p/multilanguage/de/info/27wins_h3.png"  srcRect = "{0 0 1440 680}" pos = "{0 112}" />
+    <Picture language = "EN" path = "p/multilanguage/en/info/27wins_h3.png"  srcRect = "{0 0 1440 680}" pos = "{0 112}" />
+    <Picture language = "ESP" path = "p/multilanguage/esp/info/27wins_h3.png"  srcRect = "{0 0 1440 680}" pos = "{0 112}" />
+    <Picture language = "HU" path = "p/multilanguage/hu/info/27wins_h3_hu.png"  srcRect = "{0 0 1440 680}" pos = "{0 112}" />
+</CB_W27P_INFO4_PAYS_RULES>    
+
+<CB_W27P_INFO3_DOUBLEUP>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/27wins_h2_gamble.png"  srcRect = "{0 0 1440 520}" pos = "{0 429}" />
+    <Picture language = "DE" path = "p/multilanguage/de/info/27wins_h2_gamble.png"  srcRect = "{0 0 1440 520}" pos = "{0 429}" />
+    <Picture language = "EN" path = "p/multilanguage/en/info/27wins_h2_gamble.png"  srcRect = "{0 0 1440 520}" pos = "{0 429}" />
+    <Picture language = "ESP" path = "p/multilanguage/esp/info/27wins_h2_gamble.png"  srcRect = "{0 0 1440 520}" pos = "{0 429}" />
+    <Picture language = "HU" path = "p/multilanguage/hu/info/27wins_h2_gamble_hu.png"  srcRect = "{0 0 1440 520}" pos = "{0 423}" />
+</CB_W27P_INFO3_DOUBLEUP>    
+
+<CB_W27P_INFO3_MYSTERY>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/27wins_h2_mystery_win.png"  srcRect = "{0 0 1440 520}" pos = "{0 0}" />
+    <Picture language = "DE" path = "p/multilanguage/de/info/27wins_h2_mystery_win_deut.png"  srcRect = "{0 0 1440 520}" pos = "{0 0}" />
+    <Picture language = "EN" path = "p/multilanguage/en/info/27wins_h2_mystery_win.png"  srcRect = "{0 0 1440 520}" pos = "{0 0}" />
+    <Picture language = "ESP" path = "p/multilanguage/esp/info/27wins_h2_mystery_win.png"  srcRect = "{0 0 1440 520}" pos = "{0 0}" />
+    <Picture language = "HU" path = "p/multilanguage/hu/info/27wins_h2_mistery_win_hu.png"  srcRect = "{0 0 1440 520}" pos = "{0 0}" />
+</CB_W27P_INFO3_MYSTERY>
+
+<DOUBLE_UP_VALUE_POS>
+    <Text language = "BG" pos ="{951 627}" algn = "left" /> 
+    <Text language = "DE" pos ="{770 627}" algn = "left" />
+    <Text language = "EN" pos ="{827 627}" algn = "left" />
+    <Text language = "ESP" pos ="{854 627}" algn = "left" />
+    <Text language = "HU" pos ="{962 627}" algn = "left" />
+</DOUBLE_UP_VALUE_POS>
+
+<DOUBLE_UP_VALUE_POS_CENTER>
+    <Text language = "BG" pos ="{951 627}" algn = "left" />
+    <Text language = "DE" pos ="{770 627}" algn = "left" />
+    <Text language = "EN" pos ="{827 627}" algn = "left" /> 
+    <Text language = "ESP" pos ="{854 627}" algn = "left" /> 
+    <Text language = "HU" pos ="{962 627}" algn = "left" />
+</DOUBLE_UP_VALUE_POS_CENTER>
+
+<fig_1> <InfoScreenFigure id = "{0 ef1_cherry}" box = "{200 30}" multiplier = "1" combination = "3" pos = "{1235 697}" /> </fig_1>
+<fig_2> <InfoScreenFigure id = "{3 ef4_plum}" box = "{200 30}" multiplier = "1" combination = "3" pos = "{269 697}" /> </fig_2>
+<fig_3> <InfoScreenFigure id = "{5 ef6_grapes}" box = "{200 30}" multiplier = "1" combination = "3" pos = "{1235 277}" /> </fig_3>
+<fig_4> <InfoScreenFigure id = "{8 ef9_seven}" box = "{200 30}" multiplier = "1" combination = "3" pos = "{269 277}" /> </fig_4>
+<fig_5> <InfoScreenFigure id = "{9 ef10_wild}" box = "{200 30}" multiplier = "1" combination = "3" pos = "{740 428}" /> </fig_5>
+<fig_6> <InfoScreenFigure id = "{10 ef11_27wins}" box = "{200 30}" winCoeff = "250" pos = "{723 860}" /> </fig_6>
+<fig_7> <InfoScreenFigure id = "{10 ef11_27wins}" box = "{170 30}" winCoeff = "1000" pos = "{723 626}" /> </fig_7>
+
+
+<!-- max attempts label -->
+<WINS_27DOUBLEUP_MAX_ATTEMPTS>
+	<Picture language = "EN" path = "../hat/p/multilanguage/info/en/gamble_max_attempts_en.png" srcRect = "{0 0 545 33}" pos = "{446 865}" />
+	<Picture language = "BG" path = "../hat/p/multilanguage/info/bg/gamble_max_attempts_bg.png" srcRect = "{0 0 545 33}" pos = "{446 865}" />
+	<Picture language = "DE" path = "../hat/p/multilanguage/info/de/gamble_max_attempts_de.png" srcRect = "{0 0 545 33}" pos = "{446 865}" />
+	<Picture language = "ESP" path = "../hat/p/multilanguage/info/esp/gamble_max_attempts_esp.png" srcRect = "{0 0 545 33}" pos = "{446 865}" />
+	<Picture language = "HU" path = "../hat/p/multilanguage/info/hu/gamble_max_attempts_hu.png" srcRect = "{0 0 545 33}" pos = "{446 865}" />
+</WINS_27DOUBLEUP_MAX_ATTEMPTS>
+
+<!-- max attempts value coordinate -->
+<MAX_GAMBLE_ATTEMPTS>
+	<Text language = "EN" pos = "{875 895}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" />
+	<Text language = "BG" pos = "{952 895}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" />
+	<Text language = "DE" pos = "{890 895}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+	<Text language = "ESP" pos = "{886 895}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+	<Text language = "HU" pos = "{907 895}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+</MAX_GAMBLE_ATTEMPTS>
+
+<doubleup>
+    <Scene order = "1" type = "standard" 
+        pictures = "{ CB_W27P_INFO3_BGR
+        CB_W27P_INFO3_MYSTERY
+        CB_W27P_INFO3_DOUBLEUP
+        WINS_27DOUBLEUP_MAX_ATTEMPTS
+        LEFT_INFO_TEXT
+        RIGHT_INFO_TEXT}" 
+        values = "{ DOUBLE_UP_VALUE_POS
+        MAX_GAMBLE_ATTEMPTS}" 
+        font = "CIP_W27P_NUMBERS_FONT" />
+</doubleup>
+
+
+
+
+<wintable>
+    <Scene order = "0" font = "CIP_W27P_NUMBERS_FONT" >
+        <standard>
+           <SceneElement name = "CB_W27P_INFO1_BGR" />
+           <SceneElement name = "CB_W27P_INFO1_MYSTERY_WIN" />
+           <SceneElement name = "CB_W27P_INFO1_WILD" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "CB_W27P_INFO4_BGR" />
+           <SceneElement name = "CB_W27P_INFO4_PAYS_RULES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+
+</GameInfoScreen>
+</compmgr>

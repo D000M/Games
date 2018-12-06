@@ -1,0 +1,218 @@
+<compmgr name = "legendary_rome">
+
+<TopperResources fontIni = "{ LRFonts.ini }" />
+
+<GameInfoScreen>
+<CB_ALL_PRICES>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/LR_h_info_bg.png" srcRect = "{0 0 380 20}" pos = "{0 880}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/LR_h_info_de.png" srcRect = "{0 0 384 23}" pos = "{0 877}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/LR_h_info_eng.png" srcRect = "{0 0 380 20}" pos = "{0 878}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/LR_h_info_es.png" srcRect = "{0 0 413 25}" pos = "{0 875}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/LR_h_info_hung.png" srcRect = "{0 0 367 23}" pos = "{0 876}" />
+</CB_ALL_PRICES>
+
+<CB_BONUS_APPEARS_ON_MG>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/LR_h1_text_bg.png" srcRect = "{258 96 160 150}" pos = "{774 701}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/LR_h1_text_de.png" srcRect = "{264 69 166 111}" pos = "{772 711}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/LR_h1_text_eng.png" srcRect = "{258 96 160 150}" pos = "{764 704}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/LR_h1_text_es.png" srcRect = "{264 68 164 127}" pos = "{773 713}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/LR_h1_text_hung.png" srcRect = "{258 96 160 150}" pos = "{774 701}" />
+</CB_BONUS_APPEARS_ON_MG>
+
+<CB_GAMBLE_TEXT>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/LR_h3_text_bg.png" srcRect = "{0 364 1380 359}" pos = "{30 450}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/LR_h3_text_de.png" srcRect = "{0 364 1380 359}" pos = "{30 445}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/LR_h3_text_eng.png" srcRect = "{0 364 1380 359}" pos = "{30 450}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/LR_h3_text_es.png" srcRect = "{0 364 1380 359}" pos = "{30 445}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/LR_h3_text_hung.png" srcRect = "{0 359 1380 359}" pos = "{30 445}" />
+</CB_GAMBLE_TEXT>
+
+<CB_GAMBLE_TEXT_CENTER>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/LR_h3_text_bg.png" srcRect = "{0 364 1380 359}" pos = "{30 268}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/LR_h3_text_de.png" srcRect = "{0 364 1380 359}" pos = "{30 263}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/LR_h3_text_eng.png" srcRect = "{0 364 1380 359}" pos = "{30 268}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/LR_h3_text_es.png" srcRect = "{0 364 1380 359}" pos = "{30 263}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/LR_h3_text_hung.png" srcRect = "{0 359 1380 359}" pos = "{30 263}" />
+</CB_GAMBLE_TEXT_CENTER>
+
+<CB_INFO2_BGR>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/LR_h2_bg.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/h2_LR.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/LR_h2_eng.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/LR_h2_es.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/LR_h2_hung.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</CB_INFO2_BGR>
+
+<CB_JACKPOT_TEXT>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/LR_h3_text_bg.png" srcRect = "{0 0 1380 359}" pos = "{30 81}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/LR_h3_text_de.png" srcRect = "{0 0 1380 359}" pos = "{30 81}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/LR_h3_text_eng.png" srcRect = "{0 0 1380 359}" pos = "{30 81}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/LR_h3_text_es.png" srcRect = "{0 0 1380 359}" pos = "{30 81}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/LR_h3_text_hung.png" srcRect = "{0 0 1380 359}" pos = "{30 81}" />
+</CB_JACKPOT_TEXT>
+
+<CB_JACKPOT_TEXT_CENTER>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/LR_h3_text_bg.png" srcRect = "{0 0 1380 359}" pos = "{30 265}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/LR_h3_text_de.png" srcRect = "{0 0 1380 359}" pos = "{30 265}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/LR_h3_text_eng.png" srcRect = "{0 0 1380 359}" pos = "{30 265}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/LR_h3_text_es.png" srcRect = "{0 0 1380 359}" pos = "{30 265}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/LR_h3_text_hung.png" srcRect = "{0 0 1380 359}" pos = "{30 265}" />
+</CB_JACKPOT_TEXT_CENTER>
+
+<CB_LR_INFO_1_BGR>
+	<Picture path = "p/info/LR_h1.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</CB_LR_INFO_1_BGR>
+
+<CB_LR_INFO_3_BGR>
+	<Picture path = "p/info/LR_h3.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</CB_LR_INFO_3_BGR>
+
+<CB_MULTIFUNCTION_VOIDS>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/LR_h_info_bg.png" srcRect = "{0 20 513 20}" pos = "{927 880}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/LR_h_info_de.png" srcRect = "{0 23 623 22}" pos = "{817 879}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/LR_h_info_eng.png" srcRect = "{0 20 513 20}" pos = "{1085 877}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/LR_h_info_es.png" srcRect = "{0 25 500 23}" pos = "{940 877}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/LR_h_info_hung.png" srcRect = "{0 23 496 23}" pos = "{944 876}" />
+</CB_MULTIFUNCTION_VOIDS>
+
+<CB_PAYLINES_INFO>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/LR_h4_bg.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/h4_LR.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/LR_h4_eng.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/LR_h4_es.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/LR_h4_hung.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</CB_PAYLINES_INFO>
+
+<CB_SCATTER_PANEL_MG>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/LR_h1_text_bg.png" srcRect = "{0 96 258 125}" pos = "{679 451}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/LR_h1_text_de.png" srcRect = "{0 69 264 126}" pos = "{673 450}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/LR_h1_text_eng.png" srcRect = "{0 96 258 125}" pos = "{670 458}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/LR_h1_text_es.png" srcRect = "{0 68 264 126}" pos = "{673 450}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/LR_h1_text_hung.png" srcRect = "{0 96 258 125}" pos = "{679 451}" />
+</CB_SCATTER_PANEL_MG>
+
+<CB_WILD_PANEL>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/LR_h1_text_bg.png" srcRect = "{0 0 440 96}" pos = "{500 318}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/LR_h1_text_de.png" srcRect = "{0 0 382 69}" pos = "{533 320}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/LR_h1_text_eng.png" srcRect = "{0 0 440 96}" pos = "{500 314}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/LR_h1_text_es.png" srcRect = "{0 0 430 68}" pos = "{507 320}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/LR_h1_text_hung.png" srcRect = "{0 0 440 96}" pos = "{500 318}" />
+</CB_WILD_PANEL>
+
+<DOUBLE_UP_VALUE_POS>
+	<Text language = "BG" pos = "{967 601}" algn = "left" /> 
+	<Text language = "DE" pos = "{792 601}" algn = "left" /> 
+	<Text language = "EN" pos = "{800 601}" algn = "left" /> 
+	<Text language = "ESP" pos = "{906 601}" algn = "left" /> 
+	<Text language = "HU" pos = "{992 601}" algn = "left" /> 
+</DOUBLE_UP_VALUE_POS>
+
+<DOUBLE_UP_VALUE_POS_CENTER>
+	<Text language = "BG" pos = "{967 419}" algn = "left" /> 
+	<Text language = "DE" pos = "{792 419}" algn = "left" /> 
+	<Text language = "EN" pos = "{800 419}" algn = "left" /> 
+	<Text language = "ESP" pos = "{906 419}" algn = "left" /> 
+	<Text language = "HU" pos = "{992 419}" algn = "left" /> 
+</DOUBLE_UP_VALUE_POS_CENTER>
+
+<fig_1> <InfoScreenFigure id = "{2 ef3_queen}" box = "{135 60}" multiplier = "2" combination = "5" pos = "{1050 748}" /> </fig_1> 
+<fig_2> <InfoScreenFigure id = "{2 ef3_queen}" box = "{135 60}" multiplier = "2" combination = "4" pos = "{1050 783}" /> </fig_2> 
+<fig_3> <InfoScreenFigure id = "{2 ef3_queen}" box = "{135 60}" multiplier = "2" combination = "3" pos = "{1050 818}" /> </fig_3> 
+<fig_4> <InfoScreenFigure id = "{2 ef3_queen}" box = "{135 60}" multiplier = "1" combination = "5" pos = "{1194 748}" /> </fig_4> 
+<fig_5> <InfoScreenFigure id = "{2 ef3_queen}" box = "{135 60}" multiplier = "1" combination = "4" pos = "{1194 783}" /> </fig_5> 
+<fig_6> <InfoScreenFigure id = "{2 ef3_queen}" box = "{135 60}" multiplier = "1" combination = "3" pos = "{1194 818}" /> </fig_6> 
+<fig_7> <InfoScreenFigure id = "{4 ef5_ace}" box = "{135 60}" multiplier = "2" combination = "5" pos = "{390 748}" /> </fig_7> 
+<fig_8> <InfoScreenFigure id = "{4 ef5_ace}" box = "{135 60}" multiplier = "2" combination = "4" pos = "{390 783}" /> </fig_8> 
+<fig_9> <InfoScreenFigure id = "{4 ef5_ace}" box = "{135 60}" multiplier = "2" combination = "3" pos = "{390 818}" /> </fig_9> 
+<fig_10> <InfoScreenFigure id = "{4 ef5_ace}" box = "{135 60}" multiplier = "1" combination = "5" pos = "{246 748}" /> </fig_10> 
+<fig_11> <InfoScreenFigure id = "{4 ef5_ace}" box = "{135 60}" multiplier = "1" combination = "4" pos = "{246 783}" /> </fig_11> 
+<fig_12> <InfoScreenFigure id = "{4 ef5_ace}" box = "{135 60}" multiplier = "1" combination = "3" pos = "{246 818}" /> </fig_12> 
+<fig_13> <InfoScreenFigure id = "{6 ef7_desk}" box = "{135 60}" multiplier = "1" combination = "5" pos = "{1194 489}" /> </fig_13> 
+<fig_14> <InfoScreenFigure id = "{6 ef7_desk}" box = "{135 60}" multiplier = "1" combination = "4" pos = "{1194 524}" /> </fig_14> 
+<fig_15> <InfoScreenFigure id = "{6 ef7_desk}" box = "{135 60}" multiplier = "1" combination = "3" pos = "{1194 559}" /> </fig_15> 
+<fig_16> <InfoScreenFigure id = "{6 ef7_desk}" box = "{135 60}" multiplier = "2" combination = "5" pos = "{1050 489}" /> </fig_16> 
+<fig_17> <InfoScreenFigure id = "{6 ef7_desk}" box = "{135 60}" multiplier = "2" combination = "4" pos = "{1050 524}" /> </fig_17> 
+<fig_18> <InfoScreenFigure id = "{6 ef7_desk}" box = "{135 60}" multiplier = "2" combination = "3" pos = "{1050 559}" /> </fig_18> 
+<fig_19> <InfoScreenFigure id = "{8 ef9_mask}" box = "{135 60}" multiplier = "1" combination = "5" pos = "{246 489}" /> </fig_19> 
+<fig_20> <InfoScreenFigure id = "{8 ef9_mask}" box = "{135 60}" multiplier = "1" combination = "4" pos = "{246 524}" /> </fig_20> 
+<fig_21> <InfoScreenFigure id = "{8 ef9_mask}" box = "{135 60}" multiplier = "1" combination = "3" pos = "{246 559}" /> </fig_21> 
+<fig_22> <InfoScreenFigure id = "{8 ef9_mask}" box = "{135 60}" multiplier = "2" combination = "5" pos = "{390 489}" /> </fig_22> 
+<fig_23> <InfoScreenFigure id = "{8 ef9_mask}" box = "{135 60}" multiplier = "2" combination = "4" pos = "{390 524}" /> </fig_23> 
+<fig_24> <InfoScreenFigure id = "{8 ef9_mask}" box = "{135 60}" multiplier = "2" combination = "3" pos = "{390 559}" /> </fig_24> 
+<fig_25> <InfoScreenFigure id = "{9 ef10_woman}" box = "{135 60}" multiplier = "1" combination = "5" pos = "{1194 221}" /> </fig_25> 
+<fig_26> <InfoScreenFigure id = "{9 ef10_woman}" box = "{135 60}" multiplier = "1" combination = "4" pos = "{1194 256}" /> </fig_26> 
+<fig_27> <InfoScreenFigure id = "{9 ef10_woman}" box = "{135 60}" multiplier = "1" combination = "3" pos = "{1194 291}" /> </fig_27> 
+<fig_28> <InfoScreenFigure id = "{9 ef10_woman}" box = "{135 60}" multiplier = "1" combination = "2" pos = "{1194 326}" /> </fig_28> 
+<fig_29> <InfoScreenFigure id = "{9 ef10_woman}" box = "{135 60}" multiplier = "2" combination = "5" pos = "{1050 221}" /> </fig_29> 
+<fig_30> <InfoScreenFigure id = "{9 ef10_woman}" box = "{135 60}" multiplier = "2" combination = "4" pos = "{1050 256}" /> </fig_30> 
+<fig_31> <InfoScreenFigure id = "{9 ef10_woman}" box = "{135 60}" multiplier = "2" combination = "3" pos = "{1050 291}" /> </fig_31> 
+<fig_32> <InfoScreenFigure id = "{9 ef10_woman}" box = "{135 60}" multiplier = "2" combination = "2" pos = "{1050 326}" /> </fig_32> 
+<fig_33> <InfoScreenFigure id = "{10 ef11_man}" box = "{135 60}" multiplier = "1" combination = "5" pos = "{246 221}" /> </fig_33> 
+<fig_34> <InfoScreenFigure id = "{10 ef11_man}" box = "{135 60}" multiplier = "1" combination = "4" pos = "{246 256}" /> </fig_34> 
+<fig_35> <InfoScreenFigure id = "{10 ef11_man}" box = "{135 60}" multiplier = "1" combination = "3" pos = "{246 291}" /> </fig_35> 
+<fig_36> <InfoScreenFigure id = "{10 ef11_man}" box = "{135 60}" multiplier = "1" combination = "2" pos = "{246 326}" /> </fig_36> 
+<fig_37> <InfoScreenFigure id = "{10 ef11_man}" box = "{135 60}" multiplier = "2" combination = "5" pos = "{390 221}" /> </fig_37> 
+<fig_38> <InfoScreenFigure id = "{10 ef11_man}" box = "{135 60}" multiplier = "2" combination = "4" pos = "{390 256}" /> </fig_38> 
+<fig_39> <InfoScreenFigure id = "{10 ef11_man}" box = "{135 60}" multiplier = "2" combination = "3" pos = "{390 291}" /> </fig_39> 
+<fig_40> <InfoScreenFigure id = "{10 ef11_man}" box = "{135 60}" multiplier = "2" combination = "2" pos = "{390 326}" /> </fig_40> 
+<fig_41> <InfoScreenFigure id = "{11 ef12_wild}" box = "{160 60}" multiplier = "1" combination = "5" pos = "{826 180}" font = "LR_H_CIFRI_WILD" /> </fig_41> 
+<fig_42> <InfoScreenFigure id = "{11 ef12_wild}" box = "{160 60}" multiplier = "1" combination = "4" pos = "{826 228}" font = "LR_H_CIFRI_WILD" /> </fig_42> 
+<fig_43> <InfoScreenFigure id = "{11 ef12_wild}" box = "{160 60}" multiplier = "1" combination = "3" pos = "{826 276}" font = "LR_H_CIFRI_WILD" /> </fig_43> 
+<fig_44> <InfoScreenFigure id = "{11 ef12_wild}" box = "{160 60}" multiplier = "1" combination = "2" pos = "{826 324}" font = "LR_H_CIFRI_WILD" /> </fig_44> 
+<fig_45> <InfoScreenFigure id = "{12 ef13_scatter}" box = "{170 60}" multiplier = "1" combination = "3" pos = "{824 620}" font = "LR_H_CIFRI_WILD" scatter = "true" groupId = "1" /> </fig_45>
+
+
+
+<doubleup>
+	<Scene order = "2" type = "standard" 
+		pictures = "{CB_LR_INFO_3_BGR CB_ALL_PRICES CB_GAMBLE_TEXT_CENTER CB_MULTIFUNCTION_VOIDS }" 
+		values = "{ DOUBLE_UP_VALUE_POS_CENTER }" 
+		font = "LR_H_CIFRI" />
+	<Scene order = "2" type = "doubleup_and_jackpot" 
+		pictures = "{CB_LR_INFO_3_BGR CB_GAMBLE_TEXT CB_JACKPOT_TEXT CB_JACKPOT_TEXT_CENTER }" 
+		values = "{ DOUBLE_UP_VALUE_POS }" 
+		font = "LR_H_CIFRI" />
+	<Scene order = "2" type = "jackpot" 
+		pictures = "{ CB_LR_INFO_3_BGR }" 
+		font = "LR_H_CIFRI" />
+</doubleup>
+
+
+<wintable>
+    <Scene order = "0" font = "LR_H_CIFRI" >
+        <standard>
+           <SceneElement name = "CB_LR_INFO_1_BGR" />
+           <SceneElement name = "CB_ALL_PRICES" />
+           <SceneElement name = "CB_BONUS_APPEARS_ON_MG" />
+           <SceneElement name = "CB_MULTIFUNCTION_VOIDS" />
+           <SceneElement name = "CB_SCATTER_PANEL_MG" />
+           <SceneElement name = "CB_WILD_PANEL" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_INFO2_BGR" />
+           <SceneElement name = "CB_ALL_PRICES" />
+           <SceneElement name = "CB_MULTIFUNCTION_VOIDS" />
+        </standard>
+    </Scene>
+</freespins>
+
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_LR_INFO_3_BGR" />
+           <SceneElement name = "CB_ALL_PRICES" />
+           <SceneElement name = "CB_MULTIFUNCTION_VOIDS" />
+           <SceneElement name = "CB_PAYLINES_INFO" />
+        </standard>
+    </Scene>
+</rules>
+
+
+</GameInfoScreen>
+</compmgr>

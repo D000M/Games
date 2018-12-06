@@ -1,0 +1,1962 @@
+###########       general/burning_hot_20.xml     ############
+<wintable>
+    <Scene order = "0" font = "BH20P_H1_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_BH20P_INFO1_BGR" />
+           <SceneElement name = "CB_BH20P_SCATTER1_LABEL" />
+           <SceneElement name = "CB_BH20P_SCATTER2_TEXT" />
+           <SceneElement name = "CB_BH20P_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/shining_crown_40.xml     ############
+<wintable>
+    <Scene order = "0" font = "SCP_H1_ARIAL13" >
+        <standard>
+           <SceneElement name = "SC_40_BACKGROUND_SCREEN" />
+           <SceneElement name = "SC_40_SUBTITUTES_TEXT" />
+           <SceneElement name = "SC_40_SCATTER_LABEL" />
+           <SceneElement name = "SC_40_SCATTER_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/blue_heart.xml     ############
+<wintable>
+    <Scene order = "0" font = "BH_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_BH_INFO1_BGR" />
+           <SceneElement name = "CB_BH_INFO1_FREE_SPINS" />
+           <SceneElement name = "CB_BH_INFO1_SCATTER" />
+           <SceneElement name = "CB_BH_INFO1_SCATTER_INFO" />
+           <SceneElement name = "CB_BH_INFO1_STACKED" />
+           <SceneElement name = "CB_BH_INFO1_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/knight_heart.xml     ############
+<wintable>
+    <Scene order = "0" font = "OC_H1_FONT" >
+        <standard>
+           <SceneElement name = "INFO1_BACKGROUND" />
+           <SceneElement name = "INFO1_SUBSTITUTES_TEXT" />
+           <SceneElement name = "INFO1_SCATTER_TEXT" />
+           <SceneElement name = "INFO1_PLAYER_SELECTS" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_sweety_dogs.xml     ############
+<wintable>
+    <Scene order = "0" font = "H1_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_SDFHD_INFO1_BGR" />
+           <SceneElement name = "CB_SDFHD_INFO1_TEXTS" />
+           <SceneElement name = "COPYRIGHTS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/hot_blast_50.xml     ############
+<wintable>
+    <Scene order = "0" font = "FSP_SWINTABLE_INFO" >
+        <standard>
+           <SceneElement name = "HOT_BLAST_50_BACKGROUND_SCREEN_1" />
+           <SceneElement name = "HOT_BLAST_50_WILD_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/empress_charm.xml     ############
+<wintable>
+    <Scene order = "0" font = "EC_H_ARIAL_SMALL" >
+        <standard>
+           <SceneElement name = "INFO1_BACKGROUND" />
+           <SceneElement name = "INFO1_SUBSTITUTES_TEXT" />
+           <SceneElement name = "INFO1_SCATTER_TEXT" />
+           <SceneElement name = "INFO1_FREE_SPINS" />
+           <SceneElement name = "INFO1_MG_SMALL" />
+           <SceneElement name = "INFO1_DURING_FREE_SPINS" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/burning_hot_40.xml     ############
+<wintable>
+    <Scene order = "0" font = "BH40P_H1_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_BH40P_INFO1_BGR" />
+           <SceneElement name = "CB_BH40P_SCATTER1_LABEL" />
+           <SceneElement name = "CB_BH40P_SCATTER2_TEXT" />
+           <SceneElement name = "CB_BH40P_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_glorious_hidalgo.xml     ############
+<wintable>
+    <Scene order = "0" font = "CIP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "BGR_SCREEN_1" />
+           <SceneElement name = "WILD_TEXT" />
+           <SceneElement name = "SCATTER_TEXT" />
+           <SceneElement name = "SCATTER_APPEARS_TEXT" />
+           <SceneElement name = "COPYRIGHT_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_lucky_food.xml     ############
+<wintable>
+    <Scene order = "0" font = "LF_H1_CIFRI" >
+        <standard>
+           <SceneElement name = "BGR_SCREEN_1" />
+           <SceneElement name = "H1_TEXT" />
+           <SceneElement name = "COPYRIGHT_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/burning_heart_10.xml     ############
+<wintable>
+    <Scene order = "0" font = "BHP_H1_ARIAL13" >
+        <standard>
+           <SceneElement name = "BHEART_10_BACKGROUND_SCREEN_1" />
+           <SceneElement name = "BHEART_10_SUBTITUTES_TEXT" />
+           <SceneElement name = "BHEART_10_SCATTER_LABEL" />
+           <SceneElement name = "BHEART_10_SCATTER_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/hot_and_cash.xml     ############
+<wintable>
+    <Scene order = "0" font = "INFO_1_AND_3_FONT" >
+        <standard>
+           <SceneElement name = "HAC_BACKGROUND_SCREEN_1" />
+           <SceneElement name = "HAC_APPEARS_TEXT" />
+           <SceneElement name = "HAC_SCATTER_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_irish_treasure.xml     ############
+<wintable>
+    <Scene order = "0" font = "OC_H1_FONT" >
+        <standard>
+           <SceneElement name = "CB_ITFHDP_INFO_BGR" />
+           <SceneElement name = "COPYRIGHT_INFO_TEXT" />
+           <SceneElement name = "CB_ITFHDP_INFO1_TABLE" />
+           <SceneElement name = "CB_ITFHDP_INFO1_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/extra_stars.xml     ############
+<wintable>
+    <Scene order = "0" font = "ESP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_ESP_INFO1_BGR" />
+           <SceneElement name = "CB_ESP_INFO1_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/flaming_hot.xml     ############
+<wintable>
+    <Scene order = "0" font = "SHP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_FH_INFO1_BGR" />
+           <SceneElement name = "CB_FH_FREE_SPINS" />
+           <SceneElement name = "CB_FH_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/spicy_fruits_30.xml     ############
+<wintable>
+    <Scene order = "0" font = "SF30P_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_SF30P_INFO1_BGR" />
+           <SceneElement name = "CB_SF30P_STACKED_SCATTER" />
+           <SceneElement name = "CB_SF30P_STACKED_WILD" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/kingdom_of_fruits.xml     ############
+<wintable>
+    <Scene order = "0" font = "KF_H_ARIAL13_WHITE" >
+        <standard>
+           <SceneElement name = "CB_KF_INFO1_BGR" />
+           <SceneElement name = "CB_KF_INFO1_SUBSTITUTES" />
+           <SceneElement name = "CB_KF_INFO1_FREE_SPINS" />
+           <SceneElement name = "CB_KF_INFO1_SCATTER" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/secrets_of_alchemy.xml     ############
+<wintable>
+    <Scene order = "0" font = "SAP_PAYTABLE_INFO" >
+        <standard>
+           <SceneElement name = "CB_SAP_INFO1_BGR" />
+           <SceneElement name = "CB_SAP_INFO1_FREE_SPINS" />
+           <SceneElement name = "CB_SAP_INFO1_FREE_SPINS_COUNT" />
+           <SceneElement name = "CB_SAP_INFO1_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/ultra_respin_40.xml     ############
+<wintable>
+    <Scene order = "0" font = "URP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_40URP_INFO1_BGR" />
+           <SceneElement name = "CB_40URP_BONUS_RESPINS" />
+           <SceneElement name = "CB_40URP_SCATTER" />
+           <SceneElement name = "CB_40URP_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/mega_clover_50.xml     ############
+<wintable>
+    <Scene order = "0" font = "MC50P_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_50MCP_INFO1_BGR" />
+           <SceneElement name = "CB_50MCP_FREE_SPINS" />
+           <SceneElement name = "CB_50MCP_SCATTER" />
+           <SceneElement name = "CB_50MCP_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/super_hot_20.xml     ############
+<wintable>
+    <Scene order = "0" font = "SHP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_20SHP_INFO1_BGR" />
+           <SceneElement name = "CB_20SHP_FREE_SPINS" />
+           <SceneElement name = "CB_20SHP_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/caramel_hot.xml     ############
+<wintable>
+    <Scene order = "0" font = "SHP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CARAMEL_HOT_BACKGROUND_SCREEN_1" />
+           <SceneElement name = "CARAMEL_HOT_SUBTITUTES_TEXT" />
+           <SceneElement name = "CARAMEL_HOT_SCATTER_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/flaming_hot_100.xml     ############
+<wintable>
+    <Scene order = "0" font = "SHP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_FH_INFO1_BGR" />
+           <SceneElement name = "CB_FH_SUBSTITUTES" />
+           <SceneElement name = "CB_FH_FREE_SPINS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/shining_crown.xml     ############
+<wintable>
+    <Scene order = "0" font = "SCP_H1_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_SCP_INFO1_BGR" />
+           <SceneElement name = "CB_SCP_SCATTER1_LABEL" />
+           <SceneElement name = "CB_SCP_SCATTER2_TEXT" />
+           <SceneElement name = "CB_SCP_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/burning_hot.xml     ############
+<wintable>
+    <Scene order = "0" font = "BHP_H1_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_BHP_INFO1_BGR" />
+           <SceneElement name = "CB_BHP_SCATTER1_LABEL" />
+           <SceneElement name = "CB_BHP_SCATTER2_TEXT" />
+           <SceneElement name = "CB_BHP_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/lucky_hot.xml     ############
+<wintable>
+    <Scene order = "0" font = "SHP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_LHP_INFO1_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/extra_stars_20.xml     ############
+<wintable>
+    <Scene order = "0" font = "ES20P_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "ES_20_BACKGROUND_SCREEN_1" />
+           <SceneElement name = "ES_20_SCREEN_1_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/charming_joker_20.xml     ############
+<wintable>
+    <Scene order = "0" font = "CJP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CJ_20_BACKGROUND_SCREEN_1" />
+           <SceneElement name = "CJ_20_SCATTER_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/diamonds_20.xml     ############
+<wintable>
+    <Scene order = "0" font = "SHP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_20D_INFO1_BGR" />
+           <SceneElement name = "CB_20D_FREE_SPINS" />
+           <SceneElement name = "CB_20D_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/zodiac_wheel.xml     ############
+<wintable>
+    <Scene order = "0" font = "BHP_H1_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_ZWP_INFO1_BGR" />
+           <SceneElement name = "CB_ZWP_SCATTER1_LABEL" />
+           <SceneElement name = "CB_ZWP_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/rise_of_ra.xml     ############
+<wintable>
+    <Scene order = "0" font = "CIP_H_ARIAL13_YELLOW" >
+        <standard>
+           <SceneElement name = "INFO1_BACKGROUND" />
+           <SceneElement name = "INFO1_WORD1" />
+           <SceneElement name = "INFO1_WORD2" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/frog_story.xml     ############
+<wintable>
+    <Scene order = "0" font = "FSP_SWINTABLE_INFO" >
+        <standard>
+           <SceneElement name = "CB_FSP_INFO1_BGR" />
+           <SceneElement name = "CB_FSP_EURO_GAMES_TECHNOLOGY" />
+           <SceneElement name = "CB_FSP_INFO1_TEXT_TOPPLING" />
+           <SceneElement name = "CB_FSP_INFO1_TEXT_WILD" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/joker_reels_10.xml     ############
+<wintable>
+    <Scene order = "0" font = "JRP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_10JRP_INFO1_BGR" />
+           <SceneElement name = "CB_10JRP_SCATER_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT_DOWN" />
+           <SceneElement name = "CENTER_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT_DOWN" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/great_empire.xml     ############
+<wintable>
+    <Scene order = "0" font = "GEP_H_CIFRI_BIG" >
+        <standard>
+           <SceneElement name = "CB_GEP_INFO1_BGR" />
+           <SceneElement name = "CB_GEP_INFO1_SUBSTITUTES" />
+           <SceneElement name = "CB_GEP_INFO1_SCATTER" />
+           <SceneElement name = "CB_GEP_INFO1_FREE_SPINS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_flaming_hot.xml     ############
+<wintable>
+    <Scene order = "0" font = "FHD_FLAMING_HOT_FONT_WIN_TABLE" >
+        <standard>
+           <SceneElement name = "BGR_SCREEN_1" />
+           <SceneElement name = "WILD_TEXT" />
+           <SceneElement name = "SCATTER_TEXT" />
+           <SceneElement name = "COPYRIGHT_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/more_lucky_and_wild.xml     ############
+<wintable>
+    <Scene order = "0" font = "MLW_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "MLAW_BACKGROUND_SCREEN_1" />
+           <SceneElement name = "MLAW_SUBTITUTES_TEXT" />
+           <SceneElement name = "MLAW_SCATTER_APPEARS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/volcano_wealth.xml     ############
+<wintable>
+    <Scene order = "0" font = "VW_H_ARIAL" >
+        <standard>
+           <SceneElement name = "INFO1_BACKGROUND" />
+           <SceneElement name = "INFO1_SUBSTITUTES_TEXT" />
+           <SceneElement name = "INFO1_FREE_SPINS" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_el_amigo.xml     ############
+<wintable>
+    <Scene order = "0" font = "WINTABLE" >
+        <standard>
+           <SceneElement name = "CB_EAFHDP_INFO1_BGR" />
+           <SceneElement name = "CB_EAFHDP_INFO1_TEXT_WILD" />
+           <SceneElement name = "CB_EAFHDP_INFO1_TEXT_SCATTER" />
+           <SceneElement name = "CB_EAFHDP_INFO1_TEXT_DONKEY" />
+           <SceneElement name = "CB_EAFHDP_INFO1_TEXT_FS" />
+           <SceneElement name = "CB_EAFHDP_COPYRIGHTS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_flower_land.xml     ############
+<wintable>
+    <Scene order = "0" font = "OC_H1_FONT" >
+        <standard>
+           <SceneElement name = "CB_GEFHDP_INFO1_BGR" />
+           <SceneElement name = "CB_GGFHDP_INFO1_TEXT_WILD" />
+           <SceneElement name = "CB_GGFHDP_INFO1_TEXT_SCATTER" />
+           <SceneElement name = "CB_GGFHDP_INFO1_TEXT_RESPIN" />
+           <SceneElement name = "COPYRIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/flaming_hot_extreme.xml     ############
+<wintable>
+    <Scene order = "0" font = "OC_H1_FONT" >
+        <standard>
+           <SceneElement name = "INFO1_BGR" />
+           <SceneElement name = "INFO1_FREE_SPINS" />
+           <SceneElement name = "INFO1_SUBSTITUTES" />
+           <SceneElement name = "INFO1_SCATTER" />
+           <SceneElement name = "INFO1_RESPIN" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/captain_nemo.xml     ############
+<wintable>
+    <Scene order = "0" font = "CN_H_YELLOW" >
+        <standard>
+           <SceneElement name = "CB_CN_INFO1_BGR" />
+           <SceneElement name = "CB_CN_LEFT_FIRST_INFO_TEXT" />
+           <SceneElement name = "CB_CN_RIGHT_FIRST_INFO_TEXT" />
+           <SceneElement name = "CB_CN_SUBSTITUTES" />
+           <SceneElement name = "CB_TDP_INFOSCREEN1_JP" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/hot_and_cash_40.xml     ############
+<wintable>
+    <Scene order = "0" font = "INFO_1_AND_3_FONT" >
+        <standard>
+           <SceneElement name = "HAC_40_BACKGROUND_SCREEN_1" />
+           <SceneElement name = "HAC_40_APPEARS_TEXT" />
+           <SceneElement name = "HAC_40_SCATTER_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/magic_guardians.xml     ############
+<wintable>
+    <Scene order = "0" font = "MG_H_P1_NUMS" >
+        <standard>
+           <SceneElement name = "INFO1_BACKGROUND" />
+           <SceneElement name = "INFO1_SUBSTITUTES_TEXT" />
+           <SceneElement name = "INFO1_SUPER_SCATTER" />
+           <SceneElement name = "INFO1_SCATTER_PANEL" />
+           <SceneElement name = "INFO1_FREE_SPINS" />
+           <SceneElement name = "INFO1_SUPERGAMES" />
+           <SceneElement name = "INFO1_SCATTER_APPEARS" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/ice_valley.xml     ############
+<wintable>
+    <Scene order = "0" font = "CIP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "INFO1_BACKGROUND" />
+           <SceneElement name = "INFO1_SUBSTITUTES_TEXT" />
+           <SceneElement name = "INFO1_SCATTER_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/summer_bliss_30.xml     ############
+<wintable>
+    <Scene order = "0" font = "CIP_H_ARIAL13_YELLOW" >
+        <standard>
+           <SceneElement name = "INFO1_BACKGROUND" />
+           <SceneElement name = "INFO1_SUBSTITUTES_TEXT" />
+           <SceneElement name = "INFO1_RESPIN_FEATURE" />
+           <SceneElement name = "INFO1_SCATTER" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/spanish_passion.xml     ############
+<wintable>
+    <Scene order = "0" font = "SP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_SP_INFO1_BGR" />
+           <SceneElement name = "CB_SP_STACKED_WILD" />
+           <SceneElement name = "CB_SP_SCATTERED" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "" />
+           <SceneElement name = "CB_SP_FREE_SPINS" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/rainbow_luck.xml     ############
+<wintable>
+    <Scene order = "0" font = "GL_H_NUMBERS" >
+        <standard>
+           <SceneElement name = "INFO1_BACKGROUND" />
+           <SceneElement name = "INFO1_SUBSTITUTES_TEXT" />
+           <SceneElement name = "INFO1_SCATTER_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/emperors_palace.xml     ############
+<wintable>
+    <Scene order = "0" font = "EP_HELP_NUMBERS" >
+        <standard>
+           <SceneElement name = "INFO1_BACKGROUND" />
+           <SceneElement name = "INFO1_SUBSTITUTES_TEXT" />
+           <SceneElement name = "INFO1_STACKED_WILD" />
+           <SceneElement name = "INFO1_STACKED_SCATTER" />
+           <SceneElement name = "INFO1_FREE_SPINS" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_amazons_battle_80.xml     ############
+<wintable>
+    <Scene order = "0" font = "AB_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_AB80FHDP_INFO1_BGR" />
+           <SceneElement name = "CB_AB80FHD_WILD" />
+           <SceneElement name = "CB_AB80FHD_FREESPINS" />
+           <SceneElement name = "CB_AB80FHD_STACKED_SCATTER" />
+           <SceneElement name = "CB_AB80FHD_SCATTER_APPEAR" />
+           <SceneElement name = "CB_AB80FHD_13_OR_MORE" />
+           <SceneElement name = "CB_AB80FHD_STACKED_WILD" />
+           <SceneElement name = "CB_AB80FHD_COPYRIGHTS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/dazzling_hot.xml     ############
+<wintable>
+    <Scene order = "0" font = "5DHP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_5DHP_INFO1_BGR" />
+           <SceneElement name = "CB_5DHP_FREE_SPINS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_irish_charm.xml     ############
+<wintable>
+    <Scene order = "0" font = "H1_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_IC_INFO1_BGR" />
+           <SceneElement name = "CB_IC_INFO1_WILD" />
+           <SceneElement name = "CB_IC_COPYRIGHTS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/dice_high.xml     ############
+<wintable>
+    <Scene order = "0" font = "DH_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "DICE_HIGH_BACKGROUND_SCREEN_1" />
+           <SceneElement name = "DICE_HIGH_SUBTITUTES_TEXT" />
+           <SceneElement name = "DICE_HIGH_DICE_FEATURE_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/eternal_lotus.xml     ############
+<wintable>
+    <Scene order = "0" font = "EL_H1_CIFRI" >
+        <standard>
+           <SceneElement name = "INFO1_BACKGROUND" />
+           <SceneElement name = "INFO1_SUBSTITUTES_TEXT" />
+           <SceneElement name = "INFO1_SCATTER" />
+           <SceneElement name = "INFO1_FREE_SPINS" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/super_hot_100.xml     ############
+<wintable>
+    <Scene order = "0" font = "SHP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_100SHP_INFO1_BGR" />
+           <SceneElement name = "CB_100SHP_FREE_SPINS" />
+           <SceneElement name = "CB_100SHP_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_genies_gold.xml     ############
+<wintable>
+    <Scene order = "0" font = "H1_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_GGFHD_INFO1_BGR" />
+           <SceneElement name = "CB_GGFHD_INFO1_TEXT" />
+           <SceneElement name = "CB_GGFHD_COPYRIGHTS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/wins_27.xml     ############
+<wintable>
+    <Scene order = "0" font = "CIP_W27P_NUMBERS_FONT" >
+        <standard>
+           <SceneElement name = "CB_W27P_INFO1_BGR" />
+           <SceneElement name = "CB_W27P_INFO1_MYSTERY_WIN" />
+           <SceneElement name = "CB_W27P_INFO1_WILD" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/the_story_of_alexander_2.xml     ############
+<wintable>
+    <Scene order = "0" font = "TSOA_H1_FONT" >
+        <standard>
+           <SceneElement name = "INFO1_BGR" />
+           <SceneElement name = "INFO1_FREE_SPINS_MG" />
+           <SceneElement name = "INFO1_SCATTER_MG" />
+           <SceneElement name = "INFO1_WILD" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_gangsters_cash.xml     ############
+<wintable>
+    <Scene order = "0" font = "H1_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_GCFHD_INFO1_BGR" />
+           <SceneElement name = "APPEARS" />
+           <SceneElement name = "FREESPINS" />
+           <SceneElement name = "WHEN_THE_1ST" />
+           <SceneElement name = "WHEN_THE_1ST_REEL" />
+           <SceneElement name = "CB_GCFHD_COPYRIGHTS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/dazzling_hot_20.xml     ############
+<wintable>
+    <Scene order = "0" font = "DH20P_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_5DHP_INFO1_BGR" />
+           <SceneElement name = "CB_5DHP_FREE_SPINS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/tirol_fest.xml     ############
+<wintable>
+    <Scene order = "0" font = "TF_H1_FONT" >
+        <standard>
+           <SceneElement name = "INFO1_BACKGROUND" />
+           <SceneElement name = "INFO1_SUBSTITUTES_TEXT" />
+           <SceneElement name = "INFO1_SCATTER_TEXT" />
+           <SceneElement name = "SPECIAL_SYMBOL_TEXT" />
+           <SceneElement name = "INFO1_FREE_SPINS" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/pin_up_queen.xml     ############
+<wintable>
+    <Scene order = "0" font = "INFO_8_9_FONT" >
+        <standard>
+           <SceneElement name = "P3_RCHDP_INFO1_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "P3_RCHDP_JACKPOT_INFO" />
+           <SceneElement name = "P3_RCHDP_SCATTER" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/thumbelina_dream.xml     ############
+<wintable>
+    <Scene order = "0" font = "TDP_H_ORANGE" >
+        <standard>
+           <SceneElement name = "CB_TDP_INFO1_BGR" />
+           <SceneElement name = "CB_TDP_FREE_SPINS" />
+           <SceneElement name = "CB_TDP_RIGHT_FIRST_INFO_TEXT" />
+           <SceneElement name = "CB_TDP_SCATTER_MG" />
+           <SceneElement name = "CB_TDP_WILD_INFO" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/lucky_hat_100.xml     ############
+<wintable>
+    <Scene order = "0" font = "LH_H1_ARIAL13" >
+        <standard>
+           <SceneElement name = "LH_100_BACKGROUND_SCREEN_1" />
+           <SceneElement name = "LH_100_SUBTITUTES_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/lucky_kings_40.xml     ############
+<wintable>
+    <Scene order = "0" font = "LK40P_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_LK40_INFO1_BGR" />
+           <SceneElement name = "CB_LK40_FREE_SPINS" />
+           <SceneElement name = "CB_LK40_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/mythical_treasure.xml     ############
+<wintable>
+    <Scene order = "0" font = "MTP_PAYTABLE_INFO" >
+        <standard>
+           <SceneElement name = "INFO1_BACKGROUND" />
+           <SceneElement name = "INFO1_SUBSTITUTES_TEXT" />
+           <SceneElement name = "INFO1_FREE_SPINS_COUNT" />
+           <SceneElement name = "INFO1_FREE_SPINS" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/supreme_hot.xml     ############
+<wintable>
+    <Scene order = "0" font = "CIP_SUHP_NUMBERS_FONT" >
+        <standard>
+           <SceneElement name = "CB_SUHP_INFO1_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/legendary_rome.xml     ############
+<wintable>
+    <Scene order = "0" font = "LR_H_CIFRI" >
+        <standard>
+           <SceneElement name = "CB_LR_INFO_1_BGR" />
+           <SceneElement name = "CB_ALL_PRICES" />
+           <SceneElement name = "CB_BONUS_APPEARS_ON_MG" />
+           <SceneElement name = "CB_MULTIFUNCTION_VOIDS" />
+           <SceneElement name = "CB_SCATTER_PANEL_MG" />
+           <SceneElement name = "CB_WILD_PANEL" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/joker_reels_40.xml     ############
+<wintable>
+    <Scene order = "0" font = "JRP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "JR_40_BACKGROUND_SCREEN" />
+           <SceneElement name = "JR_40_SCATTER_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/rainbow_queen.xml     ############
+<wintable>
+    <Scene order = "0" font = "RQP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "INFO1_BACKGROUND" />
+           <SceneElement name = "INFO1_SUBSTITUTES_TEXT" />
+           <SceneElement name = "INFO1_FREE_SPINS_TEXT" />
+           <SceneElement name = "INFO1_SCATTER_TEXT" />
+           <SceneElement name = "INFO1_SCATTER_ON_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_retro_cabaret.xml     ############
+<wintable>
+    <Scene order = "0" font = "INFO_8_9_FONT" >
+        <standard>
+           <SceneElement name = "P3_RCHDP_INFO1_BGR" />
+           <SceneElement name = "COPYRIGHT_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "P3_RCHDP_SUBSTITUTES_INFO" />
+           <SceneElement name = "P3_RCHDP_SCATTER" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/dice_and_roll.xml     ############
+<wintable>
+    <Scene order = "0" font = "D&amp;R_INFO1_NUMBERS" >
+        <standard>
+           <SceneElement name = "CB_DR_INFO1_BGR" />
+           <SceneElement name = "CB_DR_APPEARS" />
+           <SceneElement name = "CB_DR_SCATTER" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/super_hot_40.xml     ############
+<wintable>
+    <Scene order = "0" font = "SHP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_40SHP_INFO1_BGR" />
+           <SceneElement name = "CB_40SHP_FREE_SPINS" />
+           <SceneElement name = "CB_40SHP_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/egypt_sky.xml     ############
+<wintable>
+    <Scene order = "0" font = "ESP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_ESP_INFO1_BGR" />
+           <SceneElement name = "CB_ESP_INFO1_FREE_SPINS" />
+           <SceneElement name = "CB_ESP_INFO1_JP" />
+           <SceneElement name = "CB_ESP_INFO1_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_hold_your_horses.xml     ############
+<wintable>
+    <Scene order = "0" font = "CIP_H_ARIAL13_YELLOW" >
+        <standard>
+           <SceneElement name = "INFO1_BACKGROUND" />
+           <SceneElement name = "INFO1_WORD1" />
+           <SceneElement name = "INFO1_WORD2" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/extra_stars_40.xml     ############
+<wintable>
+    <Scene order = "0" font = "ES40P_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "ES_40_BACKGROUND_SCREEN_1" />
+           <SceneElement name = "ES_40_SCREEN_1_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/burning_hot_40_6_reels.xml     ############
+<wintable>
+    <Scene order = "0" font = "BH40P_H1_ARIAL13" >
+        <standard>
+           <SceneElement name = "INFO1_BACKGROUND" />
+           <SceneElement name = "INFO1_SUBSTITUTES_TEXT" />
+           <SceneElement name = "INFO1_SCATTER1_TEXT" />
+           <SceneElement name = "INFO1_SCATTER2_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/ultimate_hot.xml     ############
+<wintable>
+    <Scene order = "0" font = "CIP_UH_NUMBERS_FONT" >
+        <standard>
+           <SceneElement name = "CB_CIP_INFO1_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/spicy_fruits_50.xml     ############
+<wintable>
+    <Scene order = "0" font = "SF50P_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_SF50P_INFO1_BGR" />
+           <SceneElement name = "CB_SF50P_STACKED_SCATTER" />
+           <SceneElement name = "CB_SF50P_STACKED_WILD" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/wins_81.xml     ############
+<wintable>
+    <Scene order = "0" font = "CIP_W81P_NUMBERS_FONT" >
+        <standard>
+           <SceneElement name = "CB_W81P_INFO1_BGR" />
+           <SceneElement name = "CB_W81P_INFO1_WILD" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/almighty_ramses.xml     ############
+<wintable>
+    <Scene order = "0" font = "ARII_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_ARII_INFO1_BGR" />
+           <SceneElement name = "CB_ARII_APPEARS" />
+           <SceneElement name = "CB_ARII_FREE_INFO_TEXT" />
+           <SceneElement name = "CB_ARII_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/ancient_dynasty.xml     ############
+<wintable>
+    <Scene order = "0" font = "AD_PAYTABLE_INFO" >
+        <standard>
+           <SceneElement name = "CB_ADP_INFO1_BGR" />
+           <SceneElement name = "CB_ADP_INFO1_FREE_SPINS_COUNT" />
+           <SceneElement name = "CB_ADP_INFO1_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/dorothys_fairyland.xml     ############
+<wintable>
+    <Scene order = "0" font = "DFP_H1_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_DFP_INFO1_BGR" />
+           <SceneElement name = "CB_DFP_7_TO_9" />
+           <SceneElement name = "CB_DFP_STACKED_SCATTER" />
+           <SceneElement name = "CB_DFP_STACKED_WILD" />
+           <SceneElement name = "CB_DFP_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/burning_hot_6_reels.xml     ############
+<wintable>
+    <Scene order = "0" font = "BHP_H1_ARIAL13" >
+        <standard>
+           <SceneElement name = "INFO1_BGR" />
+           <SceneElement name = "INFO1_SCATTER1_LABEL" />
+           <SceneElement name = "INFO1_SCATTER2_LABEL" />
+           <SceneElement name = "INFO1_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/amazons_battle_50.xml     ############
+<wintable>
+    <Scene order = "0" font = "ABP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_ABP_INFO1_BGR" />
+           <SceneElement name = "CB_ABP_10_MORE_SCATTER" />
+           <SceneElement name = "CB_ABP_APPEARS" />
+           <SceneElement name = "CB_ABP_FREE_SPINS" />
+           <SceneElement name = "CB_ABP_STACKED_SCATTER" />
+           <SceneElement name = "CB_ABP_STACKED_WILD" />
+           <SceneElement name = "CB_ABP_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_amazing_china.xml     ############
+<wintable>
+    <Scene order = "0" font = "INFO_SCREEN" >
+        <standard>
+           <SceneElement name = "CB_GVFHDP_INFO1_BGR" />
+           <SceneElement name = "CB_GVFHDP_INFO1_TEXT" />
+           <SceneElement name = "COPYRIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/amazons_battle.xml     ############
+<wintable>
+    <Scene order = "0" font = "CIP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_ABP_INFO1_BGR" />
+           <SceneElement name = "CB_ABP_7_MORE_SCATTER" />
+           <SceneElement name = "CB_ABP_APPEARS" />
+           <SceneElement name = "CB_ABP_FREE_SPINS" />
+           <SceneElement name = "CB_ABP_STACKED_SCATTER" />
+           <SceneElement name = "CB_ABP_STACKED_WILD" />
+           <SceneElement name = "CB_ABP_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/ocean_rush.xml     ############
+<wintable>
+    <Scene order = "0" font = "OR_H_WIN_NUMBERS" >
+        <standard>
+           <SceneElement name = "CB_ORP_INFO1_BGR" />
+           <SceneElement name = "CB_ORP_3_SCATTERED" />
+           <SceneElement name = "CB_ORP_ALL_PRICES" />
+           <SceneElement name = "CB_ORP_DOUBLES_WHEN" />
+           <SceneElement name = "CB_ORP_MULTIFUNCTION_VOIDS" />
+           <SceneElement name = "CB_ORP_ON_3th_4th" />
+           <SceneElement name = "CB_ORP_SCATTER" />
+           <SceneElement name = "CB_ORP_SUBSTITUTES_FOR" />
+           <SceneElement name = "CB_ORP_THE_PLAYER_CAN_WIN_7_to_20" />
+           <SceneElement name = "CB_ORP_THE_PLAYER_CAN_WIN_TO" />
+           <SceneElement name = "CB_ORP_WILD" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/age_of_troy.xml     ############
+<wintable>
+    <Scene order = "0" font = "CIP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_CIP_INFO1_BGR" />
+           <SceneElement name = "CB_CIP_FREE_SPINS" />
+           <SceneElement name = "CB_CIP_MULTIPLIER_FREE_SPINS" />
+           <SceneElement name = "CB_CIP_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/brave_cat.xml     ############
+<wintable>
+    <Scene order = "0" font = "BC_H1_FONT" >
+        <standard>
+           <SceneElement name = "CB_BC_INFO1_BGR" />
+           <SceneElement name = "CB_BC_INFO1_FOUR_SCATTERS" />
+           <SceneElement name = "CB_BC_INFO1_PAIRED_SCATTERS" />
+           <SceneElement name = "CB_BC_INFO1_SCATTER_INFO" />
+           <SceneElement name = "CB_BC_INFO1_SUBSTITUTES" />
+           <SceneElement name = "CB_BC_INFO1_THE_PAIRED_SCATTERS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/hot_blast_20.xml     ############
+<wintable>
+    <Scene order = "0" font = "FSP_SWINTABLE_INFO" >
+        <standard>
+           <SceneElement name = "CB_FSP_INFO1_BGR" />
+           <SceneElement name = "CB_FSP_INFO1_TEXT_WILD" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/star_fruits_5.xml     ############
+<wintable>
+    <Scene order = "0" font = "SF5P_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "STAR_FRUITS_5_BACKGROUND_SCREEN_1" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/retro_cabaret.xml     ############
+<wintable>
+    <Scene order = "0" font = "RCP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "P3_RC_INFO1_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "P3_RC_SUBSTITUTES_INFO" />
+           <SceneElement name = "P3_RC_WILD_INFO" />
+           <SceneElement name = "P3_RC_SCATTER" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/burning_heart_5.xml     ############
+<wintable>
+    <Scene order = "0" font = "BHP_H1_ARIAL13" >
+        <standard>
+           <SceneElement name = "BHEART_5_BACKGROUND_SCREEN_1" />
+           <SceneElement name = "BHEART_5_SUBTITUTES_TEXT" />
+           <SceneElement name = "BHEART_5_SCATTER_LABEL" />
+           <SceneElement name = "BHEART_5_SCATTER_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/burning_hot_100.xml     ############
+<wintable>
+    <Scene order = "0" font = "BH100P_H1_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_BHP_INFO1_BGR" />
+           <SceneElement name = "CB_BHP_SCATTER1_LABEL" />
+           <SceneElement name = "CB_BHP_SCATTER2_LABEL" />
+           <SceneElement name = "CB_BHP_SCATTER2_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/joker_reels_20.xml     ############
+<wintable>
+    <Scene order = "0" font = "JRP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_20JRP_INFO1_BGR" />
+           <SceneElement name = "CB_20JRP_SCATER_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/almighty_ramses_40.xml     ############
+<wintable>
+    <Scene order = "0" font = "ARII_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_ARII_INFO1_BGR" />
+           <SceneElement name = "CB_ARII_APPEARS" />
+           <SceneElement name = "CB_ARII_FREE_INFO_TEXT" />
+           <SceneElement name = "CB_ARII_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_eastern_legends.xml     ############
+<wintable>
+    <Scene order = "0" font = "EL_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_ELFHDP_INFO1_BGR" />
+           <SceneElement name = "CB_ELFHDP_COPYRIGHT" />
+           <SceneElement name = "CB_ELFHDP_INFO1_WILDS_TEXT" />
+           <SceneElement name = "CB_ELFHDP_INFO1_RESPIN_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/mega_clover_40.xml     ############
+<wintable>
+    <Scene order = "0" font = "MC40P_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_40MCP_INFO1_BGR" />
+           <SceneElement name = "CB_40MCP_FREE_SPINS" />
+           <SceneElement name = "CB_40MCP_SCATTER" />
+           <SceneElement name = "CB_40MCP_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/book_of_magic.xml     ############
+<wintable>
+    <Scene order = "0" font = "CIP_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_BMP_INFO1_BGR" />
+           <SceneElement name = "CB_BMP_FREE_SPINS" />
+           <SceneElement name = "CB_BMP_SUBSTITUTES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/super_20.xml     ############
+<wintable>
+    <Scene order = "0" font = "S20P_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "SUPER_20_BACKGROUND_SCREEN_1" />
+           <SceneElement name = "SUPER_20_SUBTITUTES_TEXT" />
+           <SceneElement name = "SUPER_20_SCATTER_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/lucky_and_wild.xml     ############
+<wintable>
+    <Scene order = "0" font = "LAW_H_NUMBERS" >
+        <standard>
+           <SceneElement name = "LAW_BACKGROUND_SCREEN_1" />
+           <SceneElement name = "LAW_SUBTITUTES_TEXT" />
+           <SceneElement name = "LAW_SCATTER_APPEARS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/story_of_alexander.xml     ############
+<wintable>
+    <Scene order = "0" font = "TSOA_H1_FONT" >
+        <standard>
+           <SceneElement name = "CB_TSOA_INFO1_BGR" />
+           <SceneElement name = "CB_TSOA_INFO1_FREE_SPINS_MG" />
+           <SceneElement name = "CB_TSOA_INFO1_SCATTER_MG" />
+           <SceneElement name = "CB_TSOA_INFO1_WILD" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/lucky_wood.xml     ############
+<wintable>
+    <Scene order = "0" font = "LW_SWINTABLE_INFO" >
+        <standard>
+           <SceneElement name = "INFO1_BACKGROUND" />
+           <SceneElement name = "INFO1_SUBSTITUTES_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/more_dice_and_roll.xml     ############
+<wintable>
+    <Scene order = "0" font = "MDR1_H_ARIAL13" >
+        <standard>
+           <SceneElement name = "CB_MDR_INFO1_BGR" />
+           <SceneElement name = "CB_MDR_INFO1_APPEARS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_golden_eternity.xml     ############
+<wintable>
+    <Scene order = "0" font = "OC_H1_FONT" >
+        <standard>
+           <SceneElement name = "CB_GEFHDP_INFO_BGR" />
+           <SceneElement name = "CB_GEFHDP_INFO1_TABLE" />
+           <SceneElement name = "CB_GEFHDP_INFO1_TEXT_WILD" />
+           <SceneElement name = "CB_GEFHDP_INFO1_TEXT_FS" />
+           <SceneElement name = "CB_GEFHDP_INFO1_TEXT_FISH_1" />
+           <SceneElement name = "CB_GEFHDP_INFO1_TEXT_FISH_2" />
+           <SceneElement name = "COPYRIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+==============================================
+==============================================
+==============================================
+

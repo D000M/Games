@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<compmgr name = "fhd_el_amigo">
+
+<TopperResources fontIni = "{EAFHDPFonts.ini}" />
+
+<GameInfoScreen>
+
+<SERIAL_NUMBER>
+	<Text pos = "{5 16}" algn = "left" font = "ARIAL_BOLD_16" color = "{255 156 0}"/>
+</SERIAL_NUMBER>
+
+<!-- WINTABLE -->
+<CB_EAFHDP_INFO1_BGR>
+    <Picture path = "p/info/help1.png"  srcRect = "{0 0 1920 1080}" pos = "{0 0}" />
+</CB_EAFHDP_INFO1_BGR>
+
+<CB_EAFHDP_INFO1_TEXT_WILD>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/h1_wild_text.png"  srcRect = "{0 0 334 202}" pos = "{921 274}" />
+    <Picture language = "EN" path = "p/multilanguage/en/info/h1_wild_text.png"  srcRect = "{0 0 385 185}" pos = "{936 280}" />
+</CB_EAFHDP_INFO1_TEXT_WILD>
+
+<CB_EAFHDP_INFO1_TEXT_SCATTER>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/h1_scatter_text.png" srcRect = "{0 0 338 120}" pos="{877 535}" />
+    <Picture language = "EN" path = "p/multilanguage/en/info/h1_scatter_text.png" srcRect = "{0 0 353 142}" pos="{873 522}" />
+</CB_EAFHDP_INFO1_TEXT_SCATTER>
+
+<CB_EAFHDP_INFO1_TEXT_DONKEY>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/h1_donkey_text.png" srcRect = "{0 0 455 315}" pos="{73 333}" />
+    <Picture language = "EN" path = "p/multilanguage/en/info/h1_donkey_text.png" srcRect = "{0 0 451 300}" pos="{75 349}" />
+</CB_EAFHDP_INFO1_TEXT_DONKEY>
+
+<CB_EAFHDP_INFO1_TEXT_FS>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/h1_free_spins_text.png" srcRect = "{0 0 169 297}" pos="{1105 750}" />
+    <Picture language = "EN" path = "p/multilanguage/en/info/h1_free_spins_text.png" srcRect = "{0 0 126 306}" pos="{1123 743}" />
+</CB_EAFHDP_INFO1_TEXT_FS>
+
+<!-- FREESPINS -->
+<CB_EAFHDP_INFO2_TEXT>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/h2.png" srcRect = "{0 0 1920 1080}" pos = "{0 0}" />
+    <Picture language = "EN" path = "p/multilanguage/en/info/h2.png" srcRect = "{0 0 1920 1080}" pos = "{0 0}" />
+</CB_EAFHDP_INFO2_TEXT>
+
+<!-- DOUBLE UP AND JACKPOT -->
+<CB_EAFHDP_INFO3_BGR>
+    <Picture path = "p/info/bgr.png"  srcRect = "{0 0 1920 1080}" pos = "{0 0}" />
+</CB_EAFHDP_INFO3_BGR>
+
+<CB_EAFHDP_INFO3_DOUBLEUP>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/h3_gamble.png" srcRect = "{0 0 1880 531}" pos = "{19 624}" />
+    <Picture language = "EN" path = "p/multilanguage/en/info/h3_gamble.png" srcRect = "{0 0 1880 531}" pos = "{19 624}" />
+</CB_EAFHDP_INFO3_DOUBLEUP>
+
+<CB_EAFHDP_INFO3_DOUBLEUP_CENTER>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/h3_gamble.png" srcRect = "{0 0 1880 531}" pos = "{19 381}" />
+    <Picture language = "EN" path = "p/multilanguage/en/info/h3_gamble.png" srcRect = "{0 0 1880 531}" pos = "{19 381}" />
+</CB_EAFHDP_INFO3_DOUBLEUP_CENTER>
+
+<!-- PAYLINES AND RULES -->
+<CB_EAFHDP_INFO4_BGR>
+    <Picture path = "p/info/h4_panes.png" srcRect = "{0 0 1884 913}" pos = "{18 87}" />
+</CB_EAFHDP_INFO4_BGR>
+
+<CB_EAFHDP_INFO4_TEXT>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/h4_text.png" srcRect = "{0 0 1786 211}" pos = "{65 754}" />
+    <Picture language = "EN" path = "p/multilanguage/en/info/h4_text.png" srcRect = "{0 0 1756 158}" pos = "{86 786}" />
+</CB_EAFHDP_INFO4_TEXT>
+
+<CB_EAFHDP_INFO4_TITLE>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/h4_title.png" srcRect = "{0 0 561 53}" pos = "{679 65}" />
+    <Picture language = "EN" path = "p/multilanguage/en/info/h4_title.png" srcRect = "{0 0 600 62}" pos = "{660 62}" />
+</CB_EAFHDP_INFO4_TITLE>
+
+<!-- SERVICE LABEL -->
+<CB_EAFHDP_COPYRIGHTS>
+    <Picture path = "p/info/copyright.png"  srcRect = "{0 0 321 21}" pos = "{1586 5}" />
+</CB_EAFHDP_COPYRIGHTS>
+
+<LEFT_INFO_TEXT>
+    <Picture conditions = "{is_any_jackpot_enabled}" language = "BG" path = "p/multilanguage/bg/info/all_prizes_1.png"  srcRect = "{0 0 381 17}" pos = "{6 1063}" />
+    <Picture conditions = "{is_any_jackpot_enabled}" language = "EN" path = "p/multilanguage/en/info/all_prizes_1.png"  srcRect = "{0 0 377 15}" pos = "{2 1063}" />
+    <Picture  language = "BG" path = "p/multilanguage/bg/info/all_prizes_2.png"  srcRect = "{0 0 296 17}" pos = "{6 1063}" />
+    <Picture  language = "EN" path = "p/multilanguage/en/info/all_prizes_2.png"  srcRect = "{0 0 275 15}" pos = "{2 1063}" />
+</LEFT_INFO_TEXT>
+
+<RIGHT_INFO_TEXT>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/malfunction.png"  srcRect = "{0 0 443 17}" pos = "{1472 1063}" />
+    <Picture language = "EN" path = "p/multilanguage/en/info/malfunction.png"  srcRect = "{0 0 373 15}" pos = "{1545 1063}" />
+</RIGHT_INFO_TEXT>
+<!--
+<DOUBLE_UP_VALUE_POS>
+        <Text language = "BG" pos = "{1163 740}" algn = "left" />
+        <Text language = "EN" pos = "{1095 747}" algn = "left" />
+</DOUBLE_UP_VALUE_POS>
+
+<MAX_GAMBLE_ATTEMPTS>
+        <Text language = "BG" pos = "{1250 885}" algn = "left" />
+        <Text language = "EN" pos = "{1178 885}" algn = "left" />
+</MAX_GAMBLE_ATTEMPTS>-->
+
+<DOUBLE_UP_VALUE_POS_CENTER>
+        <Text language = "BG" pos = "{1163 503}" algn = "left" />
+        <Text language = "EN" pos = "{1095 504}" algn = "left" />
+</DOUBLE_UP_VALUE_POS_CENTER>
+
+<MAX_GAMBLE_ATTEMPTS_CENTER>
+        <Text language = "BG" pos = "{1250 635}" algn = "left" />
+        <Text language = "EN" pos = "{1178 643}" algn = "left" />
+</MAX_GAMBLE_ATTEMPTS_CENTER>
+
+
+
+<fig_1> <InfoScreenFigure id = "{0 ef1_jack}" box = "{ 159 34}" multiplier = "1" combination = "3" pos = "{1551 943}" /> </fig_1>
+<fig_2> <InfoScreenFigure id = "{0 ef1_jack}" box = "{ 159 34}" multiplier = "1" combination = "4" pos = "{1551 892}" /> </fig_2>
+<fig_3> <InfoScreenFigure id = "{0 ef1_jack}" box = "{ 159 34}" multiplier = "1" combination = "5" pos = "{1551 842}" /> </fig_3>
+
+<fig_4> <InfoScreenFigure id = "{4 ef5_tequila}" box = "{ 159 34}" multiplier = "1" combination = "3" pos = "{1551 494}" /> </fig_4>
+<fig_5> <InfoScreenFigure id = "{4 ef5_tequila}" box = "{ 159 34}" multiplier = "1" combination = "4" pos = "{1551 443}" /> </fig_5>
+<fig_6> <InfoScreenFigure id = "{4 ef5_tequila}" box = "{ 159 34}" multiplier = "1" combination = "5" pos = "{1551 393}" /> </fig_6>
+
+<fig_7> <InfoScreenFigure id = "{7 ef8_donkey}" box = "{ 154 34}" multiplier = "1" combination = "3" pos = "{451 304}" /> </fig_7>
+<fig_8> <InfoScreenFigure id = "{7 ef8_donkey}" box = "{ 154 34}" multiplier = "1" combination = "4" pos = "{451 248}" /> </fig_8>
+<fig_9> <InfoScreenFigure id = "{7 ef8_donkey}" box = "{ 154 34}" multiplier = "1" combination = "5" pos = "{451 193}" /> </fig_9>
+
+<cluster_1>  <InfoScreenFigure box = "{134 34}" winCoeff = "5"  pos = "{437 966}" scatter = "true" /> </cluster_1>
+<cluster_2>  <InfoScreenFigure box = "{134 34}" winCoeff = "6"  pos = "{437 921}" scatter = "true" /> </cluster_2>
+<cluster_3>  <InfoScreenFigure box = "{134 34}" winCoeff = "7"  pos = "{437 874}" scatter = "true" /> </cluster_3>
+<cluster_4>  <InfoScreenFigure box = "{134 34}" winCoeff = "8"  pos = "{437 831}" scatter = "true" /> </cluster_4>
+<cluster_5>  <InfoScreenFigure box = "{134 34}" winCoeff = "9"  pos = "{437 787}" scatter = "true" /> </cluster_5>
+<cluster_6>  <InfoScreenFigure box = "{134 34}" winCoeff = "10"  pos = "{437 742}" scatter = "true" /> </cluster_6>
+<cluster_7>  <InfoScreenFigure box = "{134 34}" winCoeff = "12"  pos = "{437 695}" scatter = "true" /> </cluster_7>
+<cluster_8>  <InfoScreenFigure box = "{134 34}" winCoeff = "15"  pos = "{207 966}" scatter = "true" /> </cluster_8>
+<cluster_9>  <InfoScreenFigure box = "{134 34}" winCoeff = "20" pos = "{207 921}" scatter = "true" /> </cluster_9>
+<cluster_10> <InfoScreenFigure box = "{134 34}" winCoeff = "25" pos = "{207 874}" scatter = "true" /> </cluster_10>
+<cluster_11> <InfoScreenFigure box = "{134 34}" winCoeff = "30" pos = "{207 831}" scatter = "true" /> </cluster_11>
+<cluster_12> <InfoScreenFigure box = "{134 34}" winCoeff = "50" pos = "{207 787}" scatter = "true" /> </cluster_12>
+<cluster_13> <InfoScreenFigure box = "{134 34}" winCoeff = "150" pos = "{207 742}" scatter = "true" /> </cluster_13>
+<cluster_14> <InfoScreenFigure box = "{134 34}" winCoeff = "300" pos = "{207 695}" scatter = "true" /> </cluster_14>
+
+<wintable>
+    <Scene order = "0" type = "standard"
+            pictures = "{CB_EAFHDP_INFO1_BGR CB_EAFHDP_INFO1_TEXT_WILD CB_EAFHDP_INFO1_TEXT_SCATTER CB_EAFHDP_INFO1_TEXT_DONKEY CB_EAFHDP_INFO1_TEXT_FS CB_EAFHDP_COPYRIGHTS LEFT_INFO_TEXT RIGHT_INFO_TEXT }"
+			values = "{fig_1 fig_2 fig_3 fig_4 fig_5 fig_6 fig_7 fig_8 fig_9 cluster_1 cluster_2 cluster_3
+			           cluster_4 cluster_5 cluster_6 cluster_7 cluster_8 cluster_9 cluster_10 cluster_11
+					   cluster_12 cluster_13 cluster_14 }"
+            font = "WINTABLE" />
+</wintable>
+
+<freespins>
+    <Scene order = "1" type = "standard"
+            pictures = "{CB_EAFHDP_INFO2_TEXT CB_EAFHDP_COPYRIGHTS LEFT_INFO_TEXT RIGHT_INFO_TEXT }"
+			values = "{ SERIAL_NUMBER }" />
+</freespins>
+
+<doubleup>
+    <Scene order = "2" type = "standard"
+            pictures = "{ CB_EAFHDP_INFO3_BGR CB_EAFHDP_INFO3_DOUBLEUP_CENTER CB_EAFHDP_COPYRIGHTS LEFT_INFO_TEXT RIGHT_INFO_TEXT }"
+            values = "{ MAX_GAMBLE_ATTEMPTS_CENTER DOUBLE_UP_VALUE_POS_CENTER }"
+            font = "H3_FONT" />
+    <Scene order = "2" type = "doubleup_and_jackpot"
+            pictures = "{ CB_EAFHDP_INFO3_BGR CB_EAFHDP_INFO3_DOUBLEUP_CENTER CB_EAFHDP_COPYRIGHTS LEFT_INFO_TEXT RIGHT_INFO_TEXT }"
+            values = "{ MAX_GAMBLE_ATTEMPTS_CENTER DOUBLE_UP_VALUE_POS_CENTER }"
+            font = "H3_FONT" />
+    <Scene order = "2" type = "jackpot"
+            pictures = "{ CB_EAFHDP_INFO3_BGR CB_EAFHDP_COPYRIGHTS LEFT_INFO_TEXT RIGHT_INFO_TEXT }" />
+</doubleup>
+
+<rules>
+    <Scene order = "3" type = "standard"
+            pictures = "{ CB_EAFHDP_INFO3_BGR CB_EAFHDP_INFO4_BGR CB_EAFHDP_INFO4_TEXT CB_EAFHDP_INFO4_TITLE CB_EAFHDP_COPYRIGHTS LEFT_INFO_TEXT RIGHT_INFO_TEXT }" />
+</rules>
+
+</GameInfoScreen>
+</compmgr>

@@ -1,0 +1,248 @@
+<compmgr name = "the_story_of_alexander_2">
+
+<TopperResources fontIni = "{ TSOA2PFonts.ini }" />
+
+<GameInfoScreen>
+<SERIAL_NUMBER>
+	<Text pos = "{5 12}" algn = "left" font = "ARIAL_BOLD_12" color = "{255 156 0}"/>
+</SERIAL_NUMBER>
+
+<INFO1_BGR>
+	<Picture path = "p/info/tsoa_help_1.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</INFO1_BGR>
+
+<PLAIN_BACKGROUND>
+	<Picture path = "p/info/tsoa_help_bgr.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</PLAIN_BACKGROUND>
+
+<INFO1_FREE_SPINS_MG>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/tsoa_h_1_mg_bg.png" srcRect = "{0 324 555 191}" pos = "{443 661}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/tsoa_h_1_mg_de.png" srcRect = "{0 321 555 191}" pos = "{443 661}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/tsoa_h_1_mg_en.png" srcRect = "{0 324 555 191}" pos = "{443 661}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/tsoa_h_1_mg_esp.png" srcRect = "{0 314 555 191}" pos = "{443 661}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/tsoa_h_1_bgm_hu.png" srcRect = "{0 324 555 191}" pos = "{443 661}" />
+</INFO1_FREE_SPINS_MG>
+
+<INFO1_FREE_SPINS_FG>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/tsoa_h_1_fs_bg.png" srcRect = "{0 162 555 191}" pos = "{443 661}" />
+    <Picture language = "DE" path = "p/multilanguage/de/info/tsoa_h_1_fs_de.png" srcRect = "{0 160 555 191}" pos = "{443 661}" />
+    <Picture language = "EN" path = "p/multilanguage/en/info/tsoa_h_1_fs_en.png" srcRect = "{0 162 555 191}" pos = "{443 661}" />
+    <Picture language = "ESP" path = "p/multilanguage/esp/info/tsoa_h_1_fs_esp.png" srcRect = "{0 159 555 191}" pos = "{443 661}" />
+    <Picture language = "HU" path = "p/multilanguage/hu/info/tsoa_h_1_fs_hu.png" srcRect = "{0 162 555 191}" pos = "{443 661}" />
+</INFO1_FREE_SPINS_FG>
+
+<GE_DOUBLEUP_MAX_ATTEMPTS>
+	<Picture language = "EN" path = "../hat/p/multilanguage/info/en/gamble_max_attempts_en.png" srcRect = "{0 0 545 33}" pos = "{446 845}" />
+	<Picture language = "BG" path = "../hat/p/multilanguage/info/bg/gamble_max_attempts_bg.png" srcRect = "{0 0 545 33}" pos = "{446 845}" />
+	<Picture language = "DE" path = "../hat/p/multilanguage/info/de/gamble_max_attempts_de.png" srcRect = "{0 0 545 33}" pos = "{446 845}" />
+	<Picture language = "ESP" path = "../hat/p/multilanguage/info/esp/gamble_max_attempts_esp.png" srcRect = "{0 0 545 33}" pos = "{446 845}" />
+	<Picture language = "HU" path = "../hat/p/multilanguage/info/hu/gamble_max_attempts_hu.png" srcRect = "{0 0 545 33}" pos = "{446 845}" />
+</GE_DOUBLEUP_MAX_ATTEMPTS>
+
+<GE_DOUBLEUP_MAX_ATTEMPTS_CENTER>
+	<Picture language = "EN" path = "../hat/p/multilanguage/info/en/gamble_max_attempts_en.png" srcRect = "{0 0 545 33}" pos = "{446 650}" />
+	<Picture language = "BG" path = "../hat/p/multilanguage/info/bg/gamble_max_attempts_bg.png" srcRect = "{0 0 545 33}" pos = "{446 650}" />
+	<Picture language = "DE" path = "../hat/p/multilanguage/info/de/gamble_max_attempts_de.png" srcRect = "{0 0 545 33}" pos = "{446 650}" />
+	<Picture language = "ESP" path = "../hat/p/multilanguage/info/esp/gamble_max_attempts_esp.png" srcRect = "{0 0 545 33}" pos = "{446 650}" />
+	<Picture language = "HU" path = "../hat/p/multilanguage/info/hu/gamble_max_attempts_hu.png" srcRect = "{0 0 545 33}" pos = "{446 650}" />
+</GE_DOUBLEUP_MAX_ATTEMPTS_CENTER>
+
+<INFO1_SCATTER_MG>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/tsoa_h_1_mg_bg.png" srcRect = "{0 162 351 162}" pos = "{647 428}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/tsoa_h_1_mg_de.png" srcRect = "{0 159 350 162}" pos = "{648 431}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/tsoa_h_1_mg_en.png" srcRect = "{0 162 351 162}" pos = "{647 428}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/tsoa_h_1_mg_esp.png" srcRect = "{0 155 350 159}" pos = "{647 434}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/tsoa_h_1_bgm_hu.png" srcRect = "{0 162 351 162}" pos = "{647 428}" />
+</INFO1_SCATTER_MG>
+
+<INFO1_SCATTER_FG>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/tsoa_h_1_fs_bg.png" srcRect = "{0 0 351 162}" pos = "{647 428}" />
+    <Picture language = "DE" path = "p/multilanguage/de/info/tsoa_h_1_fs_de.png" srcRect = "{0 0 350 162}" pos = "{648 431}" />
+    <Picture language = "EN" path = "p/multilanguage/en/info/tsoa_h_1_fs_en.png" srcRect = "{0 0 351 162}" pos = "{647 428}" />
+    <Picture language = "ESP" path = "p/multilanguage/esp/info/tsoa_h_1_mg_esp.png" srcRect = "{0 0 350 159}" pos = "{647 434}" />
+    <Picture language = "HU" path = "p/multilanguage/hu/info/tsoa_h_1_bgm_hu.png" srcRect = "{0 0 351 162}" pos = "{647 428}" />
+</INFO1_SCATTER_FG>
+
+<INFO1_WILD>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/tsoa_h_1_mg_bg.png" srcRect = "{0 0 349 162}" pos = "{648 197}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/tsoa_h_1_mg_de.png" srcRect = "{0 0 349 159}" pos = "{648 202}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/tsoa_h_1_mg_en.png" srcRect = "{0 0 349 162}" pos = "{648 197}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/tsoa_h_1_mg_esp.png" srcRect = "{0 0 346 155}" pos = "{649 203}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/tsoa_h_1_bgm_hu.png" srcRect = "{0 0 349 159}" pos = "{648 197}" />
+</INFO1_WILD>
+
+<INFO2_FREE_SPINS>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/tsoa_h_2_bg.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/tsoa_h_2_de.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/tsoa_h_2_en.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/tsoa_h_2_esp.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/tsoa_h_2_hu.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</INFO2_FREE_SPINS>
+
+<INFO3_BGR>
+	<Picture path = "p/info/tsoa_help_bgr.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</INFO3_BGR>
+
+<INFO3_DOUBLEUP>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/tsoa_h_3_gml_bg.png" srcRect = "{0 0 1440 446}" pos = "{0 401}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/tsoa_h_3_gml_de.png" srcRect = "{0 0 1440 440}" pos = "{0 409}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/tsoa_h_3_gml_en.png" srcRect = "{0 0 1440 446}" pos = "{0 401}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/tsoa_h_3_gml_esp.png" srcRect = "{0 0 1440 410}" pos = "{0 411}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/tsoa_h3_gml_hu.png" srcRect = "{0 0 1440 440}" pos = "{0 399}" />
+</INFO3_DOUBLEUP>
+
+<INFO3_DOUBLEUP_CENTER>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/tsoa_h_3_gml_bg.png" srcRect = "{0 0 1440 446}" pos = "{0 234}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/tsoa_h_3_gml_de.png" srcRect = "{0 0 1440 440}" pos = "{0 242}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/tsoa_h_3_gml_en.png" srcRect = "{0 0 1440 446}" pos = "{0 234}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/tsoa_h_3_gml_esp.png" srcRect = "{0 0 1440 410}" pos = "{0 244}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/tsoa_h3_gml_hu.png" srcRect = "{0 0 1440 440}" pos = "{0 232}" />
+</INFO3_DOUBLEUP_CENTER>
+
+<INFO3_JP>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/tsoa_h_3_dj_bg.png" srcRect = "{0 0 1440 405}" pos = "{0 52}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/tsoa_h_3_dj_de.png" srcRect = "{0 0 1440 366}" pos = "{0 59}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/tsoa_h_3_jp_en.png" srcRect = "{0 0 1440 405}" pos = "{0 52}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/tsoa_h_3_dj_esp.png" srcRect = "{0 0 1440 389}" pos = "{0 36}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/tsoa_h3_jp_hu.png" srcRect = "{0 0 1440 368}" pos = "{0 59}" />
+</INFO3_JP>
+
+<INFO3_JP_CENTER>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/tsoa_h_3_dj_bg.png" srcRect = "{0 0 1440 405}" pos = "{0 261}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/tsoa_h_3_dj_de.png" srcRect = "{0 0 1440 366}" pos = "{0 268}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/tsoa_h_3_jp_en.png" srcRect = "{0 0 1440 405}" pos = "{0 261}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/tsoa_h_3_dj_esp.png" srcRect = "{0 0 1440 389}" pos = "{0 245}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/tsoa_h3_jp_hu.png" srcRect = "{0 0 1440 368}" pos = "{0 268}" />
+</INFO3_JP_CENTER>
+
+<INFO4_BGR>
+	<Picture path = "p/info/tsoa_help_4.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</INFO4_BGR>
+
+<INFO4_TEXT>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/tsoa_h_4_bg.png" srcRect = "{0 84 1344 141}" pos = "{47 683}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/tsoa_h_4_de.png" srcRect = "{0 89 1359 146}" pos = "{40 683}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/tsoa_h_4_en.png" srcRect = "{0 84 1276 139}" pos = "{85 684}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/tsoa_h_4_esp.png" srcRect = "{0 103 1350 142}" pos = "{47 686}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/tsoa_h_4_hu.png" srcRect = "{0 99 1359 146}" pos = "{40 683}" />
+</INFO4_TEXT>
+
+<INFO4_TITLE>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/tsoa_h_4_bg.png" srcRect = "{0 0 664 84}" pos = "{388 35}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/tsoa_h_4_de.png" srcRect = "{0 0 994 89}" pos = "{241 34}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/tsoa_h_4_en.png" srcRect = "{0 0 750 84}" pos = "{347 35}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/tsoa_h_4_esp.png" srcRect = "{0 0 945 103}" pos = "{267 23}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/tsoa_h_4_hu.png" srcRect = "{0 0 1137 99}" pos = "{143 24}" />
+</INFO4_TITLE>
+
+<LEFT_INFO_TEXT>
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "BG" path = "p/multilanguage/bg/info/text_left.png" srcRect = "{0 0 491 17}" pos = "{0 883}" />
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "DE" path = "p/multilanguage/de/info/text_left.png" srcRect = "{0 0 402 20}" pos = "{0 880}" />
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "EN" path = "p/multilanguage/en/info/text_left.png" srcRect = "{0 0 380 17}" pos = "{0 883}" />
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "ESP" path = "p/multilanguage/esp/info/left_info_except_jackpot_esp.png" srcRect = "{0 0 813 20}" pos = "{0 880}" />
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "HU" path = "p/multilanguage/hu/info/text_left.png" srcRect = "{0 0 645 20}" pos = "{0 880}" />
+	<Picture  language = "BG" path = "p/multilanguage/bg/info/text_right.png" srcRect = "{0 0 396 17}" pos = "{0 883}" />
+	<Picture  language = "DE" path = "p/multilanguage/de/info/left_and_right_text.png" srcRect = "{0 0 689 19}" pos = "{0 880}" />
+	<Picture  language = "EN" path = "p/multilanguage/en/info/text_right.png" srcRect = "{0 0 278 17}" pos = "{0 883}" />
+	<Picture  language = "ESP" path = "p/multilanguage/esp/info/left_and_right_text.png" srcRect = "{0 0 527 19}" pos = "{0 880}" />
+	<Picture  language = "HU" path = "p/multilanguage/hu/info/left_and_right_text.png" srcRect = "{0 0 455 19}" pos = "{0 881}" />
+</LEFT_INFO_TEXT>
+
+<RIGHT_INFO_TEXT>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/text_right.png" srcRect = "{397 0 553 17}" pos = "{887 883}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/left_and_right_text.png" srcRect = "{0 19 689 19}" pos = "{750 880}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/text_right.png" srcRect = "{279 0 371 17}" pos = "{1069 883}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/left_and_right_text.png" srcRect = "{0 19 527 19}" pos = "{915 880}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/left_and_right_text.png" srcRect = "{0 19 689 19}" pos = "{808 880}" />
+</RIGHT_INFO_TEXT>
+
+<DOUBLE_UP_VALUE_POS>
+	<Text language = "BG" pos = "{916 575}" algn = "left" /> 
+	<Text language = "DE" pos = "{840 534}" algn = "left" /> 
+	<Text language = "EN" pos = "{781 581}" algn = "left" /> 
+	<Text language = "ESP" pos = "{958 534}" algn = "left" /> 
+	<Text language = "HU" pos = "{982 581}" algn = "left" /> 
+</DOUBLE_UP_VALUE_POS>
+
+<DOUBLE_UP_VALUE_POS_CENTER>
+	<Text language = "BG" pos = "{916 407}" algn = "left" /> 
+	<Text language = "DE" pos = "{829 413}" algn = "left" /> 
+	<Text language = "EN" pos = "{781 413}" algn = "left" /> 
+	<Text language = "ESP" pos = "{946 413}" algn = "left" /> 
+	<Text language = "HU" pos = "{984 404}" algn = "left" /> 
+</DOUBLE_UP_VALUE_POS_CENTER>
+
+<MAX_GAMBLE_ATTEMPTS>
+	<Text language = "EN" pos = "{872 853}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" />
+	<Text language = "BG" pos = "{951 853}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" />
+	<Text language = "DE" pos = "{880 853}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+	<Text language = "ESP" pos = "{867 853}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+	<Text language = "HU" pos = "{905 853}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+</MAX_GAMBLE_ATTEMPTS>
+
+<MAX_GAMBLE_ATTEMPTS_CENTER>
+	<Text language = "EN" pos = "{874 680}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" />
+	<Text language = "BG" pos = "{951 680}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" />
+	<Text language = "DE" pos = "{886 680}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+	<Text language = "ESP" pos = "{888 680}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+	<Text language = "HU" pos = "{905 680}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+</MAX_GAMBLE_ATTEMPTS_CENTER>
+
+<fig_1> <InfoScreenFigure id = "{1 ef2_ten}" box = "{166 60}" multiplier = "1" combination = "5" pos = "{1151 740}" /> </fig_1> 
+<fig_2> <InfoScreenFigure id = "{1 ef2_ten}" box = "{166 60}" multiplier = "1" combination = "4" pos = "{1151 786}" /> </fig_2> 
+<fig_3> <InfoScreenFigure id = "{1 ef2_ten}" box = "{166 60}" multiplier = "1" combination = "3" pos = "{1151 833}" /> </fig_3> 
+<fig_4> <InfoScreenFigure id = "{3 ef4_queen}" box = "{166 60}" multiplier = "1" combination = "5" pos = "{289 740}" /> </fig_4> 
+<fig_5> <InfoScreenFigure id = "{3 ef4_queen}" box = "{166 60}" multiplier = "1" combination = "4" pos = "{289 786}" /> </fig_5> 
+<fig_6> <InfoScreenFigure id = "{3 ef4_queen}" box = "{166 60}" multiplier = "1" combination = "3" pos = "{289 833}" /> </fig_6> 
+<fig_7> <InfoScreenFigure id = "{5 ef6_ace}" box = "{166 60}" multiplier = "1" combination = "5" pos = "{1151 500}" /> </fig_7> 
+<fig_8> <InfoScreenFigure id = "{5 ef6_ace}" box = "{166 60}" multiplier = "1" combination = "4" pos = "{1151 547}" /> </fig_8> 
+<fig_9> <InfoScreenFigure id = "{5 ef6_ace}" box = "{166 60}" multiplier = "1" combination = "3" pos = "{1151 594}" /> </fig_9> 
+<fig_10> <InfoScreenFigure id = "{7 ef8_helmet}" box = "{166 60}" multiplier = "1" combination = "5" pos = "{289 500}" /> </fig_10> 
+<fig_11> <InfoScreenFigure id = "{7 ef8_helmet}" box = "{166 60}" multiplier = "1" combination = "4" pos = "{289 547}" /> </fig_11> 
+<fig_12> <InfoScreenFigure id = "{7 ef8_helmet}" box = "{166 60}" multiplier = "1" combination = "3" pos = "{289 594}" /> </fig_12> 
+<fig_13> <InfoScreenFigure id = "{9 ef10_elephant}" box = "{166 60}" multiplier = "1" combination = "5" pos = "{1151 257}" /> </fig_13> 
+<fig_14> <InfoScreenFigure id = "{9 ef10_elephant}" box = "{166 60}" multiplier = "1" combination = "4" pos = "{1151 302}" /> </fig_14> 
+<fig_15> <InfoScreenFigure id = "{9 ef10_elephant}" box = "{166 60}" multiplier = "1" combination = "3" pos = "{1151 349}" /> </fig_15> 
+<fig_16> <InfoScreenFigure id = "{11 ef12_man}" box = "{166 60}" multiplier = "1" combination = "5" pos = "{289 236}" /> </fig_16> 
+<fig_17> <InfoScreenFigure id = "{11 ef12_man}" box = "{166 60}" multiplier = "1" combination = "4" pos = "{289 282}" /> </fig_17> 
+<fig_18> <InfoScreenFigure id = "{11 ef12_man}" box = "{166 60}" multiplier = "1" combination = "3" pos = "{289 328}" /> </fig_18> 
+<fig_19> <InfoScreenFigure id = "{11 ef12_man}" box = "{166 60}" multiplier = "1" combination = "2" pos = "{289 373}" /> </fig_19> 
+<fig_20> <InfoScreenFigure id = "{13 ef14_scatter}" box = "{166 60}" multiplier = "1" combination = "3" pos = "{850 588}" scatter = "true" groupId = "1"  /> </fig_20>
+
+<wintable>
+	<Scene order = "0" type = "standard" 
+		pictures = "{ INFO1_BGR INFO1_FREE_SPINS_MG INFO1_SCATTER_MG INFO1_WILD LEFT_INFO_TEXT RIGHT_INFO_TEXT }" 
+		values = "{ fig_1 fig_2 fig_3 fig_4 fig_5 fig_6 fig_7 fig_8 fig_9 fig_10 fig_11 fig_12 fig_13 fig_14 fig_15 fig_16 fig_17 fig_18 fig_19 fig_20 }" 
+		font = "TSOA_H1_FONT" />
+    <Scene order = "0" type = "free_game"
+        pictures = "{ INFO1_BGR INFO1_FREE_SPINS_FG INFO1_SCATTER_FG INFO1_WILD LEFT_INFO_TEXT RIGHT_INFO_TEXT }"
+        values = "{ fig_1 fig_2 fig_3 fig_4 fig_5 fig_6 fig_7 fig_8 fig_9 fig_10 fig_11 fig_12 fig_13 fig_14 fig_15 fig_16 fig_17 fig_18 fig_19 }"
+        font = "TSOA_H1_FONT" />
+</wintable>
+
+<freespins>
+	<Scene order = "1" type = "standard" 
+		pictures = "{INFO3_BGR INFO2_FREE_SPINS LEFT_INFO_TEXT RIGHT_INFO_TEXT }"
+		values = "{ SERIAL_NUMBER }" />
+</freespins>
+
+<doubleup>
+        <Scene order = "2" type = "standard"
+		pictures = "{ INFO3_BGR INFO3_DOUBLEUP_CENTER GE_DOUBLEUP_MAX_ATTEMPTS_CENTER LEFT_INFO_TEXT RIGHT_INFO_TEXT }" 
+                values = "{ MAX_GAMBLE_ATTEMPTS_CENTER DOUBLE_UP_VALUE_POS_CENTER }"
+		font = "TSOA_H3_FONT" />
+        <Scene order = "2" type = "doubleup_and_jackpot"
+                pictures = "{ INFO3_BGR INFO3_DOUBLEUP INFO3_JP GE_DOUBLEUP_MAX_ATTEMPTS LEFT_INFO_TEXT RIGHT_INFO_TEXT }"
+                values = "{ MAX_GAMBLE_ATTEMPTS DOUBLE_UP_VALUE_POS }"
+		font = "TSOA_H3_FONT" />
+        <Scene order = "2" type = "jackpot"
+                pictures = "{ INFO3_BGR INFO3_JP_CENTER LEFT_INFO_TEXT RIGHT_INFO_TEXT }" />
+</doubleup>
+
+<rules>
+	<Scene order = "3" type = "standard" 
+		pictures = "{ INFO4_BGR INFO4_TEXT INFO4_TITLE LEFT_INFO_TEXT RIGHT_INFO_TEXT }" />
+</rules>
+
+</GameInfoScreen>
+</compmgr>

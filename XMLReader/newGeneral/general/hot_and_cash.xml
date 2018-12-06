@@ -1,0 +1,270 @@
+<compmgr name = "hot_and_cash">
+
+<TopperResources fontIni = "{ HACPFonts.ini }" />
+
+<GameInfoScreen>
+
+<!-- #########################      COMMON          #################### -->
+<HAC_BACKGROUND_SCREEN_1>
+	<Picture path = "p/info/h&c_h1.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</HAC_BACKGROUND_SCREEN_1>
+
+<HAC_BACKGROUND_SCREEN_2>
+	<Picture path = "p/info/h&c_h3.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</HAC_BACKGROUND_SCREEN_2>
+
+<HAC_BACKGROUND_SCREEN_3>
+	<Picture path = "p/info/h&c_h3.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</HAC_BACKGROUND_SCREEN_3>
+
+<SERIAL_NUMBER>
+    <Text pos = "{5 12}" algn = "left" font = "ARIAL_BOLD_12" color = "{255 156 0}"/> 
+</SERIAL_NUMBER>
+
+<!-- left down text -->
+<LEFT_INFO_TEXT>
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "EN" path = "p/multilanguage/en/info/left_info_except_jackpots.png" srcRect = "{0 0 385 19}" pos = "{0 881}" />
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "BG" path = "p/multilanguage/bg/info/left_info_except_jackpots.png" srcRect = "{0 0 495 19}" pos = "{0 881}" />
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "ESP" path = "p/multilanguage/esp/info/left_info_except_jackpots.png" srcRect = "{0 0 748 20}" pos = "{0 880}" />
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "DE" path = "p/multilanguage/de/info/left_info_except_jackpots.png" srcRect = "{0 0 418 20}" pos = "{0 880}" />
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "HU" path = "p/multilanguage/hu/info/left_info_except_jackpots.png" srcRect = "{0 0 648 19}" pos = "{0 880}" />
+
+	<Picture  language = "EN" path = "p/multilanguage/en/info/h&c_h1_text_left.png" srcRect = "{0 0 282 19}" pos = "{0 881}" />
+    <Picture  language = "BG" path = "p/multilanguage/bg/info/h&c_h1_text_left.png" srcRect = "{0 0 399 19}" pos = "{0 881}" />
+	<Picture  language = "ESP" path = "p/multilanguage/esp/info/h&c_h1_text_left.png" srcRect = "{0 0 428 20}" pos = "{0 880}" />
+    <Picture  language = "DE" path = "p/multilanguage/de/info/h&c_h1_text_left.png" srcRect = "{0 0 418 20}" pos = "{0 880}" />
+	<Picture  language = "HU" path = "p/multilanguage/hu/info/h&c_h1_text_left.png" srcRect = "{0 0 456 20}" pos = "{0 880}" />
+</LEFT_INFO_TEXT>
+
+<!-- right down text -->
+<RIGHT_INFO_TEXT>
+	<Picture language = "EN" path = "p/multilanguage/en/info/h&c_h1_text_right.png" srcRect = "{0 0 379 19}" pos = "{1061 881}" />
+	<Picture language = "BG" path = "p/multilanguage/bg/info/h&c_h1_text_right.png" srcRect = "{0 0 554 19}" pos = "{886 881}" />
+    <Picture language = "ESP" path = "p/multilanguage/esp/info/h&c_h1_text_right.png" srcRect = "{0 0 525 20}" pos = "{915 880}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/h&c_h1_text_right.png" srcRect = "{0 0 690 20}" pos = "{750 880}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/h&c_h1_text_right.png" srcRect = "{0 0 618 20}" pos = "{818 880}" />
+</RIGHT_INFO_TEXT>
+
+
+<!-- #########################      Screen Win Table    ####################-->
+
+<HAC_APPEARS_TEXT>
+	<Picture language = "EN" path = "p/multilanguage/en/info/h&c_h1_text.png" srcRect = "{0 0 415 237}" pos = "{513 407}" />
+	<Picture language = "BG" path = "p/multilanguage/bg/info/h&c_h1_text.png" srcRect = "{0 0 415 237}" pos = "{513 407}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/h&c_h1_text.png" srcRect = "{0 0 483 237}" pos = "{479 407}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/h&c_h1_text.png" srcRect = "{0 0 483 237}" pos = "{479 407}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/h&c_h1_text.png" srcRect = "{0 0 494 239}" pos = "{473 405}" />
+</HAC_APPEARS_TEXT>
+
+<HAC_SCATTER_TEXT>
+	<Picture language = "EN" path = "p/multilanguage/en/info/h&c_h1_scatter.png" srcRect = "{0 0 234 62}" pos = "{624 675}" />
+	<Picture language = "BG" path = "p/multilanguage/bg/info/h&c_h1_scatter.png" srcRect = "{0 0 244 70}" pos = "{619 675}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/h&c_h1_scatter.png" srcRect = "{0 0 234 62}" pos = "{624 675}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/h&c_h1_scatter.png" srcRect = "{0 0 234 62}" pos = "{624 675}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/h&c_h1_scatter.png" srcRect = "{0 0 234 62}" pos = "{624 675}" />
+</HAC_SCATTER_TEXT>
+
+<fig_1> <InfoScreenFigure id = "{6 ef7_seven}" multiplier = "1" combination = "5" pos = "{325 236}" /> </fig_1> 
+<fig_2> <InfoScreenFigure id = "{6 ef7_seven}" multiplier = "1" combination = "4" pos = "{325 286}" /> </fig_2> 
+<fig_3> <InfoScreenFigure id = "{6 ef7_seven}" multiplier = "1" combination = "3" pos = "{325 336}" /> </fig_3> 
+
+<fig_4> <InfoScreenFigure id = "{8 ef9_scatter}" multiplier = "1" combination = "5" pos = "{845 774}" /> </fig_4> 
+<fig_5> <InfoScreenFigure id = "{8 ef9_scatter}" multiplier = "1" combination = "4" pos = "{845 820}" /> </fig_5> 
+<fig_6> <InfoScreenFigure id = "{8 ef9_scatter}" multiplier = "1" combination = "3" pos = "{845 866}" /> </fig_6> 
+
+<fig_7> <InfoScreenFigure id = "{5 ef6_grapes}" multiplier = "1" combination = "5" pos = "{1112 236}" /> </fig_7> 
+<fig_8> <InfoScreenFigure id = "{5 ef6_grapes}" multiplier = "1" combination = "4" pos = "{1112 286}" /> </fig_8> 
+<fig_9> <InfoScreenFigure id = "{5 ef6_grapes}" multiplier = "1" combination = "3" pos = "{1112 336}" /> </fig_9> 
+
+<fig_10> <InfoScreenFigure id = "{3 ef4_plum}" multiplier = "1" combination = "5" pos = "{340 490}" /> </fig_10> 
+<fig_11> <InfoScreenFigure id = "{3 ef4_plum}" multiplier = "1" combination = "4" pos = "{340 540}" /> </fig_11> 
+<fig_12> <InfoScreenFigure id = "{3 ef4_plum}" multiplier = "1" combination = "3" pos = "{340 590}" /> </fig_12> 
+
+<fig_13> <InfoScreenFigure id = "{2 ef3_lemon}" multiplier = "1" combination = "5" pos = "{1100 490}" /> </fig_13> 
+<fig_14> <InfoScreenFigure id = "{2 ef3_lemon}" multiplier = "1" combination = "4" pos = "{1100 540}" /> </fig_14> 
+<fig_15> <InfoScreenFigure id = "{2 ef3_lemon}" multiplier = "1" combination = "3" pos = "{1100 590}" /> </fig_15> 
+
+<fig_16> <InfoScreenFigure id = "{1 ef2_orange}" multiplier = "1" combination = "5" pos = "{340 736}" /> </fig_16> 
+<fig_17> <InfoScreenFigure id = "{1 ef2_orange}" multiplier = "1" combination = "4" pos = "{340 786}" /> </fig_17> 
+<fig_18> <InfoScreenFigure id = "{1 ef2_orange}" multiplier = "1" combination = "3" pos = "{340 836}" /> </fig_18> 
+
+<fig_19> <InfoScreenFigure id = "{0 ef1_cherry}" multiplier = "1" combination = "5" pos = "{1100 736}" /> </fig_19>
+<fig_20> <InfoScreenFigure id = "{0 ef1_cherry}" multiplier = "1" combination = "4" pos = "{1100 786}" /> </fig_20>
+<fig_21> <InfoScreenFigure id = "{0 ef1_cherry}" multiplier = "1" combination = "3" pos = "{1100 836}" /> </fig_21>
+
+
+<!-- #########################      Screen Wild Appear Info    ####################-->
+<HAC_SCREEN_WILD_APPEAR>
+	<Picture language = "EN" path = "p/multilanguage/en/info/h&c_h2.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "BG" path = "p/multilanguage/bg/info/h&c_h2.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/h&c_h2.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/h&c_h2.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/h&c_h2.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</HAC_SCREEN_WILD_APPEAR>
+
+
+<!-- #########################      Screen Double Up    ####################-->
+<HAC_DOUBLE_UP_TEXT>
+    <Picture language = "EN" path = "p/multilanguage/en/info/h&c_h3_gamble.png" srcRect = "{0 0 1440 330}" pos = "{0 533}" />
+    <Picture language = "BG" path = "p/multilanguage/bg/info/h&c_h3_gamble.png" srcRect = "{0 0 1440 330}" pos = "{0 533}" />
+    <Picture language = "ESP" path = "p/multilanguage/esp/info/h&c_h3_gamble.png" srcRect = "{0 0 1440 330}" pos = "{0 533}" />
+    <Picture language = "DE" path = "p/multilanguage/de/info/h&c_h3_gamble.png" srcRect = "{0 0 1440 330}" pos = "{0 533}" />
+    <Picture language = "HU" path = "p/multilanguage/hu/info/h&c_h2_gamble.png" srcRect = "{0 0 1440 350}" pos = "{0 513}" />
+</HAC_DOUBLE_UP_TEXT>
+<DOUBLE_UP_VALUE_POS>
+	<Text language = "EN" pos = "{870 660}" algn = "left" /> 
+	<Text language = "BG" pos = "{971 660}" algn = "left" /> 
+	<Text language = "ESP" pos = "{841 660}" algn = "left" /> 
+	<Text language = "DE" pos = "{755 660}" algn = "left" /> 
+	<Text language = "HU" pos = "{916 660}" algn = "left" /> 
+</DOUBLE_UP_VALUE_POS>
+<!-- max attempts resource -->
+<HAC_DOUBLEUP_MAX_ATTEMPTS>
+	<Picture language = "EN" path = "../hat/p/multilanguage/info/en/gamble_max_attempts_en.png" srcRect = "{0 0 545 33}" pos = "{446 845}" />
+	<Picture language = "BG" path = "../hat/p/multilanguage/info/bg/gamble_max_attempts_bg.png" srcRect = "{0 0 545 33}" pos = "{446 845}" />
+	<Picture language = "DE" path = "../hat/p/multilanguage/info/de/gamble_max_attempts_de.png" srcRect = "{0 0 545 33}" pos = "{446 845}" />
+	<Picture language = "ESP" path = "../hat/p/multilanguage/info/esp/gamble_max_attempts_esp.png" srcRect = "{0 0 545 33}" pos = "{446 845}" />
+	<Picture language = "HU" path = "../hat/p/multilanguage/info/hu/gamble_max_attempts_hu.png" srcRect = "{0 0 545 33}" pos = "{446 845}" />
+</HAC_DOUBLEUP_MAX_ATTEMPTS>
+<MAX_GAMBLE_ATTEMPTS>
+	<Text language = "EN" pos = "{875 876}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" />
+	<Text language = "BG" pos = "{952 876}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" />
+	<Text language = "DE" pos = "{890 875}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+	<Text language = "ESP" pos = "{886 875}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+	<Text language = "HU" pos = "{907 875}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+</MAX_GAMBLE_ATTEMPTS>
+
+<!-- center -->
+<HAC_DOUBLE_UP_TEXT_CENTER>
+	<Picture language = "EN" path = "p/multilanguage/en/info/h&c_h3_gamble.png" srcRect = "  {0 0 1440 330}" pos = "{0 286}" />
+	<Picture language = "BG" path = "p/multilanguage/bg/info/h&c_h3_gamble.png" srcRect = "  {0 0 1440 330}" pos = "{0 286}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/h&c_h3_gamble.png" srcRect = "{0 0 1440 330}" pos = "{0 286}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/h&c_h3_gamble.png" srcRect = "  {0 0 1440 330}" pos = "{0 286}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/h&c_h2_gamble.png" srcRect = "  {0 0 1440 350}" pos = "{0 266}" />
+</HAC_DOUBLE_UP_TEXT_CENTER>
+
+<DOUBLE_UP_VALUE_POS_CENTER>
+	<Text language = "EN" pos = "{870 413}" algn = "left" /> 
+	<Text language = "BG" pos = "{971 413}" algn = "left" /> 
+	<Text language = "ESP" pos = "{841 413}" algn = "left" /> 
+	<Text language = "DE" pos = "{765 413}" algn = "left" /> 
+	<Text language = "HU" pos = "{916 413}" algn = "left" /> 
+</DOUBLE_UP_VALUE_POS_CENTER>
+<HAC_DOUBLEUP_MAX_ATTEMPTS_CENTER>
+	<Picture language = "EN" path = "../hat/p/multilanguage/info/en/gamble_max_attempts_en.png" srcRect = "{0 0 545 33}" pos = "{446 602}" />
+	<Picture language = "BG" path = "../hat/p/multilanguage/info/bg/gamble_max_attempts_bg.png" srcRect = "{0 0 545 33}" pos = "{446 602}" />
+	<Picture language = "DE" path = "../hat/p/multilanguage/info/de/gamble_max_attempts_de.png" srcRect = "{0 0 545 33}" pos = "{446 602}" />
+	<Picture language = "ESP" path = "../hat/p/multilanguage/info/esp/gamble_max_attempts_esp.png" srcRect = "{0 0 545 33}" pos = "{446 602}" />
+	<Picture language = "HU" path = "../hat/p/multilanguage/info/hu/gamble_max_attempts_hu.png" srcRect = "{0 0 545 33}" pos = "{446 602}" />
+</HAC_DOUBLEUP_MAX_ATTEMPTS_CENTER>
+
+<MAX_GAMBLE_ATTEMPTS_CENTER>
+	<Text language = "EN" pos = "{875 632}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" />
+	<Text language = "BG" pos = "{952 632}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" />
+	<Text language = "DE" pos = "{890 632}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+	<Text language = "ESP" pos = "{886 632}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+	<Text language = "HU" pos = "{907 632}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+</MAX_GAMBLE_ATTEMPTS_CENTER>
+
+<!-- Jackpot -->
+<HAC_JACKPOT_TEXT>
+    <Picture language = "EN" path = "p/multilanguage/en/info/h&c_h3_jackpot.png" srcRect = "{0 0 1440 545}" pos = "{0 1}" />
+    <Picture language = "BG" path = "p/multilanguage/bg/info/h&c_h3_jackpot.png" srcRect = "{0 0 1440 545}" pos = "{0 1}" />
+    <Picture language = "ESP" path = "p/multilanguage/esp/info/h&c_h3_jackpot.png" srcRect = "{0 0 1440 545}" pos = "{0 1}" />
+    <Picture language = "DE" path = "p/multilanguage/de/info/h&c_h3_jackpot.png" srcRect = "{0 0 1440 545}" pos = "{0 1}" />
+    <Picture language = "HU" path = "p/multilanguage/hu/info/h&c_h2_jackpot.png" srcRect = "{0 0 1440 545}" pos = "{0 2}" />
+</HAC_JACKPOT_TEXT>
+<HAC_JACKPOT_TEXT_CENTER>
+	<Picture language = "EN" path = "p/multilanguage/en/info/h&c_h3_jackpot.png" srcRect = "{0 0 1440 545}" pos = "{22 178}" />
+    <Picture language = "BG" path = "p/multilanguage/bg/info/h&c_h3_jackpot.png" srcRect = "{0 0 1440 545}" pos = "{22 178}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/h&c_h3_jackpot.png" srcRect = "{0 0 1440 545}" pos = "{22 178}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/h&c_h3_jackpot.png" srcRect = "{0 0 1440 545}" pos = "{22 178}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/h&c_h2_jackpot.png" srcRect = "{0 0 1440 545}" pos = "{22 178}" />
+</HAC_JACKPOT_TEXT_CENTER>
+
+<!-- Page DoubleUp -->
+<doubleup>
+	<Scene order = "2" type = "standard" 
+        pictures = "{ HAC_BACKGROUND_SCREEN_2
+        HAC_DOUBLE_UP_TEXT_CENTER 
+        HAC_DOUBLEUP_MAX_ATTEMPTS_CENTER
+        LEFT_INFO_TEXT 
+        RIGHT_INFO_TEXT }" 
+
+        values = "{ DOUBLE_UP_VALUE_POS_CENTER
+        MAX_GAMBLE_ATTEMPTS_CENTER}" 
+
+		font = "INFO_1_AND_3_FONT" />
+
+	<Scene order = "2" type = "doubleup_and_jackpot" 
+        pictures = "{ HAC_BACKGROUND_SCREEN_2
+        HAC_DOUBLE_UP_TEXT 
+        HAC_JACKPOT_TEXT 
+        HAC_DOUBLEUP_MAX_ATTEMPTS
+        LEFT_INFO_TEXT 
+        RIGHT_INFO_TEXT }"
+
+        values = "{ DOUBLE_UP_VALUE_POS
+        MAX_GAMBLE_ATTEMPTS}" 
+
+		font = "INFO_1_AND_3_FONT" />
+
+	<Scene order = "2" type = "jackpot" 
+        pictures = "{ HAC_BACKGROUND_SCREEN_2 
+        HAC_JACKPOT_TEXT_CENTER 
+        LEFT_INFO_TEXT 
+        RIGHT_INFO_TEXT }"
+
+		font = "INFO_1_AND_3_FONT" />
+</doubleup>
+
+
+<!-- #########################      Rules and play lines    ####################-->
+
+<HAC_RULES_AND_LINES>
+	<Picture language = "EN" path = "p/multilanguage/en/info/h_c_h4.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "BG" path = "p/multilanguage/bg/info/h_c_h4.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/h_c_h4.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/h_c_h4.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/h_c_h4.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</HAC_RULES_AND_LINES>
+
+
+
+<wintable>
+    <Scene order = "0" font = "INFO_1_AND_3_FONT" >
+        <standard>
+           <SceneElement name = "HAC_BACKGROUND_SCREEN_1" />
+           <SceneElement name = "HAC_APPEARS_TEXT" />
+           <SceneElement name = "HAC_SCATTER_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "HAC_SCREEN_WILD_APPEAR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "HAC_RULES_AND_LINES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+
+</GameInfoScreen>
+</compmgr>

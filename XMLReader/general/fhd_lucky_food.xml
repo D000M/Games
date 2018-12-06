@@ -1,0 +1,86 @@
+<compmgr name = "fhd_lucky_food">
+
+<TopperResources fontIni = "{ FHDLFPFonts.ini }" />
+
+<GameInfoScreen>
+
+
+<!--  common -->
+<COPYRIGHT_TEXT>		
+    <Picture path = "p/info/lucky_food_copyright.png" srcRect = "{0 0 321 21}" pos = "{1586 5}" />
+</COPYRIGHT_TEXT>
+
+<LEFT_INFO_TEXT>
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "BG" path = "p/multilanguage/bg/info/except_jackpots.png" srcRect = "{0 0 377 15}" pos = "{5 1063}" />
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "EN" path = "p/multilanguage/en/info/except_jackpots.png" srcRect = "{0 0 377 15}" pos = "{5 1063}" />
+	<Picture  language = "BG" path = "p/multilanguage/bg/info/in_credits.png" srcRect = "{0 0 275 15}" pos = "{5 1063}" />
+	<Picture  language = "EN" path = "p/multilanguage/en/info/in_credits.png" srcRect = "{0 0 275 15}" pos = "{5 1063}" />
+</LEFT_INFO_TEXT>
+
+<RIGHT_INFO_TEXT>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/malfunction.png" srcRect = "{0 0 373 15}" pos = "{1542 1063}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/malfunction.png" srcRect = "{0 0 373 15}" pos = "{1542 1063}" />
+</RIGHT_INFO_TEXT>
+
+
+<!-- Screen 1 -->
+<BGR_SCREEN_1>
+	<Picture path = "p/info/bgr_01.png" srcRect = "{0 0 1920 1080}" pos = "{0 0}" />
+</BGR_SCREEN_1>
+
+<H1_TEXT>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/h1_text.png" srcRect = "{0 0 1920 519}" pos = "{0 561}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/h1_text.png" srcRect = "{0 0 1920 519}" pos = "{0 561}" />
+</H1_TEXT>
+
+<fig_1> <InfoScreenFigure id = "{10 ef11_wild}" box = "{174 32}" multiplier = "1" combination = "5" pos = "{1094 453}" /> </fig_1> 
+<fig_2> <InfoScreenFigure id = "{10 ef11_wild}" box = "{174 32}" multiplier = "1" combination = "4" pos = "{1094 498}" /> </fig_2> 
+<fig_3> <InfoScreenFigure id = "{10 ef11_wild}" box = "{174 32}" multiplier = "1" combination = "3" pos = "{1094 543}" /> </fig_3> 
+<fig_4> <InfoScreenFigure id = "{9 ef10_man}" box = "{174 32}" multiplier = "1" combination = "5" pos = "{385 193}"  /> </fig_4> 
+<fig_5> <InfoScreenFigure id = "{9 ef10_man}" box = "{174 32}" multiplier = "1" combination = "4" pos = "{385 237}"  /> </fig_5> 
+<fig_6> <InfoScreenFigure id = "{9 ef10_man}" box = "{174 32}" multiplier = "1" combination = "3" pos = "{385 283}"  /> </fig_6> 
+<fig_7> <InfoScreenFigure id = "{8 ef9_woman}" box = "{174 32}" multiplier = "1" combination = "5" pos = "{1535 194}" /> </fig_7> 
+<fig_8> <InfoScreenFigure id = "{8 ef9_woman}" box = "{174 32}" multiplier = "1" combination = "4" pos = "{1535 238}" /> </fig_8> 
+<fig_9> <InfoScreenFigure id = "{8 ef9_woman}" box = "{174 32}" multiplier = "1" combination = "3" pos = "{1535 284}" /> </fig_9> 
+<fig_10> <InfoScreenFigure id = "{7 ef8_lantern}" box = "{174 32}" multiplier = "1" combination = "5" pos = "{385 436}" /> </fig_10> 
+<fig_11> <InfoScreenFigure id = "{7 ef8_lantern}" box = "{174 32}" multiplier = "1" combination = "4" pos = "{385 481}" /> </fig_11> 
+<fig_12> <InfoScreenFigure id = "{7 ef8_lantern}" box = "{174 32}" multiplier = "1" combination = "3" pos = "{385 526}" /> </fig_12>
+<fig_13> <InfoScreenFigure id = "{6 ef7_fan}" box = "{174 32}" multiplier = "1" combination = "5" pos = "{1535 434}" /> </fig_13> 
+<fig_14> <InfoScreenFigure id = "{6 ef7_fan}" box = "{174 32}" multiplier = "1" combination = "4" pos = "{1535 478}" /> </fig_14> 
+<fig_15> <InfoScreenFigure id = "{6 ef7_fan}" box = "{174 32}" multiplier = "1" combination = "3" pos = "{1535 523}" /> </fig_15>
+<fig_16> <InfoScreenFigure id = "{5 ef6_lotus}" box = "{174 32}" multiplier = "1" combination = "5" pos = "{385 675}" /> </fig_16> 
+<fig_17> <InfoScreenFigure id = "{5 ef6_lotus}" box = "{174 32}" multiplier = "1" combination = "4" pos = "{385 719}" /> </fig_17> 
+<fig_18> <InfoScreenFigure id = "{5 ef6_lotus}" box = "{174 32}" multiplier = "1" combination = "3" pos = "{385 765}" /> </fig_18>
+<fig_19> <InfoScreenFigure id = "{4 ef5_ace}" box = "{174 32}" multiplier = "1" combination = "5" pos = "{1535 676}" /> </fig_19> 
+<fig_20> <InfoScreenFigure id = "{4 ef5_ace}" box = "{174 32}" multiplier = "1" combination = "4" pos = "{1535 720}" /> </fig_20> 
+<fig_21> <InfoScreenFigure id = "{4 ef5_ace}" box = "{174 32}" multiplier = "1" combination = "3" pos = "{1535 765}" /> </fig_21>
+<fig_22> <InfoScreenFigure id = "{3 ef4_king}" box = "{174 32}" multiplier = "1" combination = "5" pos = "{385 917}" /> </fig_22> 
+<fig_23> <InfoScreenFigure id = "{3 ef4_king}" box = "{174 32}" multiplier = "1" combination = "4" pos = "{385 961}" /> </fig_23> 
+<fig_24> <InfoScreenFigure id = "{3 ef4_king}" box = "{174 32}" multiplier = "1" combination = "3" pos = "{385 1007}" /> </fig_24>
+<fig_25> <InfoScreenFigure id = "{1 ef2_jack}" box = "{174 32}" multiplier = "1" combination = "5" pos = "{1535 916}" /> </fig_25> 
+<fig_26> <InfoScreenFigure id = "{1 ef2_jack}" box = "{174 32}" multiplier = "1" combination = "4" pos = "{1535 960}" /> </fig_26> 
+<fig_27> <InfoScreenFigure id = "{1 ef2_jack}" box = "{174 32}" multiplier = "1" combination = "3" pos = "{1535 1005}" /> </fig_27>
+
+<REEL_DEMO_ANIMATION>
+     <Video path = "file://../data/ps_fhd_lucky_food/p/info/lucky_food-rgb.mov" loop = "true" position = "{962 934}" />     
+</REEL_DEMO_ANIMATION>
+
+<wintable>
+	<Scene order = "0" type = "standard" 
+
+        pictures = "{ BGR_SCREEN_1 
+                    H1_TEXT 
+                    COPYRIGHT_TEXT 
+                    LEFT_INFO_TEXT 
+                    RIGHT_INFO_TEXT }" 
+
+		values = "{ fig_1 fig_2 fig_3 fig_4 fig_5 fig_6 fig_7 fig_8 fig_9 fig_10 fig_11 fig_12 fig_13 fig_14 fig_15 fig_16 fig_17 fig_18 fig_19 fig_20 fig_21 fig_22 fig_23 fig_24 fig_25 fig_26 fig_27 }" 
+		
+		videos = "{REEL_DEMO_ANIMATION}"
+		
+		font = "LF_H1_CIFRI" />
+</wintable>
+<!-- End of Screen 1 -->
+
+</GameInfoScreen>
+</compmgr>

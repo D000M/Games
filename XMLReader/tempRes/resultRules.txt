@@ -1,0 +1,1766 @@
+###########       general/burning_hot_20.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "CB_BH20P_INFO4_BGR" />
+           <SceneElement name = "CB_BH20P_INFO4_TEXT" />
+           <SceneElement name = "CB_BH20P_INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/shining_crown_40.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "SC_40_SCREEN_3" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/blue_heart.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_BH_INFO4_BGR" />
+           <SceneElement name = "CB_BH_INFO4_TEXT" />
+           <SceneElement name = "CB_BH_INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/knight_heart.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "PLAIN_BACKGROUND" />
+           <SceneElement name = "INFO4_PAYLINES" />
+           <SceneElement name = "INFO4_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_sweety_dogs.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_SDFHD_INFO4_BGR" />
+           <SceneElement name = "COPYRIGHTS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/hot_blast_50.xml     ############
+<rules>
+    <Scene order = >
+        <standard>
+           <SceneElement name = "HOT_BLAST_50_SCREEN_RULES_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/empress_charm.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "PLAIN_BACKGROUND" />
+           <SceneElement name = "INFO4_PAYLINES" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/burning_hot_40.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "CB_BH40P_INFO4_BGR" />
+           <SceneElement name = "CB_BH40P_INFO4_TEXT" />
+           <SceneElement name = "CB_BH40P_INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_glorious_hidalgo.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "BGR_SCREEN_3" />
+           <SceneElement name = "COPYRIGHT_TEXT" />
+           <SceneElement name = "LINE_RULES_LABEL" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/burning_heart_10.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "BHEART_10_BACKGROUND_SCREEN_3" />
+           <SceneElement name = "BHEART_10_SCREEN_3_TITLE" />
+           <SceneElement name = "BHEART_10_SCREEN_3_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/hot_and_cash.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "HAC_RULES_AND_LINES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_irish_treasure.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_ITFHDP_INFO_BGR" />
+           <SceneElement name = "CB_ITFHDP_INFO4_TEXT" />
+           <SceneElement name = "COPYRIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/extra_stars.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_ESP_INFO4_BGR" />
+           <SceneElement name = "CB_ESP_INFO4_PAYLINES_TEXT" />
+           <SceneElement name = "CB_ESP_INFO4_PAYLINES_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/flaming_hot.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "CB_FH_INFO4_BGR" />
+           <SceneElement name = "CB_FH_INFO4_TEXT" />
+           <SceneElement name = "CB_FH_INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/spicy_fruits_30.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_SF30P_INFO4_BGR" />
+           <SceneElement name = "CB_SF30P_INFO4_TEXT" />
+           <SceneElement name = "CB_SF30P_INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/kingdom_of_fruits.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_KF_INFO_BGR" />
+           <SceneElement name = "CB_KF_INFO4_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/secrets_of_alchemy.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_SAP_INFO4_BGR" />
+           <SceneElement name = "CB_SAP_INFO4_PAYLINES_TEXT" />
+           <SceneElement name = "CB_SAP_INFO4_PAYLINES_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/ultra_respin_40.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_40URP_INFO4_BGR" />
+           <SceneElement name = "CB_40URP_INFO4_TEXT" />
+           <SceneElement name = "CB_40URP_INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/mega_clover_50.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "CB_50MCP_INFO4_BGR" />
+           <SceneElement name = "CB_50MCP_INFO4_TEXT" />
+           <SceneElement name = "CB_50MCP_INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/super_hot_20.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "CB_20SHP_INFO4_BGR" />
+           <SceneElement name = "CB_20SHP_INFO4_TEXT" />
+           <SceneElement name = "CB_20SHP_INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/caramel_hot.xml     ############
+<rules>
+    <Scene order = >
+        <standard>
+           <SceneElement name = "CARAMEL_HOT_BACKGROUND_SCREEN_4" />
+           <SceneElement name = "CARAMEL_HOT_SCREEN_RULES_TITLE" />
+           <SceneElement name = "CARAMEL_HOT_SCREEN_RULES_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/flaming_hot_100.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "CB_FH_INFO4_BGR" />
+           <SceneElement name = "CB_FH_INFO4_TITLE" />
+           <SceneElement name = "CB_FH_INFO4_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/shining_crown.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "CB_SCP_INFO4_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/burning_hot.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "CB_BHP_INFO4_BGR" />
+           <SceneElement name = "CB_BHP_INFO4_TEXT" />
+           <SceneElement name = "CB_BHP_INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/lucky_hot.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_LHP_INFO5_BGR" />
+           <SceneElement name = "CB_LHP_INFO5_TEXT" />
+           <SceneElement name = "CB_LHP_INFO5_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/extra_stars_20.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "ES_20_BACKGROUND_SCREEN_4" />
+           <SceneElement name = "ES_20_SCREEN_3_TITLE" />
+           <SceneElement name = "ES_20_SCREEN_3_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/charming_joker_20.xml     ############
+<rules>
+    <Scene order = >
+        <standard>
+           <SceneElement name = "CJ_20_BACKGROUND_SCREEN_4" />
+           <SceneElement name = "CJ_20_SCREEN_RULES_TITLE" />
+           <SceneElement name = "CJ_20_SCREEN_RULES_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/diamonds_20.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "CB_20D_INFO3_BGR" />
+           <SceneElement name = "CB_20D_INFO4_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/zodiac_wheel.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "CB_ZWP_INFO4_BGR" />
+           <SceneElement name = "CB_ZWP_INFO4_TEXT" />
+           <SceneElement name = "CB_ZWP_INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/rise_of_ra.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "PLAIN_BACKGROUND" />
+           <SceneElement name = "INFO4_WORD1" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/frog_story.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_FSP_INFO_GENERAL_BGR" />
+           <SceneElement name = "CB_FSP_EURO_GAMES_TECHNOLOGY" />
+           <SceneElement name = "CB_FSP_INFO4_PAYLINES_PANEL" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/joker_reels_10.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "CB_10JRP_INFO4_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT_DOWN" />
+           <SceneElement name = "CENTER_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT_DOWN" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/great_empire.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_GEP_INFO4_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_flaming_hot.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "BGR_SCREEN_3" />
+           <SceneElement name = "COPYRIGHT_TEXT" />
+           <SceneElement name = "LINE_RULES_LABEL" />
+           <SceneElement name = "LINE_RULES_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/more_lucky_and_wild.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "MLAW_SCREEN_3_RULES_AND_PLAY" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/volcano_wealth.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "PLAIN_BACKGROUND" />
+           <SceneElement name = "INFO4_PAYLINES" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_el_amigo.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_EAFHDP_INFO3_BGR" />
+           <SceneElement name = "CB_EAFHDP_INFO4_BGR" />
+           <SceneElement name = "CB_EAFHDP_INFO4_TEXT" />
+           <SceneElement name = "CB_EAFHDP_INFO4_TITLE" />
+           <SceneElement name = "CB_EAFHDP_COPYRIGHTS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_flower_land.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_GEFHDP_INFO_BGR" />
+           <SceneElement name = "CB_GEFHDP_INFO4_BGR" />
+           <SceneElement name = "CB_GEFHDP_INFO4_LABEL" />
+           <SceneElement name = "CB_GEFHDP_INFO4_TEXT" />
+           <SceneElement name = "" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "COPYRIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/flaming_hot_extreme.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "INFO4_BGR" />
+           <SceneElement name = "INFO4_TEXT" />
+           <SceneElement name = "INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/captain_nemo.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_CN_INFO4_BGR" />
+           <SceneElement name = "CB_CN_LEFT_FIRST_INFO_TEXT" />
+           <SceneElement name = "CB_CN_RIGHT_FIRST_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/hot_and_cash_40.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "HAC_40_BACKGROUND_SCREEN_3" />
+           <SceneElement name = "HAC_40_SCREEN_4_TITLE" />
+           <SceneElement name = "HAC_40_SCREEN_4_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/magic_guardians.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "INFO4_BGR" />
+           <SceneElement name = "INFO4_PAYLINES" />
+           <SceneElement name = "INFO4_PAYLINES_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/ice_valley.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "PLAIN_BACKGROUND" />
+           <SceneElement name = "INFO4_PAYLINES" />
+           <SceneElement name = "INFO4_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/summer_bliss_30.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "INFO4_PAYLINES" />
+           <SceneElement name = "INFO4_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/spanish_passion.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_SP_INFO4_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/rainbow_luck.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "PLAIN_BACKGROUND" />
+           <SceneElement name = "INFO4_PAYLINES" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/emperors_palace.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "INFO4_PAYLINES" />
+           <SceneElement name = "INFO4_TITLE" />
+           <SceneElement name = "INFO4_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_amazons_battle_80.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_AB80FHDP_INFO2_BGR" />
+           <SceneElement name = "CB_AB80FHDP_INFO4_BGR" />
+           <SceneElement name = "CB_AB80FHDP_INFO4_TEXT" />
+           <SceneElement name = "CB_AB80FHDP_INFO4_TITLE" />
+           <SceneElement name = "CB_AB80FHD_COPYRIGHTS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/dazzling_hot.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "CB_5DHP_INFO4_BGR" />
+           <SceneElement name = "CB_5DHP_INFO4_TEXT" />
+           <SceneElement name = "CB_5DHP_INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_irish_charm.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_IC_INFO2_BGR" />
+           <SceneElement name = "CB_IC_INFO4_PANE_BGR" />
+           <SceneElement name = "CB_IC_INFO4_TEXT" />
+           <SceneElement name = "CB_IC_COPYRIGHTS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/dice_high.xml     ############
+<rules>
+    <Scene order = >
+        <standard>
+           <SceneElement name = "DICE_HIGH_RULES_AND_PLAY_LINES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/eternal_lotus.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "PLAIN_BACKGROUND" />
+           <SceneElement name = "INFO4_PAYLINES" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/super_hot_100.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "CB_100SHP_INFO4_BGR" />
+           <SceneElement name = "CB_100SHP_INFO4_TEXT" />
+           <SceneElement name = "CB_100SHP_INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_genies_gold.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_GGFHD_INFO2_BGR" />
+           <SceneElement name = "CB_GGFHD_INFO4_PANE_BGR" />
+           <SceneElement name = "CB_GGFHD_INFO4_TEXT" />
+           <SceneElement name = "CB_GGFHD_COPYRIGHTS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/wins_27.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "CB_W27P_INFO4_BGR" />
+           <SceneElement name = "CB_W27P_INFO4_PAYS_RULES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/the_story_of_alexander_2.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "INFO4_BGR" />
+           <SceneElement name = "INFO4_TEXT" />
+           <SceneElement name = "INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_gangsters_cash.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_GCFHD_INFO2_BGR" />
+           <SceneElement name = "CB_GCFHD_INFO4_PANE_BGR" />
+           <SceneElement name = "CB_GCFHD_INFO4_TITLE" />
+           <SceneElement name = "CB_GCFHD_INFO4_TEXT" />
+           <SceneElement name = "CB_GCFHD_COPYRIGHTS" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/dazzling_hot_20.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "CB_5DHP_INFO4_BGR" />
+           <SceneElement name = "CB_5DHP_INFO4_TEXT" />
+           <SceneElement name = "CB_5DHP_INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/tirol_fest.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "PLAIN_BACKGROUND" />
+           <SceneElement name = "INFO4_PAYLINES" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/pin_up_queen.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "P3_RCHDP_INFO4_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "P3_RCHDP_PAYLINES" />
+           <SceneElement name = "P3_RCHDP_PAYLINE_TXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/thumbelina_dream.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_TDP_INFO4_BGR" />
+           <SceneElement name = "CB_TDP_INFO4_LINES_RULES" />
+           <SceneElement name = "CB_TDP_INFO4_TEXT" />
+           <SceneElement name = "CB_TDP_RIGHT_FIRST_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/lucky_hat_100.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "LH_100_BACKGROUND_SCREEN_3" />
+           <SceneElement name = "LH_100_SCREEN_3_TITLE" />
+           <SceneElement name = "LH_100_SCREEN_3_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/lucky_kings_40.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "CB_LK40_INFO4_BGR" />
+           <SceneElement name = "CB_LK40_INFO4_TEXT" />
+           <SceneElement name = "CB_LK40_INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/mythical_treasure.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "INFO4_PAYLINES" />
+           <SceneElement name = "INFO4_TITLE" />
+           <SceneElement name = "INFO4_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/supreme_hot.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_SUHP_INFO4_BGR" />
+           <SceneElement name = "CB_SUHP_INFO4_PAYS_RULES" />
+           <SceneElement name = "CB_SUHP_INFO4_RULES_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/legendary_rome.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_LR_INFO_3_BGR" />
+           <SceneElement name = "CB_ALL_PRICES" />
+           <SceneElement name = "CB_MULTIFUNCTION_VOIDS" />
+           <SceneElement name = "CB_PAYLINES_INFO" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/joker_reels_40.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "JR_40_BACKGROUND_SCREEN_3" />
+           <SceneElement name = "JR_40_SCREEN_RULES_TITLE" />
+           <SceneElement name = "JR_40_SCREEN_RULES_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/rainbow_queen.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "PLAIN_BACKGROUND" />
+           <SceneElement name = "INFO4_PAYLINES" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_retro_cabaret.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "P3_RCHDP_INFO_BGR" />
+           <SceneElement name = "COPYRIGHT_TEXT" />
+           <SceneElement name = "P3_RCHDP_INFO4_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "P3_RCHDP_PAYLINES" />
+           <SceneElement name = "P3_RCHDP_PAYLINE_TXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/dice_and_roll.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "CB_DR_INFO4_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/super_hot_40.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "CB_40SHP_INFO4_BGR" />
+           <SceneElement name = "CB_40SHP_INFO4_TEXT" />
+           <SceneElement name = "CB_40SHP_INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/egypt_sky.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_ESP_INFO4_BGR" />
+           <SceneElement name = "CB_ESP_INFO4_TEXT" />
+           <SceneElement name = "CB_ESP_INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_hold_your_horses.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "PLAIN_BACKGROUND" />
+           <SceneElement name = "INFO4_WORD1" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/extra_stars_40.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "ES_40_BACKGROUND_SCREEN_4" />
+           <SceneElement name = "ES_40_SCREEN_3_TITLE" />
+           <SceneElement name = "ES_40_SCREEN_3_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/burning_hot_40_6_reels.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "INFO4_PAYLINES" />
+           <SceneElement name = "INFO4_TITLE" />
+           <SceneElement name = "INFO4_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/ultimate_hot.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "CB_CIP_INFO4_BGR" />
+           <SceneElement name = "CB_CIP_INFO4_PAYS_RULES" />
+           <SceneElement name = "CB_CIP_INFO4_RULES_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/spicy_fruits_50.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_SF50P_INFO4_BGR" />
+           <SceneElement name = "CB_SF50P_INFO4_TEXT" />
+           <SceneElement name = "CB_SF50P_INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/wins_81.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_W81P_INFO_BGR" />
+           <SceneElement name = "CB_W81P_INFO4_PAYS_RULES" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/almighty_ramses.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_ARII_INFO4_BGR" />
+           <SceneElement name = "CB_ARII_PAYLINES_TEXT" />
+           <SceneElement name = "CB_ARII_PAYLINES_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/ancient_dynasty.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_ADP_INFO4_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/dorothys_fairyland.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_DFP_INFO4" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/burning_hot_6_reels.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "INFO4_BGR" />
+           <SceneElement name = "INFO4_TEXT" />
+           <SceneElement name = "INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/amazons_battle_50.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_ABP_INFO4_BGR" />
+           <SceneElement name = "CB_ABP_INFO4_TEXT" />
+           <SceneElement name = "CB_ABP_INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_amazing_china.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_GVFHDP_INFO_BGR" />
+           <SceneElement name = "CB_GVFHDP_INFO4_TEXT" />
+           <SceneElement name = "COPYRIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/amazons_battle.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_ABP_INFO4_BGR" />
+           <SceneElement name = "CB_ABP_INFO4_TEXT" />
+           <SceneElement name = "CB_ABP_INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/ocean_rush.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_ORP_INFO2_3_5_BGR" />
+           <SceneElement name = "CB_ORP_2006_2012" />
+           <SceneElement name = "CB_ORP_ALL_PRICES" />
+           <SceneElement name = "CB_ORP_MULTIFUNCTION_VOIDS" />
+           <SceneElement name = "CB_ORP_PAYLINES_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/age_of_troy.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_CIP_INFO4_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/brave_cat.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_BC_INFO4_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/hot_blast_20.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_FSP_INFO4_PAYLINES_PANEL" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/star_fruits_5.xml     ############
+<rules>
+    <Scene order = >
+        <standard>
+           <SceneElement name = "STAR_FRUITS_5_BACKGROUND_SCREEN_4" />
+           <SceneElement name = "STAR_FRUITS_5_SCREEN_RULES_TITLE" />
+           <SceneElement name = "STAR_FRUITS_5_SCREEN_RULES_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/retro_cabaret.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "P3_RC_INFO_BGR" />
+           <SceneElement name = "P3_RC_INFO4_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "P3_RC_PAYLINES" />
+           <SceneElement name = "P3_RC_PAYLINE_TXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/burning_heart_5.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "BHEART_5_BACKGROUND_SCREEN_3" />
+           <SceneElement name = "BHEART_5_SCREEN_3_TITLE" />
+           <SceneElement name = "BHEART_5_SCREEN_3_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/burning_hot_100.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "CB_BHP_INFO4_BGR" />
+           <SceneElement name = "CB_BHP_INFO4_TEXT" />
+           <SceneElement name = "CB_BHP_INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/joker_reels_20.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "CB_20JRP_INFO4_BGR" />
+           <SceneElement name = "CB_20JRP_INFO4_TEXT" />
+           <SceneElement name = "CB_20JRP_INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/almighty_ramses_40.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_ARII_INFO4_BGR" />
+           <SceneElement name = "CB_ARII_PAYLINES_TEXT" />
+           <SceneElement name = "CB_ARII_PAYLINES_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_eastern_legends.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_ELFHDP_COMMON_BGR" />
+           <SceneElement name = "CB_ELFHDP_INFO4_TEXT" />
+           <SceneElement name = "CB_ELFHDP_COPYRIGHT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/mega_clover_40.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "CB_40MCP_INFO4_BGR" />
+           <SceneElement name = "CB_40MCP_INFO4_TEXT" />
+           <SceneElement name = "CB_40MCP_INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/book_of_magic.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_BMP_INFO4_BGR" />
+           <SceneElement name = "CB_BMP_INFO4_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/super_20.xml     ############
+<rules>
+    <Scene order = >
+        <standard>
+           <SceneElement name = "SUPER_20_BACKGROUND_SCREEN_4" />
+           <SceneElement name = "SUPER_20_SCREEN_RULES_TITLE" />
+           <SceneElement name = "SUPER_20_SCREEN_RULES_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/lucky_and_wild.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "LAW_SCREEN_3_RULES_AND_PLAY" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/story_of_alexander.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_TSOA_INFO4_BGR" />
+           <SceneElement name = "CB_TSOA_INFO4_TEXT" />
+           <SceneElement name = "CB_TSOA_INFO4_TITLE" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/lucky_wood.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "INFO4_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/more_dice_and_roll.xml     ############
+<rules>
+    <Scene order = "2">
+        <standard>
+           <SceneElement name = "CB_MDR_INFO4_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+
+###########       general/fhd_golden_eternity.xml     ############
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_GEFHDP_INFO_BGR" />
+           <SceneElement name = "CB_GEFHDP_INFO4_BGR" />
+           <SceneElement name = "CB_GEFHDP_INFO4_LABEL" />
+           <SceneElement name = "CB_GEFHDP_INFO4_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "COPYRIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+==============================================
+==============================================
+==============================================
+

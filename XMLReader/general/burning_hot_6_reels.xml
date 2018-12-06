@@ -1,0 +1,208 @@
+<compmgr name = "burning_hot_6_reels">
+
+<TopperResources fontIni = "{ BHPFonts.ini }" />
+
+<GameInfoScreen>
+    
+<INFO1_BGR>
+	<Picture path = "p/info/bh_h1.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</INFO1_BGR>
+
+<SERIAL_NUMBER>
+    <Text pos = "{5 12}" algn = "left" font = "ARIAL_BOLD_12" color = "{255 156 0}"/> 
+</SERIAL_NUMBER>
+
+<CB_BHP_INFO3_BGR>
+	<Picture path = "p/info/bh_h2.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</CB_BHP_INFO3_BGR>
+
+<INFO1_SCATTER1_LABEL>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/bh_h1_text.png" srcRect = "{200 166 266 90}" pos = "{667 440}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/bh_h1_text.png" srcRect = "{200 166 266 90}" pos = "{667 440}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/bh_h1_text.png" srcRect = "{200 166 266 90}" pos = "{667 440}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/bh_h1_text.png" srcRect = "{200 166 266 90}" pos = "{667 440}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/bh_h1_text.png" srcRect = "{200 166 266 90}" pos = "{667 440}" />
+</INFO1_SCATTER1_LABEL>
+
+<INFO1_SCATTER2_LABEL>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/bh_h1_text_03_bg.png" srcRect = "{0 0 339 142}" pos = "{613 686}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/bh_h1_text_03.png" srcRect = "{0 0 339 142}" pos = "{613 686}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/bh_h1_text_03_en.png" srcRect = "{0 0 339 142}" pos = "{613 686}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/bh_h1_text_03.png" srcRect = "{0 0 339 142}" pos = "{613 686}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/bh_h1_text_03.png" srcRect = "{0 0 339 142}" pos = "{613 686}" />
+</INFO1_SCATTER2_LABEL>
+
+<INFO1_SUBSTITUTES>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/bh_h1_text.png" srcRect = "{0 0 499 169}" pos = "{476 259}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/bh_h1_text.png" srcRect = "{0 0 499 169}" pos = "{476 259}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/bh_h1_text.png" srcRect = "{0 0 499 169}" pos = "{476 259}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/bh_h1_text.png" srcRect = "{0 0 499 169}" pos = "{476 259}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/bh_h1_text.png" srcRect = "{0 0 499 169}" pos = "{476 259}" />
+</INFO1_SUBSTITUTES>
+
+<INFO3_DOUBLEUP>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/bh_h2_gamble_bg.png" srcRect = "{0 0 1420 324}" pos = "{10 532}" />
+    <Picture language = "DE" path = "p/multilanguage/de/info/bh_h2_gamble.png" srcRect = "{0 0 1420 324}" pos = "{10 532}" />
+    <Picture language = "EN" path = "p/multilanguage/en/info/bh_h2_gamble_en.png" srcRect = "{0 0 1420 324}" pos = "{10 532}" />
+    <Picture language = "ESP" path = "p/multilanguage/esp/info/bh_h2_gamble.png" srcRect = "{0 0 1420 324}" pos = "{10 532}" />
+    <Picture language = "HU" path = "p/multilanguage/hu/info/bh_h2_gamble.png" srcRect = "{0 0 1420 337}" pos = "{10 525}" />
+</INFO3_DOUBLEUP>
+
+<CB_BHP_INFO3_JP>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/bh_h2_jackpot_bg.png" srcRect = "{0 0 1375 482}" pos = "{34 20}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/bh_h2_jackpot.png" srcRect = "{0 0 1375 482}" pos = "{34 20}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/bh_h2_jackpot_en.png" srcRect = "{0 0 1375 482}" pos = "{34 20}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/bh_h2_jackpot.png" srcRect = "{0 0 1375 482}" pos = "{34 20}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/bh_h2_jackpot.png" srcRect = "{0 0 1375 482}" pos = "{34 20}" />
+</CB_BHP_INFO3_JP>
+
+<INFO3_DOUBLEUP_CENTER>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/bh_h2_gamble_bg.png" srcRect = "{0 0 1420 324}" pos = "{10 281}" />
+    <Picture language = "DE" path = "p/multilanguage/de/info/bh_h2_gamble.png" srcRect = "{0 0 1420 324}" pos = "{10 281}" />
+    <Picture language = "EN" path = "p/multilanguage/en/info/bh_h2_gamble_en.png" srcRect = "{0 0 1420 324}" pos = "{10 281}" />
+    <Picture language = "ESP" path = "p/multilanguage/esp/info/bh_h2_gamble.png" srcRect = "{0 0 1420 324}" pos = "{10 281}" />
+    <Picture language = "HU" path = "p/multilanguage/hu/info/bh_h2_gamble.png" srcRect = "{0 0 1420 337}" pos = "{10 268}" />
+</INFO3_DOUBLEUP_CENTER>
+
+<INFO3_JP_CENTER>
+    <Picture language = "BG" path = "p/multilanguage/bg/info/bh_h2_jackpot_bg.png" srcRect = "{0 0 1375 482}" pos = "{34 203}" />
+    <Picture language = "DE" path = "p/multilanguage/de/info/bh_h2_jackpot.png" srcRect = "{0 0 1375 482}" pos = "{34 203}" />
+    <Picture language = "EN" path = "p/multilanguage/en/info/bh_h2_jackpot_en.png" srcRect = "{0 0 1375 482}" pos = "{34 203}" />
+    <Picture language = "ESP" path = "p/multilanguage/esp/info/bh_h2_jackpot.png" srcRect = "{0 0 1375 482}" pos = "{34 203}" />
+    <Picture language = "HU" path = "p/multilanguage/hu/info/bh_h2_jackpot.png" srcRect = "{0 0 1375 482}" pos = "{34 203}" />
+</INFO3_JP_CENTER>
+
+<INFO4_BGR>
+	<Picture path = "p/info/bh_h3.png" srcRect = "{0 0 1440 900}" pos = "{0 0}" />
+</INFO4_BGR>
+
+<INFO4_TEXT>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/bh_h3_text_02_bg.png" srcRect = "{0 0 1323 362}" pos = "{58 472}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/bh_h3_text_02.png" srcRect = "{0 0 1323 362}" pos = "{58 472}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/bh_h3_text_02_en.png" srcRect = "{0 0 1323 362}" pos = "{57 476}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/bh_h3_text_02.png" srcRect = "{0 0 1323 362}" pos = "{57 476}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/bh_h3_text_02.png" srcRect = "{0 0 1323 362}" pos = "{58 472}" />
+</INFO4_TEXT>
+
+<INFO4_TITLE>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/bh_h3_text_bg.png" srcRect = "{0 0 893 80}" pos = "{292 37}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/bh_h3_text.png" srcRect = "{0 0 1150 80}" pos = "{135 37}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/bh_h3_text_en.png" srcRect = "{0 0 884 77}" pos = "{290 37}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/bh_h3_text.png" srcRect = "{0 0 1063 90}" pos = "{185 27}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/bh_h3_text.png" srcRect = "{0 0 1272 90}" pos = "{84 27}" />
+</INFO4_TITLE>
+
+<LEFT_INFO_TEXT>
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "BG" path = "p/multilanguage/bg/info/bh_h_text_left_except_jackpots.png" srcRect = "{0 0 495 23}" pos = "{0 878}" />
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "DE" path = "p/multilanguage/de/info/bh_h_text_left_except_jackpots.png" srcRect = "{0 0 302 23}" pos = "{0 878}" />
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "EN" path = "p/multilanguage/en/info/bh_h_text_left_except_jackpots.png" srcRect = "{0 0 387 23}" pos = "{1 878}" />
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "ESP" path = "p/multilanguage/esp/info/bh_h_text_left_except_jackpots.png" srcRect = "{0 0 515 23}" pos = "{5 878}" />
+	<Picture conditions = "{is_any_jackpot_enabled}" language = "HU" path = "p/multilanguage/hu/info/bh_h_text_left_02.png" srcRect = "{0 0 499 23}" pos = "{0 878}" />
+	<Picture  language = "BG" path = "p/multilanguage/bg/info/bh_h_text_left_bg.png" srcRect = "{0 0 406 23}" pos = "{0 878}" />
+	<Picture  language = "DE" path = "p/multilanguage/de/info/bh_h_text_left.png" srcRect = "{0 0 302 23}" pos = "{0 874}" />
+	<Picture  language = "EN" path = "p/multilanguage/en/info/bh_h_text_left_en.png" srcRect = "{0 0 279 22}" pos = "{0 878}" />
+	<Picture  language = "ESP" path = "p/multilanguage/esp/info/bh_h_text_left.png" srcRect = "{0 0 302 23}" pos = "{5 878}" />
+	<Picture  language = "HU" path = "p/multilanguage/hu/info/bh_h_text_left.png" srcRect = "{0 0 331 23}" pos = "{0 878}" />
+</LEFT_INFO_TEXT>
+
+<RIGHT_INFO_TEXT>
+	<Picture language = "BG" path = "p/multilanguage/bg/info/bh_h_text_right_bg.png" srcRect = "{0 0 559 22}" pos = "{881 878}" />
+	<Picture language = "DE" path = "p/multilanguage/de/info/bh_h_text_right.png" srcRect = "{0 0 478 23}" pos = "{957 878}" />
+	<Picture language = "EN" path = "p/multilanguage/en/info/bh_h_text_right_en.png" srcRect = "{0 0 380 22}" pos = "{1061 878}" />
+	<Picture language = "ESP" path = "p/multilanguage/esp/info/bh_h_text_right.png" srcRect = "{0 0 374 23}" pos = "{1067 878}" />
+	<Picture language = "HU" path = "p/multilanguage/hu/info/bh_h_text_right.png" srcRect = "{0 0 473 23}" pos = "{962 878}" />
+</RIGHT_INFO_TEXT>
+
+<DOUBLE_UP_VALUE_POS>
+	<Text language = "BG" pos = "{921 653}" algn = "left" /> 
+	<Text language = "DE" pos = "{769 653}" algn = "left" /> 
+	<Text language = "EN" pos = "{797 654}" algn = "left" /> 
+	<Text language = "ESP" pos = "{895 654}" algn = "left" /> 
+	<Text language = "HU" pos = "{958 654}" algn = "left" /> 
+</DOUBLE_UP_VALUE_POS>
+
+<DOUBLE_UP_VALUE_POS_CENTER>
+	<Text language = "BG" pos = "{921 402}" algn = "left" /> 
+	<Text language = "DE" pos = "{768 403}" algn = "left" /> 
+	<Text language = "EN" pos = "{798 403}" algn = "left" /> 
+	<Text language = "ESP" pos = "{895 403}" algn = "left" /> 
+	<Text language = "HU" pos = "{959 402}" algn = "left" /> 
+</DOUBLE_UP_VALUE_POS_CENTER>
+
+<MAX_GAMBLE_ATTEMPTS>
+	<Text language = "EN" pos = "{970 815}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" />
+	<Text language = "BG" pos = "{1076 815}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" />
+	<Text language = "DE" pos = "{974 816}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+	<Text language = "ESP" pos = "{981 815}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+	<Text language = "HU" pos = "{967 814}" algn = "left" font = "DOUBLEUP_MAX_ATTEMPTS" /> 
+</MAX_GAMBLE_ATTEMPTS>
+
+<MAX_GAMBLE_ATTEMPTS_CENTER>
+	<Text language = "EN" pos = "{973 563}" algn = "left" font = "BHP_H3_SMALL_ARIAL13" />
+	<Text language = "BG" pos = "{1076 562}" algn = "left" font = "BHP_H3_SMALL_ARIAL13" />
+	<Text language = "DE" pos = "{974 562}" algn = "left" font = "BHP_H3_SMALL_ARIAL13" /> 
+	<Text language = "ESP" pos = "{981 560}" algn = "left" font = "BHP_H3_SMALL_ARIAL13" /> 
+	<Text language = "HU" pos = "{967 563}" algn = "left" font = "BHP_H3_SMALL_ARIAL13" /> 
+</MAX_GAMBLE_ATTEMPTS_CENTER>
+
+<fig_1> <InfoScreenFigure id = "{0 ef1_cherry}" box = "{172 60}" multiplier = "1" combination = "6" pos = "{310 679}" /> </fig_1> 
+<fig_2> <InfoScreenFigure id = "{0 ef1_cherry}" box = "{172 60}" multiplier = "1" combination = "5" pos = "{310 720}" /> </fig_2> 
+<fig_3> <InfoScreenFigure id = "{0 ef1_cherry}" box = "{172 60}" multiplier = "1" combination = "4" pos = "{310 760}" /> </fig_3> 
+<fig_4> <InfoScreenFigure id = "{0 ef1_cherry}" box = "{172 60}" multiplier = "1" combination = "3" pos = "{310 800}" /> </fig_4> 
+<fig_5> <InfoScreenFigure id = "{2 ef3_orange}" box = "{172 60}" multiplier = "1" combination = "6" pos = "{1137 679}" /> </fig_5> 
+<fig_6> <InfoScreenFigure id = "{2 ef3_orange}" box = "{172 60}" multiplier = "1" combination = "5" pos = "{1137 720}" /> </fig_6> 
+<fig_7> <InfoScreenFigure id = "{2 ef3_orange}" box = "{172 60}" multiplier = "1" combination = "4" pos = "{1137 759}" /> </fig_7> 
+<fig_8> <InfoScreenFigure id = "{2 ef3_orange}" box = "{172 60}" multiplier = "1" combination = "3" pos = "{1137 799}" /> </fig_8> 
+<fig_9> <InfoScreenFigure id = "{4 ef5_bell}" box = "{172 60}" multiplier = "1" combination = "6" pos = "{ 1132 439}" /> </fig_9> 
+<fig_10> <InfoScreenFigure id = "{4 ef5_bell}" box = "{172 60}" multiplier = "1" combination = "5" pos = "{1132 480}" /> </fig_10> 
+<fig_11> <InfoScreenFigure id = "{4 ef5_bell}" box = "{172 60}" multiplier = "1" combination = "4" pos = "{1132 520}" /> </fig_11> 
+<fig_12> <InfoScreenFigure id = "{4 ef5_bell}" box = "{172 60}" multiplier = "1" combination = "3" pos = "{1132 560}" /> </fig_12> 
+<fig_13> <InfoScreenFigure id = "{5 ef6_grapes}" box = "{172 60}" multiplier = "1" combination = "6" pos = "{1132 197}" /> </fig_13> 
+<fig_14> <InfoScreenFigure id = "{5 ef6_grapes}" box = "{172 60}" multiplier = "1" combination = "5" pos = "{1132 236}" /> </fig_14> 
+<fig_15> <InfoScreenFigure id = "{5 ef6_grapes}" box = "{172 60}" multiplier = "1" combination = "4" pos = "{1132 276}" /> </fig_15> 
+<fig_16> <InfoScreenFigure id = "{5 ef6_grapes}" box = "{172 60}" multiplier = "1" combination = "3" pos = "{1132 316}" /> </fig_16> 
+<fig_17> <InfoScreenFigure id = "{6 ef7_watermelon}" box = "{172 60}" multiplier = "1" combination = "6" pos = "{315 443}" /> </fig_17> 
+<fig_18> <InfoScreenFigure id = "{6 ef7_watermelon}" box = "{172 60}" multiplier = "1" combination = "5" pos = "{315 483}" /> </fig_18> 
+<fig_19> <InfoScreenFigure id = "{6 ef7_watermelon}" box = "{172 60}" multiplier = "1" combination = "4" pos = "{315 523}" /> </fig_19> 
+<fig_20> <InfoScreenFigure id = "{6 ef7_watermelon}" box = "{172 60}" multiplier = "1" combination = "3" pos = "{315 563}" /> </fig_20>
+<fig_21> <InfoScreenFigure id = "{7 ef8_seven}" box = "{172 60}" multiplier = "1" combination = "6" pos = "{305 197}" /> </fig_21>
+<fig_22> <InfoScreenFigure id = "{7 ef8_seven}" box = "{172 60}" multiplier = "1" combination = "5" pos = "{305 236}" /> </fig_22>
+<fig_23> <InfoScreenFigure id = "{7 ef8_seven}" box = "{172 60}" multiplier = "1" combination = "4" pos = "{305 276}" /> </fig_23>
+<fig_24> <InfoScreenFigure id = "{7 ef8_seven}" box = "{172 60}" multiplier = "1" combination = "3" pos = "{305 316}" /> </fig_24>
+<fig_25> <InfoScreenFigure id = "{9 ef10_star}" box = "{172 60}" multiplier = "1" combination = "4" pos = "{826 835}" scatter = "true" groupId = "2" /> </fig_25>
+<fig_26> <InfoScreenFigure id = "{9 ef10_star}" box = "{172 60}" multiplier = "1" combination = "3" pos = "{826 875}" scatter = "true" groupId = "2" /> </fig_26>
+<fig_27> <InfoScreenFigure id = "{10 ef11_dollar}" box = "{172 60}" multiplier = "1" combination = "6" pos = "{826 534}" scatter = "true" groupId = "2" /> </fig_27>
+<fig_28> <InfoScreenFigure id = "{10 ef11_dollar}" box = "{172 60}" multiplier = "1" combination = "5" pos = "{826 574}" scatter = "true" groupId = "2" /> </fig_28>
+<fig_29> <InfoScreenFigure id = "{10 ef11_dollar}" box = "{172 60}" multiplier = "1" combination = "4" pos = "{826 614}" scatter = "true" groupId = "2" /> </fig_29>
+<fig_30> <InfoScreenFigure id = "{10 ef11_dollar}" box = "{172 60}" multiplier = "1" combination = "3" pos = "{826 654}" scatter = "true" groupId = "2" /> </fig_30>
+
+<wintable>
+	<Scene order = "0" type = "standard" 
+        pictures = "{ INFO1_BGR INFO1_SCATTER1_LABEL INFO1_SCATTER2_LABEL INFO1_SUBSTITUTES LEFT_INFO_TEXT RIGHT_INFO_TEXT}"
+		values = "{ fig_1 fig_2 fig_3 fig_4 fig_5 fig_6 fig_7 fig_8 fig_9 fig_10 fig_11 fig_12 fig_13 fig_14 fig_15 fig_16 fig_17 fig_18 fig_19 fig_20 fig_21 fig_22 fig_23 fig_24 fig_25 fig_26 fig_27 fig_28 fig_29 fig_30}" 
+		font = "BHP_H1_ARIAL13" />
+</wintable>
+
+<doubleup>
+	<Scene order = "1" type = "standard" 
+        pictures = "{ CB_BHP_INFO3_BGR INFO3_DOUBLEUP_CENTER LEFT_INFO_TEXT RIGHT_INFO_TEXT }"
+		values = "{ MAX_GAMBLE_ATTEMPTS_CENTER DOUBLE_UP_VALUE_POS_CENTER }" 
+		font = "BHP_H3_SMALL_ARIAL13" />
+	<Scene order = "1" type = "doubleup_and_jackpot" 
+        pictures = "{ CB_BHP_INFO3_BGR CB_BHP_INFO3_JP INFO3_DOUBLEUP LEFT_INFO_TEXT RIGHT_INFO_TEXT }"
+		values = "{ MAX_GAMBLE_ATTEMPTS DOUBLE_UP_VALUE_POS}" 
+		font = "BHP_H3_SMALL_ARIAL13" />
+	<Scene order = "1" type = "jackpot" 
+                pictures = "{ CB_BHP_INFO3_BGR INFO3_JP_CENTER LEFT_INFO_TEXT RIGHT_INFO_TEXT }"
+		font = "BHP_H3_SMALL_ARIAL13" />
+</doubleup>
+
+<rules>
+	<Scene order = "2" type = "standard" 
+        pictures = "{ INFO4_BGR INFO4_TEXT INFO4_TITLE LEFT_INFO_TEXT RIGHT_INFO_TEXT}"
+        values = "{SERIAL_NUMBER}"
+        />
+</rules>
+
+</GameInfoScreen>
+</compmgr>

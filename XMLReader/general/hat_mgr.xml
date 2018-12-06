@@ -1,0 +1,26 @@
+<compmgr name="hat_mgr">
+    <GameInfoScreen>
+    <LC_PICTURE_INFO_PAGE>
+        <Picture fullPath = "../data/hat/p/ladys_cards/h2_info_pages/en/lc_help.png" language = "EN" srcRect = "{0 0 1440 900}" />
+	<Picture fullPath = "../data/hat/p/ladys_cards/h2_info_pages/bg/lc_help.png" language = "BG" srcRect = "{0 0 1440 900}" />
+        <Picture conditions = "{is_full_hd}" fullPath = "../data/hat/p/ladys_cards/h2_info_pages/en/lc_helpHD.png" language = "EN" srcRect = "{0 0 1920 1080}" />
+        <Picture conditions = "{is_full_hd}" fullPath = "../data/hat/p/ladys_cards/h2_info_pages/bg/lc_helpHD.png" language = "BG" srcRect = "{0 0 1920 1080}" />
+    </LC_PICTURE_INFO_PAGE>
+
+        <!-- GameInfoScreen id for jackpots are negative number, because we need them to appear before all other InfoScreenPages in games. 
+        since all game pages start from zero as order counting and increment upward to describe page order -->
+        <jackpotView1> 
+            <Scene order = "-2" />
+        </jackpotView1>
+        
+        <jackpotView2> 
+            <Scene order = "-1" />
+        </jackpotView2>
+        
+        <lc_info_view>
+            <Scene order = "10" type = "standard" pictures = "{LC_PICTURE_INFO_PAGE}" />
+        </lc_info_view>
+    </GameInfoScreen>
+    
+    <TopperResources/>
+</compmgr>

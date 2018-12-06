@@ -1,0 +1,188 @@
+<compmgr name = "fhd_flower_land">
+
+<TopperResources fontIni = "{ITPFonts.ini}" />
+
+<GameInfoScreen>
+
+<!-- WINTABLE -->
+<CB_GEFHDP_INFO1_BGR>
+    <Picture path = "p/info/h_01/lang_common/bg_h1.png"  srcRect = "{0 0 1920 1080}" pos = "{0 0}" />
+</CB_GEFHDP_INFO1_BGR>
+
+<COPYRIGHT_INFO_TEXT>
+    <Picture path = "p/info/common/lang_common/copyright.png"  srcRect = "{0 0 321 21}" pos = "{1586 5}" />
+</COPYRIGHT_INFO_TEXT>
+
+<CB_GGFHDP_INFO1_BOX_RESPIN>
+    <Picture path = "p/info/h_01/lang_common/fl_respin_osnova.png"  srcRect = "{0 0 406 208}" pos = "{760 836}" />
+</CB_GGFHDP_INFO1_BOX_RESPIN>
+
+<CB_GGFHDP_INFO1_TEXT_SCATTER>
+    <Picture language = "EN" path = "p/info/h_01/en/text_scatter.png"  srcRect = "{0 0 417 144}" pos = "{866 367}" />
+    <Picture language = "BG" path = "p/info/h_01/bg/text_scatter.png"  srcRect = "{0 0 418 144}" pos = "{865 369}" />
+</CB_GGFHDP_INFO1_TEXT_SCATTER>
+
+<CB_GGFHDP_INFO1_TEXT_WILD>
+    <Picture language = "EN" path = "p/info/h_01/en/text_wild_1.png"  srcRect = "{0 0 415 116}" pos = "{858 184}" />
+    <Picture language = "BG" path = "p/info/h_01/bg/text_wild_1.png"  srcRect = "{0 0 406 114}" pos = "{847 186}" />
+</CB_GGFHDP_INFO1_TEXT_WILD>
+
+<CB_GGFHDP_INFO1_TEXT_RESPIN>
+    <Picture language = "EN" path = "p/info/h_01/en/text_respin.png"  srcRect = "{0 0 659 141}" pos = "{630 736}" />
+    <Picture language = "BG" path = "p/info/h_01/bg/text_respin.png"  srcRect = "{0 0 613 158}" pos = "{654 747}" />
+</CB_GGFHDP_INFO1_TEXT_RESPIN>
+
+<LEFT_INFO_TEXT>
+    <Picture conditions = "{is_any_jackpot_enabled}" language = "EN" path = "p/info/common/en/all_prizes_en_1.png"  srcRect = "{0 0 377 15}" pos = "{2 1063}" />
+    <Picture conditions = "{is_any_jackpot_enabled}" language = "BG" path = "p/info/common/bg/all_prizes_bg_1.png"  srcRect = "{0 0 381 17}" pos = "{6 1063}" />
+    <Picture  language = "EN" path = "p/info/common/en/all_prizes_en_2.png"  srcRect = "{0 0 275 15}" pos = "{2 1063}" />
+    <Picture  language = "BG" path = "p/info/common/bg/all_prizes_bg_2.png"  srcRect = "{0 0 305 17}" pos = "{6 1063}" />
+</LEFT_INFO_TEXT>
+
+<RIGHT_INFO_TEXT>
+    <Picture language = "EN" path = "p/info/common/en/malfunction_en.png"  srcRect = "{0 0 373 15}" pos = "{1545 1063}" />
+    <Picture language = "BG" path = "p/info/common/bg/malfunction_bg.png"  srcRect = "{0 0 443 17}" pos = "{1472 1063}" />
+</RIGHT_INFO_TEXT>
+
+<CB_GGFHDP_INFO2_BGR>
+    <Picture language = "EN" path = "p/info/h_02/en/text_h_02.png"  srcRect = "{0 0 1920 1080}" pos = "{0 0}" />
+    <Picture language = "BG" path = "p/info/h_02/bg/text_h_02.png"  srcRect = "{0 0 1920 1080}" pos = "{0 0}" />
+</CB_GGFHDP_INFO2_BGR>
+
+<CB_GGFHDP_INFO3_DOUBLEUP>
+    <Picture language = "EN" path = "p/info/h_03/en/text_h_03.png"  srcRect = "{0 0 1838 884}" pos = "{41 0}" />
+    <Picture language = "BG" path = "p/info/h_03/bg/text_h_03.png"  srcRect = "{0 0 1838 884}" pos = "{41 0}" />
+</CB_GGFHDP_INFO3_DOUBLEUP>
+
+<DOUBLE_UP_VALUE_POS>
+	<Text language = "BG" pos = "{1193 466}" algn = "left" /> 
+	<Text language = "EN" pos = "{1051 466}" algn = "left" /> 
+</DOUBLE_UP_VALUE_POS>
+
+<DOUBLE_UP_VALUE_POS_CENTER>
+	<Text language = "BG" pos = "{1193 466}" algn = "left" /> 
+	<Text language = "EN" pos = "{1051 466}" algn = "left" /> 
+</DOUBLE_UP_VALUE_POS_CENTER>
+
+<MAX_GAMBLE_ATTEMPTS>
+	<Text language = "EN" pos = "{1225 650}" algn = "left" />
+    <Text language = "BG" pos = "{1343 650}" algn = "left" /> 
+</MAX_GAMBLE_ATTEMPTS>
+
+<MAX_GAMBLE_ATTEMPTS_CENTER>
+	<Text language = "EN" pos = "{1225 650}" algn = "center" />
+	<Text language = "BG" pos = "{1343 650}" algn = "center" />
+</MAX_GAMBLE_ATTEMPTS_CENTER>
+
+<CB_GEFHDP_INFO4_BGR>
+    <Picture path = "p/info/h_04/lang_common/bg_h4.png"  srcRect = "{0 0 1838 1017}" pos = "{41 63}" />
+</CB_GEFHDP_INFO4_BGR>
+
+<CB_GEFHDP_INFO4_LABEL>
+    <Picture language = "EN" path = "p/info/h_04/en/text_paylines_01.png"  srcRect = "{0 0 626 70}" pos = "{655 68}" />
+    <Picture language = "BG" path = "p/info/h_04/bg/text_paylines_01.png"  srcRect = "{0 0 574 68}" pos = "{679 70}" />
+</CB_GEFHDP_INFO4_LABEL>
+
+<CB_GEFHDP_INFO4_TEXT>
+    <Picture language = "EN" path = "p/info/h_04/en/text_paylines_02.png"  srcRect = "{0 0 1356 145}" pos = "{282 785}" />
+    <Picture language = "BG" path = "p/info/h_04/bg/text_paylines_02.png"  srcRect = "{0 0 1638 179}" pos = "{141 764}" />
+</CB_GEFHDP_INFO4_TEXT>
+
+<CB_GEFHDP_INFO_BGR>
+    <Picture path = "p/info/common/lang_common/BGR.png"  srcRect = "{0 0 1920 1080}" pos = "{0 0}" />
+</CB_GEFHDP_INFO_BGR>
+
+<fig_1> <InfoScreenFigure id = "{0 ef1_jack}" box = "{ 221 35}" multiplier = "1" combination = "5" pos = "{1461 847}" /> </fig_1>
+<fig_2> <InfoScreenFigure id = "{0 ef1_jack}" box = "{ 221 35}" multiplier = "1" combination = "4" pos = "{1461 895}" /> </fig_2>
+<fig_3> <InfoScreenFigure id = "{0 ef1_jack}" box = "{ 221 35}" multiplier = "1" combination = "3" pos = "{1461 943}" /> </fig_3>
+
+<fig_4> <InfoScreenFigure id = "{2 ef3_king}" box = "{ 221 35}" multiplier = "1" combination = "5" pos = "{460 847}" /> </fig_4>
+<fig_5> <InfoScreenFigure id = "{2 ef3_king}" box = "{ 221 35}" multiplier = "1" combination = "4" pos = "{460 895}" /> </fig_5>
+<fig_6> <InfoScreenFigure id = "{2 ef3_king}" box = "{ 221 35}" multiplier = "1" combination = "3" pos = "{460 943}" /> </fig_6>
+
+<fig_7> <InfoScreenFigure id = "{4 ef5_purple_flower}" box = "{ 221 35}" multiplier = "1" combination = "5" pos = "{1461 554}" /> </fig_7>
+<fig_8> <InfoScreenFigure id = "{4 ef5_purple_flower}" box = "{ 221 35}" multiplier = "1" combination = "4" pos = "{1461 602}" /> </fig_8>
+<fig_9> <InfoScreenFigure id = "{4 ef5_purple_flower}" box = "{ 221 35}" multiplier = "1" combination = "3" pos = "{1461 650}" /> </fig_9>
+
+<fig_10> <InfoScreenFigure id = "{5 ef6_yellow_flower}" box = "{ 221 35}" multiplier = "1" combination = "5" pos = "{460 554}" /> </fig_10>
+<fig_11> <InfoScreenFigure id = "{5 ef6_yellow_flower}" box = "{ 221 35}" multiplier = "1" combination = "4" pos = "{460 602}" /> </fig_11>
+<fig_12> <InfoScreenFigure id = "{5 ef6_yellow_flower}" box = "{ 221 35}" multiplier = "1" combination = "3" pos = "{460 650}" /> </fig_12>
+
+<fig_13> <InfoScreenFigure id = "{6 ef7_red_flower}" box = "{ 221 35}" multiplier = "1" combination = "5" pos = "{1461 261}" /> </fig_13>
+<fig_14> <InfoScreenFigure id = "{6 ef7_red_flower}" box = "{ 221 35}" multiplier = "1" combination = "4" pos = "{1461 309}" /> </fig_14>
+<fig_15> <InfoScreenFigure id = "{6 ef7_red_flower}" box = "{ 221 35}" multiplier = "1" combination = "3" pos = "{1461 357}" /> </fig_15>
+
+<fig_16> <InfoScreenFigure id = "{7 ef8_humming_bird}" box = "{ 221 35}" multiplier = "1" combination = "5" pos = "{460 237}" /> </fig_16>
+<fig_17> <InfoScreenFigure id = "{7 ef8_humming_bird}" box = "{ 221 35}" multiplier = "1" combination = "4" pos = "{460 285}" /> </fig_17>
+<fig_18> <InfoScreenFigure id = "{7 ef8_humming_bird}" box = "{ 221 35}" multiplier = "1" combination = "3" pos = "{460 333}" /> </fig_18>
+<fig_19> <InfoScreenFigure id = "{7 ef8_humming_bird}" box = "{ 221 35}" multiplier = "1" combination = "2" pos = "{460 381}" /> </fig_19>
+
+<REEL_DEMO_ANIMATION>
+     <Video path = "file://../data/ps_fhd_flower_land/p/info/info_animation-rgba.mov" fps ="50" loop = "true" position = "{960 943}" />     
+</REEL_DEMO_ANIMATION>
+
+<SERIAL_NUMBER>
+    <Text pos = "{5 12}" algn = "left" font = "ARIAL_BOLD_12" color = "{255 156 0}"/> 
+</SERIAL_NUMBER> 
+
+
+
+<doubleup>
+	<Scene order = "2" type = "standard" 
+		pictures = "{ CB_GEFHDP_INFO_BGR CB_GGFHDP_INFO3_DOUBLEUP LEFT_INFO_TEXT RIGHT_INFO_TEXT COPYRIGHT_INFO_TEXT }" 
+		values = "{ DOUBLE_UP_VALUE_POS_CENTER MAX_GAMBLE_ATTEMPTS_CENTER }" 
+		font = "OC_H1_FONT" />
+	<Scene order = "2" type = "doubleup_and_jackpot"
+        pictures = "{ CB_GEFHDP_INFO_BGR CB_GGFHDP_INFO3_DOUBLEUP LEFT_INFO_TEXT RIGHT_INFO_TEXT COPYRIGHT_INFO_TEXT }"
+        values = "{ MAX_GAMBLE_ATTEMPTS DOUBLE_UP_VALUE_POS }"
+        font = "OC_H1_FONT" />
+    <Scene order = "2" type = "jackpot"
+        pictures = "{ CB_GEFHDP_INFO_BGR  LEFT_INFO_TEXT RIGHT_INFO_TEXT COPYRIGHT_INFO_TEXT }"
+        font = "OC_H1_FONT" />
+</doubleup>
+
+
+<wintable>
+    <Scene order = "0" font = "OC_H1_FONT" >
+        <standard>
+           <SceneElement name = "CB_GEFHDP_INFO1_BGR" />
+           <SceneElement name = "CB_GGFHDP_INFO1_TEXT_WILD" />
+           <SceneElement name = "CB_GGFHDP_INFO1_TEXT_SCATTER" />
+           <SceneElement name = "CB_GGFHDP_INFO1_TEXT_RESPIN" />
+           <SceneElement name = "COPYRIGHT_INFO_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "MACRO_ALL_FIGURES" />
+        </standard>
+    </Scene>
+</wintable>
+
+<freespins>
+    <Scene order = "1" >
+        <standard>
+           <SceneElement name = "CB_GGFHDP_INFO2_BGR" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "COPYRIGHT_INFO_TEXT" />
+           <SceneElement name = "SERIAL_NUMBER" />
+        </standard>
+    </Scene>
+</freespins>
+
+<rules>
+    <Scene order = "3">
+        <standard>
+           <SceneElement name = "CB_GEFHDP_INFO_BGR" />
+           <SceneElement name = "CB_GEFHDP_INFO4_BGR" />
+           <SceneElement name = "CB_GEFHDP_INFO4_LABEL" />
+           <SceneElement name = "CB_GEFHDP_INFO4_TEXT" />
+           <SceneElement name = "LEFT_INFO_TEXT" />
+           <SceneElement name = "RIGHT_INFO_TEXT" />
+           <SceneElement name = "COPYRIGHT_INFO_TEXT" />
+        </standard>
+    </Scene>
+</rules>
+
+
+</GameInfoScreen>
+</compmgr>
