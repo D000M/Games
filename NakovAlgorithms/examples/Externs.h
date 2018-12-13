@@ -43,5 +43,36 @@ extern void testEx1161(int n);
 
 //Ex 1.162
 extern void testEx1162(const std::string& s);
+extern void iterativeVariant(int n);
+
+//Ex 1.165
+extern void printLuckyNumbers(int n, int steps);
+
+//Ex 1.168
+//Iterative tribonaci
+extern void printTribonaci(int n);
+extern void printFibFromRow(unsigned int row, unsigned long n);
+
+
+//Ex 1.170
+extern void sumOfSquares(int n);
+
+//Ex 1.174
+extern void sumInInterval(int n);
+
+//Ex 1.178
+extern void pitagorNumbers(int n);
+
+//Ex 1.182
+extern void printIterPyramid(int n, bool bType = false);
+
+//Ex 1.183
+extern void printIterKare(int n);
+
+//Ex 1.184
+extern void magicSquare(int n);
+
+//Ex 1.187
+extern void transpondMatrix();
 #endif /* EXTERNS_H */
 

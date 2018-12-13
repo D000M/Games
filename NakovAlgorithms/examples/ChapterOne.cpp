@@ -8,6 +8,7 @@
 //#include <X11/Xlibint.h>
 #include <algorithm>
 #include <valarray>
+#include <fstream>
 
 #include "Externs.h"
 #include "Recursive.h"
@@ -489,26 +490,61 @@ void testEx1162(const std::string& s) {
     constexpr int MAX = 2000;
     char number[MAX];
     int sum = 0;
+    number[0] = '0';
     for(int i = 0; i < s.length(); i++) {
-        number[i] = s.at(i);
+
+        number[i + 1] = s.at(i);
         sum += toInt(s.at(i));
     }
     std::cout << "Sum: " << sum << std::endl;
-    int newSum = sum;
-    int count = s.length() - 1;
-    while(count >= 0) {
-        int pos = toInt(number[count]);
-        for(int i = pos; i < 10; i++) {
-            number[count]++;
-            if(number[count] >= ':') {
-                number[count] = '0';
-            } 
-            std::cout << (char)number[count] << std::endl;
+    int pos = s.length();
+    int temp = 0;
+    while(true) {
+        if(pos >= 0) {
+            if(number[s.length()] == '0') {
+                number[s.length()]++;
+            }
         }
-        count--;
     }
-//    std::cout << sum << std::endl;
+    
+    sum = 0;
+    for(int i = 0; i <= s.length(); i++) {
+        std::cout << number[i] << " ";
+        sum += toInt(number[i]);
+    }
+
+    std::cout << "New Sum: " << sum << std::endl;
 }
+std::ofstream file("records.txt");
+void iterativeVariant(int n) {
+    
+    int sum = 0;
+    int num = n;
+    file << "---------------\n";
+    file << n << " ";
+    while(n > 0) {
+        sum += n % 10;
+        n /= 10;
+    }
+    int newSum = 0;
+    
+    for(int i = num + 1; i < 1000; i++) {
+        newSum = 0;
+        int temp = i;
+        while(temp > 0) {
+            newSum += temp % 10;
+            temp /= 10;
+        }
+        if(sum == newSum) {
+            num = i;
+            break;
+        }
+    }
+    file << sum << std::endl;
+    file << num << " " << newSum << std::endl;
+    
+}
+
 /**
  * 10
  * 11 12 13 14 15 16 17 18 19 
@@ -516,3 +552,266 @@ void testEx1162(const std::string& s) {
  * 30 31 32 33 34 35 36 37 38 39
  * 
  */
+
+//Ex 1.165
+void printLuckyNumbers(int n, int steps) {
+    
+    bool numbers[n];
+    for(int i = 0; i < n; i++) {
+        numbers[i] = true;
+    }
+    
+    int currPos = 2;
+    int removeNum;
+    int tempArr[(n / currPos)];
+    
+    int count = 0;
+    while(count < steps) {
+        
+        count++;
+    }
+}
+
+void printTribonaci(int n) {
+    
+    int a = 1;
+    int b = 1;
+    int c = 1;
+    std::cout << "1: " << a << std::endl << "2: " << b << std::endl << "3: " <<c << std::endl;
+    for(int i = 4; i <= n; i++) {
+        int trib = a + b + c;
+        c = b;
+        b = a;
+        a = trib;
+        std::cout << i << ": " << trib << std::endl;
+    }
+}
+
+void printFibFromRow(unsigned int row, unsigned long n) {
+    int first = row;
+    int second = first;
+    std::cout << "1: " << first << std::endl << "2: " << second << std::endl;
+    for(int i = 2; i < n; i++) {
+        int fibRow = first + second;
+        second = first;
+        first = fibRow;
+        std::cout << i << ": " << fibRow << std::endl;
+    }
+}
+
+void sumOfSquares(int n) {
+    
+    double sum = 0;
+    for(int i = 1; i < n; i++) {
+        sum += double(double(1) / std::sqrt(double(i)));
+        std::cout << "Sum: " << sum << std::endl;
+    }
+    
+}
+
+void sumInInterval(int n) {
+    int sum = 0;
+    for(int i = 1; i < n / 2; i++) {
+        sum = i;
+        for(int j = i + 1; j < (n / 2) + 1; j++) {
+            sum += j;
+            if(sum == n) {
+                std::cout << "[" << i << "," << j << "]\n";
+            }
+        }
+    }
+}
+
+void pitagorNumbers(int n) {
+    
+    int maxSize = 1000;
+    int count = 0;
+//    while(count < n) {
+        for(int i = 1; i < maxSize / 2; i++) {
+            for(int j = i; j < maxSize / 5; j++) {
+                for(int k = j; k < maxSize / 10; k++) {
+                    for(int m = k; m < maxSize / 20; m++) {
+                        if(m * m == (k * k) + (j * j) + (i * i)) {
+                            count++;
+                            std::cout << "( " << i << "," << j << "," << k << "," << m << " )\n";
+                            if(count == n) {
+                                return;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+//    }
+}
+
+//Ex 1.182 Pyramids Iterative
+void printIterPyramid(int n, bool bType) {
+    int count = 1;
+    for(int i = 0; i < n; i++) {
+        for(int j = i - 1; j < n; j++) {
+            std::cout << " ";
+        }
+        for(int k = 0; k < count; k++) {
+            std::cout << n - i + k;
+        }
+        for(int k = bType == true ? 1 : 0; k < count; k++) {
+            std::cout << n - k;
+        }
+        count++;
+        std::cout << std::endl;
+    }
+}
+
+//Ex 1.183
+void printIterKare(int n) {
+    int num = 1;
+    for(int i = 0; i < n; i++) {
+        num = 1;
+        for(int j = i; j < n; j++) {
+            std::cout << " ";
+        }
+        for(int j = num; j < i * 2; j++) {
+            std::cout << num;
+            if(j < i) {
+                num++;
+            }
+            else {
+                num--;
+            }
+        }
+        std::cout << std::endl;
+    }
+    num = 1;
+    for(int outer = 0; outer < n; outer++) {
+        for(int i = 1; i < n * 2; i++) {
+            if(num <= 0) {
+                std::cout << " ";
+            }
+            else { 
+                std::cout << num;
+            }
+            if(i < n) {
+                num++;
+            }
+            else {
+                num--;
+            }
+        }
+        std::cout << std::endl;
+    }
+}
+
+//Ex 1.184
+void printArr(int **arr, int size) {
+    for(int i = 0; i < size; i++) {
+        for(int j = 0; j < size; j++) {
+            std::cout << arr[i][j] << "\t";
+        }
+        std::cout << std::endl;
+    }
+}
+void magicSquare(int n) {
+    int num = 1;
+    int arr[n][n];
+    
+
+    for(int i = 0; i < n; i++) {
+        for(int j = 0; j < n; j++) {
+            arr[i][j] = 0;
+        }
+    }
+    
+    int row = 0;
+    int col = n / 2;
+    
+    int prevRow = row;
+    int prevCol = col;
+    while(true) {
+        if(num > n * n) {
+            break;
+        }
+
+        arr[row][col] = num++;      
+        prevRow = row;
+        prevCol = col;
+        row--;
+        col++;
+        
+        if(row < 0) {
+            row = n - 1;
+        }
+        if(col > n - 1) {
+            col = 0;
+        }
+        if(arr[row][col] != 0) {
+            row = prevRow;
+            col = prevCol;
+            row++;
+        }
+    }
+    
+    for(int i = 0; i < n; i++) {
+        for(int j = 0; j < n; j++) {
+            std::cout << arr[i][j] << "\t";
+        }
+        std::cout << std::endl;
+    }
+}
+
+/**
+ * M x N
+ * Carici
+ * 0 1 0
+ * 0 0 0
+ * 0 0 1
+ * 1 0 0
+ * 
+ * Top
+ * 1 0 0
+ * 0 1 0
+ * 0 0 1
+ * 0 0 0
+ * 
+ * Kon
+ * k k k
+ * 0 k 0
+ * 0 0 0
+ * 0 k 0
+ * 
+ * oficer
+ * f f f
+ * 0 0 0
+ * 0 0 0
+ * f f f
+ * 
+ * 
+ */
+void transpondMatrix() {
+    int n = 5;
+    int a[n][n] = {
+        {1, 2, 3, 4, 5},
+        {6, 7, 8, 9, 10},
+        {11, 12, 13, 14, 15},
+        {16, 17, 18, 19, 20},
+        {21, 22, 23, 24, 25}
+    };
+    
+    int b[n][n];
+    int count = 1;
+    for(int i = 0; i < n; i++){
+        for(int j = count; j < n; j++) {
+            int temp = a[j][i];
+            a[j][i] = a[i][j];
+            a[i][j] = temp;
+        }
+        count++;
+    }
+    for(int i = 0; i < n; i++) {
+        for(int j = 0; j < n; j++) {
+            std::cout << a[i][j] << " ";
+        }
+        std::cout << std::endl;
+    }
+    
+}

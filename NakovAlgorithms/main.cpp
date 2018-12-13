@@ -18,6 +18,7 @@
 #include "examples/Recursive.h"
 #include "examples/Combinatorics.h"
 #include "examples/Coding.h"
+#include "chapter2/Examples.h"
 #include <iostream>
 #include <complex>
 
@@ -46,10 +47,13 @@ void testCoding() {
     }
 }
 
+extern int tribCount;
+
 int main(int argc, char** argv) {
 
-    testEx1162("10");
-    
+
+    testZadOne();
+
     return 0;
 }
 

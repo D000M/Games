@@ -19,6 +19,7 @@ class Recursive {
     //Use this to avoid sqrt(5) reducing the operations in the equation.
     static constexpr float SQUARE_OF_FIVE = 2.23607;
     int fibNext[MAX_FIB];
+    int tribNext[MAX_FIB];
 private:
     
     
@@ -51,6 +52,28 @@ public:
      */
     unsigned long fibMem(int n);
     void testFibMem();
+    
+    //Ex 1.168
+    /**
+     * Числа на трибоначи.
+     */
+    static unsigned long tribonaci(unsigned long n);
+    unsigned long tribMem(unsigned long n);
+    void testTribMem();
+    
+    //Ex 1.169
+    static unsigned long fibFromRow(unsigned int row, unsigned long n);
+    
+    
+    //Ex 1.177
+    static unsigned int palindrome(int n);
+    static void testPalindrom(int n);
+    
+    //Ex 1.182
+    static void printPiramid(int n, int stop);
+    
+    static int initArray(int n, int size);
+    static void testRecInitArray();
 };
 
 #endif /* RECURSIVE_H */

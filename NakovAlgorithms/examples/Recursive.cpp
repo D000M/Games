@@ -121,3 +121,89 @@ void Recursive::testFibMem() {
     }
     std::cout << fibMem(35);
 }
+int tribCount = 0;
+unsigned long Recursive::tribonaci(unsigned long n) {
+//    tribCount++;
+    if(n <= 3) {
+        return 1;
+    }
+    return tribonaci(n - 1) + tribonaci(n - 2) + tribonaci(n - 3); 
+}
+
+unsigned long Recursive::tribMem(unsigned long n) {
+    tribCount++;
+    if(tribNext[n] == 0) {
+        if(n < 4) {
+            tribNext[n] = 1;
+        }
+        else {
+            tribNext[n] = tribMem(n - 1) + tribMem(n - 2) + tribMem(n - 3);
+        }
+    }
+    return tribNext[n];
+}
+
+void Recursive::testTribMem() {
+    for(int i = 0; i < MAX_FIB; i++) {
+        tribNext[i] = 0;
+    }
+    std::cout << tribMem(20);
+}
+
+
+unsigned long Recursive::fibFromRow(unsigned int row, unsigned long n) {
+    if(n < row) {
+        return row;
+    }
+    return fibFromRow(row, n - 1) + fibFromRow(row, n - 2);
+}
+
+unsigned int Recursive::palindrome(int n) {
+    
+    int reverse = n;
+    int reversedNumber = 0;
+    int remainder;
+    while(reverse != 0)
+    {
+        remainder = reverse % 10;
+        reversedNumber = reversedNumber * 10 + remainder;
+        reverse /= 10;
+    }
+    if(n == reversedNumber) {
+        return 1;
+    }
+//    std::cout << n << " + " << reversedNumber << std::endl;
+    int sum = n + reversedNumber;
+    return 1 + palindrome(sum);
+}
+
+void Recursive::printPiramid(int n, int stop) {
+
+    if(n < stop) {
+        printPiramid(n + 1, stop);
+    }
+
+    for(int i = n; i >= 1; i--) {
+        std::cout << " ";
+    }
+    int count = 1;
+    for(int i = 0; i < count; i++) {
+        std::cout << n;
+    }
+    std::cout << std::endl;
+}
+
+int Recursive::initArray(int n, int size) {
+    if(n == size) {
+        return n;
+    }
+    return n + initArray(n + 1, size);
+}
+
+void Recursive::testRecInitArray() {
+    int size = 100;
+    int arr[size];
+    
+    int a = initArray(1, 10);
+    
+}
