@@ -46,6 +46,18 @@ public:
     
     Node* findMin();
     Node* findMax();
+    
+    //Print the Tree recursive
+    void printTree(Node* n);
+    
+    //Print Tree in 2D (root is on the left and childs are top and bottom)
+    void print2DTree(Node* n, int space);
+    
+    //Print The Tree Iterative Inorder
+    void printInorder();
+    
+    //Print the Tree Iterative Postorder
+    void printPostorder();
 private:
     
     /**

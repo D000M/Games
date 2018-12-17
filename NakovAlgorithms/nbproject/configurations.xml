@@ -4,12 +4,27 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>utils/BinarySearchTree.h</itemPath>
+      <itemPath>chapter2/BinaryTree.h</itemPath>
+      <itemPath>chapter3Sorting/CSorting/CExamples.h</itemPath>
+      <itemPath>chapter2/hashTables/CHashTables/CHash.h</itemPath>
+      <itemPath>chapter2/CList.h</itemPath>
+      <itemPath>chapter2/CQueue.h</itemPath>
+      <itemPath>chapter3Sorting/CSorting/CSorts.h</itemPath>
       <itemPath>examples/Coding.h</itemPath>
       <itemPath>examples/Combinatorics.h</itemPath>
+      <itemPath>chapter2/Examples.h</itemPath>
       <itemPath>examples/Externs.h</itemPath>
       <itemPath>examples/FromDecimal.h</itemPath>
+      <itemPath>chapter2/hashTables/HashTables/HashTable.h</itemPath>
+      <itemPath>chapter2/MyList.h</itemPath>
+      <itemPath>chapter2/MyQueue.h</itemPath>
+      <itemPath>chapter2/MyStack.h</itemPath>
+      <itemPath>chapter2/MyTree.h</itemPath>
       <itemPath>examples/Recursive.h</itemPath>
+      <itemPath>chapter2/Stack.h</itemPath>
       <itemPath>examples/ToDecimal.h</itemPath>
+      <itemPath>chapter2/Tree.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -18,13 +33,22 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>utils/BinarySearchTree.cpp</itemPath>
+      <itemPath>chapter2/BinaryTree.cpp</itemPath>
+      <itemPath>chapter2/hashTables/CHashTables/CHash.c</itemPath>
       <itemPath>examples/ChapterOne.cpp</itemPath>
       <itemPath>examples/Coding.cpp</itemPath>
       <itemPath>examples/Combinatorics.cpp</itemPath>
       <itemPath>examples/FromDecimal.cpp</itemPath>
+      <itemPath>chapter2/hashTables/HashTables/HashTable.cpp</itemPath>
+      <itemPath>chapter2/MyList.cpp</itemPath>
+      <itemPath>chapter2/MyQueue.cpp</itemPath>
+      <itemPath>chapter2/MyStack.cpp</itemPath>
+      <itemPath>chapter2/MyTree.cpp</itemPath>
       <itemPath>examples/Recursive.cpp</itemPath>
       <itemPath>examples/RomangDigits.cpp</itemPath>
       <itemPath>examples/ToDecimal.cpp</itemPath>
+      <itemPath>chapter2/Tree.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -38,6 +62,7 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
+    <itemPath>records.txt</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -52,6 +77,65 @@
           <standard>11</standard>
         </ccTool>
       </compileType>
+      <item path="chapter2/BinaryTree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="chapter2/BinaryTree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chapter2/CList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chapter2/CQueue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chapter2/Examples.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chapter2/MyList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="chapter2/MyList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chapter2/MyQueue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="chapter2/MyQueue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chapter2/MyStack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="chapter2/MyStack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chapter2/MyTree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="chapter2/MyTree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chapter2/Stack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chapter2/Tree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="chapter2/Tree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chapter2/hashTables/CHashTables/CHash.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="chapter2/hashTables/CHashTables/CHash.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="chapter2/hashTables/HashTables/HashTable.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="chapter2/hashTables/HashTables/HashTable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="chapter3Sorting/CSorting/CExamples.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="chapter3Sorting/CSorting/CSorts.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="examples/ChapterOne.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="examples/Coding.cpp" ex="false" tool="1" flavor2="0">
@@ -79,6 +163,12 @@
       <item path="examples/ToDecimal.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="records.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="utils/BinarySearchTree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="utils/BinarySearchTree.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -102,6 +192,65 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="chapter2/BinaryTree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="chapter2/BinaryTree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chapter2/CList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chapter2/CQueue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chapter2/Examples.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chapter2/MyList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="chapter2/MyList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chapter2/MyQueue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="chapter2/MyQueue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chapter2/MyStack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="chapter2/MyStack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chapter2/MyTree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="chapter2/MyTree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chapter2/Stack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chapter2/Tree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="chapter2/Tree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="chapter2/hashTables/CHashTables/CHash.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="chapter2/hashTables/CHashTables/CHash.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="chapter2/hashTables/HashTables/HashTable.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="chapter2/hashTables/HashTables/HashTable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="chapter3Sorting/CSorting/CExamples.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="chapter3Sorting/CSorting/CSorts.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="examples/ChapterOne.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="examples/Coding.cpp" ex="false" tool="1" flavor2="0">
@@ -129,6 +278,12 @@
       <item path="examples/ToDecimal.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="records.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="utils/BinarySearchTree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="utils/BinarySearchTree.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>

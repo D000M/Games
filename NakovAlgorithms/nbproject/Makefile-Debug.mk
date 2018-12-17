@@ -35,6 +35,14 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/chapter2/BinaryTree.o \
+	${OBJECTDIR}/chapter2/MyList.o \
+	${OBJECTDIR}/chapter2/MyQueue.o \
+	${OBJECTDIR}/chapter2/MyStack.o \
+	${OBJECTDIR}/chapter2/MyTree.o \
+	${OBJECTDIR}/chapter2/Tree.o \
+	${OBJECTDIR}/chapter2/hashTables/CHashTables/CHash.o \
+	${OBJECTDIR}/chapter2/hashTables/HashTables/HashTable.o \
 	${OBJECTDIR}/examples/ChapterOne.o \
 	${OBJECTDIR}/examples/Coding.o \
 	${OBJECTDIR}/examples/Combinatorics.o \
@@ -42,7 +50,8 @@ OBJECTFILES= \
 	${OBJECTDIR}/examples/Recursive.o \
 	${OBJECTDIR}/examples/RomangDigits.o \
 	${OBJECTDIR}/examples/ToDecimal.o \
-	${OBJECTDIR}/main.o
+	${OBJECTDIR}/main.o \
+	${OBJECTDIR}/utils/BinarySearchTree.o
 
 
 # C Compiler Flags
@@ -68,6 +77,46 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/nakovalgorithms: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/nakovalgorithms ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/chapter2/BinaryTree.o: chapter2/BinaryTree.cpp
+	${MKDIR} -p ${OBJECTDIR}/chapter2
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/chapter2/BinaryTree.o chapter2/BinaryTree.cpp
+
+${OBJECTDIR}/chapter2/MyList.o: chapter2/MyList.cpp
+	${MKDIR} -p ${OBJECTDIR}/chapter2
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/chapter2/MyList.o chapter2/MyList.cpp
+
+${OBJECTDIR}/chapter2/MyQueue.o: chapter2/MyQueue.cpp
+	${MKDIR} -p ${OBJECTDIR}/chapter2
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/chapter2/MyQueue.o chapter2/MyQueue.cpp
+
+${OBJECTDIR}/chapter2/MyStack.o: chapter2/MyStack.cpp
+	${MKDIR} -p ${OBJECTDIR}/chapter2
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/chapter2/MyStack.o chapter2/MyStack.cpp
+
+${OBJECTDIR}/chapter2/MyTree.o: chapter2/MyTree.cpp
+	${MKDIR} -p ${OBJECTDIR}/chapter2
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/chapter2/MyTree.o chapter2/MyTree.cpp
+
+${OBJECTDIR}/chapter2/Tree.o: chapter2/Tree.cpp
+	${MKDIR} -p ${OBJECTDIR}/chapter2
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/chapter2/Tree.o chapter2/Tree.cpp
+
+${OBJECTDIR}/chapter2/hashTables/CHashTables/CHash.o: chapter2/hashTables/CHashTables/CHash.c
+	${MKDIR} -p ${OBJECTDIR}/chapter2/hashTables/CHashTables
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/chapter2/hashTables/CHashTables/CHash.o chapter2/hashTables/CHashTables/CHash.c
+
+${OBJECTDIR}/chapter2/hashTables/HashTables/HashTable.o: chapter2/hashTables/HashTables/HashTable.cpp
+	${MKDIR} -p ${OBJECTDIR}/chapter2/hashTables/HashTables
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/chapter2/hashTables/HashTables/HashTable.o chapter2/hashTables/HashTables/HashTable.cpp
 
 ${OBJECTDIR}/examples/ChapterOne.o: examples/ChapterOne.cpp
 	${MKDIR} -p ${OBJECTDIR}/examples
@@ -108,6 +157,11 @@ ${OBJECTDIR}/main.o: main.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.cpp
+
+${OBJECTDIR}/utils/BinarySearchTree.o: utils/BinarySearchTree.cpp
+	${MKDIR} -p ${OBJECTDIR}/utils
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/utils/BinarySearchTree.o utils/BinarySearchTree.cpp
 
 # Subprojects
 .build-subprojects:

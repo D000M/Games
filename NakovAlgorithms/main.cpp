@@ -19,6 +19,7 @@
 #include "examples/Combinatorics.h"
 #include "examples/Coding.h"
 #include "chapter2/Examples.h"
+#include "chapter3Sorting/CSorting/CExamples.h"
 #include <iostream>
 #include <complex>
 
@@ -51,8 +52,7 @@ extern int tribCount;
 
 int main(int argc, char** argv) {
 
-
-    testZadOne();
+    testCombSort();
 
     return 0;
 }

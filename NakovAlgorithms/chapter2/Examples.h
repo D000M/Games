@@ -14,6 +14,8 @@
 #ifndef EXAMPLES_H
 #define EXAMPLES_H
 
+#include <stack>
+
 #include "Stack.h"
 #include "CQueue.h"
 #include "CList.h"
@@ -22,7 +24,8 @@
 #include "Tree.h"
 #include "MyTree.h"
 #include "../utils/BinarySearchTree.h"
-
+#include "hashTables/CHashTables/CHash.h"
+#include "hashTables/HashTables/HashTable.h"
 //Test CStack
 void testCStack() {
     data p;
@@ -228,6 +231,69 @@ void testZadOne() {
     myTree.deleteKey(5);
     myTree.deleteKey(6);
     printMyTree(myTree.root);
+}
+
+void printIterativeTree(BinarySearchTree tree) {
+    std::stack<Node*> nStack;
+    
+    Node* current = tree.root;
+    while(current != nullptr || nStack.empty() == false) {
+        //Reach the left most Node of the current Node
+        while(current != nullptr) {
+            //Place pointer to a tree node on the stack before traversing the node's left subtree
+            nStack.push(current);
+            current = current->left;
+        }
+        
+        //current must be nullptr at this point.
+        current = nStack.top();
+        nStack.pop();
+        std::cout << current->key << " ";
+        
+        //We have visited the node and its left subtree. Now it's right subtree turn
+        current = current->right;
+    }
+}
+
+void testIterativeTreePrint() {
+    BinarySearchTree myTree;
+//    for(int i = 1; i <= 8; i++) {
+//        int num = std::rand() % 100 + 1;
+//        myTree.insertKey(num);
+//    }
+    myTree.insertKey(28);
+    myTree.insertKey(64);
+    myTree.insertKey(13);
+    myTree.insertKey(61);
+    myTree.insertKey(12);
+    myTree.insertKey(65);
+    myTree.insertKey(14);
+    myTree.insertKey(42);
+    myTree.insertKey(7);
+    myTree.insertKey(81);
+    myTree.insertKey(18);
+    myTree.insertKey(35);
+    myTree.insertKey(4);
+    std::cout << std::endl;
+    myTree.print2DTree(myTree.root, 0);
+
+}
+
+void CHashTableTest() {
+    testHashTable();
+}
+
+void testMyHashTable() {
+    HashTable ht;
+    ht.initHashTable();
+    ht.put(1234, 100);
+    ht.put(1774, 120);
+    ht.put(86, 180);
+    ht.get(12);
+//    std::cout << "Otpechatva dannite s kluch   86: " << ht.get(86) << std::endl;
+//    std::cout << "Otpechatva dannite s kluch 1234: " << ht.get(1234) << std::endl;
+//    std::cout << "Otpechatva dannite s kluch 1774: " << ht.get(1774) << std::endl;
+//    std::cout << "Otpechatva dannite s kluch 1773: " << ht.get(1773) << std::endl;
 }
 #endif /* EXAMPLES_H */
 

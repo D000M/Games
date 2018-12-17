@@ -12,6 +12,7 @@
  */
 
 #include <iostream>
+#include <stack>
 
 #include "BinarySearchTree.h"
 
@@ -227,7 +228,70 @@ void BinarySearchTree::removeMatch(Node* parent, Node* match, bool left) {
     }
 }
 
+void BinarySearchTree::printTree(Node* n) {
+    if(n == nullptr) {
+        return;
+    }
+    std::cout << n->key << " ";
+    printTree(n->left);
+    printTree(n->right);
+}
 
+void BinarySearchTree::print2DTree(Node* n, int space) {
+    if(n == nullptr) {
+        return;
+    }
+    space += 4;
+    
+    //Process right child first
+    print2DTree(n->right, space);
+    std::cout << std::endl;
+    for(int i = 4; i < space; i++) {
+        std::cout << " ";
+    }
+    std::cout << n->key << "\n"; 
+    
+    //Process left child 
+    print2DTree(n->left, space);
+}
+
+
+void BinarySearchTree::printInorder() {
+    std::stack<Node* > nodes;
+    
+    Node* current = root;
+    while(current != nullptr || nodes.empty() == false ) {
+        //Reach the left most Node of the current Node
+        while(current != nullptr) {
+            //Place pointer to a tree node on the stack before traversing the node's left subtree
+            nodes.push(current);
+            current = current->left;
+        }
+        
+        //current must be nullptr at this point.
+        current = nodes.top();
+        nodes.pop();
+        std::cout << current->key << " ";
+        
+        //We have visited the node and its left subtree. Now it's right subtree turn
+        current = current->right;
+    }
+}
+
+void BinarySearchTree::printPostorder() {
+    std::stack<Node*> nodes;
+    Node* current = root;
+    while(current != nullptr || nodes.empty() == false ) {
+        while(current != nullptr) {
+            nodes.push(current);
+            current = current->right;
+        }
+        current = nodes.top();
+        nodes.pop();
+        std::cout << current->key << " ";
+        current = current ->left;
+    }
+}
 
 
 
