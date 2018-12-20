@@ -14,6 +14,9 @@
 #ifndef CSORTS_H
 #define CSORTS_H
 
+#include <cassert>
+
+
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -393,12 +396,104 @@ void straightSelectionSortV2(struct CElem m[], unsigned int size) {
     unsigned i, j, ind;
     struct CElem x;
     for(i = 0; i < size - 1; i++) {
-        for(x = m[ind = i], j = i + 1; j < n; j++) {
+        for(x = m[ind = i], j = i + 1; j < size; j++) {
             if(m[j].key < x.key) {
                 x = m[ind = j];
                 m[ind] = m[i];
                 m[i] = x;
             }
+        }
+    }
+}
+
+/**
+ * Heap Sort (Pyramid Sort)
+ */
+void sift(struct CElem m[], unsigned int left, unsigned int right) {
+    unsigned int i = 1;
+    unsigned int j = i + 1;
+    
+    struct CElem x = m[i];
+    while(j <= right) {
+        if(j < right && m[j].key < m[j + 1].key ) {
+            j++;
+        }
+        if(x.key >= m[j].key) {
+            break;
+        }
+        m[i] = m[j];
+        i = j;
+        j <<= 1;    //Pobitovo otmestvane na lqvo ekvivalentno na j *= 2;
+    }
+    m[i] = x;
+}
+void heapSort(struct CElem m[], unsigned int size) {
+    unsigned int k;
+    //Postroqvane na piramida
+    for(k = size / 2 + 1; k > 1; --k) {
+        sift(m, k - 1, size); 
+    }
+    //Postroqvane na sortirana posledovatelnost
+    for(k = size; k > 1; k--) {
+        swap(m + 1, m + k);
+        sift(m, 1, k - 1);
+    }
+}
+
+/**
+ * Set Sort (Sortirane chrez mnojestva)
+ */
+#define MAX_VALUE 100
+void setSort(unsigned int m[], unsigned int size) {
+    char set[MAX_VALUE];
+    unsigned int i, j;
+    //1. Initizializirane na mnojestvoto
+    for(i = 0; i < MAX_VALUE; i++) {
+        set[i] = 0;
+    }
+    
+    //2. Formirane na mnojestvoto
+    for(j = 0; j < size; j++) {
+        assert(m[j] >= 0 && m[j] < MAX_VALUE);
+        assert(set[m[j]] == 0);
+        set[m[j] == 1];
+    }
+    //3. Generirane na sortirana posledovatelnost
+    for(i = j = 0; i < MAX_VALUE; i++) {
+        if(set[i]) {
+            m[j++] = 1;
+        }
+    }
+    assert(j == size);
+}
+
+struct CSetE1 {
+    char found;
+    unsigned int index;
+}mTwo[MAX];
+
+#define NO_INDEX (unsigned int)(-1)
+/**
+ * Sortira masiv s izpolzvane na mnojestvo
+ */
+void setSortTwo(struct CElem m[], unsigned int size) {
+    unsigned int indSet[MAX_VALUE]; //indeksno mnojestvo
+    unsigned int i, j;
+    
+    //Inicializirane na mnojestvoto
+    for(i = 0; i < MAX_VALUE; ++i) {
+        indSet[i] = NO_INDEX;
+    }
+    //Formirane na mnojestvoto
+    for(j = 0; j < size; j++) {
+        assert(m[j].key >= 0 && m[j].key < MAX_VALUE);
+        assert(indSet[m[j].key] == NO_INDEX);
+        indSet[m[j].key] = j;
+    }
+    //Generirane na sortirana posledovatelnost
+    for(i = j = 0; i < MAX_VALUE; i++) {
+        if(NO_INDEX != indSet[i]) {
+//            do4Elem(m[indSet[i]]);
         }
     }
 }

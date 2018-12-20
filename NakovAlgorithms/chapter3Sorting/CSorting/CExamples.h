@@ -132,6 +132,21 @@ void testCombSort() {
         std::cout << m[i].key << " ";
     }
 }
+
+void testHeapSort() {
+    for(int i = 0; i < MAX_ELEM; i++) {
+        m[i].key = std::rand() % 1000 + 1;
+    }
+    for(int i = 0; i < MAX_ELEM; i++) {
+        std::cout << m[i].key << " ";
+    }
+    std::cout << std::endl;
+    std::cout << "Heap Sort: \n";
+    heapSort(m, MAX_ELEM);
+    for(int i = 0; i < MAX_ELEM; i++) {
+        std::cout << m[i].key << " ";
+    }
+}
 #ifdef __cplusplus
 }
 #endif

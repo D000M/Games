@@ -13,6 +13,7 @@
       <itemPath>chapter3Sorting/CSorting/CSorts.h</itemPath>
       <itemPath>examples/Coding.h</itemPath>
       <itemPath>examples/Combinatorics.h</itemPath>
+      <itemPath>containers/ContExamples.h</itemPath>
       <itemPath>chapter2/Examples.h</itemPath>
       <itemPath>examples/Externs.h</itemPath>
       <itemPath>examples/FromDecimal.h</itemPath>
@@ -25,6 +26,7 @@
       <itemPath>chapter2/Stack.h</itemPath>
       <itemPath>examples/ToDecimal.h</itemPath>
       <itemPath>chapter2/Tree.h</itemPath>
+      <itemPath>containers/UDVector.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -135,6 +137,10 @@
             flavor2="0">
       </item>
       <item path="chapter3Sorting/CSorting/CSorts.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="containers/ContExamples.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="containers/UDVector.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="examples/ChapterOne.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -250,6 +256,10 @@
             flavor2="0">
       </item>
       <item path="chapter3Sorting/CSorting/CSorts.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="containers/ContExamples.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="containers/UDVector.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="examples/ChapterOne.cpp" ex="false" tool="1" flavor2="0">
       </item>

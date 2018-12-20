@@ -20,6 +20,7 @@
 #include "examples/Coding.h"
 #include "chapter2/Examples.h"
 #include "chapter3Sorting/CSorting/CExamples.h"
+#include "containers/ContExamples.h"
 #include <iostream>
 #include <complex>
 
@@ -52,7 +53,8 @@ extern int tribCount;
 
 int main(int argc, char** argv) {
 
-    testCombSort();
+    constexpr unsigned int max = -1;
+    std::cout << max << std::endl;
 
     return 0;
 }
