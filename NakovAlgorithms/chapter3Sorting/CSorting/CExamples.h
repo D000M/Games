@@ -147,6 +147,22 @@ void testHeapSort() {
         std::cout << m[i].key << " ";
     }
 }
+
+void testCountSort() {
+    unsigned int arr[MAX_VALUE];
+    for(int i = 0; i < MAX_VALUE; i++) {
+        arr[i] = std::rand() % MAX_VALUE;
+    }
+    for(int i = 0; i < MAX_VALUE; i++) {
+        std::cout << arr[i] << " ";
+    }
+    std::cout << std::endl;
+    std::cout << "Count Sort: " << std::endl;
+    countSort(arr, MAX_VALUE);
+    for(int i = 0; i < MAX_VALUE; i++) {
+        std::cout << arr[i] << " ";
+    }
+}
 #ifdef __cplusplus
 }
 #endif

@@ -21,8 +21,15 @@
 #include "chapter2/Examples.h"
 #include "chapter3Sorting/CSorting/CExamples.h"
 #include "containers/ContExamples.h"
+#include "searchAlgs/Searching.h"
+#include "CPPSorts/CPPSorts.h"
+#include "CPPSearching/CPPSearchs.h"
+#include "graphs/CGraphs.h"
+#include "graphs/TestGraphs.h"
+#include "graphs/ExtremePathsCGraphs.h"
 #include <iostream>
 #include <complex>
+#include <iterator>
 
 using namespace std;
 
@@ -48,13 +55,47 @@ void testCoding() {
         std::cout << dPerm[i] << " ";
     }
 }
+/**
+ *  Zaplata 2017: 3771.01
+    Zaplata 2018: 4148.12
+    Zaplata 2019: 4417.74
 
+ */
 extern int tribCount;
+
+
+void simpleSwap(int a, int b) {
+    int temp = a;
+    a = b;
+    b = temp;
+}
+int testCnt = 0;
+void myPermSort(int arr[], int size) {
+    for(int i = 0; i < 20; i++) {
+        while(arr[i] != i) {
+            testCnt++;
+            swap(arr[i], arr[arr[i]]);
+        }
+    }
+}
+
+void testPermSort() {
+    int arr[] = {
+       5, 10, 6, 2, 3, 8, 1, 15, 17, 19, 4, 7, 18, 0, 9, 11, 14, 16, 12, 13  
+    };
+    std::copy(arr, arr + 20, std::ostream_iterator<int>(std::cout, " "));
+    myPermSort(arr, 20);
+    std::cout << std::endl;
+    std::copy(arr, arr + 20, std::ostream_iterator<int>(std::cout, " "));
+    std::cout << "\n" << "Total Swaps: " << testCnt << std::endl;
+}
 
 int main(int argc, char** argv) {
 
-    constexpr unsigned int max = -1;
-    std::cout << max << std::endl;
+//    constexpr unsigned int max = -1;
+//    std::cout << max << std::endl;
+
+    CGRAPHS::testImprovedFloyd();
 
     return 0;
 }

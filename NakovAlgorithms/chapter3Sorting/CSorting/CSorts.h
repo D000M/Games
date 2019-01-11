@@ -15,6 +15,8 @@
 #define CSORTS_H
 
 #include <cassert>
+#include <cstdlib>
+#include <cstdio>
 
 
 #ifdef __cplusplus
@@ -443,7 +445,7 @@ void heapSort(struct CElem m[], unsigned int size) {
 /**
  * Set Sort (Sortirane chrez mnojestva)
  */
-#define MAX_VALUE 100
+#define MAX_VALUE 10
 void setSort(unsigned int m[], unsigned int size) {
     char set[MAX_VALUE];
     unsigned int i, j;
@@ -494,6 +496,243 @@ void setSortTwo(struct CElem m[], unsigned int size) {
     for(i = j = 0; i < MAX_VALUE; i++) {
         if(NO_INDEX != indSet[i]) {
 //            do4Elem(m[indSet[i]]);
+        }
+    }
+}
+
+//
+void countSort(unsigned int m[], unsigned int size) {
+    unsigned char cnt[MAX_VALUE];
+    unsigned int i, j;
+    
+    for(i = 0; i < MAX_VALUE; i++) {
+        cnt[i] = 0;
+    }
+    for(j = 0; j < size; j++) {
+        assert(m[j] >= 0 && m[j] < MAX_VALUE);
+        cnt[m[j]]++;
+    }
+    for(i = j = 0; i < MAX_VALUE; i++) {
+        while(cnt[i]--) {
+            m[j++] = i;
+        }
+    }
+    assert(j == size);
+}
+
+
+//Побитово сортиране/
+struct CList {
+    struct CElem data;
+    struct CList* next;
+};
+struct CList* init(unsigned int size) {
+    struct CList* head, *p;
+    unsigned int i;
+    srand(time(NULL));
+    for(head = nullptr, i = 0; i < size; i++) {
+        p = (struct CList*) malloc(sizeof(struct CList));
+        p->data.key = rand() % 1000;
+        assert(p->data.key);
+        p->next = head;
+        head = p;
+    }
+    return head;
+}
+struct CList* bitSort(struct CList* head) {
+    struct CList* zeroEnd;
+    struct CList* oneEnd;
+    struct CList* zero;
+    struct CList* one;
+    
+    unsigned int maxBit;
+    unsigned int bitPow2;
+    
+    //0. Opredelqne na maksimalnata bitova maska
+    maxBit = 1 << (8 * sizeof(head->data.key) - 1);
+    
+    //1. Fiktiven element v nachaloto na spisycite
+    zero = (struct CList*) malloc(sizeof(struct CList));
+    one = (struct CList*) malloc(sizeof(struct CList));
+    
+    //2. Sortirane
+    for(bitPow2 = 1; bitPow2 < maxBit; bitPow2 <<= 1) {
+        //2.1 Razpredelqne po spisyci
+        for(zeroEnd = zero, oneEnd = one; head != NULL; head = head->next) {
+            if(!(head->data.key & bitPow2)) {
+                zeroEnd->next = head;
+                zeroEnd = zeroEnd->next;
+            }
+            else {
+                oneEnd->next = head;
+                oneEnd = oneEnd->next;
+            }
+        }
+        //2.2 Obedinenie na spisycite
+        oneEnd->next = NULL;
+        zeroEnd->next = one->next;
+        head = zero->next;
+    }
+    //3. Osvobojdavane na pametta
+    free(zero);
+    free(one);
+    
+    return head;
+}
+void print(struct CList* head) {
+    for(; head != NULL; head = head->next) {
+        printf("%8d", head->data.key);
+    }
+    printf("\n");
+}
+void check(struct CList* head) {
+    if(head == NULL) {
+        return;
+    }
+    for(; head->next != NULL; head = head->next) {
+        assert(head->data.key <= head->next->data.key);
+    }
+}
+void clear(struct CList* head) {
+    while(head != NULL) {
+        free(head);
+        head = head->next;
+    }
+}
+
+void testBitSort() {
+    struct CList* head;
+    head = init(MAX_VALUE);
+    printf("Before: ");
+    print(head);
+    std::cout << std::endl;
+    printf("After: ");
+    head = bitSort(head);
+    print(head);
+    check(head);
+    clear(head);
+}
+
+// Recursive bit sort po burz za silno razburkan masiv sravnim i po dobur po nqkoga ot quicksort
+void bitSort2(int left, int right, unsigned int bitMask) {
+    int i, j;
+    if(right > left && bitMask > 0) {
+        i = left;
+        j = right;
+        while(i != j) {
+            while(!(m[i].key & bitMask) && i < j) {
+                i++;
+            }
+            while((m[j].key & bitMask) && j > i) {
+                j--;
+            }
+            swap(&m[i], &m[j]);
+        }
+        if(!(m[right].key & bitMask)) {
+            j++;
+        }
+        bitSort2(left, j - 1, bitMask >> 1);
+        bitSort2(j, right, bitMask >> 1);
+    }
+}
+void printCElem(const std::string& msg) {
+    int count = 0;
+    std::cout << msg;
+    while(count < MAX_ELEM) {
+        std::cout << m[count].key << " ";
+        count++;
+    }
+    std::cout << std::endl;
+}
+void testBitSort2() {
+    srand(time(NULL));
+    for(int i = 0; i < MAX_ELEM; i++) {
+        m[i].key = rand() % 1000;
+    }
+    printCElem("Before: ");
+    std::cout << std::endl;
+    bitSort2(0, MAX_ELEM - 1, 1 << 8 * sizeof(m[0].key) - 1);
+    printCElem("After: ");
+}
+
+
+/**
+ * Radix Sort /Metod na broinite sistemi.
+ */
+#define BASE 16     //Osnova na broinata sistema
+#define POW2 4      // *16 = 1 << 4
+#define DIG_CNT 8   //Broi cifri
+
+struct CList* radixSort(struct CList* head) {
+    struct {
+        struct CList* st;
+        struct CList* en;
+    }mod[BASE];
+    
+    unsigned int i, dig, mask, shrM;
+    
+    //1. Initializirane
+    for(i = 0; i < BASE; i++) {
+        mod[i].st = (struct CList*) malloc(sizeof(struct CList));
+    }
+    
+    //2. Sortirane
+    mask = BASE - 1;
+    shrM = 0;
+    
+    for(dig = 1; dig <= DIG_CNT; dig++) {
+        //2.1 Initializirane
+        for(i = 0; i < BASE; i++) {
+            mod[i].en = mod[i].st;
+        }
+        //2.2 Razpredelqne na elementite po spisaci
+        while(head != NULL) {
+            //2.2.1 Namirane na i-tata cifra v BASE-ichniq zapis na chisloto
+            i = (head->data.key & mask) >> shrM;
+            //2.2.2 Vkluchvane na chisloto v suotvetniq spisuk
+            mod[i].en->next = head;
+            mod[i].en = mod[i].en->next;
+            
+            head = head->next;
+        }
+        
+        //2.3 Obedinqvane na spisycite
+        mod[BASE - 1].en->next = NULL;
+        for(i = BASE - 1; i > 0; i--) {
+            mod[i - 1].en->next = mod[i].st->next;
+        }
+        head = mod[0].st->next;
+        
+        //2.4 Izchislqvane na novite Maski
+        shrM += POW2;
+        mask <<= POW2;
+    }
+    //3 Osvobojdavane na pameta
+    for(i = 0; i < BASE; i++) {
+        free(mod[i].st);
+    }
+    return head;
+}
+
+void testRadixSort() {
+    struct CList* head;
+    head = init(MAX_ELEM);
+    printf("Before sort: ");
+    print(head);
+    std::cout << std::endl;
+    printf("After sort: ");
+    head = radixSort(head);
+    print(head);
+    check(head);
+    clear(head);
+}
+
+//Permutation Sort
+void permSort(struct CElem m[], unsigned int n) {
+    unsigned int i;
+    for(i = 0; i < n; i++) {
+        while(m[i].key != (int)i) {
+            swap(&m[i], &m[m[i].key]);
         }
     }
 }
