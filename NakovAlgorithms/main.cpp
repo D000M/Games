@@ -27,6 +27,9 @@
 #include "graphs/CGraphs.h"
 #include "graphs/TestGraphs.h"
 #include "graphs/ExtremePathsCGraphs.h"
+#include "graphs/FindLongestPathCAcyclicGraph.h"
+#include "SearchWithReturns/CppAlgs/HorseMoving.h"
+#include "SearchWithReturns/CppAlgs/EightQueen.h"
 #include <iostream>
 #include <complex>
 #include <iterator>
@@ -90,12 +93,39 @@ void testPermSort() {
     std::cout << "\n" << "Total Swaps: " << testCnt << std::endl;
 }
 
-int main(int argc, char** argv) {
+constexpr int TT = 20;
+int myArr[TT] = {};
 
+void printArray() {
+    std::cout << std::endl;
+    for(int i = 0; i < TT; i++) {
+        std::cout << myArr[i] << " ";
+    }
+}
+
+void initArray(int arr[], int count) {
+    if(count < TT) {
+        printArray();
+        
+    }
+    else if(count == TT) {
+        printArray();
+        return;
+    }
+    arr[count] = count;
+    initArray(arr, count + 1);
+} 
+
+
+int main(int argc, char** argv) {
+    
+    
 //    constexpr unsigned int max = -1;
 //    std::cout << max << std::endl;
 
-    CGRAPHS::testImprovedFloyd();
+//    testQueens();
+    
+//    initArray(myArr, 0);
 
     return 0;
 }

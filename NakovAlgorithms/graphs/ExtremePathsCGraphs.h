@@ -118,8 +118,8 @@ namespace CGRAPHS {
             for(i = 0; i < n2; i++) {
                 for(j = 0; j < n2; j++) {
                     if((i != j) && (i != k) && (k != j)) {
-                        if(A2[i][j] > (A2[i][k] * A2[k][j])) {
-                            A2[i][j] = max(A2[i][j], A2[i][k]) * A2[k][j];
+                        if(A2[i][j] > (A2[i][k] + A2[k][j])) {
+                            A2[i][j] = A2[i][k] * A2[k][j];
                         }
                     }
                 }

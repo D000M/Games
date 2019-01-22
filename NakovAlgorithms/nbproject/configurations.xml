@@ -7,23 +7,37 @@
       <itemPath>utils/BinarySearchTree.h</itemPath>
       <itemPath>chapter2/BinaryTree.h</itemPath>
       <itemPath>chapter3Sorting/CSorting/CExamples.h</itemPath>
+      <itemPath>graphs/CGraphs.h</itemPath>
       <itemPath>chapter2/hashTables/CHashTables/CHash.h</itemPath>
       <itemPath>chapter2/CList.h</itemPath>
+      <itemPath>CPPSearching/CPPSearchAll.h</itemPath>
+      <itemPath>CPPSearching/CPPSearchExc.h</itemPath>
+      <itemPath>CPPSearching/CPPSearchs.h</itemPath>
+      <itemPath>CPPSorts/CPPSorts.h</itemPath>
       <itemPath>chapter2/CQueue.h</itemPath>
       <itemPath>chapter3Sorting/CSorting/CSorts.h</itemPath>
       <itemPath>examples/Coding.h</itemPath>
       <itemPath>examples/Combinatorics.h</itemPath>
       <itemPath>containers/ContExamples.h</itemPath>
+      <itemPath>graphs/library/CppGraphs.h</itemPath>
+      <itemPath>graphs/DjiikstraCAlgorithm.h</itemPath>
+      <itemPath>SearchWithReturns/CppAlgs/EightQueen.h</itemPath>
       <itemPath>chapter2/Examples.h</itemPath>
       <itemPath>examples/Externs.h</itemPath>
+      <itemPath>graphs/ExtremePathsCGraphs.h</itemPath>
+      <itemPath>graphs/FindLongestPathCAcyclicGraph.h</itemPath>
       <itemPath>examples/FromDecimal.h</itemPath>
       <itemPath>chapter2/hashTables/HashTables/HashTable.h</itemPath>
+      <itemPath>SearchWithReturns/CppAlgs/HorseMoving.h</itemPath>
       <itemPath>chapter2/MyList.h</itemPath>
       <itemPath>chapter2/MyQueue.h</itemPath>
       <itemPath>chapter2/MyStack.h</itemPath>
       <itemPath>chapter2/MyTree.h</itemPath>
+      <itemPath>ParalelSorts.h</itemPath>
       <itemPath>examples/Recursive.h</itemPath>
+      <itemPath>searchAlgs/Searching.h</itemPath>
       <itemPath>chapter2/Stack.h</itemPath>
+      <itemPath>graphs/TestGraphs.h</itemPath>
       <itemPath>examples/ToDecimal.h</itemPath>
       <itemPath>chapter2/Tree.h</itemPath>
       <itemPath>containers/UDVector.h</itemPath>
@@ -79,6 +93,26 @@
           <standard>11</standard>
         </ccTool>
       </compileType>
+      <item path="CPPSearching/CPPSearchAll.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CPPSearching/CPPSearchExc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CPPSearching/CPPSearchs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CPPSorts/CPPSorts.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ParalelSorts.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SearchWithReturns/CppAlgs/EightQueen.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="SearchWithReturns/CppAlgs/HorseMoving.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
       <item path="chapter2/BinaryTree.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="chapter2/BinaryTree.h" ex="false" tool="3" flavor2="0">
@@ -168,9 +202,26 @@
       </item>
       <item path="examples/ToDecimal.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="graphs/CGraphs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="graphs/DjiikstraCAlgorithm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="graphs/ExtremePathsCGraphs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="graphs/FindLongestPathCAcyclicGraph.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="graphs/TestGraphs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="graphs/library/CppGraphs.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="records.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="searchAlgs/Searching.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="utils/BinarySearchTree.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -198,6 +249,26 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="CPPSearching/CPPSearchAll.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CPPSearching/CPPSearchExc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CPPSearching/CPPSearchs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CPPSorts/CPPSorts.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ParalelSorts.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SearchWithReturns/CppAlgs/EightQueen.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="SearchWithReturns/CppAlgs/HorseMoving.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
       <item path="chapter2/BinaryTree.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="chapter2/BinaryTree.h" ex="false" tool="3" flavor2="0">
@@ -287,9 +358,26 @@
       </item>
       <item path="examples/ToDecimal.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="graphs/CGraphs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="graphs/DjiikstraCAlgorithm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="graphs/ExtremePathsCGraphs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="graphs/FindLongestPathCAcyclicGraph.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="graphs/TestGraphs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="graphs/library/CppGraphs.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="records.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="searchAlgs/Searching.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="utils/BinarySearchTree.cpp" ex="false" tool="1" flavor2="0">
       </item>
