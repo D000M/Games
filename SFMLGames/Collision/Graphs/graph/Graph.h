@@ -18,9 +18,9 @@
 
 
 class Graph {
-    std::vector<std::vector<int>> G;
-    int size;
-    std::vector<bool> bVisited;
+    std::vector<std::vector<int>> G;        //dvumeren masiv
+    int size;                               //size na masiva
+    std::vector<bool> bVisited;             //array za visited.
 public:
     Graph(std::vector<std::vector<int>> graph, const int graphSize);
     void printVec();
