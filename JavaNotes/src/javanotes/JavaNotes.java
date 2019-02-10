@@ -64,14 +64,14 @@ public class JavaNotes {
      */
     public static void main(String[] args) {
 
-        ElapsedTime.startTime();
+//        ElapsedTime.startTime();
 
-//        CalculatorV2.runCalc();
+        CalculatorV2.runCalc();
 
-        System.out.println(Primes.lucasLemer(4, 0));
+//        System.out.println(Primes.lucasLemer(4, 0));
         
-        ElapsedTime.stopTime();
-        ElapsedTime.measuredTimeSeconds();
+//        ElapsedTime.stopTime();
+//        ElapsedTime.measuredTimeSeconds();
     }
     
 }

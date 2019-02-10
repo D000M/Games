@@ -19,3 +19,10 @@ UnderWorldRun/.dep.inc
 UnderWorldRun/build/Debug/MinGW-Windows/engine/EventManager.o
 *.d
 *.o
+/JavaNotes/nbproject/private/
+/JavaNotes/build/
+*.xml
+JavaNotes/nbproject/build-impl.xml
+JavaNotes/nbproject/genfiles.properties
+*.properties
+/JavaNotes/dist/
