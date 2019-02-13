@@ -116,6 +116,9 @@ void initArray(int arr[], int count) {
     initArray(arr, count + 1);
 } 
 
+double percent(double from, double to) {
+    return ((to - from) / from) * 100;
+}
 
 int main(int argc, char** argv) {
     
@@ -126,6 +129,12 @@ int main(int argc, char** argv) {
 //    testQueens();
     
 //    initArray(myArr, 0);
+    
+    double currIncr = percent(1280, 1324);
+    std::cout << "Percent: " << currIncr << "%"; 
+    
+    size_t a = -5;
+    std::cout << a << std::endl;
 
     return 0;
 }
