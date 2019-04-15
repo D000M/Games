@@ -29,7 +29,19 @@
 #include "Creational/Factory/InnerFactory.h"
 #include "Creational/Factory/AbstractFactory/AbstractFactory.h"
 #include "Creational/Factory/AbstractFactory/FactoryExcercise.h"
+#include "Creational/Factory/AbstractFactory/MyAbstractFactory/MyAbstractFactory.h"
+#include "Creational/Prototype/RecordKeeping/RecordKeeping.h"
+#include "Creational/Prototype/Prototype/Prototype.h"
+#include "Creational/Prototype/PrototypeFactory/PrototypeFactory.h"
+#include "Creational/Prototype/PrototypeViaSerialization/Serialization.h"
+#include "Creational/Prototype/Excercise/PrototypeExcercise.h"
 
+
+/**
+ 
+
+ 
+ */
 using namespace std;
 
 /*
@@ -37,7 +49,7 @@ using namespace std;
  */
 int main(int argc, char** argv) {
     
-    AbstractFactory::testPersons();
+    PrototypeExcercise::testDeepCopyLine();
     
     return 0;
 }

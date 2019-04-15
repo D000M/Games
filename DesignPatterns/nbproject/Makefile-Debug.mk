@@ -56,7 +56,7 @@ FFLAGS=
 ASFLAGS=
 
 # Link Libraries and Options
-LDLIBSOPTIONS=
+LDLIBSOPTIONS=-lboost_serialization
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
