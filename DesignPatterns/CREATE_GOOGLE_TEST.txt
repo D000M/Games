@@ -1,0 +1,35 @@
+Create c++ static library
+
+next
+
+Properties
+build
+C++ Compiler
+Include Directories
+/usr/src/gtest
+/usr/src/gtest/include
+
+next
+
+Right click on project Add Existing Item
+Go to 
+/usr/src/gtest/include/src/
+and Add
+gtest-main.cc
+gtest-all.cc
+put the files in source files
+
+On Main Project
+In Test Files
+Create a folder with the name of supposed test class or something
+then right click and on C++Compiler
+Include Directories
+/usr/src/gtest
+/usr/src/gtest/include
+
+add in C++Linker on additional options
+
+-pthread
+
+build the project
+

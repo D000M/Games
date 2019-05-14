@@ -82,7 +82,7 @@ namespace excercise {
 //        CodeBuilder builder{"Person"};
 //        std::cout << builder << std::endl;
         
-        auto cb = CodeBuilder("Person").add_field("name", "string").add_field("age", "int");
+        auto cb = CodeBuilder("Person").add_field("name", "string").add_field("age", "int").add_field("myObj","MyClass").add_field("myObj2", "MyClass2");
         std::cout << cb << std::endl;
     }
 }   //namespace excercise
