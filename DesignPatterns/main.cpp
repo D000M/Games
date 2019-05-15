@@ -48,6 +48,19 @@
 #include "Structural/Decorator/DynamicDecorator.h"
 #include "Structural/Decorator/FunctionalDecorator.h"
 #include "Structural/Decorator/DecoratorExcercise.h"
+#include "Structural/Flyweight/HandmadeFlyweight.h"
+#include "Structural/Flyweight/TextFormating.h"
+#include "Structural/Flyweight/FlyweightExcercise.h"
+#include "Structural/Proxy/SmartPointers.h"
+#include "Structural/Proxy/ProprtyProxy.h"
+#include "Structural/Proxy/VirtualProxy.h"
+#include "Structural/Proxy/ProxyExcercise.h"
+#include "Behavioral/ChainOfResponsibility/PointerChain.h"
+#include "Behavioral/BrokerChain/BrokerChain.h"
+#include "Behavioral/BrokerChain/BrokerEx.h"
+#include "Behavioral/Command/Command.h"
+#include "Behavioral/Command/CompositeCommand.h"
+#include "Behavioral/Command/CommandEx.h"
 
 /**
  
@@ -61,7 +74,7 @@ using namespace std;
  */
 int main(int argc, char** argv) {
 
-    DecoratorExcercise::testDecoratorEx2();
+    CommandEx::testCommandEx();
 
     return 0;
 }
