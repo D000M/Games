@@ -61,6 +61,17 @@
 #include "Behavioral/Command/Command.h"
 #include "Behavioral/Command/CompositeCommand.h"
 #include "Behavioral/Command/CommandEx.h"
+#include "Behavioral/Interpreter/HandmadeInterpeter.h"
+#include "Behavioral/Interpreter/InterpreterExcercise.h"
+#include "Behavioral/Iterator/IteratorsInSTL.h"
+#include "Behavioral/Iterator/BinaryTreeIterator.h"
+#include "Behavioral/Iterator/BoostIteratorFacade.h"
+#include "Behavioral/Iterator/IteratorExcercise.h"
+#include "Behavioral/Mediator/TestChatRoom.h"
+#include "Behavioral/Mediator/EventBroker2.h"
+#include "Behavioral/Mediator/MediatorEx.h"
+#include "Behavioral/Memento/Memento.h"
+#include "Behavioral/Memento/MementoEx.h"
 
 /**
  
@@ -74,7 +85,7 @@ using namespace std;
  */
 int main(int argc, char** argv) {
 
-    CommandEx::testCommandEx();
+    MementoEx::testTokenMachine();
 
     return 0;
 }
