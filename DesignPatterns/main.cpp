@@ -72,6 +72,23 @@
 #include "Behavioral/Mediator/MediatorEx.h"
 #include "Behavioral/Memento/Memento.h"
 #include "Behavioral/Memento/MementoEx.h"
+#include "Behavioral/Observer/ObservablePlayer.h"
+#include "Behavioral/Observer/ObserverEx.h"
+#include "Behavioral/State/ClassicStateMachine.h"
+#include "Behavioral/State/HandMadeStateMachine.h"
+#include "Behavioral/State/BoostStateMachine.h"
+#include "Behavioral/State/StateEx.h"
+#include "Behavioral/Strategy/DynamicStrategy.h"
+#include "Behavioral/Strategy/StaticStrategy.h"
+#include "Behavioral/Strategy/StrategyEx.h"
+#include "Behavioral/TemplateMethod/TemplateMethod.h"
+#include "Behavioral/TemplateMethod/TemplateEx.h"
+#include "Behavioral/Visitor/IntrusiveVisitor.h"
+#include "Behavioral/Visitor/ReflectiveVisitor.h"
+#include "Behavioral/Visitor/ClassicVisitor.h"
+#include "Behavioral/Visitor/AcyclicVisitor.h"
+#include "Behavioral/Visitor/MulthiMethods.h"
+#include "Behavioral/Visitor/VariantAndStdVisitor.h"
 
 /**
  
@@ -83,9 +100,19 @@ using namespace std;
 /*
  * 
  */
+
+int towerOfHanoi(int disks, const std::string& left, const std::string& middle, const std::string& right) {
+    if(disks > 0) {
+        towerOfHanoi(disks - 1, left, right, middle);
+        printf("from %s to %s\n", left.c_str(), right.c_str());
+        towerOfHanoi(disks - 1, middle, left, right);
+    }
+}
+
+
 int main(int argc, char** argv) {
 
-    MementoEx::testTokenMachine();
+    BoostVariantAndVisitor::testSTDVariantAndVisitor();
 
     return 0;
 }
