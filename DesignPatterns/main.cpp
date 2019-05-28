@@ -89,6 +89,8 @@
 #include "Behavioral/Visitor/AcyclicVisitor.h"
 #include "Behavioral/Visitor/MulthiMethods.h"
 #include "Behavioral/Visitor/VariantAndStdVisitor.h"
+#include "Behavioral/Visitor/VisitorEx.h"
+#include "Creational/Singleton/Multiton.h"
 
 /**
  
@@ -112,7 +114,7 @@ int towerOfHanoi(int disks, const std::string& left, const std::string& middle, 
 
 int main(int argc, char** argv) {
 
-    BoostVariantAndVisitor::testSTDVariantAndVisitor();
+    Multi::testMultiton();
 
     return 0;
 }
