@@ -62,6 +62,7 @@ namespace SingletonImplementation {
     class SingletonDB : public DataBase{
         //Make constructor private so only 1 object can be created via static function. Forbid copy constructor and assignment operator
         SingletonDB() {
+            numberInsantces++;
             std::cout << "DataBase Created!\n";
             std::ifstream ifs{"Creational/Singleton/files/capitals.txt"};
             std::string city, pop;
@@ -73,6 +74,7 @@ namespace SingletonImplementation {
             }
         }
         std::map<std::string, int> capitals;
+        
     public:
         //Assure nobody can create another DB object via copy constructor or assignment
         SingletonDB(const SingletonDB&) = delete;           //Delete copy constructor
@@ -82,12 +84,12 @@ namespace SingletonImplementation {
             static SingletonDB db;
             return db;
         }
-        
+        static int numberInsantces;
         int getPopulation(const std::string& cityName) override {
             return capitals[cityName];
         }
     };
-    
+    int SingletonDB::numberInsantces = 0;
     void testSingletonDB() {
         std::string cityName = "Delhi";
         std::cout << cityName << " has population: " << SingletonDB::get().getPopulation(cityName) << std::endl;

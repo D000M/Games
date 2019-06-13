@@ -91,6 +91,10 @@
 #include "Behavioral/Visitor/VariantAndStdVisitor.h"
 #include "Behavioral/Visitor/VisitorEx.h"
 #include "Creational/Singleton/Multiton.h"
+#include "Creational/Singleton/SingletonImplementation.h"
+#include "Creational/Singleton/TotalSingletons.h"
+#include "ORiley/StrategyPattern/TestStrategyDucks.h"
+#include "ORiley/ObserverPattern/TestObserverPattern.h"
 
 /**
  
@@ -114,7 +118,7 @@ int towerOfHanoi(int disks, const std::string& left, const std::string& middle, 
 
 int main(int argc, char** argv) {
 
-    Multi::testMultiton();
+    testObserversORiley();
 
     return 0;
 }
