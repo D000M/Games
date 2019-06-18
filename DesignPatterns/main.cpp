@@ -95,6 +95,9 @@
 #include "Creational/Singleton/TotalSingletons.h"
 #include "ORiley/StrategyPattern/TestStrategyDucks.h"
 #include "ORiley/ObserverPattern/TestObserverPattern.h"
+#include "ORiley/DecoratorPattern/FlowerDecorator/IFlower.h"
+#include "ORiley/CommandPattern/TestCommandOriley.h"
+#include "ORiley/Adapter/TestAdapterOreilly.h"
 
 /**
  
@@ -115,11 +118,48 @@ int towerOfHanoi(int disks, const std::string& left, const std::string& middle, 
     }
 }
 
+void calculatePercentIncrease(float total, float increase) {
+    float percent = ((increase - total) / total) * 100.0f;
+    std::string temp = "Win: ";
+    if(percent < 0) {
+        temp = "Lose: ";
+    }
+    std::cout << "Percent " << temp << percent << "%" << std::endl;
+}
+
+void caluclateYear() {
+    std::cout << "2018\n";
+    std::cout << "November: ";
+    calculatePercentIncrease(76, 78);
+    std::cout << "December: ";
+    calculatePercentIncrease(77, 78);
+    std::cout << "January: ";
+    calculatePercentIncrease(80, 78);
+    std::cout << "February: ";
+    calculatePercentIncrease(81, 78);
+    std::cout << "March: ";
+    calculatePercentIncrease(80, 78);
+    std::cout << "April: ";
+    calculatePercentIncrease(81, 78);
+    std::cout << "May: ";
+    calculatePercentIncrease(80, 78);
+    std::cout << "Juny: ";
+    calculatePercentIncrease(83, 78);
+    std::cout << "July: ";
+//    calculatePercentIncrease(76, 77);
+    std::cout << "August: ";
+//    calculatePercentIncrease(76, 77);
+    std::cout << "September: ";
+//    calculatePercentIncrease(76, 77);
+    std::cout << "October: ";
+//    calculatePercentIncrease(76, 77);
+}
 
 int main(int argc, char** argv) {
 
-    testObserversORiley();
-
+//    calculatePercentIncrease(1487, 1624);
+    calculatePercentIncrease(8101, 8318);
+    
     return 0;
 }
 
