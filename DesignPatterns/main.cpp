@@ -98,6 +98,7 @@
 #include "ORiley/DecoratorPattern/FlowerDecorator/IFlower.h"
 #include "ORiley/CommandPattern/TestCommandOriley.h"
 #include "ORiley/Adapter/TestAdapterOreilly.h"
+#include "ORiley/CompositePattern/HTMLElement.h"
 
 /**
  
@@ -120,45 +121,170 @@ int towerOfHanoi(int disks, const std::string& left, const std::string& middle, 
 
 void calculatePercentIncrease(float total, float increase) {
     float percent = ((increase - total) / total) * 100.0f;
+    if(total == 0) {
+        percent = 100;
+    }
     std::string temp = "Win: ";
     if(percent < 0) {
         temp = "Lose: ";
     }
     std::cout << "Percent " << temp << percent << "%" << std::endl;
 }
-
+void calculateMoney(float buy, float sell, float& totalBuy, float& totalWin) {
+    float totalPay = 0;
+    float totalSell = 0;
+    for(int i = 0; i < 5; i++) {
+        totalPay += buy;
+        totalSell += sell;
+    }
+    totalBuy += totalPay;
+    totalWin += totalSell;
+    std::cout << "Buyed for: " << totalPay << ", Can Sell For: " << totalSell << " Win: " << (totalSell - totalPay) 
+        << "\n###################" << std::endl;
+    
+}
+void calclulate20g(float buy, float sell, float& totalBuy, float& totalWin) {
+    totalBuy += buy;
+    totalWin += sell;
+    std::cout << "Buyed for: " << buy << ", Can Sell For: " << sell << " Win: " << (sell - buy) 
+        << "\n###################" << std::endl;
+} 
 void caluclateYear() {
     std::cout << "2018\n";
+    float spend = 0;
+    float canWin = 0;
     std::cout << "November: ";
-    calculatePercentIncrease(76, 78);
+    calculatePercentIncrease(76, 80);
+    calculateMoney(76, 80, spend, canWin);
     std::cout << "December: ";
-    calculatePercentIncrease(77, 78);
+    calculatePercentIncrease(77, 80);
+    calculateMoney(77, 80, spend, canWin);
     std::cout << "January: ";
-    calculatePercentIncrease(80, 78);
+    calculatePercentIncrease(80, 80);
+    calculateMoney(80, 80, spend, canWin);
     std::cout << "February: ";
-    calculatePercentIncrease(81, 78);
+    calculatePercentIncrease(81, 80);
+    calculateMoney(81, 80, spend, canWin);
     std::cout << "March: ";
-    calculatePercentIncrease(80, 78);
+    calculatePercentIncrease(80, 80);
+    calculateMoney(80, 80, spend, canWin);
     std::cout << "April: ";
-    calculatePercentIncrease(81, 78);
+    calculatePercentIncrease(81, 80);
+    calculateMoney(81, 80, spend, canWin);
     std::cout << "May: ";
-    calculatePercentIncrease(80, 78);
+    calculatePercentIncrease(80, 80);
+    calculateMoney(80, 80, spend, canWin);
     std::cout << "Juny: ";
-    calculatePercentIncrease(83, 78);
+    calculatePercentIncrease(83, 80);
+    calculateMoney(83, 80, spend, canWin);
     std::cout << "July: ";
-//    calculatePercentIncrease(76, 77);
+    calculatePercentIncrease(87, 80);
+    calculateMoney(87, 80, spend, canWin);
     std::cout << "August: ";
-//    calculatePercentIncrease(76, 77);
+    calculatePercentIncrease(87, 80);
+    calculateMoney(87, 80, spend, canWin);
     std::cout << "September: ";
-//    calculatePercentIncrease(76, 77);
+    calculatePercentIncrease(87, 80);
+    calculateMoney(87, 80, spend, canWin);
     std::cout << "October: ";
-//    calculatePercentIncrease(76, 77);
+    calculatePercentIncrease(87, 80);
+    calculateMoney(87, 80, spend, canWin);
+    std::cout << "Bonus: ";
+    calculatePercentIncrease(0, 80);
+    calculateMoney(0, 80, spend, canWin);
+    std::cout << "Total Spend: " << spend << ", Total Can Win: " << canWin << std::endl;
+    
+    std::cout << "20g Gold PAMP: ";
+    calculatePercentIncrease(1487, 1540);
+    calclulate20g(1487, 1540, spend, canWin);
+    std::cout << "20g Gold Valcambi: ";
+    calculatePercentIncrease(1493, 1540);
+    calclulate20g(1493, 1540, spend, canWin);
+    std::cout << "Total Spend: " << spend << ", Total Can Win: " << canWin << std::endl;
+    std::cout << std::endl;
+    std::cout << "============================ FINAL SCORE ===========================\n";
+    std::cout << "Money Won: " << (canWin - spend) << ", ";
+    calculatePercentIncrease(spend, canWin);
+    
+}
+
+void simpleTest() {
+    int arr[] = { 12, 41, 2, 12, 3, 5, 7, 0};
+    
+    auto lambdaSwap = [](int& a, int& b) -> void {
+       int temp = a;
+       a = b;
+       b = temp;
+    };
+    
+    auto lambdaFindMax = [](int* a) {
+        int max = a[0];
+        for(int i = 1; i < 8; i++) {
+            if(a[i] > max) {
+                max = a[i];
+            }
+        }
+        return max;
+    };
+    
+    auto lambdaFindMin = [](int* a) -> int {
+      int min = a[0];
+      for(int i{1}; i < 8; i++) {
+          if(a[i] < min) {
+              min = a[i];
+          }
+      }
+      return min;
+    };
+    
+    std::cout << "Max Element: " << lambdaFindMax(arr) << std::endl; 
+    std::cout << "Min Element: " << lambdaFindMin(arr) << std::endl; 
+    
+    
+//    auto lambdaPrintRec = [](int n) -> void {
+//      if(n < 10) {
+//          std::cout << n << " ";
+//          lambdaPrintRec(n - 1);
+//      }  
+//    };
+//    lambdaPrintRec(10);
+    std::cout << std::endl;
+    for(int i = 0; i < 8 - 1; i++) {
+        for(int j = i + 1; j < 8; j++) {
+            if(arr[i] > arr[j]) {
+                lambdaSwap(arr[i], arr[j]);
+            }
+        }
+    }
+    for(auto elem : arr) {
+        std::cout << elem << " ";
+    }
+    
+    
+    char charArr[] = "findingiiinntg";
+    int duplicatesHash = 0;
+    std::cout << duplicatesHash << std::endl;
+    int dontPrint = 0;
+    int x = 1;
+    std::cout << std::endl;
+    for(int i = 0; charArr[i] != '\0'; i++) {
+        x = 1;
+        x = x << charArr[i] - 97;
+        if((x & duplicatesHash) > 0 && (x & dontPrint) == 0) {
+            dontPrint = (x | dontPrint);
+            std::cout << charArr[i] << " is duplicated\n";
+        }
+        else {
+            duplicatesHash = (x | duplicatesHash);
+        }
+    }
+    std::cout << duplicatesHash << std::endl;
+    
 }
 
 int main(int argc, char** argv) {
 
-//    calculatePercentIncrease(1487, 1624);
-    calculatePercentIncrease(8101, 8318);
+    caluclateYear();
     
     return 0;
 }

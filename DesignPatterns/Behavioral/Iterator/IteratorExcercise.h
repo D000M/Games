@@ -33,7 +33,16 @@ namespace IteratorEx {
         Node(T value, Node<T>* left, Node<T>* right) : value(value), left(left), right(right) {
             left->parent = right->parent = this;
         }
-
+        
+        ~Node() {
+            if(left) {
+                delete left;
+            }
+            if(right) {
+                delete right;
+            }
+            std::cout << "Node Destryoed\n";
+        }
         // traverse the node and its children preorder
         // and put all the results into `result`
         void preorder_traversal(std::vector<Node<T>*>& result) {
@@ -65,7 +74,7 @@ namespace IteratorEx {
     void testIteratorEx() {
         Node<std::string> first{"a", 
                 new Node<std::string>{"b", new Node<std::string>{"c"}, new Node<std::string>{"d"}
-                }, new Node<std::string>{"e"} 
+        }, new Node<std::string>{"e", new Node<std::string>{"f"}, new Node<std::string>{"g"}} 
             };
 
         std::vector<Node<std::string>*> result;
