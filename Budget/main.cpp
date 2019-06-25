@@ -93,6 +93,34 @@ using namespace std;
  *  Average Outcome Per Day: -120.17
     Average Income Per Day: 5.88235
 
+ * 18
+ *  Average Outcome Per Day: -114.599
+    Average Income Per Day: 5.55556
+
+ * 19
+ * Average Outcome Per Day: -126.216
+    Average Income Per Day: 210.526
+ * 
+ * 20
+ *  Average Outcome Per Day: -120.566
+    Average Income Per Day: 200.4
+
+ * 21
+ *  Average Outcome Per Day: -116.727
+    Average Income Per Day: 190.857
+
+ * 22
+ *  Average Outcome Per Day: -125.562
+    Average Income Per Day: 182.182
+
+ * 23
+ *  Average Outcome Per Day: -120.383
+    Average Income Per Day: 174.261
+ * 
+ * 24
+ *  Average Outcome Per Day: -146.499
+    Average Income Per Day: 167
+
  */
 
 
@@ -103,13 +131,14 @@ void addTransaction(Program& p) {
 void simpleTest() {
     Program p{""};
 
-//    p.setDay("Date 18 06 2019");
-//    p.setRecord("Обяд", -4.4);
-//    p.setRecord("Солети", -0.4);
-//    p.setRecord("Заем Серго", -300);
-//    p.setRecord("Фантастико", -6);
-//    p.setRecord("Квартира", -5);
-//    p.setRecord("Вечеря", -60);
+//    p.setDay("Date 24 06 2019");
+//    p.setRecord("Обяд", -13.4);
+//    p.setRecord("Закуска", -1.4);
+//    p.setRecord("Солети", -0.8);
+//    p.setRecord("Зеленчуци", -8.5);
+//    p.setRecord("Заем Серго", -700);
+//    p.setRecord("Дрехи", -10);
+//    p.setRecord("Фантастико", -13.06);
 //    p.writeToFile("results/062019.txt");
     
     p.readFromFile("results/062019.txt");
@@ -133,7 +162,6 @@ int main(int argc, char** argv) {
 
     simpleTest();
 
-//    towerOfHanoi(3, "A", "B", "C");
     
     return 0;
 }
