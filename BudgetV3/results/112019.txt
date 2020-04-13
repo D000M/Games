@@ -1,0 +1,482 @@
+
+Date 01 11 2019
+	       -1.79		Банка
+	        -0.7		Вафла
+	          -1		Закуска
+	       -8.95		Зеленчуци
+	        -7.6		Обяд
+	      344.42		Приход Валута Долари
+	        -0.4		Солети
+	      -10.25		Фантастико
+
+Total Outcome: -30.69
+Total Income: 344.42
+END Date 01 11 2019 #######################
+
+Date 02 11 2019
+	         -15		Бира
+	       -16.2		Вечеря
+	        -4.1		Закуска
+
+Total Outcome: -35.3
+Total Income:     0
+END Date 02 11 2019 #######################
+
+Date 03 11 2019
+	       -6.65		Банка
+	         -15		Гориво
+	       -11.5		Закуска
+	        -1.5		Кафе
+	         -20		Обяд
+	         -15		Хижа
+
+Total Outcome: -69.65
+Total Income:     0
+END Date 03 11 2019 #######################
+
+Date 04 11 2019
+	        -0.5		Вафла
+	         -30		Вечеря
+	        -1.5		Закуска
+	        -4.6		Обяд
+	      -14.63		Фантастико
+
+Total Outcome: -51.23
+Total Income:     0
+END Date 04 11 2019 #######################
+
+Date 05 11 2019
+	       -1.33		Банка
+	        -1.5		Закуска
+	        -4.6		Обяд
+	      -10.87		Фантастико
+
+Total Outcome: -18.3
+Total Income:     0
+END Date 05 11 2019 #######################
+
+Date 06 11 2019
+	      -14.64		Бира
+	         -11		Кино
+	        -7.6		Обяд
+
+Total Outcome: -33.24
+Total Income:     0
+END Date 06 11 2019 #######################
+
+Date 07 11 2019
+	        -0.5		Вафла
+	        -8.6		Зеленчуци
+	        -6.8		Обяд
+	      -43.82		Фантастико
+
+Total Outcome: -59.72
+Total Income:     0
+END Date 07 11 2019 #######################
+
+Date 08 11 2019
+	        -0.5		Закуска
+	        -1.2		Кола
+	        -7.6		Обяд
+	          -8		Пица
+	       -6.17		Фантастико
+
+Total Outcome: -23.47
+Total Income:     0
+END Date 08 11 2019 #######################
+
+Date 09 11 2019
+	       -5.66		Бира
+	      -14.99		Дрехи
+	        -1.3		Закуска
+	       -0.89		Кола
+	    -1187.52		Монитор
+	       -8.03		Фантастико
+	         -30		Фризиор
+
+Total Outcome: -1248.39
+Total Income:     0
+END Date 09 11 2019 #######################
+
+Date 10 11 2019
+	       -32.6		Фантастико
+
+Total Outcome: -32.6
+Total Income:     0
+END Date 10 11 2019 #######################
+
+Date 11 11 2019
+	       -7.28		Бира
+	        -1.5		Закуска
+	        -1.8		Кола
+	        -5.6		Обяд
+	       -32.6		Фантастико
+	          -6		Футбол
+
+Total Outcome: -54.78
+Total Income:     0
+END Date 11 11 2019 #######################
+
+Date 12 11 2019
+	        -0.7		Вафла
+	        -1.4		Закуска
+	          -8		Зеленчуци
+	        -4.6		Обяд
+	      -16.74		Фантастико
+
+Total Outcome: -31.44
+Total Income:     0
+END Date 12 11 2019 #######################
+
+Date 13 11 2019
+	        -0.7		Вафла
+	        -1.4		Закуска
+	        -5.4		Обяд
+
+Total Outcome:  -7.5
+Total Income:     0
+END Date 13 11 2019 #######################
+
+Date 14 11 2019
+	        -0.7		Вафла
+	         -30		Вечеря
+	        -1.5		Закуска
+	        -4.9		Обяд
+
+Total Outcome: -37.1
+Total Income:     0
+END Date 14 11 2019 #######################
+
+Date 15 11 2019
+	        -0.7		Вафла
+	        -1.4		Закуска
+	       -8.99		Обяд
+	      -45.97		Фантастико
+
+Total Outcome: -57.06
+Total Income:     0
+END Date 15 11 2019 #######################
+
+Date 16 11 2019
+	         -30		Вечеря
+	         -20		Гориво
+	       -0.99		Закуска
+
+Total Outcome: -50.99
+Total Income:     0
+END Date 16 11 2019 #######################
+
+Date 17 11 2019
+	      -56.52		Бира
+	          -7		Квартира
+	          95		Приход Живо
+	          -5		Такси
+	      -33.37		Фантастико
+
+Total Outcome: -101.89
+Total Income:    95
+END Date 17 11 2019 #######################
+
+Date 18 11 2019
+	        -1.1		Вода
+	       -9.99		Джъмбо
+	       -5.25		Зеленчуци
+	         -21		Кино
+	        3800		Приход Заплата
+	         -13		Такси
+	        -7.7		Торта
+
+Total Outcome: -58.04
+Total Income:  3800
+END Date 18 11 2019 #######################
+
+Date 19 11 2019
+	        -0.7		Вафла
+	          -4		Зеленчуци
+	        -4.6		Обяд
+
+Total Outcome:  -9.3
+Total Income:     0
+END Date 19 11 2019 #######################
+
+Date 20 11 2019
+	        -0.7		Вафла
+	         -60		Вечеря
+	        -4.9		Обяд
+	       -5.25		Торта
+	      -32.75		Фантастико
+
+Total Outcome: -103.6
+Total Income:     0
+END Date 20 11 2019 #######################
+
+Date 21 11 2019
+	        -0.5		Вафла
+	        -4.2		Зеленчуци
+	        -4.6		Обяд
+	          10		Приход Ивчо
+	        -3.5		Торта
+
+Total Outcome: -12.8
+Total Income:    10
+END Date 21 11 2019 #######################
+
+Date 22 11 2019
+	        -0.5		Вафла
+	        -300		Заем Серго
+	        -4.6		Обяд
+	       -30.3		Фантастико
+
+Total Outcome: -335.4
+Total Income:     0
+END Date 22 11 2019 #######################
+
+Date 23 11 2019
+	      -19.36		Фантастико
+
+Total Outcome: -19.36
+Total Income:     0
+END Date 23 11 2019 #######################
+
+Date 24 11 2019
+	      -14.53		Фантастико
+
+Total Outcome: -14.53
+Total Income:     0
+END Date 24 11 2019 #######################
+
+Date 25 11 2019
+	        -0.5		Вафла
+	        -8.9		Зеленчуци
+	        -1.8		Кола
+	        -4.6		Обяд
+	      -24.93		Фантастико
+
+Total Outcome: -40.73
+Total Income:     0
+END Date 25 11 2019 #######################
+
+Date 26 11 2019
+	        -4.6		Зеленчуци
+	          -6		Обяд
+	        -0.4		Солети
+
+Total Outcome:   -11
+Total Income:     0
+END Date 26 11 2019 #######################
+
+Date 27 11 2019
+	      -244.8		Билети
+	        -0.5		Вафла
+	         -33		Вечеря
+	        -4.6		Обяд
+	         -92		Подарък
+
+Total Outcome: -374.9
+Total Income:     0
+END Date 27 11 2019 #######################
+
+Date 28 11 2019
+	      -27.28		Бира
+	        -0.5		Вафла
+	        -293		Квартира
+	        -4.9		Обяд
+
+Total Outcome: -325.68
+Total Income:     0
+END Date 28 11 2019 #######################
+
+Date 29 11 2019
+	        -1.6		Билет
+	         -28		Бира
+	          -1		Вафла
+	         -30		Вечеря
+	       -4.28		Макдоналдс
+	        -8.6		Обяд
+	          -1		Такси
+
+Total Outcome: -74.48
+Total Income:     0
+END Date 29 11 2019 #######################
+
+Date 30 11 2019
+	        -2.2		Бира
+	         -60		Гориво
+	       -2.75		Кола
+	        -6.7		Нурофен
+	         -18		Обяд
+	         -25		Подарък
+	         -12		Талон
+	       -2.28		Фантастико
+
+Total Outcome: -128.93
+Total Income:     0
+END Date 30 11 2019 #######################
+
+
+
+/**
+ * 01
+ *  Average Outcome Per Day: -30.69
+    Average Income Per Day: 344.42
+
+ * 02
+ *  Average Outcome Per Day: -32.995
+    Average Income Per Day: 172.21
+
+ * 03
+ *  Average Outcome Per Day: -45.2133
+    Average Income Per Day: 114.807
+
+ * 04
+ *  Average Outcome Per Day: -46.7175
+    Average Income Per Day: 86.105
+
+ * 05
+ *  Average Outcome Per Day: -41.034
+    Average Income Per Day: 68.884
+
+ * 06
+ *  Average Outcome Per Day: -39.735
+    Average Income Per Day: 57.4033
+
+ * 07
+ *  Average Outcome Per Day: -42.59
+    Average Income Per Day: 49.2029
+
+ * 08
+ *  Average Outcome Per Day: -40.2
+    Average Income Per Day: 43.0525
+ * 
+ * 09
+ *  Average Outcome Per Day: -174.443
+    Average Income Per Day: 38.2689
+
+ * 10
+ *  Average Outcome Per Day: -160.259
+    Average Income Per Day: 34.442
+
+ * 11
+ *  Average Outcome Per Day: -150.67
+    Average Income Per Day: 31.3109
+
+ * 12
+ *  Average Outcome Per Day: -140.734
+    Average Income Per Day: 28.7017
+
+ * 13
+ *  Average Outcome Per Day: -130.485
+    Average Income Per Day: 26.4938
+ * 
+ * 14
+ *  Average Outcome Per Day: -123.815
+    Average Income Per Day: 24.6014
+ * 
+ * 15
+ *  Average Outcome Per Day: -119.365
+    Average Income Per Day: 22.9613
+
+ * 16
+ *  Average Outcome Per Day: -115.091
+    Average Income Per Day: 21.5263
+
+ * 17
+ *  Average Outcome Per Day: -114.315
+    Average Income Per Day: 25.8482
+ * 
+ * 18
+ *  Average Outcome Per Day: -111.188
+    Average Income Per Day: 235.523
+ * 
+ * 19
+ *  Average Outcome Per Day: -105.826
+    Average Income Per Day: 223.127
+ * 
+ * 20
+ *  Average Outcome Per Day: -105.715
+    Average Income Per Day: 211.971
+
+ * 21
+ *  Average Outcome Per Day: -101.29
+    Average Income Per Day: 202.353
+
+ * 22
+ *  Average Outcome Per Day: -111.931
+    Average Income Per Day: 193.155
+ * 
+ * 23
+ *  Average Outcome Per Day: -107.907
+    Average Income Per Day: 184.757
+
+ * 24
+ *  Average Outcome Per Day: -104.016
+    Average Income Per Day: 177.059
+
+ * 25
+ *  Average Outcome Per Day: -101.484
+    Average Income Per Day: 169.977
+
+ * 26
+ *  Average Outcome Per Day: -98.0042
+    Average Income Per Day: 163.439
+ * 
+ * 27
+ *  Average Outcome Per Day: -108.26
+    Average Income Per Day: 157.386
+
+ * 28
+ *  Average Outcome Per Day: -116.025
+    Average Income Per Day: 151.765
+
+ * 29
+ *  Average Outcome Per Day: -114.592
+    Average Income Per Day: 146.532
+
+ * 30
+ *  Average Outcome Per Day: -115.07
+    Average Income Per Day: 141.647
+
+    Total Income: 4249.42 - 3452.1 = 797.32
+
+ */
+
+-1187.52: Монитор 
+-379.2: Фантастико 
+-300: Квартира 
+-244.8: Билети 
+-229.2: Вечеря 
+-156.58: Бира 
+-153.69: Обяд 
+-117: Подарък 
+-95: Гориво 
+-52.5: Зеленчуци 
+-32: Кино 
+-30: Фризиор 
+-29.59: Закуска 
+-19: Такси 
+-16.45: Торта 
+-15: Хижа 
+-14.99: Дрехи 
+-12: Талон 
+-9.99: Джъмбо 
+-9.77: Банка 
+-9.4: Вафла 
+-8.44: Кола 
+-8: Пица 
+-6.7: Нурофен 
+-6: Футбол 
+-4.28: Макдоналдс 
+-1.6: Билет 
+-1.5: Кафе 
+-1.1: Вода 
+-0.8: Солети 
+10: Приход Ивчо 
+95: Приход Живо 
+344.42: Приход Валута Долари 
+3800: Приход Заплата 
+Average Outcome Per Day: -115.07
+Average Income Per Day: 141.647
+Изхарчени пари за  април: 0лева.
+Получени пари за  април: 0лева.
+Total Income: 4249.42 - 3452.1 = 797.32
+Exit program!

@@ -1,0 +1,516 @@
+Date 01 07 2019
+	        -7.3		Билет Влак
+	      -23.85		Бира
+	        -1.5		Кола
+	         -35		Обяд
+
+Total Outcome: -67.65
+Total Income:     0
+END Date 01 07 2019 #######################
+
+Date 02 07 2019
+	        -3.7		Аптека
+	       -7.28		Бира
+	        -1.5		Закуска
+	        -6.2		Зеленчуци
+	      -137.9		Квартира
+	        -4.6		Обяд
+
+Total Outcome: -161.18
+Total Income:     0
+END Date 02 07 2019 #######################
+
+Date 03 07 2019
+	      -562.4		Билети Пловдив
+	        -1.5		Закуска
+	        -1.1		Кола
+	        -4.6		Обяд
+	          80		Приход Мина
+
+Total Outcome: -569.6
+Total Income:    80
+END Date 03 07 2019 #######################
+
+Date 04 07 2019
+	        -3.2		Билет
+	        -2.2		Бира
+	        -0.6		Вафла
+	        -1.5		Закуска
+	         -65		Квартира
+	        -6.6		Обяд
+	       31.88		Приход Болнични
+	         100		Приход Стела
+	         -50		РД Манол
+	          -5		Такси
+	        -1.4		Фантастико
+
+Total Outcome: -135.5
+Total Income: 131.88
+END Date 04 07 2019 #######################
+
+Date 05 07 2019
+	        -1.5		Закуска
+	       -11.7		Квартира
+	        -2.2		Кола
+	        -7.4		Обяд
+	         -27		Фантастико
+
+Total Outcome: -49.8
+Total Income:     0
+END Date 05 07 2019 #######################
+
+Date 06 07 2019
+	        -382		Билети Киев
+	       -32.2		Бира
+	       -7.86		Зеленчуци
+	        -440		Злато
+	         -12		Талон
+
+Total Outcome: -874.06
+Total Income:     0
+END Date 06 07 2019 #######################
+
+Date 07 07 2019
+	        -7.8		Бира
+	      -21.95		Фантастико
+
+Total Outcome: -29.75
+Total Income:     0
+END Date 07 07 2019 #######################
+
+Date 08 07 2019
+	        -1.6		Билет Метро
+	        -7.4		Бира
+	        -1.5		Закуска
+	        -1.1		Кола
+	        -4.6		Обяд
+	          82		Приход Стоев
+
+Total Outcome: -16.2
+Total Income:    82
+END Date 08 07 2019 #######################
+
+Date 09 07 2019
+	         -35		Вечеря
+	        -1.5		Закуска
+	        -6.1		Обяд
+
+Total Outcome: -42.6
+Total Income:     0
+END Date 09 07 2019 #######################
+
+Date 10 07 2019
+	         -35		Боби РД
+	        -0.6		Вафла
+	          80		Весо Заем
+	         -20		Вечеря
+	        -2.5		Закуска
+	        -4.6		Обяд
+
+Total Outcome: -62.7
+Total Income:    80
+END Date 10 07 2019 #######################
+
+Date 11 07 2019
+	      -88.05		Бира
+	         -10		Такси
+	      -21.33		Фантастико
+
+Total Outcome: -119.38
+Total Income:     0
+END Date 11 07 2019 #######################
+
+Date 12 07 2019
+	      -16.89		Бира
+	        -100		Пепо Заем
+	         -10		Такси
+
+Total Outcome: -126.89
+Total Income:     0
+END Date 12 07 2019 #######################
+
+Date 13 07 2019
+	       -75.2		Аптека
+	        -2.2		Вода
+	      -22.94		Фантастико
+
+Total Outcome: -100.34
+Total Income:     0
+END Date 13 07 2019 #######################
+
+Date 14 07 2019
+	       -3.98		Бира
+
+Total Outcome: -3.98
+Total Income:     0
+END Date 14 07 2019 #######################
+
+Date 15 07 2019
+	        -2.1		Бира
+	        -0.6		Вафла
+	        -1.5		Закуска
+	       -12.1		Зеленчуци
+	        -1.1		Кола
+	        -4.6		Обяд
+
+Total Outcome:   -22
+Total Income:     0
+END Date 15 07 2019 #######################
+
+Date 16 07 2019
+	     -1014.7		Валута
+	        -1.5		Закуска
+	       -4.29		Квартира
+	        -5.6		Обяд
+	        -100		Пепо Заем
+	      -34.42		Фантастико
+
+Total Outcome: -1160.51
+Total Income:     0
+END Date 16 07 2019 #######################
+
+Date 17 07 2019
+	       -3.99		Бира
+	         -34		Вечеря
+	         -40		Гориво
+	        -1.5		Закуска
+	         -15		Квартира
+	        -5.6		Обяд
+
+Total Outcome: -100.09
+Total Income:     0
+END Date 17 07 2019 #######################
+
+Date 18 07 2019
+	        -5.3		Бира
+	        -1.2		Вафла
+	        -1.5		Закуска
+	        -1.1		Кола
+	        -4.6		Обяд
+	     4387.13		Приход Заплата
+	      -31.95		Фантастико
+
+Total Outcome: -45.65
+Total Income: 4387.13
+END Date 18 07 2019 #######################
+
+Date 19 07 2019
+	          -1		Билет
+	      -14.05		Билет Влак
+	      -11.67		Бира
+	        -5.2		Цигари
+
+Total Outcome: -31.92
+Total Income:     0
+END Date 19 07 2019 #######################
+
+Date 20 07 2019
+	      -18.91		Бира
+	         -60		Обяд
+	         -25		Портмоне
+	         -10		Чехли
+
+Total Outcome: -113.91
+Total Income:     0
+END Date 20 07 2019 #######################
+
+Date 21 07 2019
+	       -15.6		Билет Влак
+	         -20		Татко
+	      -13.43		Фантастико
+
+Total Outcome: -49.03
+Total Income:     0
+END Date 21 07 2019 #######################
+
+
+
+Date 22 07 2019
+	      -11.08		Бира
+	        -0.6		Вафла
+	        -0.9		Вода
+	        -4.6		Обяд
+
+Total Outcome: -17.18
+Total Income:     0
+END Date 22 07 2019 #######################
+
+Date 23 07 2019
+	          -2		Бира
+	          -2		Вечеря
+	       -17.5		Квартира
+	        -5.6		Обяд
+	         -12		Талон
+	       -0.99		Теглене
+	      -17.65		Фантастико
+
+Total Outcome: -57.74
+Total Income:     0
+END Date 23 07 2019 #######################
+
+
+
+Total Outcome:     0
+Total Income:     0
+END  #######################
+
+Date 24 07 2019
+	        -0.6		Вафла
+	        -8.2		Зеленчуци
+	        -4.6		Обяд
+
+Total Outcome: -13.4
+Total Income:     0
+END Date 24 07 2019 #######################
+
+Date 25 07 2019
+	       -10.2		Зеленчуци
+	        -4.6		Обяд
+	          -5		Такси
+
+Total Outcome: -19.8
+Total Income:     0
+END Date 25 07 2019 #######################
+
+Date 26 07 2019
+	        -1.1		Кола
+	        -8.6		Обяд
+	        -2.9		Сладолед
+	         -25		Такси
+
+Total Outcome: -37.6
+Total Income:     0
+END Date 26 07 2019 #######################
+
+Date 27 07 2019
+	        -135		Билети САРС МГЛА
+	        -1.4		Вода
+	        -7.5		Зеленчуци
+	       -18.2		Планина
+	          25		Приход Стела Краси
+	      -28.78		Фантастико
+
+Total Outcome: -190.88
+Total Income:    25
+END Date 27 07 2019 #######################
+
+
+Date 28 07 2019
+
+Total Outcome:     0
+Total Income:     0
+END Date 28 07 2019 #######################
+
+
+
+Total Outcome:     0
+Total Income:     0
+END  #######################
+
+Date 29 07 2019
+	          -1		Вафла
+	       -14.5		Зеленчуци
+	       -1.05		Кола
+	        -8.6		Обяд
+	      -19.94		Телефон
+
+Total Outcome: -45.09
+Total Income:     0
+END Date 29 07 2019 #######################
+
+Date 30 07 2019
+	       -1.79		Банка
+	        -1.6		Билет
+	          -2		Бира
+	        -0.6		Вафла
+	         -29		Вечеря
+	        -4.6		Обяд
+
+Total Outcome: -39.59
+Total Income:     0
+END Date 30 07 2019 #######################
+
+Date 31 07 2019
+	       -7.84		Аптека
+	        -2.9		Бира
+	        -5.8		Обяд
+	        -0.4		Солети
+
+Total Outcome: -16.94
+Total Income:     0
+END Date 31 07 2019 #######################
+
+
+/**
+ * 
+ * 01
+ *  Average Outcome Per Day: -67.65
+    Average Income Per Day: 0
+
+ * 02
+ *  Average Outcome Per Day: -114.415
+    Average Income Per Day: 0
+ * 
+ * 03
+ *  Average Outcome Per Day: -266.143
+    Average Income Per Day: 26.6667
+
+ * 04
+ *  Average Outcome Per Day: -233.483
+    Average Income Per Day: 52.97
+
+ * 05
+ *  Average Outcome Per Day: -196.746
+    Average Income Per Day: 42.376
+
+ * 06
+ *  Average Outcome Per Day: -309.632
+    Average Income Per Day: 35.3133
+
+ * 07
+ *  Average Outcome Per Day: -269.649
+    Average Income Per Day: 30.2686
+
+ * 08
+ *  Average Outcome Per Day: -237.968
+    Average Income Per Day: 36.735
+
+ * 09
+ *  Average Outcome Per Day: -216.26
+    Average Income Per Day: 32.6533
+
+ * 10
+ *  Average Outcome Per Day: -200.904
+    Average Income Per Day: 37.388
+
+ * 11
+ *  Average Outcome Per Day: -193.493
+    Average Income Per Day: 33.9891
+
+ * 12
+ *  Average Outcome Per Day: -187.942
+    Average Income Per Day: 31.1567
+
+ * 13
+ *  Average Outcome Per Day: -181.204
+    Average Income Per Day: 28.76
+ * 
+ * 14
+ *  Average Outcome Per Day: -168.545
+    Average Income Per Day: 26.7057
+
+ * 15
+ *  Average Outcome Per Day: -158.775
+    Average Income Per Day: 24.9253
+
+ * 16
+ *  Average Outcome Per Day: -221.384
+    Average Income Per Day: 23.3675
+ * 
+ * 17
+ *  Average Outcome Per Day: -214.249
+    Average Income Per Day: 21.9929
+
+ * 18
+ *  Average Outcome Per Day: -204.882
+    Average Income Per Day: 264.501
+ * 
+ * 19
+ *  Average Outcome Per Day: -195.779
+    Average Income Per Day: 250.579
+
+ * 20
+ *  Average Outcome Per Day: -191.686
+    Average Income Per Day: 238.05
+
+ * 21
+ *  Average Outcome Per Day: -184.892
+    Average Income Per Day: 226.715
+
+ * 22
+ *  Average Outcome Per Day: -177.269
+    Average Income Per Day: 216.41
+
+ * 23
+ *  Average Outcome Per Day: -172.072
+    Average Income Per Day: 207
+
+ * 24
+ *  Average Outcome Per Day: -165.461
+    Average Income Per Day: 198.375
+
+ * 25
+ *  Average Outcome Per Day: -159.634
+    Average Income Per Day: 190.44
+
+ * 26
+ *  Average Outcome Per Day: -154.941
+    Average Income Per Day: 183.116
+
+ * 27
+ *  Average Outcome Per Day: -156.272
+    Average Income Per Day: 177.26
+
+ * 28
+ *  Average Outcome Per Day: -150.691
+    Average Income Per Day: 170.929
+
+ * 29
+ *  Average Outcome Per Day: -147.049
+    Average Income Per Day: 165.035
+
+ * 30
+ *  Average Outcome Per Day: -143.467
+    Average Income Per Day: 159.534
+
+ * 31
+    Average Outcome Per Day: -139.386
+    Average Income Per Day: 154.387
+
+ */
+-1014.7: Валута 
+-562.4: Билети Пловдив 
+-440: Злато 
+-382: Билети Киев 
+-251.39: Квартира 
+-249.6: Бира 
+-220.85: Фантастико 
+-200.9: Обяд 
+-200: Пепо Заем 
+-135: Билети САРС МГЛА 
+-120: Вечеря 
+-86.74: Аптека 
+-66.56: Зеленчуци 
+-55: Такси 
+-50: РД Манол 
+-40: Гориво 
+-36.95: Билет Влак 
+-35: Боби РД 
+-25: Портмоне 
+-24: Талон 
+-20: Татко 
+-19.94: Телефон 
+-18.2: Планина 
+-17.5: Закуска 
+-10.25: Кола 
+-10: Чехли 
+-5.8: Вафла 
+-5.2: Цигари 
+-4.5: Вода 
+-2.9: Сладолед 
+-1.79: Банка 
+-1.6: Билет Метро 
+-0.99: Теглене 
+-0.4: Солети 
+25: Приход Стела Краси 
+31.88: Приход Болнични 
+80: Приход Мина 
+82: Приход Стоев 
+100: Приход Стела 
+4387.13: Приход Заплата 
+Average Outcome Per Day: -139.386
+Average Income Per Day: 154.387
+Изхарчени пари за  април: 0лева.
+Получени пари за  април: 0лева.
+Total Income: 4786.01 - 4320.96 = 465.051
+Exit program!

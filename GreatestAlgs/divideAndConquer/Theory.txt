@@ -1,0 +1,27 @@
+Theory of Divide and Conquer
+DAC(P)          <--- P - problem, DAC() <-- Method (divide and conquer)
+{
+    if(small(P)){
+        Solution(P)             <---- Smallest problem solution 
+    }
+    else {
+        divide P into P1, P2, P3, ... , Pk              <--- divide the problems to the smaller ones
+        Apply DAC(P1), DAC(P2), ... , DAC(Pk)           <--- Call recursevly the problem
+        Combine (DAC(P1), DAC(P2), ... , DAC(Pk))       <--- Combine the solutions
+    }
+}
+
+
+Masters theorem for decreasing functions.       (1 == Some Constant)
+T(n) = T(n - 1) + 1         === O(n)
+T(n) = T(n - 1) + n         === O(n^2)
+T(n) = T(n - 1) + logn      === O(nlogn)
+
+T(n) = 2T(n - 1) + 1        === O(2^n)
+T(n) = 3T(n - 1) + 1        === O(3^n)
+T(n) = 2T(n - 1) + n        === O(n2^n)
+T(n) = 3T(n - 1) + logn     === O(nlog3^n)  
+
+Masters theorem for dividing functions.
+T(n) = T(n / 2) + 1         === O(logn)
+T(n) = 2T(n / 2) + n        === O(nlogn)

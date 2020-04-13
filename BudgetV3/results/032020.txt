@@ -1,0 +1,370 @@
+
+Date 01 03 2020
+	         -50		Обяд
+
+Total Outcome:   -50
+Total Income:     0
+END Date 01 03 2020 #######################
+
+Date 02 03 2020
+	     -266.27		Квартира
+	      -28.77		Фантастико
+
+Total Outcome: -295.04
+Total Income:     0
+END Date 02 03 2020 #######################
+
+Date 03 03 2020
+	       -7.98		Банка
+	     -526.25		Револют Инвест
+	      -36.38		Фантастико
+
+Total Outcome: -570.61
+Total Income:     0
+END Date 03 03 2020 #######################
+
+Date 04 03 2020
+	        -105		Квартира
+	        -6.9		Обяд
+	         -68		Фантастико
+
+Total Outcome: -179.9
+Total Income:     0
+END Date 04 03 2020 #######################
+
+Date 05 03 2020
+	         -11		Зеленчуци
+	        -7.1		Обяд
+	        -100		Пепо Заем
+
+Total Outcome: -118.1
+Total Income:     0
+END Date 05 03 2020 #######################
+
+Date 06 03 2020
+	        -0.9		Банка
+	        -8.4		Обяд
+	      -46.66		Фантастико
+
+Total Outcome: -55.96
+Total Income:     0
+END Date 06 03 2020 #######################
+
+Date 07 03 2020
+	         -10		Обяд
+
+Total Outcome:   -10
+Total Income:     0
+END Date 07 03 2020 #######################
+
+
+Date 08 03 2020
+
+Total Outcome:     0
+Total Income:     0
+END Date 08 03 2020 #######################
+
+Date 09 03 2020
+	        -7.1		Обяд
+	      -50.14		Фантастико
+
+Total Outcome: -57.24
+Total Income:     0
+END Date 09 03 2020 #######################
+
+Date 10 03 2020
+	        -8.6		Зеленчуци
+	         600		Приход Пепо
+	         -12		Талон
+	      -25.38		Фантастико
+
+Total Outcome: -45.98
+Total Income:   600
+END Date 10 03 2020 #######################
+
+Date 11 03 2020
+	        -1.1		Вафла
+	        -4.9		Обяд
+	        -3.5		Револют Трейд
+	      -39.14		Споритнг Бет
+	       -61.1		Фантастико
+
+Total Outcome: -109.74
+Total Income:     0
+END Date 11 03 2020 #######################
+
+Date 12 03 2020
+	         -35		Вечеря
+	        -4.9		Обяд
+	        -140		Револют Абонамент
+	      -40.73		Фантастико
+
+Total Outcome: -220.63
+Total Income:     0
+END Date 12 03 2020 #######################
+
+Date 13 03 2020
+	        -1.2		Вафла
+	        -5.2		Зеленчуци
+	        -215		Серго РД
+
+Total Outcome: -221.4
+Total Income:     0
+END Date 13 03 2020 #######################
+
+Date 14 03 2020
+	     -121.43		Фантастико
+
+Total Outcome: -121.43
+Total Income:     0
+END Date 14 03 2020 #######################
+
+Date 15 03 2020
+
+Total Outcome:     0
+Total Income:     0
+END Date 15 03 2020 #######################
+
+Date 16 03 2020
+	         -36		Бира
+	       -12.5		Железария
+
+Total Outcome: -48.5
+Total Income:     0
+END Date 16 03 2020 #######################
+
+Date 17 03 2020
+	         -42		Аптека
+	      -21.93		Банка
+	         -30		Гориво
+	     3824.25		Заплата
+
+Total Outcome: -93.93
+Total Income: 3824.25
+END Date 17 03 2020 #######################
+
+Date 18 03 2020
+	      -21.34		Фантастико
+
+Total Outcome: -21.34
+Total Income:     0
+END Date 18 03 2020 #######################
+
+Date 19 03 2020
+
+Total Outcome:     0
+Total Income:     0
+END Date 19 03 2020 #######################
+
+Date 20 03 2020
+	         -34		Вечеря
+	        -286		Озон
+
+Total Outcome:  -320
+Total Income:     0
+END Date 20 03 2020 #######################
+
+Date 21 03 2020
+	         -15		Фантастико
+
+Total Outcome:   -15
+Total Income:     0
+END Date 21 03 2020 #######################
+
+Date 22 03 2020
+	         -64		Бира
+	         -20		Фантастико
+
+Total Outcome:   -84
+Total Income:     0
+END Date 22 03 2020 #######################
+
+Date 23 03 2020
+	      -35.15		Фантастико
+
+Total Outcome: -35.15
+Total Income:     0
+END Date 23 03 2020 #######################
+
+Date 24 03 2020
+	       -24.6		Фантастико
+
+Total Outcome: -24.6
+Total Income:     0
+END Date 24 03 2020 #######################
+
+Date 25 03 2020
+
+Total Outcome:     0
+Total Income:     0
+END Date 25 03 2020 #######################
+
+Date 26 03 2020
+	      -22.04		Телефон
+	      -83.65		Фантастико
+
+Total Outcome: -105.69
+Total Income:     0
+END Date 26 03 2020 #######################
+
+Date 27 03 2020
+	      -41.15		Фантастико
+
+Total Outcome: -41.15
+Total Income:     0
+END Date 27 03 2020 #######################
+
+Date 28 03 2020
+	         -38		Бира
+	         -25		Обяд
+
+Total Outcome:   -63
+Total Income:     0
+END Date 28 03 2020 #######################
+
+Date 29 03 2020
+
+Total Outcome:     0
+Total Income:     0
+END Date 29 03 2020 #######################
+
+Date 30 03 2020
+	        -2.3		Банка
+
+Total Outcome:  -2.3
+Total Income:     0
+END Date 30 03 2020 #######################
+
+Date 31 03 2020
+	       -23.6		Фантастико
+
+Total Outcome: -23.6
+Total Income:     0
+END Date 31 03 2020 #######################
+
+
+/**
+ * 01
+ *  Average Outcome Per Day: -50
+    Average Income Per Day: 0
+
+ * 02
+ *  Average Outcome Per Day: -172.52
+    Average Income Per Day: 0
+ * 
+ * 03
+ *  Average Outcome Per Day: -305.217
+    Average Income Per Day: 0
+ * 
+ * 04
+ *  Average Outcome Per Day: -273.888
+    Average Income Per Day: 0
+ * 
+ * 05
+ *  Average Outcome Per Day: -242.73
+    Average Income Per Day: 0
+
+ * 06
+ *  Average Outcome Per Day: -211.602
+    Average Income Per Day: 0
+
+ * 07
+ *  Average Outcome Per Day: -182.801
+    Average Income Per Day: 0
+ * 
+ * 08
+ *  Average Outcome Per Day: -159.951
+    Average Income Per Day: 0
+ * 
+ * 09
+ *  Average Outcome Per Day: -148.539
+    Average Income Per Day: 0
+ * 
+ * 10
+ *  Average Outcome Per Day: -138.283
+    Average Income Per Day: 60
+ * 
+ * 11
+ *  Average Outcome Per Day: -135.688
+    Average Income Per Day: 54.5455
+ * 
+ * 12
+ *  Average Outcome Per Day: -142.767
+    Average Income Per Day: 50
+
+ * 13
+ *  Average Outcome Per Day: -148.815
+    Average Income Per Day: 46.1538
+
+ * 14
+ *  Average Outcome Per Day: -146.859
+    Average Income Per Day: 42.8571
+ * 
+ * 15
+ *  Average Outcome Per Day: -137.069
+    Average Income Per Day: 40
+ * 
+ * 16
+ *  Average Outcome Per Day: -131.533
+    Average Income Per Day: 37.5
+ * 
+ * 17
+ *  Average Outcome Per Day: -129.321
+    Average Income Per Day: 260.25
+ * 
+ * 18
+ *  Average Outcome Per Day: -123.322
+    Average Income Per Day: 245.792
+ * 
+ * 19
+ *  Average Outcome Per Day: -116.832
+    Average Income Per Day: 232.855
+
+ * 20
+ *   Average Outcome Per Day: -126.99
+    Average Income Per Day: 221.213
+
+ * 21
+ *  Average Outcome Per Day: -121.657
+    Average Income Per Day: 210.679
+
+ * 22
+ *  Average Outcome Per Day: -119.945
+    Average Income Per Day: 201.102
+ * 
+ * 23
+ *  Average Outcome Per Day: -116.259
+    Average Income Per Day: 192.359
+
+ * 24
+ *  Average Outcome Per Day: -112.44
+    Average Income Per Day: 184.344
+ * 
+ * 25
+ *  Average Outcome Per Day: -107.942
+    Average Income Per Day: 176.97
+ * 
+ * 26
+ *  Average Outcome Per Day: -107.855
+    Average Income Per Day: 170.163
+ * 
+ * 27
+ *  Average Outcome Per Day: -105.385
+    Average Income Per Day: 163.861
+
+ * 28
+ *  Average Outcome Per Day: -103.871
+    Average Income Per Day: 158.009
+
+ * 29
+ *  Average Outcome Per Day: -100.289
+    Average Income Per Day: 152.56
+
+ * 30
+ *  Average Outcome Per Day: -97.023
+    Average Income Per Day: 147.475
+
+ * 31
+ *  Average Outcome Per Day: -94.6545
+    Average Income Per Day: 142.718
+ */

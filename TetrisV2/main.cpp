@@ -21,6 +21,20 @@
 
 #include "Examples/UDVector2.h"
 #include "Game.h"
+#include "MastersAlgs/SparseMatrix.h"
+#include "MastersAlgs/Polynomial.h"
+#include "MastersAlgs/LinkedList/C/CLinkedList.h"
+#include "MastersAlgs/LinkedList/CPlusPlus/TestLL.h"
+#include "MastersAlgs/LinkedList/C/CCircularLinkedList.h"
+#include "MastersAlgs/LinkedList/C/CDoubleLinkedList.h"
+#include "MastersAlgs/LinkedList/C/CCircularDoubleLinkedList.h"
+#include "MastersAlgs/Stack/CStackArr.h"
+#include "MastersAlgs/Stack/CStackLL.h"
+#include "MastersAlgs/Stack/CPP/TestStack.h"
+#include "MastersAlgs/queues/C/CQueue.h"
+#include "MastersAlgs/queues/CPP/TestMyQueue.h"
+#include "MastersAlgs/trees/C/CBinaryTree.h"
+#include "MastersAlgs/trees/CPP/CppTreeTest.h"
 
 using namespace std;
 
@@ -90,16 +104,67 @@ void testChapter1() {
     }
 }
 
+int recursiveBinarySearch(int left, int right, int arr[], int key) {
+    
+    int middle = (left + right) / 2;
+    
+    if(left > right) {
+        return -1;      //Element not found.
+    }
+    else if(arr[middle] == key) {
+        return middle;
+    }
+    else if(arr[middle] > key) {
+        return recursiveBinarySearch(left, middle - 1, arr, key);
+    }
+    else if(arr[middle] < key) {
+        return recursiveBinarySearch(middle + 1, right, arr, key);
+    }
+}
+
+void calculateZaem() {
+    double pepoZaem = 200 + 300 + 100 + 100;
+    double cvetiZaem = 162 + 160 + 162 + 160 + 166 + 70 + 85 + 80 + 176 + 184 + 196;
+    double sergoZaem = 180 + 300 + 70 + 85 + 700 + 80;
+    double stelaZaem = 400 + 70 + 47;
+    double psihoZaem = 80;
+    
+    std::cout << "Pepo: " << pepoZaem << "\nCveti: " << cvetiZaem << "\nSergo: " << sergoZaem << "\nStela: " << stelaZaem <<
+        "\nPsiho: " << psihoZaem << "\nTotal: " << (pepoZaem + cvetiZaem + sergoZaem + stelaZaem + psihoZaem) << std::endl;
+}
+
+long long int recFib(int n) {
+    if(n <= 1) {
+        return 1;
+    }
+    return recFib(n - 1) + recFib(n - 2);
+}
+
 int main(int argc, char** argv) {
 
-    Game game;
+//    Game game;
+//    
+//    while(!game.getWindow()->isDone()) {
+//        game.handleInput();
+//        game.update();
+//        game.render();
+//        game.restartClock();
+//    }
+//    testCppTree();
+
+//    testCppTree();
     
-    while(!game.getWindow()->isDone()) {
-        game.handleInput();
-        game.update();
-        game.render();
-        game.restartClock();
-    }
+//    bool left = true;
+//    bool right = true;
+//    if(left ^ right) {
+//        std::cout << "True!\n";
+//    }
+//    else {
+//        std::cout << "False!\n";
+//    }
+
+    testBST();
+    
     return 0;
 }
 

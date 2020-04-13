@@ -1,0 +1,484 @@
+
+Date 01 01 2020
+	          -3		Закуска
+
+Total Outcome:    -3
+Total Income:     0
+END Date 01 01 2020 #######################
+
+Date 02 01 2020
+	         -20		Гориво
+	          -3		Закуска
+	       -5.78		Обяд
+	         -80		Планина
+
+Total Outcome: -108.78
+Total Income:     0
+END Date 02 01 2020 #######################
+
+Date 03 01 2020
+	       -4.79		Аптека
+	       -7.98		Банка
+	       -11.2		Зеленчуци
+	      -189.1		Квартира
+	         -65		Среща
+	      -88.68		Фантастико
+
+Total Outcome: -366.75
+Total Income:     0
+END Date 03 01 2020 #######################
+
+
+Date 04 01 2020
+	     -152.56		Дрехи
+
+Total Outcome: -152.56
+Total Income:     0
+END Date 04 01 2020 #######################
+
+Date 05 01 2020
+	      -96.97		Дрехи
+	          -5		Квартира
+	          -5		Торта
+	      -40.41		Фантастико
+
+Total Outcome: -147.38
+Total Income:     0
+END Date 05 01 2020 #######################
+
+Date 06 01 2020
+	        -0.9		Вода
+	        -4.9		Обяд
+	        -0.4		Солети
+	         -10		Фантастико
+
+Total Outcome: -16.2
+Total Income:     0
+END Date 06 01 2020 #######################
+
+Date 07 01 2020
+	         -47		Аптека
+	       -6.57		Бира
+	        -4.9		Обяд
+	      -17.74		Фантастико
+
+Total Outcome: -76.21
+Total Income:     0
+END Date 07 01 2020 #######################
+
+Date 08 01 2020
+	      -14.78		Аптека
+	          -5		Зъби
+	        -5.4		Обяд
+	         -10		Пепо Заем
+	         -12		Талон
+
+Total Outcome: -47.18
+Total Income:     0
+END Date 08 01 2020 #######################
+
+Date 09 01 2020
+	         -47		Вечеря
+	          -5		Зъби
+	        -7.9		Обяд
+	         -50		Пепо Заем
+	         250		Приход Пепо
+	         -12		Фъстъци
+
+Total Outcome: -121.9
+Total Income:   250
+END Date 09 01 2020 #######################
+
+Date 10 01 2020
+	       -0.99		Банка
+	         -30		Вечеря
+	          -1		Вода
+	         -80		Зъби
+	        -9.4		Обяд
+	     -352.55		Револют Инвест
+	      -34.12		Фантастико
+
+Total Outcome: -508.06
+Total Income:     0
+END Date 10 01 2020 #######################
+
+Date 11 01 2020
+	       -0.99		Банка
+	      -15.35		Бира
+	       -53.2		Фантастико
+
+Total Outcome: -69.54
+Total Income:     0
+END Date 11 01 2020 #######################
+
+Date 12 01 2020
+
+Total Outcome:     0
+Total Income:     0
+END Date 12 01 2020 #######################
+
+Date 13 01 2020
+	        -1.1		Вода
+	         -85		Зъби
+	        -4.9		Обяд
+	     -527.86		Револют Инвест
+	          -6		Футбол
+
+Total Outcome: -624.86
+Total Income:     0
+END Date 13 01 2020 #######################
+
+Date 14 01 2020
+	        -4.8		Зеленчуци
+	         -40		Зъби
+	        -6.8		Обяд
+	       -28.7		Фантастико
+
+Total Outcome: -80.3
+Total Income:     0
+END Date 14 01 2020 #######################
+
+Date 15 01 2020
+	         -27		Вечеря
+	        -6.9		Обяд
+
+Total Outcome: -33.9
+Total Income:     0
+END Date 15 01 2020 #######################
+
+Date 16 01 2020
+	        -6.9		Обяд
+	        -4.5		Фъстъци
+
+Total Outcome: -11.4
+Total Income:     0
+END Date 16 01 2020 #######################
+
+Date 17 01 2020
+	        -5.1		Бадеми
+	       -10.5		Зеленчуци
+	        -9.4		Обяд
+	      -19.71		Фантастико
+
+Total Outcome: -44.71
+Total Income:     0
+END Date 17 01 2020 #######################
+
+Date 18 01 2020
+	     -467.65		Аирбнб
+	        -200		Билети Волф Фест
+	        -178		Плочи
+	      -25.66		Фантастико
+	         -10		Фризиор
+
+Total Outcome: -881.31
+Total Income:     0
+END Date 18 01 2020 #######################
+
+Date 19 01 2020
+	         -70		Дрехи
+	          -9		Квартира
+	         -20		Торта
+	      -52.77		Фантастико
+
+Total Outcome: -151.77
+Total Income:     0
+END Date 19 01 2020 #######################
+
+Date 20 01 2020
+	        -0.5		Закуска
+	        -6.9		Обяд
+	          -6		Футбол
+
+Total Outcome: -13.4
+Total Income:     0
+END Date 20 01 2020 #######################
+
+Date 21 01 2020
+	    -1004.14		Грамофон
+	     4243.46		Заплата
+	        -4.9		Обяд
+	     -493.85		Револют Инвест
+	      -20.09		Фантастико
+
+Total Outcome: -1522.98
+Total Income: 4243.46
+END Date 21 01 2020 #######################
+
+Date 22 01 2020
+	         -40		Вечеря
+	        -6.9		Обяд
+	        -300		Серго Заем
+
+Total Outcome: -346.9
+Total Income:     0
+END Date 22 01 2020 #######################
+
+Date 23 01 2020
+	        -7.4		Обяд
+	      -16.66		Фантастико
+
+Total Outcome: -24.06
+Total Income:     0
+END Date 23 01 2020 #######################
+
+Date 24 01 2020
+	        -7.7		Аптека
+	         -34		Вечеря
+	        -7.4		Обяд
+	         -12		Талон
+	      -23.75		Телефон
+
+Total Outcome: -84.85
+Total Income:     0
+END Date 24 01 2020 #######################
+
+Date 25 01 2020
+	         -84		Динари
+	          26		Приход Сандра
+	        -4.8		Футбол
+
+Total Outcome: -88.8
+Total Income:    26
+END Date 25 01 2020 #######################
+
+Date 26 01 2020
+
+Total Outcome:     0
+Total Income:     0
+END Date 26 01 2020 #######################
+
+Date 27 01 2020
+	      -14.98		Аптека
+	        -5.1		Зеленчуци
+	        -4.8		Обяд
+	       33.28		Приход Револют
+	        -5.7		Футбол
+	        -1.4		Фъстъци
+
+Total Outcome: -31.98
+Total Income: 33.28
+END Date 27 01 2020 #######################
+
+Date 28 01 2020
+	      -13.18		Аптека
+	        -1.5		Вафла
+	        -1.9		Закуска
+	       -13.9		Квартира
+	          -6		Обяд
+	         -50		Фантастико
+
+Total Outcome: -86.48
+Total Income:     0
+END Date 28 01 2020 #######################
+
+Date 29 01 2020
+	        -2.7		Вафла
+	         -35		Вечеря
+	         -77		Вирус Защита
+	         -50		Гориво
+	          -5		Квартира
+	        -4.9		Обяд
+	       -32.5		Фантастико
+
+Total Outcome: -207.1
+Total Income:     0
+END Date 29 01 2020 #######################
+
+
+Date 30 01 2020
+	        -0.6		Вафла
+	      -24.15		Вечеря
+	        -1.1		Закуска
+	      -237.1		Квартира
+	        -4.9		Обяд
+	      -25.26		Фантастико
+
+Total Outcome: -293.11
+Total Income:     0
+END Date 30 01 2020 #######################
+
+Date 31 01 2020
+	       -11.9		Аптека
+	      -10.95		Бира
+	        -0.6		Вафла
+	        -8.4		Обяд
+	          46		Приход София
+
+Total Outcome: -31.85
+Total Income:    46
+END Date 31 01 2020 #######################
+
+
+
+/**
+ * 01
+ *  Average Outcome Per Day: -3
+    Average Income Per Day: 0
+
+ * 02
+ *  Average Outcome Per Day: -55.89
+    Average Income Per Day: 0
+ * 
+ * 03
+ *  Average Outcome Per Day: -159.51
+    Average Income Per Day: 0
+
+ * 04
+ *  Average Outcome Per Day: -157.772
+    Average Income Per Day: 0
+
+ * 05
+ *  Average Outcome Per Day: -155.694
+    Average Income Per Day: 0
+ * 
+ * 06
+ *  Average Outcome Per Day: -132.445
+    Average Income Per Day: 0
+
+ * 07
+ *  Average Outcome Per Day: -124.411
+    Average Income Per Day: 0
+
+ * 08
+ *  Average Outcome Per Day: -114.757
+    Average Income Per Day: 0
+ * 
+ * 09
+ *  Average Outcome Per Day: -115.551
+    Average Income Per Day: 27.7778
+ * 
+ * 10
+ *  Average Outcome Per Day: -154.802
+    Average Income Per Day: 25
+
+ * 11
+ *  Average Outcome Per Day: -147.051
+    Average Income Per Day: 22.7273
+
+ * 12
+ *  Average Outcome Per Day: -134.797
+    Average Income Per Day: 20.8333
+ * 
+ * 13
+ *  Average Outcome Per Day: -172.494
+    Average Income Per Day: 19.2308
+
+ * 14
+ *  Average Outcome Per Day: -165.909
+    Average Income Per Day: 17.8571
+
+ * 15
+ *  Average Outcome Per Day: -157.108
+    Average Income Per Day: 16.6667
+
+ * 16
+ *  Average Outcome Per Day: -148.001
+    Average Income Per Day: 15.625
+ * 
+ * 17
+ *  Average Outcome Per Day: -141.925
+    Average Income Per Day: 14.7059
+ * 
+ * 18
+ *  Average Outcome Per Day: -183.002
+    Average Income Per Day: 13.8889
+ * 
+ * 19
+ *  Average Outcome Per Day: -181.358
+    Average Income Per Day: 13.1579
+ * 
+ * 20
+ *  Average Outcome Per Day: -172.961
+    Average Income Per Day: 12.5
+
+ * 21
+ *  Average Outcome Per Day: -237.247
+    Average Income Per Day: 213.974
+
+ * 22
+ *  Average Outcome Per Day: -242.231
+    Average Income Per Day: 204.248
+ * 
+ * 23
+ *  Average Outcome Per Day: -232.746
+    Average Income Per Day: 195.368
+ * 
+ * 24
+ *  Average Outcome Per Day: -226.583
+    Average Income Per Day: 187.227
+ * 
+ * 25
+ *  Average Outcome Per Day: -221.072
+    Average Income Per Day: 180.778
+
+ * 26
+ *  Average Outcome Per Day: -212.569
+    Average Income Per Day: 173.825
+ * 
+ * 27
+ *  Average Outcome Per Day: -205.881
+    Average Income Per Day: 168.62
+
+ * 28
+ *  Average Outcome Per Day: -201.616
+    Average Income Per Day: 162.598
+
+ * 29
+ *  Average Outcome Per Day: -201.806
+    Average Income Per Day: 156.991
+
+ * 30
+ *  Average Outcome Per Day: -204.849
+    Average Income Per Day: 151.758
+ * 
+ * 31
+ *  Average Outcome Per Day: -199.268
+    Average Income Per Day: 148.346
+
+ */
+
+-1374.26: Револют Инвест 
+-1004.14: Грамофон 
+-515.5: Фантастико 
+-467.65: Аирбнб 
+-459.1: Квартира 
+-319.53: Дрехи 
+-300: Серго Заем 
+-237.15: Вечеря 
+-215: Зъби 
+-200: Билети Волф Фест 
+-178: Плочи 
+-135.68: Обяд 
+-114.33: Аптека 
+-84: Динари 
+-80: Планина 
+-77: Вирус Защита 
+-70: Гориво 
+-65: Среща 
+-60: Пепо Заем 
+-32.87: Бира 
+-31.6: Зеленчуци 
+-25: Торта 
+-24: Талон 
+-23.75: Телефон 
+-22.5: Футбол 
+-17.9: Фъстъци 
+-10: Фризиор 
+-9.96: Банка 
+-9.5: Закуска 
+-5.4: Вафла 
+-5.1: Бадеми 
+-3: Вода 
+-0.4: Солети 
+26: Приход Сандра 
+33.28: Приход Револют 
+46: Приход София 
+250: Приход Пепо 
+4243.46: Заплата 
+Average Outcome Per Day: -199.268
+Average Income Per Day: 148.346
+Изхарчени пари за  април: 0лева.
+Получени пари за  април: 0лева.
+Total Income: 4598.74 - 6177.32 = -1578.58
+Exit program!

@@ -21,108 +21,59 @@
 
 using namespace std;
 
-/*
+/**
  * 01
- * Изхарчени пари за Date 01 06 2019 април: -268лева.
- * Получени пари за Date 01 06 2019 април: 0лева.
- * Total Income: 0 - 268 = -268
- * 
- * 
+ *  Average Outcome Per Day: -506.44
+    Average Income Per Day: 0
+
  * 02
-    Average Outcome Per Day: -154
+ *  Average Outcome Per Day: -282.36
     Average Income Per Day: 0
 
  * 03
- *  Average Outcome Per Day: -263.64
+ *  Average Outcome Per Day: -195.097
     Average Income Per Day: 0
-
+ * 
  * 04
- *  Average Outcome Per Day: -204.255
-    Average Income Per Day: 0
- 
+ *  Average Outcome Per Day: -152.485
+    Average Income Per Day: 130
+
  * 05
- *  Average Outcome Per Day: -169.056
-    Average Income Per Day: 0
+ *  Average Outcome Per Day: -136.002
+    Average Income Per Day: 104
 
  * 06
- * Average Outcome Per Day: -143.147
-   Average Income Per Day: 0
+ *  Average Outcome Per Day: -117.9
+    Average Income Per Day: 86.6667
 
  * 07
- *  Average Outcome Per Day: -129.839
-    Average Income Per Day: 0
+ *  Average Outcome Per Day: -104.606
+    Average Income Per Day: 74.2857
 
  * 08
- *  Average Outcome Per Day: -120.484
-    Average Income Per Day: 0
-
+ *  Average Outcome Per Day: -95.5812
+    Average Income Per Day: 108.75
+ * 
  * 09
- *  Average Outcome Per Day: -118.986
-    Average Income Per Day: 0
-
+ *  Average Outcome Per Day: -90.1389
+    Average Income Per Day: 96.6667
 
  * 10
- *  Average Outcome Per Day: -122.197
-    Average Income Per Day: 0
-
+ *  Average Outcome Per Day: -82.965
+    Average Income Per Day: 87
+ * 
  * 11
- *  Average Outcome Per Day: -121.443
-    Average Income Per Day: 9.09091
- * 
+ *  Average Outcome Per Day: -81.1409
+    Average Income Per Day: 79.0909
+
  * 12
- *  Average Outcome Per Day: -113.156
-    Average Income Per Day: 8.33333
-
+ *  Average Outcome Per Day: -77.1883
+    Average Income Per Day: 72.5
+ * 
  * 13
- *  Average Outcome Per Day: -106.298
-    Average Income Per Day: 7.69231
-
- * 14
- *  Average Outcome Per Day: -107.301
-    Average Income Per Day: 7.14286
-
- * 15
- *  Average Outcome Per Day: -107.342
-    Average Income Per Day: 6.66667
- * 
- * 16
- *  Average Outcome Per Day: -104.193
-    Average Income Per Day: 6.25
- * 
- * 17
- *  Average Outcome Per Day: -120.17
-    Average Income Per Day: 5.88235
-
- * 18
- *  Average Outcome Per Day: -114.599
-    Average Income Per Day: 5.55556
-
- * 19
- * Average Outcome Per Day: -126.216
-    Average Income Per Day: 210.526
- * 
- * 20
- *  Average Outcome Per Day: -120.566
-    Average Income Per Day: 200.4
-
- * 21
- *  Average Outcome Per Day: -116.727
-    Average Income Per Day: 190.857
-
- * 22
- *  Average Outcome Per Day: -125.562
-    Average Income Per Day: 182.182
-
- * 23
- *  Average Outcome Per Day: -120.383
-    Average Income Per Day: 174.261
- * 
- * 24
- *  Average Outcome Per Day: -146.499
-    Average Income Per Day: 167
-
+ *  Average Outcome Per Day: -77.8969
+    Average Income Per Day: 66.9231
  */
-
 
 void addTransaction(Program& p) {
 
@@ -131,19 +82,20 @@ void addTransaction(Program& p) {
 void simpleTest() {
     Program p{""};
 
-//    p.setDay("Date 24 06 2019");
-//    p.setRecord("Обяд", -13.4);
-//    p.setRecord("Закуска", -1.4);
-//    p.setRecord("Солети", -0.8);
-//    p.setRecord("Зеленчуци", -8.5);
-//    p.setRecord("Заем Серго", -700);
-//    p.setRecord("Дрехи", -10);
-//    p.setRecord("Фантастико", -13.06);
-//    p.writeToFile("results/062019.txt");
+    p.setDay("Date 14 10 2019");
+    p.setRecord("Закуска", -0.5);
+    p.setRecord("Месо", -13.05);
+    p.setRecord("Зеленчуци", -5.1);
+    p.setRecord("Фантастико", -16.41);
+//    p.setRecord("Бира", -11.1);
+    p.setRecord("Квартира", -5);
+//    p.setIncome("Приход Серго", 50);
+//    p.setIncome("Приход Цвети", 300);
+    p.writeToFile("results/102019.txt");
     
-    p.readFromFile("results/062019.txt");
+    p.readFromFile("results/102019.txt");
     p.printAllItems();
-    p.printAveragePerDay("results/062019.txt");
+    p.printAveragePerDay("results/102019.txt");
     p.printDailyExpenses();
     std::cout << "Total Income: " << p.getTotalIncome() << " - " << (p.getTotalOutcome() * -1)<< " = " << p.getTotalDifference() << std::endl;
     std::cout << "Exit program!\n";

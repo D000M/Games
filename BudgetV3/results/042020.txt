@@ -1,0 +1,87 @@
+
+Date 01 04 2020
+	         -10		Железария
+	        -195		Квартира
+	         -95		Фантастико
+
+Total Outcome:  -300
+Total Income:     0
+END Date 01 04 2020 #######################
+
+Date 02 04 2020
+	      -21.72		Фантастико
+
+Total Outcome: -21.72
+Total Income:     0
+END Date 02 04 2020 #######################
+
+Date 03 04 2020
+	       -9.03		Банка
+	      -30.15		Фантастико
+
+Total Outcome: -39.18
+Total Income:     0
+END Date 03 04 2020 #######################
+
+Date 04 04 2020
+	      -19.44		Фантастико
+
+Total Outcome: -19.44
+Total Income:     0
+END Date 04 04 2020 #######################
+
+Date 05 04 2020
+
+Total Outcome:     0
+Total Income:     0
+END Date 05 04 2020 #######################
+
+Date 06 04 2020
+	      -93.46		Фантастико
+
+Total Outcome: -93.46
+Total Income:     0
+END Date 06 04 2020 #######################
+
+Date 07 04 2020
+	         -43		Квартира
+	     -542.65		Револют Инвест
+
+Total Outcome: -585.65
+Total Income:     0
+END Date 07 04 2020 #######################
+
+Date 08 04 2020
+
+Total Outcome:     0
+Total Income:     0
+END Date 08 04 2020 #######################
+
+Date 09 04 2020
+
+Total Outcome:     0
+Total Income:     0
+END Date 09 04 2020 #######################
+
+Date 10 04 2020
+	         -40		Вечеря
+
+Total Outcome:   -40
+Total Income:     0
+END Date 10 04 2020 #######################
+
+Date 11 04 2020
+	         -25		Зеленчуци
+	      -15.45		Фантастико
+
+Total Outcome: -40.45
+Total Income:     0
+END Date 11 04 2020 #######################
+
+Date 12 04 2020
+	      -24.31		Фантастико
+
+Total Outcome: -24.31
+Total Income:     0
+END Date 12 04 2020 #######################
+

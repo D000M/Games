@@ -149,12 +149,28 @@ void calclulate20g(float buy, float sell, float& totalBuy, float& totalWin) {
     std::cout << "Buyed for: " << buy << ", Can Sell For: " << sell << " Win: " << (sell - buy) 
         << "\n###################" << std::endl;
 } 
-void caluclateYear() {
+/**
+ * Total Spend: 5075, Total Can Win: 5915
+20g Gold PAMP: Percent Win: 17.7539%
+Buyed for: 1487, Can Sell For: 1751 Win: 264
+###################
+20g Gold Valcambi: Percent Win: 17.2806%
+Buyed for: 1493, Can Sell For: 1751 Win: 258
+###################
+Total Spend: 8055, Total Can Win: 9417
+
+============================ FINAL SCORE ===========================
+Money Won: 1362, Percent Win: 16.9088%
+
+ */
+void caluclateYear(const std::string& year) {
+    //This rally High
+//    constexpr int SELL1G = 91;
+//    constexpr int SELL20G = 1756;
     
-    constexpr int SELL1G = 81;
-    constexpr int SELL20G = 1568;
-    
-    std::cout << "2018\n";
+    constexpr int SELL1G = 88;
+    constexpr int SELL20G = 1691;
+
     float spend = 0;
     float canWin = 0;
     std::cout << "November: ";
@@ -182,17 +198,18 @@ void caluclateYear() {
     calculatePercentIncrease(83, SELL1G);
     calculateMoney(83, SELL1G, spend, canWin);
     std::cout << "July: ";
-    calculatePercentIncrease(89, SELL1G);
-    calculateMoney(89, SELL1G, spend, canWin);
+    calculatePercentIncrease(88, SELL1G);
+    calculateMoney(88, SELL1G, spend, canWin);
+    
     std::cout << "August: ";
-    calculatePercentIncrease(89, SELL1G);
-    calculateMoney(89, SELL1G, spend, canWin);
+    calculatePercentIncrease(92, SELL1G);
+    calculateMoney(92, SELL1G, spend, canWin);
     std::cout << "September: ";
-    calculatePercentIncrease(89, SELL1G);
-    calculateMoney(89, SELL1G, spend, canWin);
+    calculatePercentIncrease(98, SELL1G);
+    calculateMoney(98, SELL1G, spend, canWin);
     std::cout << "October: ";
-    calculatePercentIncrease(89, SELL1G);
-    calculateMoney(89, SELL1G, spend, canWin);
+    calculatePercentIncrease(96, SELL1G);
+    calculateMoney(96, SELL1G, spend, canWin);
     std::cout << "Bonus: ";
     calculatePercentIncrease(0, SELL1G);
     calculateMoney(0, SELL1G, spend, canWin);
@@ -206,7 +223,7 @@ void caluclateYear() {
     calclulate20g(1493, SELL20G, spend, canWin);
     std::cout << "Total Spend: " << spend << ", Total Can Win: " << canWin << std::endl;
     std::cout << std::endl;
-    std::cout << "============================ FINAL SCORE ===========================\n";
+    std::cout << "============ FINAL SCORE " << year << " =================\n";
     std::cout << "Money Won: " << (canWin - spend) << ", ";
     calculatePercentIncrease(spend, canWin);
     
@@ -286,9 +303,63 @@ void simpleTest() {
     
 }
 
+struct MyStruct {
+    char c;
+    short int i;
+//    double d;
+};
+
+void totalMoneyAmount() {
+    double bank = 4690.78;
+    double gold = 6814;
+    double revolut = 204.83;
+    double credits = 4505;
+    double inMe = 140;
+    double totalAmount = bank + gold + revolut + credits + inMe;
+    std::cout << "В банка: " << bank
+        << std::endl << "В Злато: " << gold 
+        << std::endl << "В Револют: " << revolut
+        << std::endl << "В Заеми: " << credits
+        << std::endl << "В Мен: "   << inMe << std::endl;
+    std::cout << "Total: " << totalAmount << " лева." <<std::endl;
+}
+
+class GoldAmount {
+public:
+    int amount1g;
+    int amount20g;
+    
+    GoldAmount(const int& am1g, const int& am20g) 
+        : amount1g{am1g},
+          amount20g{am20g} {}
+          
+          void calc1g(const int& price) {
+              amount1g *= price;
+          }
+          void calc20g(const int& price) {
+              amount20g *= price;
+          }
+          
+          void totalMoney(const int& price1g, const int& price20g) {
+              std::cout << "Злато 1г тавекс: " << amount1g << " кюлчета" << ", цена: " << price1g << "лева за кюлче\n";
+              calc1g(price1g);
+              std::cout << "Злато 1г тавекс в левове: " << amount1g << " лева\n";
+              std::cout << "Злато 20г Valcambi: " << amount20g << "  кюлчета " << ", цена: " << price20g << "лева за кюлче\n";
+              calc20g(price20g);
+              std::cout << "Злато 20г Valcambi в левове: " << amount20g << " лева\n";
+              std::cout << "Total value: " << amount1g + amount20g << " лева\n";
+          }
+};
+
 int main(int argc, char** argv) {
 
-    caluclateYear();
+//    std::cout << sizeof(MyStruct) << std::endl; 
+//    std::cout << sizeof(char) << " " << sizeof(short int) << " " << sizeof(double) << std::endl;
+
+//    caluclateYear("11/2018 - 10/2019");
+//    GoldAmount ga{39, 2};
+//    ga.totalMoney(88, 1691);
+    totalMoneyAmount();
     
     return 0;
 }
