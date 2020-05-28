@@ -1,1 +1,15 @@
-10/04/2020: Percent    Win:    7.99% Start $1514.85 End $1635.90 Dollars    Win:     121.05$
+09/04/2020: Percent    Win:    7.99% Start   1514.85$ End   1635.90$ Dollars    Win:     121.05$
+13/04/2020: Percent    Win:    8.05% Start   1635.90$ End   1767.65$ Dollars    Win:     131.75$
+14/04/2020: Percent    Win:    1.08% Start   1767.65$ End   1786.75$ Dollars    Win:      19.10$
+15/04/2020: Percent   Lose:   -1.54% Start   1786.75$ End   1759.30$ Dollars   Lose:     -27.45$
+16/04/2020: Percent    Win:    0.83% Start   3490.37$ End   3519.50$ Dollars    Win:      29.13$
+17/04/2020: Percent   Lose:   -1.57% Start   3519.50$ End   3464.35$ Dollars   Lose:     -55.15$
+20/04/2020: Percent    Win:    1.74% Start   3464.35$ End   3524.50$ Dollars    Win:      60.15$
+21/04/2020: Percent   Lose:   -1.41% Start   3763.62$ End   3710.55$ Dollars   Lose:     -53.07$
+22/04/2020: Percent    Win:    6.24% Start   3710.55$ End   3942.26$ Dollars    Win:     231.71$
+23/04/2020: Percent    Win:    1.70% Start   3942.26$ End   4009.35  Dollars    Win:      67.09$
+24/04/2020: Percent    Win:    1.43% Start   4009.35$ End   4066.68$ Dollars    Win:      57.33$     Cash:     35.61$    Total:   4102.29$      Invested:      3680  Total Win:    422.29     Percent     Win:      11.48%
+27/04/2020: Percent    Win:    0.00% Start      0.00$ End      0.00$ Dollars    Win:       0.00$     Cash:   4102.29$    Total:   4102.29$      Invested:      3680  Total Win:    422.29     Percent     Win:      11.48%
+28/04/2020: Percent   Lose:   -0.56% Start    853.80$ End    849.05$ Dollars   Lose:      -4.75$     Cash:   3247.39$    Total:   4096.44$      Invested:      3680  Total Win:    416.44     Percent     Win:      11.32%
+29/04/2020: Percent   Lose:   -1.07% Start   1626.59$ End   1609.15$ Dollars   Lose:     -17.44$     Cash:   2468.75$    Total:    4077.9$      Invested:      3680  Total Win:     397.9     Percent     Win:      10.81%
+30/04/2020: Percent   Lose:   -1.95% Start   1609.15$ End   1577.75$ Dollars   Lose:     -31.40$     Cash:   2468.75$    Total:    4046.5$      Invested:      3680  Total Win:     366.5     Percent     Win:       9.96%

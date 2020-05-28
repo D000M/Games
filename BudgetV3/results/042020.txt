@@ -57,16 +57,19 @@ Total Outcome:     0
 Total Income:     0
 END Date 08 04 2020 #######################
 
-Date 09 04 2020
 
-Total Outcome:     0
+
+Date 09 04 2020
+	      -10.56		Фантастико
+
+Total Outcome: -10.56
 Total Income:     0
 END Date 09 04 2020 #######################
 
 Date 10 04 2020
-	         -40		Вечеря
+	         -20		Вечеря
 
-Total Outcome:   -40
+Total Outcome:   -20
 Total Income:     0
 END Date 10 04 2020 #######################
 
@@ -85,3 +88,161 @@ Total Outcome: -24.31
 Total Income:     0
 END Date 12 04 2020 #######################
 
+Date 13 04 2020
+
+Total Outcome:     0
+Total Income:     0
+END Date 13 04 2020 #######################
+
+Date 14 04 2020
+	       -20.6		Аптека
+	      -20.55		Фантастико
+
+Total Outcome: -41.15
+Total Income:     0
+END Date 14 04 2020 #######################
+
+Date 15 04 2020
+
+Total Outcome:     0
+Total Income:     0
+END Date 15 04 2020 #######################
+
+Date 16 04 2020
+	     3824.44		Заплата
+	       -17.3		Зеленчуци
+	         -50		Квартира
+	    -3595.85		Револют Инвест
+	      -18.64		Фантастико
+
+Total Outcome: -3681.79
+Total Income: 3824.44
+END Date 16 04 2020 #######################
+
+Date 17 04 2020
+	      477.53		Airbnb
+	      -11.58		Бира
+	         -20		Обяд
+
+Total Outcome: -31.58
+Total Income: 477.53
+END Date 17 04 2020 #######################
+
+Date 18 04 2020
+	         -20		Обяд
+
+Total Outcome:   -20
+Total Income:     0
+END Date 18 04 2020 #######################
+
+Date 19 04 2020
+	      -82.06		Фантастико
+
+Total Outcome: -82.06
+Total Income:     0
+END Date 19 04 2020 #######################
+
+Date 20 04 2020
+	      -31.26		Фантастико
+
+Total Outcome: -31.26
+Total Income:     0
+END Date 20 04 2020 #######################
+
+Date 21 04 2020
+	         -18		Зеленчуци
+
+Total Outcome:   -18
+Total Income:     0
+END Date 21 04 2020 #######################
+
+Date 22 04 2020
+	      -19.36		Фантастико
+
+Total Outcome: -19.36
+Total Income:     0
+END Date 22 04 2020 #######################
+
+Date 23 04 2020
+	      -17.55		Бира
+	       -15.5		Зеленчуци
+
+Total Outcome: -33.05
+Total Income:     0
+END Date 23 04 2020 #######################
+
+Date 24 04 2020
+	         -10		Бира
+	      -28.74		Везна
+	         -32		Обяд
+
+Total Outcome: -70.74
+Total Income:     0
+END Date 24 04 2020 #######################
+
+Date 25 04 2020
+	       -7.92		Аптека
+
+Total Outcome: -7.92
+Total Income:     0
+END Date 25 04 2020 #######################
+
+Date 26 04 2020
+	         -32		Вечеря
+
+Total Outcome:   -32
+Total Income:     0
+END Date 26 04 2020 #######################
+
+Date 27 04 2020
+	         -20		Обяд
+	      -28.63		Телефон
+
+Total Outcome: -48.63
+Total Income:     0
+END Date 27 04 2020 #######################
+
+Date 28 04 2020
+	       -7.92		Аптека
+	        -2.3		Банка
+	        -8.7		Зеленчуци
+	     -158.64		Квартира
+	      -29.21		Фантастико
+
+Total Outcome: -206.77
+Total Income:     0
+END Date 28 04 2020 #######################
+
+Date 29 04 2020
+	         -95		Квартира
+
+Total Outcome:   -95
+Total Income:     0
+END Date 29 04 2020 #######################
+
+Date 30 04 2020
+	       -1.29		Банка
+	      -20.71		Бира
+	      -43.96		Фантастико
+
+Total Outcome: -65.96
+Total Income:     0
+END Date 30 04 2020 #######################
+
+-4138.5: Револют Инвест 
+-555.13: Фантастико 
+-541.64: Квартира 
+-92: Обяд 
+-84.5: Зеленчуци 
+-59.84: Бира 
+-52: Вечеря 
+-36.44: Аптека 
+-28.74: Везна 
+-28.63: Телефон 
+-12.62: Банка 
+-10: Железария 
+477.53: Airbnb 
+3824.44: Заплата 
+Average Outcome Per Day: -188.001
+Average Income Per Day: 143.399
+Total Income: 4301.97 - 5640.04 = -1338.07
